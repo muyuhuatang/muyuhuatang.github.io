@@ -251,6 +251,7 @@
 
           </div>
           
+    <div class="comments" id="minivaline-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -460,6 +461,66 @@ window.addEventListener('pjax:success', () => {
 
   
 
+
+<script>
+loadComments(document.querySelector('#minivaline-comments'), function(){
+	getScript('https://cdn.jsdelivr.net/npm/minivaline@2/dist/MiniValine.min.js', function(){
+		new MiniValine({
+			el: '#minivaline-comments',
+			appId: 'zhM0AOiqle17oPoE84CoYw1e-gzGzoHsz',
+			appKey: 'itmzT1JbXfAjVwMqDhGPzU45',
+			mode: 'DesertsP',
+			placeholder: 'Write a Comment',
+			pathname: '/2020/09/04/hello-world/',
+			lang: '',
+			adminEmailMd5: 'de8a7aa53d07e6b6bceb45c64027763d',
+			tagMeta: ["管理员","小伙伴","访客",],
+			master: ["de8a7aa53d07e6b6bceb45c64027763d",],
+			friends: ["b5bd5d836c7a0091aa8473e79ed4c25e","adb7d1cd192658a55c0ad22a3309cecf","3ce1e6c77b4910f1871106cb30dc62b0","cfce8dc43725cc14ffcd9fb4892d5bfc",],
+			math: true,
+			md: true,
+			enableQQ: false,
+			NoRecordIP: false,
+			visitor: ,
+			maxNest: 6,
+			pageSize: 6,
+			serverURLs: '',
+			emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest","https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest","https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest","https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest",],
+		});
+	}, window.MiniValine);
+});
+function getScript(url, callback, condition) {
+	if (condition) {
+	  callback();
+	} else {
+	  var script = document.createElement('script');
+	  script.onload = script.onreadystatechange = function(_, isAbort) {
+		if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
+		  script.onload = script.onreadystatechange = null;
+		  script = undefined;
+		  if (!isAbort && callback) setTimeout(callback, 0);
+		}
+	  };
+	  script.src = url;
+	  document.head.appendChild(script);
+	}
+}
+function loadComments(element, callback) {
+    if (!false || !element) {
+      callback();
+      return;
+    }
+    let intersectionObserver = new IntersectionObserver((entries, observer) => {
+      let entry = entries[0];
+      if (entry.isIntersecting) {
+        callback();
+        observer.disconnect();
+      }
+    });
+    intersectionObserver.observe(element);
+    return intersectionObserver;
+}
+</script>
     </div>
 </body>
 </html>
