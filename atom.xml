@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-08T08:00:31.816Z</updated>
+  <updated>2020-09-08T09:49:00.576Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Useful Links</title>
+    <title>Python Learning</title>
+    <link href="http://muyuhuatang.github.io/2020/09/08/Python-Learning/"/>
+    <id>http://muyuhuatang.github.io/2020/09/08/Python-Learning/</id>
+    <published>2020-09-08T09:47:33.205Z</published>
+    <updated>2020-09-08T09:49:00.576Z</updated>
+    
+    <content type="html"><![CDATA[<p> The introduciton of Python and some notes when learning</p><a id="more"></a><p>Notes for 《Learn Python The Hard Way》:</p><ol><li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li><li>Could use “%r” to debug because it will show the raw data of the parameter.</li><li>Command Line programming is very important for beginners.</li></ol><p>Reference:</p><ol><li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li><li></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt; The introduciton of Python and some notes when learning&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Programming Language" scheme="http://muyuhuatang.github.io/categories/Programming-Language/"/>
+    
+    <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Programming-Language/Documents/"/>
+    
+    
+    <category term="Notes" scheme="http://muyuhuatang.github.io/tags/Notes/"/>
+    
+    <category term="Python" scheme="http://muyuhuatang.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Start this Blog</title>
     <link href="http://muyuhuatang.github.io/2020/09/04/hello-world/"/>
     <id>http://muyuhuatang.github.io/2020/09/04/hello-world/</id>
     <published>2020-09-03T17:50:15.401Z</published>
-    <updated>2020-09-08T08:00:31.816Z</updated>
+    <updated>2020-09-08T08:38:18.092Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to Mysite!</p><a id="more"></a><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>References: </p><p>Building:</p><ol><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li><li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li><li><a href="https://sspai.com/post/59568">How to optimize Visualization Performance of Next</a></li></ol><p>Adjusting:</p><ol><li>How to activate “tags” and “categories” functions    <a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">1</a>/<a href="https://www.jianshu.com/p/e17711e44e00">2</a></li></ol><p>Modifying:</p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to Mysite!</p><a id="more"></a><h2 id="Blog’s-Structure"><a href="#Blog’s-Structure" class="headerlink" title="Blog’s Structure"></a>Blog’s Structure</h2><h3 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h3><p> Records, Notes, Python, Java</p><h3 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h3><p> Documents, Programming Language, Projects, </p><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>References: </p><p>Building:</p><ol><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li><li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li><li><a href="https://sspai.com/post/59568">How to optimize Visualization Performance of Next</a></li></ol><p>Adjusting:</p><ol><li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li></ol><p>Modifying/Updating:</p><ol><li></li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;Welcome to Mysite!&lt;/p&gt;</summary>
