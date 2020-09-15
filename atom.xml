@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-08T09:49:00.576Z</updated>
+  <updated>2020-09-15T13:48:03.624Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/08/Python-Learning/"/>
     <id>http://muyuhuatang.github.io/2020/09/08/Python-Learning/</id>
     <published>2020-09-08T09:47:33.205Z</published>
-    <updated>2020-09-08T09:49:00.576Z</updated>
+    <updated>2020-09-15T13:48:03.624Z</updated>
     
     <content type="html"><![CDATA[<p> The introduciton of Python and some notes when learning</p><a id="more"></a><p>Notes for 《Learn Python The Hard Way》:</p><ol><li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li><li>Could use “%r” to debug because it will show the raw data of the parameter.</li><li>Command Line programming is very important for beginners.</li></ol><p>Reference:</p><ol><li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li><li></li></ol>]]></content>
     
@@ -31,8 +31,6 @@
     
     
     <category term="Programming Language" scheme="http://muyuhuatang.github.io/categories/Programming-Language/"/>
-    
-    <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Programming-Language/Documents/"/>
     
     
     <category term="Notes" scheme="http://muyuhuatang.github.io/tags/Notes/"/>
