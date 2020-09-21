@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-21T16:10:56.892Z</updated>
+  <updated>2020-09-21T16:12:10.234Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="http://muyuhuatang.github.io/2020/09/22/Encrypted-resources/"/>
     <id>http://muyuhuatang.github.io/2020/09/22/Encrypted-resources/</id>
     <published>2020-09-21T16:09:38.186Z</published>
-    <updated>2020-09-21T16:10:56.892Z</updated>
+    <updated>2020-09-21T16:12:10.234Z</updated>
     
-    <content type="html"><![CDATA[<p>This is a blog to test Callback functions. You just need to add code at the last of your post like following:</p><p>It will be called after the blog decrypted.</p><script>    // add script tag and code at the last of your post    alert("Hello World");</script>]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="e5f01d5804116e943e817483695140b798431cc7f4482261a583d5a3b7dcde17">4d1848fa7038a40a56f9a2e3abbddd4fd4297f97b95ffcdcb5dad99f31fec703c0864fed8e7349d9ec6c8c7b9683ce375eabf97f1191cf71a9bd3c6fe7299cd57dfbe4c126da735a028adb78b0a603b6270918d408c85c392577c5dff5cd1bb7d4bd025de016ec2c7b2b105f3aff2dac947b35c07debf96608390aca661838cf4fe9200b394a6ab10b51467c8197ac605ccd3706fa5f4d9b9d4515d52f9c3e8826edfa727a0926e702134ab5babb3a74cf7b9cb7c20685c853b65e8237025d0d749549bf120c7b263d369e3e15caff1686203bca2b27aee765e5da7af9e18d32aedf036d9cdaf892275b18d8b5a5d0d57253c34af5f39ca046684eec8b8373e16b73b878d11d80ac723c5f531089e084</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;This is a blog to test Callback functions. You just need to add code at the last of your post like following:&lt;/p&gt;
-&lt;p&gt;It will be called af</summary>
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
@@ -46,7 +42,7 @@
     <published>2020-09-20T13:57:02.333Z</published>
     <updated>2020-09-21T15:13:41.555Z</updated>
     
-    <content type="html"><![CDATA[<p> This is my self-made infographic and its report.</p><a id="more"></a><p><img src="/2020/09/20/Infographic-Study-Effectively/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#104;&#x75;&#x61;&#110;&#x67;&#x66;&#49;&#x38;&#49;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#104;&#x75;&#x61;&#110;&#x67;&#x66;&#49;&#x38;&#49;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a></p>]]></content>
+    <content type="html"><![CDATA[<p> This is my self-made infographic and its report.</p><a id="more"></a><p><img src="/2020/09/20/Infographic-Study-Effectively/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#x68;&#117;&#97;&#110;&#x67;&#102;&#x31;&#x38;&#49;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x68;&#117;&#97;&#110;&#x67;&#102;&#x31;&#x38;&#49;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt; This is my self-made infographic and its report.&lt;/p&gt;</summary>
@@ -67,7 +63,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/19/Book-notes/"/>
     <id>http://muyuhuatang.github.io/2020/09/19/Book-notes/</id>
     <published>2020-09-18T16:17:52.416Z</published>
-    <updated>2020-09-21T16:08:01.781Z</updated>
+    <updated>2020-09-21T16:22:00.157Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9a66579cbfc33dea7955cf1193d771234f13274d61c3b10bcda1b573ef8ba9c5">ae1a2ee454876dee9bbd88d95461b8f4492c38646fa67dc507feaa60e98b292ca707bc9c803815a44da19b07e0ffb63c4655d48c0c665e23ab00e1d4c3d0997a3e5a9bf3862a1526c83823ebb362054cee3513a879303345915d921dfdee26bf35af7711890e3f73dc5bdc2e0181f2bca903228731fa8cd422aef86aad7d77f19900a861c71fa12e0364228e60188b84b34b215b18062ad0c30618bf6f27b31293f5db7bbbfbde9d9d913ace89532c5dcc63566f28e16771692efe2eb99ae932a7816474ee24c6f6fd9b0446869d6dbb2e52c2ca3546362e1ef512c01750cedb8c12a15b43ef2aa9ae2297dad2c810b4a267155a9fb365844ad13908a510ba90de381b392e2ad93e2b5798b2c9df0e13c89e9465777bf56bdee3af37266533b9a017398cbcc2064f5fbe0c2e198a2bf9605b4e2a9fbb721d4d6c4c27063f685d554b7e74f11c8a3ffe30a8fadc3a5a4d90490e5f6596ee46d22151f263cb54c79586eb3ec156c90904c38e43dcd2cd701254b29dc33784df0895edfbc2d2f7d34a5d24734ea2891c93429200f9dba6a7b4330637e15a4dd94e32d9a84998118dda5277acce5921307298751180eed1dca4125f08cd1b4ee840f12a22a244778ad995ca98d51148aff0595715f52444753d2a66162a1018fc43530ba484572c57adf126b4edbac935b6dc4f475937ff9a4cf1062087f96bca129e48eb7a8ce6fb36571948b4800ad94787cd3910c9b1912b794b4df2b61bb64d33e47a31469710a30750ea35846e972946fd6175d3d97303581580b030759e823320bf0f62fbcc61cab4a60872fe916cd00e242a00827b6c6d13a1cb52946cd0f9e74b83e0f3a39381c2390f2d31ca7f75d33a8797d7d51dbea91c3838e27082bd4cc80c2a5dfc75c13d175a92acf06a696018bcf9645d09b1a48230dcdbd1d9a6eedf78bd8bcbce0ae58a92f77c950027c2e06f14302fb5ab8c03aed4891082b352d7bb69fd5f400c89e2ffb4365a3a1accebdcdb466d0016177881e08598a4869a7a286c91f2a06e71deec8b379e6391fdb818a11401f4748e241761126497c92f2f342c333917d6e3a02f15158820ffda79448e680ccda2f6f165217779a9622c74e4bad6f037506ef679df5514ea9f3378ab37cdafeb7a6d28f8ddfb9599261fe487dcb359d5d0b5d183825626ea55121a82aedd21c3ce82e24c4e23eca28429bd37bf5ae92129c0466c315f40e85c6df09b335d2708e1d3deeb1bb0807a3927d70fbea6ee644e2a90717b7fb3513ea7f8b23d2d6966e2708ba61d6e27b796721f1a3a779c3765c7ec989096946cdbbfae2e8de1bdf2907e9e7c6a377652e0d310f4f0ff1722d9371fc21095bad36c6d67a98c40203bb0934485596553e50a1a965e74f8aa0d89fddfdec45978040d6869af02cd90076045c1d8fcb3b57fbada65052245efad93e5fb667511b63ea07c98e75f853fa6af2c7b8e533c59e5d53226b926ad75</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
