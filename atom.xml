@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-21T15:13:41.555Z</updated>
+  <updated>2020-09-22T01:07:26.689Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Book Notes - Chinese</title>
+    <link href="http://muyuhuatang.github.io/2020/09/22/encrypted/"/>
+    <id>http://muyuhuatang.github.io/2020/09/22/encrypted/</id>
+    <published>2020-09-22T01:06:06.137Z</published>
+    <updated>2020-09-22T01:07:26.689Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ee20ffacc43638147c3d83643861fd5141988c219c56c83dd49eccabfb7a182f">77d7535348f6230f63550361cfb8db520d861d1d2de508a4611449e3c38e3ca751ad592995ac462c339ccf1edc4d44194be7009250ce5e595182224a48a22b999cbf1c8106eb15a4eacede9e4abb66b09c51a870ae3cd283a613eb752507cb79e6c6597169092f5a8e9a6b3cb01388419b44d17861705384ec1d6856115b0f74271bc143e771a6f9961665742b265f05f6715479bd9c853c49f52bec4369991001ad56aa818a2896f0777805a45da35d24866830e75424c534cb3288a1ee304c0143e384ff592c9903af0e07faed283834648a1d3c4ca8e505f538705aea0762</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.</summary>
+    
+    
+    
+    <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Documents/"/>
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
+    
+    <category term="Encrypted" scheme="http://muyuhuatang.github.io/tags/Encrypted/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Infographic - Study Effectively</title>
     <link href="http://muyuhuatang.github.io/2020/09/20/Infographic-Study-Effectively/"/>
     <id>http://muyuhuatang.github.io/2020/09/20/Infographic-Study-Effectively/</id>
     <published>2020-09-20T13:57:02.333Z</published>
     <updated>2020-09-21T15:13:41.555Z</updated>
     
-    <content type="html"><![CDATA[<p> This is my self-made infographic and its report.</p><a id="more"></a><p><img src="/2020/09/20/Infographic-Study-Effectively/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#104;&#x75;&#97;&#110;&#x67;&#102;&#49;&#x38;&#49;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#104;&#x75;&#97;&#110;&#x67;&#102;&#49;&#x38;&#49;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></p>]]></content>
+    <content type="html"><![CDATA[<p> This is my self-made infographic and its report.</p><a id="more"></a><p><img src="/2020/09/20/Infographic-Study-Effectively/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#x68;&#117;&#97;&#x6e;&#x67;&#102;&#49;&#56;&#49;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x68;&#117;&#97;&#x6e;&#x67;&#102;&#49;&#56;&#49;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt; This is my self-made infographic and its report.&lt;/p&gt;</summary>
@@ -91,8 +114,8 @@
   
   <entry>
     <title>Blog start-up and settings</title>
-    <link href="http://muyuhuatang.github.io/2020/09/04/Blog%20start-up%20and%20settings/"/>
-    <id>http://muyuhuatang.github.io/2020/09/04/Blog%20start-up%20and%20settings/</id>
+    <link href="http://muyuhuatang.github.io/2020/09/04/blog/"/>
+    <id>http://muyuhuatang.github.io/2020/09/04/blog/</id>
     <published>2020-09-03T17:50:15.401Z</published>
     <updated>2020-09-21T17:48:21.242Z</updated>
     
