@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-22T01:07:26.689Z</updated>
+  <updated>2020-09-22T01:09:52.895Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Book Notes - Chinese</title>
+    <title>Encrypted</title>
     <link href="http://muyuhuatang.github.io/2020/09/22/encrypted/"/>
     <id>http://muyuhuatang.github.io/2020/09/22/encrypted/</id>
     <published>2020-09-22T01:06:06.137Z</published>
-    <updated>2020-09-22T01:07:26.689Z</updated>
+    <updated>2020-09-22T01:09:52.895Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ee20ffacc43638147c3d83643861fd5141988c219c56c83dd49eccabfb7a182f">77d7535348f6230f63550361cfb8db520d861d1d2de508a4611449e3c38e3ca751ad592995ac462c339ccf1edc4d44194be7009250ce5e595182224a48a22b999cbf1c8106eb15a4eacede9e4abb66b09c51a870ae3cd283a613eb752507cb79e6c6597169092f5a8e9a6b3cb01388419b44d17861705384ec1d6856115b0f74271bc143e771a6f9961665742b265f05f6715479bd9c853c49f52bec4369991001ad56aa818a2896f0777805a45da35d24866830e75424c534cb3288a1ee304c0143e384ff592c9903af0e07faed283834648a1d3c4ca8e505f538705aea0762</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
