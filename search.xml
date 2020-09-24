@@ -65,7 +65,7 @@
 <h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p>
 <p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#x68;&#x75;&#x61;&#x6e;&#x67;&#x66;&#x31;&#x38;&#49;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x68;&#x75;&#x61;&#x6e;&#x67;&#x66;&#x31;&#x38;&#49;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>My email: <a href="mailto:&#104;&#x75;&#97;&#x6e;&#103;&#102;&#x31;&#x38;&#49;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#104;&#x75;&#97;&#x6e;&#103;&#102;&#x31;&#x38;&#49;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>Information Visualization</category>
@@ -226,6 +226,7 @@
 <li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
        2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
 </li>
+<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
 </ol>
 <h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
 <li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
@@ -250,6 +251,8 @@
 <li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
 <pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
        2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
+</li>
+<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
 </li>
 </ol>
 ]]></content>
