@@ -65,7 +65,7 @@
 <h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p>
 <p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#x68;&#117;&#97;&#110;&#x67;&#x66;&#x31;&#56;&#49;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x68;&#117;&#97;&#110;&#x67;&#x66;&#x31;&#56;&#49;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<p>My email: <a href="mailto:&#104;&#x75;&#x61;&#110;&#x67;&#102;&#x31;&#56;&#x31;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#104;&#x75;&#x61;&#110;&#x67;&#102;&#x31;&#56;&#x31;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Information Visualization</category>
@@ -223,6 +223,8 @@
 <li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
 <li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
 </li>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
+<li></li>
 </ol>
 <h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
 <li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
