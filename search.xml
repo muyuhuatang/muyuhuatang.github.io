@@ -198,8 +198,6 @@
     <content><![CDATA[<p>Welcome to Mysite!</p>
 <a id="more"></a>
 
-<h2 id="Blog’s-Structure"><a href="#Blog’s-Structure" class="headerlink" title="Blog’s Structure"></a>Blog’s Structure</h2><h3 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h3><p> Records, Notes, Python, BookNotes</p>
-<h3 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h3><p> Documents, Programming Language, BookNotes (Chinese), Information Visualization (Infographic)</p>
 <h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -224,7 +222,9 @@
 <li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
 </li>
 <li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
-<li></li>
+<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
+       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
+</li>
 </ol>
 <h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
 <li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
