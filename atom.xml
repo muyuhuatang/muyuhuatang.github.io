@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-24T14:41:09.084Z</updated>
+  <updated>2020-09-24T15:06:29.219Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -17,13 +17,97 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Encrypted</title>
-    <link href="http://muyuhuatang.github.io/2020/09/22/Encrypted/"/>
-    <id>http://muyuhuatang.github.io/2020/09/22/Encrypted/</id>
-    <published>2020-09-22T01:06:06.137Z</published>
-    <updated>2020-09-24T14:41:09.084Z</updated>
+    <title>Intrusion Detection</title>
+    <link href="http://muyuhuatang.github.io/2020/09/24/Intrusion-Detection/"/>
+    <id>http://muyuhuatang.github.io/2020/09/24/Intrusion-Detection/</id>
+    <published>2020-09-24T14:56:09.992Z</published>
+    <updated>2020-09-24T15:06:29.219Z</updated>
     
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ee20ffacc43638147c3d83643861fd5141988c219c56c83dd49eccabfb7a182f">77d7535348f6230f63550361cfb8db520d861d1d2de508a4611449e3c38e3ca751ad592995ac462c339ccf1edc4d44194be7009250ce5e595182224a48a22b999cbf1c8106eb15a4eacede9e4abb66b09c51a870ae3cd283a613eb752507cb79e6c6597169092f5a8e9a6b3cb01388419b44d17861705384ec1d6856115b0f74271bc143e771a6f9961665742b265f05f6715479bd9c853c49f52bec4369991001ad56aa818a2896f0777805a45da35d24866830e75424c534cb3288a1ee304c0143e384ff592c9903af0e07faed283834648a1d3c4ca8e505f538705aea0762</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<p>Intrusion Detection course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Intrusion Detection course&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Intrusion Detection" scheme="http://muyuhuatang.github.io/categories/Intrusion-Detection/"/>
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Internet Programming</title>
+    <link href="http://muyuhuatang.github.io/2020/09/24/Internet-Programming/"/>
+    <id>http://muyuhuatang.github.io/2020/09/24/Internet-Programming/</id>
+    <published>2020-09-24T14:53:15.808Z</published>
+    <updated>2020-09-24T14:54:26.597Z</updated>
+    
+    <content type="html"><![CDATA[<p>Internet Programming course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Internet Programming course&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Internet Programming" scheme="http://muyuhuatang.github.io/categories/Internet-Programming/"/>
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Data Mining</title>
+    <link href="http://muyuhuatang.github.io/2020/09/24/Data-Mining/"/>
+    <id>http://muyuhuatang.github.io/2020/09/24/Data-Mining/</id>
+    <published>2020-09-24T14:49:42.263Z</published>
+    <updated>2020-09-24T14:55:37.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>Data Mining course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Data Mining course&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Data Mining" scheme="http://muyuhuatang.github.io/categories/Data-Mining/"/>
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Text &amp; Web Mining</title>
+    <link href="http://muyuhuatang.github.io/2020/09/24/Text-Web-Mining/"/>
+    <id>http://muyuhuatang.github.io/2020/09/24/Text-Web-Mining/</id>
+    <published>2020-09-24T14:46:56.354Z</published>
+    <updated>2020-09-24T14:55:46.118Z</updated>
+    
+    <content type="html"><![CDATA[<p>Text &amp; Web Mining course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Text &amp;amp; Web Mining course&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="NLP" scheme="http://muyuhuatang.github.io/categories/NLP/"/>
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Encrypted</title>
+    <link href="http://muyuhuatang.github.io/2020/09/24/Encrypted/"/>
+    <id>http://muyuhuatang.github.io/2020/09/24/Encrypted/</id>
+    <published>2020-09-24T14:44:45.544Z</published>
+    <updated>2020-09-24T14:45:11.811Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.</summary>
@@ -32,8 +116,6 @@
     
     <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Documents/"/>
     
-    
-    <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
     
     <category term="Encrypted" scheme="http://muyuhuatang.github.io/tags/Encrypted/"/>
     
@@ -44,9 +126,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/20/Information-Visualization/"/>
     <id>http://muyuhuatang.github.io/2020/09/20/Information-Visualization/</id>
     <published>2020-09-20T13:57:02.333Z</published>
-    <updated>2020-09-24T14:39:36.435Z</updated>
+    <updated>2020-09-24T14:55:48.990Z</updated>
     
-    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#x68;&#x75;&#x61;&#x6e;&#x67;&#x66;&#49;&#56;&#49;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x68;&#x75;&#x61;&#x6e;&#x67;&#x66;&#49;&#56;&#49;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#x68;&#117;&#97;&#110;&#x67;&#x66;&#49;&#56;&#49;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x68;&#117;&#97;&#110;&#x67;&#x66;&#49;&#56;&#49;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;Information Visualization course&lt;/p&gt;</summary>
@@ -54,8 +136,6 @@
     
     
     <category term="Information Visualization" scheme="http://muyuhuatang.github.io/categories/Information-Visualization/"/>
-    
-    <category term="Infographic" scheme="http://muyuhuatang.github.io/categories/Information-Visualization/Infographic/"/>
     
     
     <category term="Records" scheme="http://muyuhuatang.github.io/tags/Records/"/>
@@ -116,9 +196,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/04/blog/"/>
     <id>http://muyuhuatang.github.io/2020/09/04/blog/</id>
     <published>2020-09-03T17:50:15.401Z</published>
-    <updated>2020-09-24T14:39:39.138Z</updated>
+    <updated>2020-09-24T14:51:35.274Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to Mysite!</p><a id="more"></a><h2 id="Blog’s-Structure"><a href="#Blog’s-Structure" class="headerlink" title="Blog’s Structure"></a>Blog’s Structure</h2><h3 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h3><p> Records, Notes, Python, BookNotes</p><h3 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h3><p> Documents, Programming Language, BookNotes (Chinese), Information Visualization (Infographic)</p><h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li><li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li><li><a href="https://sspai.com/post/59568">How to optimize Visualization Performance of Next</a></li></ol><h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol><li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li><li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li></ol><h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol><li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p></li><li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p><p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure><p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure><p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> to</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> So, I could use the format below:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li><li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure><pre><code> Tips: 1) set height as specific px but not percentage.       2) use local reference first, because URL need much more time to load.       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre></li><li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p><pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to Mysite!</p><a id="more"></a><h2 id="Blog’s-Structure"><a href="#Blog’s-Structure" class="headerlink" title="Blog’s Structure"></a>Blog’s Structure</h2><h3 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h3><p> Records, Notes, Python, BookNotes</p><h3 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h3><p> Documents, Programming Language, BookNotes (Chinese), Information Visualization (Infographic)</p><h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li><li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li><li><a href="https://sspai.com/post/59568">How to optimize Visualization Performance of Next</a></li></ol><h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol><li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li><li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li><li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre></li></ol><h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol><li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p></li><li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p><p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure><p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure><p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> to</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> So, I could use the format below:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li><li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure><pre><code> Tips: 1) set height as specific px but not percentage.       2) use local reference first, because URL need much more time to load.       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre></li><li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p><pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre></li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;Welcome to Mysite!&lt;/p&gt;</summary>
