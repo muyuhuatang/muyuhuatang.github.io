@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-24T15:06:29.219Z</updated>
+  <updated>2020-09-25T04:05:43.620Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Study Records</title>
+    <link href="http://muyuhuatang.github.io/2020/09/25/Study-Records/"/>
+    <id>http://muyuhuatang.github.io/2020/09/25/Study-Records/</id>
+    <published>2020-09-25T03:43:44.264Z</published>
+    <updated>2020-09-25T04:05:43.620Z</updated>
+    
+    <content type="html"><![CDATA[<p>Records studying useful knowledge</p><a id="more"></a><h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol><li>机器学习</li><li>数据挖掘</li><li>统计学习</li></ol><h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol><li>统计与概率</li><li>工程设计</li></ol><h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol><li>核心知识<ol><li>编程语言: Java/C++</li><li>算法与数据结构</li><li>数据库</li><li>一门技能课</li></ol></li><li>自我提升<ol><li>平台Coursera、哈佛公开课、斯坦福公开课</li><li>基础课程: 计算机科学导论(Havard)</li><li>编程平台: Leetcode</li><li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li></ol></li><li>核心要点:<ol><li>算法与数据结构: Leetcode刷题</li><li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li></ol></li><li>目标: <ol><li>大厂面试题对答如流</li><li>独立完成3-4个编程项目</li></ol></li></ol><h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Records studying useful knowledge&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Documents/"/>
+    
+    
+    <category term="Record" scheme="http://muyuhuatang.github.io/tags/Record/"/>
+    
+  </entry>
   
   <entry>
     <title>Intrusion Detection</title>
@@ -128,7 +149,7 @@
     <published>2020-09-20T13:57:02.333Z</published>
     <updated>2020-09-24T14:55:48.990Z</updated>
     
-    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#104;&#x75;&#97;&#110;&#x67;&#102;&#x31;&#56;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#104;&#x75;&#97;&#110;&#x67;&#102;&#x31;&#56;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#104;&#117;&#97;&#x6e;&#x67;&#x66;&#x31;&#56;&#49;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#104;&#117;&#97;&#x6e;&#x67;&#x66;&#x31;&#56;&#49;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;Information Visualization course&lt;/p&gt;</summary>
@@ -147,9 +168,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/19/Book-notes/"/>
     <id>http://muyuhuatang.github.io/2020/09/19/Book-notes/</id>
     <published>2020-09-18T16:17:52.416Z</published>
-    <updated>2020-09-24T14:33:38.915Z</updated>
+    <updated>2020-09-25T04:19:20.260Z</updated>
     
-    <content type="html"><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p><p> 这里保存一些优秀的中文版的图书的读书笔记.</p><a id="more"></a><h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol><li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p></li><li><p>锤子 + 钉子 理论</p></li><li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p><p>随笔记录:</p><object data="AcademicReserch.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol><li><p>单数名词末尾加‘s,构成名词所有格</p></li><li><p>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</p></li><li><p>将作附加说明的插入语放在两个逗号中间</p></li><li><p>以连接词and或but引导完整的句子时,连接词的前面要加逗号</p></li><li><p>不可以用逗号直接连接两个完整的句子</p></li><li><p>不可以讲完整的句子任意拆分成两部分</p></li><li><p>句首的分词短语所指代的主语应与主句的主语保持一致</p></li><li><p>在行末需要将单词拆分是,必须遵守构词和发音的规则.</p></li></ol><h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9"><li><p>以段落为写作的基本单位,每个段落有其中心主旨</p></li><li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p></li><li><p>使用主动语态</p></li><li><p>使用肯定句陈述</p></li><li><p>省略冗词</p></li><li><p>避免连续使用结构松散的句子</p></li><li><p>以相似的句型结构叙述对等的概念</p></li><li><p>将相关的词放在一起</p></li><li><p>总结叙述时,要使用同一时态</p></li><li><p>将需要强调的词或词组放在句子末尾</p><p>随笔记录:</p><object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p></li><li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p><p> 这里保存一些优秀的中文版的图书的读书笔记.</p><a id="more"></a><h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol><li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p></li><li><p>锤子 + 钉子 理论</p></li><li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p><p>随笔记录:</p><object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol><li>单数名词末尾加‘s,构成名词所有格</li><li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li><li>将作附加说明的插入语放在两个逗号中间</li><li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li><li>不可以用逗号直接连接两个完整的句子</li><li>不可以讲完整的句子任意拆分成两部分</li><li>句首的分词短语所指代的主语应与主句的主语保持一致</li><li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li></ol><h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9"><li><p>以段落为写作的基本单位,每个段落有其中心主旨</p></li><li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p></li><li><p>使用主动语态</p></li><li><p>使用肯定句陈述</p></li><li><p>省略冗词</p></li><li><p>避免连续使用结构松散的句子</p></li><li><p>以相似的句型结构叙述对等的概念</p></li><li><p>将相关的词放在一起</p></li><li><p>总结叙述时,要使用同一时态</p></li><li><p>将需要强调的词或词组放在句子末尾</p><p>随笔记录:</p><object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p></li><li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p></li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt; This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.&lt;/p&gt;
