@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-09-25T04:24:03.345Z</updated>
+  <updated>2020-09-25T12:44:14.267Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Academic Records</title>
+    <link href="http://muyuhuatang.github.io/2020/09/25/Academic-Records/"/>
+    <id>http://muyuhuatang.github.io/2020/09/25/Academic-Records/</id>
+    <published>2020-09-25T12:31:30.908Z</published>
+    <updated>2020-09-25T12:44:14.267Z</updated>
+    
+    <content type="html"><![CDATA[<p>Records academic useful knowledge</p><a id="more"></a><h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p><h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p><h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p><h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p><h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p><h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p><h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p><h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Records academic useful knowledge&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Documents" scheme="http://muyuhuatang.github.io/categories/Documents/"/>
+    
+    
+    <category term="Record" scheme="http://muyuhuatang.github.io/tags/Record/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Study Records</title>
     <link href="http://muyuhuatang.github.io/2020/09/25/Study-Records/"/>
     <id>http://muyuhuatang.github.io/2020/09/25/Study-Records/</id>
     <published>2020-09-25T03:43:44.264Z</published>
-    <updated>2020-09-25T04:24:03.345Z</updated>
+    <updated>2020-09-25T12:44:14.277Z</updated>
     
     <content type="html"><![CDATA[<p>Records studying useful knowledge</p><a id="more"></a><h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol><li>机器学习</li><li>数据挖掘</li><li>统计学习</li></ol><h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol><li>统计与概率</li><li>工程设计</li></ol><h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol><li>核心知识<ol><li>编程语言: Java/C++</li><li>算法与数据结构</li><li>数据库</li><li>一门技能课</li></ol></li><li>自我提升<ol><li>平台Coursera、哈佛公开课、斯坦福公开课</li><li>基础课程: 计算机科学导论(Havard)</li><li>编程平台: Leetcode</li><li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li></ol></li><li>核心要点:<ol><li>算法与数据结构: Leetcode刷题</li><li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li></ol></li><li>目标: <ol><li>大厂面试题对答如流</li><li>独立完成3-4个编程项目</li></ol></li></ol><h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
     
@@ -42,7 +63,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Intrusion-Detection/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Intrusion-Detection/</id>
     <published>2020-09-24T14:56:09.992Z</published>
-    <updated>2020-09-24T15:06:29.219Z</updated>
+    <updated>2020-09-25T12:44:14.275Z</updated>
     
     <content type="html"><![CDATA[<p>Intrusion Detection course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
     
@@ -63,7 +84,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Internet-Programming/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Internet-Programming/</id>
     <published>2020-09-24T14:53:15.808Z</published>
-    <updated>2020-09-24T14:54:26.597Z</updated>
+    <updated>2020-09-25T12:44:14.273Z</updated>
     
     <content type="html"><![CDATA[<p>Internet Programming course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
     
@@ -84,7 +105,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Data-Mining/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Data-Mining/</id>
     <published>2020-09-24T14:49:42.263Z</published>
-    <updated>2020-09-24T14:55:37.302Z</updated>
+    <updated>2020-09-25T12:44:14.270Z</updated>
     
     <content type="html"><![CDATA[<p>Data Mining course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
     
@@ -105,7 +126,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Text-Web-Mining/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Text-Web-Mining/</id>
     <published>2020-09-24T14:46:56.354Z</published>
-    <updated>2020-09-24T14:55:46.118Z</updated>
+    <updated>2020-09-25T12:44:14.280Z</updated>
     
     <content type="html"><![CDATA[<p>Text &amp; Web Mining course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
     
@@ -126,7 +147,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Encrypted/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Encrypted/</id>
     <published>2020-09-24T14:44:45.544Z</published>
-    <updated>2020-09-24T14:45:11.811Z</updated>
+    <updated>2020-09-25T12:44:14.270Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -147,9 +168,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/20/Information-Visualization/"/>
     <id>http://muyuhuatang.github.io/2020/09/20/Information-Visualization/</id>
     <published>2020-09-20T13:57:02.333Z</published>
-    <updated>2020-09-24T14:55:48.990Z</updated>
+    <updated>2020-09-25T12:44:14.272Z</updated>
     
-    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#104;&#x75;&#x61;&#110;&#x67;&#102;&#x31;&#56;&#49;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#104;&#x75;&#x61;&#110;&#x67;&#102;&#x31;&#56;&#49;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Information Visualization course</p><a id="more"></a><h2 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h2><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p><p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object></p><p>If you have any suggestions or ideas, I am looking forward to recieve your letter. Feel welcomed to email me. :)</p><p>My email: <a href="mailto:&#x68;&#x75;&#97;&#x6e;&#103;&#x66;&#x31;&#x38;&#49;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x68;&#x75;&#97;&#x6e;&#103;&#x66;&#x31;&#x38;&#49;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;Information Visualization course&lt;/p&gt;</summary>
@@ -168,9 +189,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/19/Book-notes/"/>
     <id>http://muyuhuatang.github.io/2020/09/19/Book-notes/</id>
     <published>2020-09-18T16:17:52.416Z</published>
-    <updated>2020-09-25T04:23:58.943Z</updated>
+    <updated>2020-09-25T12:44:14.264Z</updated>
     
-    <content type="html"><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p><p> 这里保存一些优秀的中文版的图书的读书笔记.</p><a id="more"></a><h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol><li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p></li><li><p>锤子 + 钉子 理论</p></li><li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p><p>随笔记录:</p><object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol><li>单数名词末尾加‘s,构成名词所有格</li><li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li><li>将作附加说明的插入语放在两个逗号中间</li><li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li><li>不可以用逗号直接连接两个完整的句子</li><li>不可以讲完整的句子任意拆分成两部分</li><li>句首的分词短语所指代的主语应与主句的主语保持一致</li><li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li></ol><h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9"><li><p>以段落为写作的基本单位,每个段落有其中心主旨</p></li><li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p></li><li><p>使用主动语态</p></li><li><p>使用肯定句陈述</p></li><li><p>省略冗词</p></li><li><p>避免连续使用结构松散的句子</p></li><li><p>以相似的句型结构叙述对等的概念</p></li><li><p>将相关的词放在一起</p></li><li><p>总结叙述时,要使用同一时态</p></li><li><p>将需要强调的词或词组放在句子末尾</p><p>随笔记录:</p><object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p></li><li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p><p> 这里保存一些优秀的中文版的图书的读书笔记.</p><a id="more"></a><h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol><li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p></li><li><p>锤子 + 钉子 理论</p></li><li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p><p>随笔记录:</p><object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol><li>单数名词末尾加‘s,构成名词所有格</li><li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li><li>将作附加说明的插入语放在两个逗号中间</li><li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li><li>不可以用逗号直接连接两个完整的句子</li><li>不可以讲完整的句子任意拆分成两部分</li><li>句首的分词短语所指代的主语应与主句的主语保持一致</li><li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li></ol><h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9"><li><p>以段落为写作的基本单位,每个段落有其中心主旨</p></li><li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p></li><li><p>使用主动语态</p></li><li><p>使用肯定句陈述</p></li><li><p>省略冗词</p></li><li><p>避免连续使用结构松散的句子</p></li><li><p>以相似的句型结构叙述对等的概念</p></li><li><p>将相关的词放在一起</p></li><li><p>总结叙述时,要使用同一时态</p></li><li><p>将需要强调的词或词组放在句子末尾</p><p>随笔记录:</p><object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px"></object><p></p><p></p><p></p></li></ol><h2 id="Notes-collection-Computer-Science-Four-Element-Courses"><a href="#Notes-collection-Computer-Science-Four-Element-Courses" class="headerlink" title="Notes collection - Computer Science/Four Element Courses"></a>Notes collection - Computer Science/Four Element Courses</h2><h3 id="计算机网络-第七版-谢希仁-著"><a href="#计算机网络-第七版-谢希仁-著" class="headerlink" title="计算机网络 第七版 谢希仁 著"></a>计算机网络 第七版 谢希仁 著</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol><li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p></li><li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p></li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt; This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.&lt;/p&gt;
@@ -194,7 +215,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/08/Python-Learning/"/>
     <id>http://muyuhuatang.github.io/2020/09/08/Python-Learning/</id>
     <published>2020-09-08T09:47:33.205Z</published>
-    <updated>2020-09-15T13:48:03.624Z</updated>
+    <updated>2020-09-25T12:44:14.280Z</updated>
     
     <content type="html"><![CDATA[<p> The introduciton of Python and some notes when learning</p><a id="more"></a><p>Notes for 《Learn Python The Hard Way》:</p><ol><li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li><li>Could use “%r” to debug because it will show the raw data of the parameter.</li><li>Command Line programming is very important for beginners.</li></ol><p>Reference:</p><ol><li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li><li></li></ol>]]></content>
     
@@ -217,7 +238,7 @@
     <link href="http://muyuhuatang.github.io/2020/09/04/blog/"/>
     <id>http://muyuhuatang.github.io/2020/09/04/blog/</id>
     <published>2020-09-03T17:50:15.401Z</published>
-    <updated>2020-09-24T17:28:43.267Z</updated>
+    <updated>2020-09-25T12:44:14.278Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to Mysite!</p><a id="more"></a><h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li><li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li><li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre></li></ol><h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol><li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li><li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li><li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre></li><li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li><li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre></li><li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li></ol><h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol><li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p></li><li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p><p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure><p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure><p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> to</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure><p> So, I could use the format below:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li><li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure><pre><code> Tips: 1) set height as specific px but not percentage.       2) use local reference first, because URL need much more time to load.       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre></li><li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p><pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre></li><li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p></li><li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p></li></ol>]]></content>
     
