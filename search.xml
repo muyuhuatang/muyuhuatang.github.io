@@ -1,137 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Intrusion Detection</title>
-    <url>/2020/09/24/Intrusion-Detection/</url>
-    <content><![CDATA[<p>Intrusion Detection course</p>
-<a id="more"></a>
-
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
-</ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
-      <categories>
-        <category>Intrusion Detection</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Text &amp; Web Mining</title>
-    <url>/2020/09/24/Text-Web-Mining/</url>
-    <content><![CDATA[<p>Text &amp; Web Mining course</p>
-<a id="more"></a>
-
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</h3><p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
-<ol>
-<li>learning_rate</li>
-<li>batch_size</li>
-<li>dropout (use only if it helps)</li>
-<li>batch norm (use only if it helps)</li>
-<li>weight_decay (L2 regularization) (use only if it helps)</li>
-<li>hidden_dim</li>
-<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
-</ol>
-<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>learning_rate = 0.0007<br>batch_size = 8<br>p NOT USED<br>batch_norm USED<br>weight_decay = 0.001<br>hidden_dim = 500</p>
-<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.6162373506360586;<br>Test Accuracy: 57.789855072463766</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
-<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<p>   Test Records:<br><object data="Lab-no2-Record.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
-</ol>
-]]></content>
-      <categories>
-        <category>NLP</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Data Mining</title>
-    <url>/2020/09/24/Data-Mining/</url>
-    <content><![CDATA[<p>Data Mining course</p>
-<a id="more"></a>
-
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
-      <categories>
-        <category>Data Mining</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Internet Programming</title>
-    <url>/2020/09/24/Internet-Programming/</url>
-    <content><![CDATA[<p>Internet Programming course</p>
-<a id="more"></a>
-
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
-      <categories>
-        <category>Internet Programming</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Information Visualization</title>
-    <url>/2020/09/20/Information-Visualization/</url>
-    <content><![CDATA[<p>Information Visualization course</p>
-<a id="more"></a>
-
-<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><pre><code>I have get the permission from my classmates, and sort works by alphabetic order of their names.</code></pre>
-<ol>
-<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
-</li>
-<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
-</li>
-<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
-</li>
-</ol>
-<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
-<p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object><br><br></p>
-<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#104;&#117;&#97;&#x6e;&#103;&#102;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#104;&#117;&#97;&#x6e;&#103;&#102;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></p>
-]]></content>
-      <categories>
-        <category>Information Visualization</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Data Science</title>
-    <url>/2020/09/25/Data-Science/</url>
-    <content><![CDATA[<p>Data Science ralated material</p>
-<a id="more"></a>
-
-<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
-<li>工程能力</li>
-<li>对数据、对业务的理解</li>
-<li>机器学习算法与模型</li>
-</ol>
-<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
-<li>Kaggle天池比赛</li>
-<li>在github上follow一些有意思的ML项目</li>
-</ol>
-<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
-<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
-<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Data Science</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Academic Records</title>
     <url>/2020/09/25/Academic-Records/</url>
     <content><![CDATA[<p>Records academic useful knowledge</p>
@@ -154,66 +23,6 @@
       </categories>
       <tags>
         <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Study Records</title>
-    <url>/2020/09/25/Study-Records/</url>
-    <content><![CDATA[<p>Records studying useful knowledge</p>
-<a id="more"></a>
-
-<h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol>
-<li>机器学习</li>
-<li>数据挖掘</li>
-<li>统计学习</li>
-</ol>
-<h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol>
-<li>统计与概率</li>
-<li>工程设计</li>
-</ol>
-<h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol>
-<li>核心知识<ol>
-<li>编程语言: Java/C++</li>
-<li>算法与数据结构</li>
-<li>数据库</li>
-<li>一门技能课</li>
-</ol>
-</li>
-<li>自我提升<ol>
-<li>平台Coursera、哈佛公开课、斯坦福公开课</li>
-<li>基础课程: 计算机科学导论(Havard)</li>
-<li>编程平台: Leetcode</li>
-<li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li>
-</ol>
-</li>
-<li>核心要点:<ol>
-<li>算法与数据结构: Leetcode刷题</li>
-<li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li>
-</ol>
-</li>
-<li>目标: <ol>
-<li>大厂面试题对答如流</li>
-<li>独立完成3-4个编程项目</li>
-</ol>
-</li>
-</ol>
-<h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Encrypted</title>
-    <url>/2020/09/24/Encrypted/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
       </tags>
   </entry>
   <entry>
@@ -290,6 +99,99 @@
       </tags>
   </entry>
   <entry>
+    <title>Data Mining</title>
+    <url>/2020/09/24/Data-Mining/</url>
+    <content><![CDATA[<p>Data Mining course</p>
+<a id="more"></a>
+
+<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+      <categories>
+        <category>Data Mining</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Encrypted</title>
+    <url>/2020/09/24/Encrypted/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Encrypted</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Data Science</title>
+    <url>/2020/09/25/Data-Science/</url>
+    <content><![CDATA[<p>Data Science ralated material</p>
+<a id="more"></a>
+
+<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
+<li>工程能力</li>
+<li>对数据、对业务的理解</li>
+<li>机器学习算法与模型</li>
+</ol>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
+<li>Kaggle天池比赛</li>
+<li>在github上follow一些有意思的ML项目</li>
+</ol>
+<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
+<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
+<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Data Science</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Information Visualization</title>
+    <url>/2020/09/20/Information-Visualization/</url>
+    <content><![CDATA[<p>Information Visualization course</p>
+<a id="more"></a>
+
+<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><pre><code>I have get the permission from my classmates, and sort works by alphabetic order of their names.</code></pre>
+<ol>
+<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
+</li>
+<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
+</li>
+<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
+</li>
+</ol>
+<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
+<p><object data="./Report-Huang Fan.pdf" type="application/pdf" width="100%" height="800px"></object><br><br></p>
+<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
+<p>My email: <a href="mailto:&#104;&#117;&#97;&#x6e;&#103;&#102;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#104;&#117;&#97;&#x6e;&#103;&#102;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+]]></content>
+      <categories>
+        <category>Information Visualization</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Internet Programming</title>
+    <url>/2020/09/24/Internet-Programming/</url>
+    <content><![CDATA[<p>Internet Programming course</p>
+<a id="more"></a>
+
+<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+      <categories>
+        <category>Internet Programming</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python Learning</title>
     <url>/2020/09/08/Python-Learning/</url>
     <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
@@ -313,6 +215,103 @@
       <tags>
         <tag>Notes</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intrusion Detection</title>
+    <url>/2020/09/24/Intrusion-Detection/</url>
+    <content><![CDATA[<p>Intrusion Detection course</p>
+<a id="more"></a>
+
+<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
+      <categories>
+        <category>Intrusion Detection</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Study Records</title>
+    <url>/2020/09/25/Study-Records/</url>
+    <content><![CDATA[<p>Records studying useful knowledge</p>
+<a id="more"></a>
+
+<h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol>
+<li>机器学习</li>
+<li>数据挖掘</li>
+<li>统计学习</li>
+</ol>
+<h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol>
+<li>统计与概率</li>
+<li>工程设计</li>
+</ol>
+<h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol>
+<li>核心知识<ol>
+<li>编程语言: Java/C++</li>
+<li>算法与数据结构</li>
+<li>数据库</li>
+<li>一门技能课</li>
+</ol>
+</li>
+<li>自我提升<ol>
+<li>平台Coursera、哈佛公开课、斯坦福公开课</li>
+<li>基础课程: 计算机科学导论(Havard)</li>
+<li>编程平台: Leetcode</li>
+<li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li>
+</ol>
+</li>
+<li>核心要点:<ol>
+<li>算法与数据结构: Leetcode刷题</li>
+<li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li>
+</ol>
+</li>
+<li>目标: <ol>
+<li>大厂面试题对答如流</li>
+<li>独立完成3-4个编程项目</li>
+</ol>
+</li>
+</ol>
+<h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Text &amp; Web Mining</title>
+    <url>/2020/09/24/Text-Web-Mining/</url>
+    <content><![CDATA[<p>Text &amp; Web Mining course</p>
+<a id="more"></a>
+
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</h3><p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
+</ol>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.6162373506360586;<br>Test Accuracy: 57.789855072463766</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<p>   Test Records:</p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>NLP</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
       </tags>
   </entry>
   <entry>
