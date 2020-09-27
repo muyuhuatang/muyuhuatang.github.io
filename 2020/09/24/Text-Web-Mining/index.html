@@ -29,7 +29,7 @@
 <meta property="og:description" content="Text &amp; Web Mining course">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-09-24T14:46:56.354Z">
-<meta property="article:modified_time" content="2020-09-27T03:01:42.548Z">
+<meta property="article:modified_time" content="2020-09-27T03:08:53.755Z">
 <meta property="article:author" content="Fan Huang">
 <meta property="article:tag" content="Records">
 <meta name="twitter:card" content="summary">
@@ -236,7 +236,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-09-27 11:01:42" itemprop="dateModified" datetime="2020-09-27T11:01:42+08:00">2020-09-27</time>
+                <time title="Modified: 2020-09-27 11:08:53" itemprop="dateModified" datetime="2020-09-27T11:08:53+08:00">2020-09-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -283,7 +283,8 @@
         <p>Text &amp; Web Mining course</p>
 <a id="more"></a>
 
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</h3><h4 id="Build-the-best-model-based-on-test-loss-and-test-accuracy-by-exploring-following-options"><a href="#Build-the-best-model-based-on-test-loss-and-test-accuracy-by-exploring-following-options" class="headerlink" title="Build the best model (based on test loss and test accuracy) by exploring following options:"></a>Build the best model (based on test loss and test accuracy) by exploring following options:</h4><ol>
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</h3><p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
 <li>learning_rate</li>
 <li>batch_size</li>
 <li>dropout (use only if it helps)</li>
@@ -294,7 +295,8 @@
 </ol>
 <h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>learning_rate = 0.0007<br>batch_size = 8<br>p NOT USED<br>batch_norm USED<br>weight_decay = 0.001<br>hidden_dim = 500</p>
 <h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.6162373506360586;<br>Test Accuracy: 57.789855072463766</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><h1 id="Top-15-predictions"><a href="#Top-15-predictions" class="headerlink" title="Top 15 predictions:"></a>Top 15 predictions:</h1><p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
 <p>   Test Records:<br><object data="Lab-no2-Record.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
 <li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
@@ -414,7 +416,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><span class="nav-number">1.</span> <span class="nav-text">Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><span class="nav-number">1.1.</span> <span class="nav-text">Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Build-the-best-model-based-on-test-loss-and-test-accuracy-by-exploring-following-options"><span class="nav-number">1.1.1.</span> <span class="nav-text">Build the best model (based on test loss and test accuracy) by exploring following options:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Values-of-given-parameters"><span class="nav-number">1.2.</span> <span class="nav-text">Values of given parameters</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Best-outcomes"><span class="nav-number">1.3.</span> <span class="nav-text">Best outcomes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Taking-%E2%80%9Cdrewer%E2%80%9D-as-an-example"><span class="nav-number">1.4.</span> <span class="nav-text">Taking “drewer” as an example</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Top-15-predictions"><span class="nav-number"></span> <span class="nav-text">Top 15 predictions:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Tips"><span class="nav-number">1.</span> <span class="nav-text">Tips</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><span class="nav-number">1.</span> <span class="nav-text">Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron-week6"><span class="nav-number">1.1.</span> <span class="nav-text">Optimize target: Classifying Surnames with a Multilayer Perceptron (week6)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Values-of-given-parameters"><span class="nav-number">1.2.</span> <span class="nav-text">Values of given parameters</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Best-outcomes"><span class="nav-number">1.3.</span> <span class="nav-text">Best outcomes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Taking-%E2%80%9Cdrewer%E2%80%9D-as-an-example"><span class="nav-number">1.4.</span> <span class="nav-text">Taking “drewer” as an example</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tips"><span class="nav-number">2.</span> <span class="nav-text">Tips</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
