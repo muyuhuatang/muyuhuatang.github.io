@@ -38,6 +38,12 @@
 <h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
 <h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
 <p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br> !nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br> import os<br> os.chdir(“drive/…/…/“)</li>
+</ol>
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
 <li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
 </ol>
