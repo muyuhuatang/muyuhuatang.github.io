@@ -43,6 +43,7 @@
 <li>use code below to check GPU status<br> !nvidia-smi</li>
 <li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
 <li>change dir<br> import os<br> os.chdir(“drive/…/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
 </ol>
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
 <li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
