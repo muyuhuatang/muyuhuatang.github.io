@@ -11,10 +11,11 @@
 </ol>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
       <categories>
+        <category>Courses</category>
         <category>Intrusion Detection</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -50,10 +51,11 @@
 </ol>
 ]]></content>
       <categories>
-        <category>NLP</category>
+        <category>Courses</category>
+        <category>Text &amp; Web Mining</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -64,10 +66,11 @@
 
 <h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
       <categories>
+        <category>Courses</category>
         <category>Data Mining</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -78,10 +81,11 @@
 
 <h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
       <categories>
+        <category>Courses</category>
         <category>Internet Programming</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -103,13 +107,42 @@
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#x68;&#117;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#102;&#x68;&#117;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p>My email: <a href="mailto:&#x66;&#x68;&#117;&#x61;&#x6e;&#103;&#x31;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#x68;&#117;&#x61;&#x6e;&#103;&#x31;&#x38;&#x31;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
+        <category>Courses</category>
         <category>Information Visualization</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode</title>
+    <url>/2020/10/04/LeetCode/</url>
+    <content><![CDATA[<p>LeetCode records</p>
+<a id="more"></a>
+
+<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
+<li>工程能力</li>
+<li>对数据、对业务的理解</li>
+<li>机器学习算法与模型</li>
+</ol>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
+<li>Kaggle天池比赛</li>
+<li>在github上follow一些有意思的ML项目</li>
+</ol>
+<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
+<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
+<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Data Structure</category>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
       </tags>
   </entry>
   <entry>
@@ -134,31 +167,6 @@
 ]]></content>
       <categories>
         <category>Data Science</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Academic Records</title>
-    <url>/2020/09/25/Academic-Records/</url>
-    <content><![CDATA[<p>Records academic useful knowledge</p>
-<a id="more"></a>
-
-<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
-<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
-<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
-<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
-<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
-<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
-<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
-<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Documents</category>
       </categories>
       <tags>
         <tag>Record</tag>
@@ -206,6 +214,31 @@
 </li>
 </ol>
 <h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Academic Records</title>
+    <url>/2020/09/25/Academic-Records/</url>
+    <content><![CDATA[<p>Records academic useful knowledge</p>
+<a id="more"></a>
+
+<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
+<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
+<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
+<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
+<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
+<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
+<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
+<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li></li>
+</ol>
+]]></content>
       <categories>
         <category>Documents</category>
       </categories>
