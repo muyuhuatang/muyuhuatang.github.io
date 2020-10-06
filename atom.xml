@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-10-05T15:23:45.062Z</updated>
+  <updated>2020-10-06T14:15:42.049Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Small Tools</title>
+    <link href="http://muyuhuatang.github.io/2020/10/06/SmallTools/"/>
+    <id>http://muyuhuatang.github.io/2020/10/06/SmallTools/</id>
+    <published>2020-10-06T13:48:00.590Z</published>
+    <updated>2020-10-06T14:15:42.049Z</updated>
+    
+    <content type="html"><![CDATA[<p>Some interesting small tools</p><a id="more"></a><h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><ol><li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li><li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://tool.lu/ip/">online ip check</a></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Some interesting small tools&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Interesting" scheme="http://muyuhuatang.github.io/tags/Interesting/"/>
+    
+  </entry>
   
   <entry>
     <title>LeetCode</title>
@@ -153,9 +172,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Data-Mining/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Data-Mining/</id>
     <published>2020-09-24T14:49:42.263Z</published>
-    <updated>2020-10-04T08:09:38.689Z</updated>
+    <updated>2020-10-06T08:46:13.987Z</updated>
     
-    <content type="html"><![CDATA[<p>Data Mining course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    <content type="html"><![CDATA[<p>Data Mining course</p><a id="more"></a><h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li><li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure> can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li><li></li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;Data Mining course&lt;/p&gt;</summary>

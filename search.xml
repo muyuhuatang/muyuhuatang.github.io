@@ -107,7 +107,13 @@
     <content><![CDATA[<p>Data Mining course</p>
 <a id="more"></a>
 
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
+<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
+ can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
+<li></li>
+</ol>
+]]></content>
       <categories>
         <category>Courses</category>
         <category>Data Mining</category>
@@ -428,6 +434,24 @@
       </categories>
       <tags>
         <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Small Tools</title>
+    <url>/2020/10/06/SmallTools/</url>
+    <content><![CDATA[<p>Some interesting small tools</p>
+<a id="more"></a>
+
+<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><ol>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://tool.lu/ip/">online ip check</a></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>Interesting</tag>
       </tags>
   </entry>
 </search>
