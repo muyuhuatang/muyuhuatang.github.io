@@ -1,6 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Intrusion Detection</title>
+    <url>/2020/09/24/Intrusion-Detection/</url>
+    <content><![CDATA[<p>Intrusion Detection course</p>
+<a id="more"></a>
+
+<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Intrusion Detection</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Text &amp; Web Mining</title>
+    <url>/2020/09/24/Text-Web-Mining/</url>
+    <content><![CDATA[<p>Text &amp; Web Mining course</p>
+<a id="more"></a>
+
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
+<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
+</ol>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
+<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br> !nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br> import os<br> os.chdir(“drive/…/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
+</ol>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Text &amp; Web Mining</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Data Mining</title>
+    <url>/2020/09/24/Data-Mining/</url>
+    <content><![CDATA[<p>Data Mining course</p>
+<a id="more"></a>
+
+<h2 id="Classification-Problem-dataset"><a href="#Classification-Problem-dataset" class="headerlink" title="Classification Problem dataset"></a>Classification Problem <a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></h2><h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
+<ol>
+<li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
+<li><script text='text/javascript' src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>
+&#123;% asset_jupyter /Users/hoan/opt/anaconda3/lib/python3.8 ./Classification.ipynb %&#125;</li>
+</ol>
+<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
+<ol>
+<li>preprocessing</li>
+<li>train and test</li>
+<li>gather data and outcomes</li>
+<li>compare and analysis</li>
+<li>draw ROC plot</li>
+</ol>
+<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
+<li>change .data file into .arff file<br> .data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
+<li>use Weka to genarate</li>
+<li>compare and analysis</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
+<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
+ can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
+<li><a href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
+<li><a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Data Mining</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Internet Programming</title>
+    <url>/2020/09/24/Internet-Programming/</url>
+    <content><![CDATA[<p>Internet Programming course</p>
+<a id="more"></a>
+
+<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Internet Programming</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Information Visualization</title>
+    <url>/2020/09/20/Information-Visualization/</url>
+    <content><![CDATA[<p>Information Visualization course</p>
+<a id="more"></a>
+
+<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
+<ol>
+<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
+</li>
+<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
+</li>
+<li><p>MA GUANGYI - why_are_cars_so_expensive_in_singapore<br><img src="/2020/09/20/Information-Visualization/singapore-car-price-infographic.jpg" alt="why-are-cars-so-expensive-in-singapore"><br><a href="https://dribbble.com/shots/14277182-Infographic-Singapore-car-price?utm_source=Clipboard_Shot&utm_campaign=maguangyi&utm_content=Infographic%20-%20Singapore%20car%20price&utm_medium=Social_Share">Dribbble Link</a></p>
+</li>
+<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
+</li>
+</ol>
+<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
+<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
+<p>My email: <a href="mailto:&#x66;&#x68;&#117;&#97;&#x6e;&#103;&#49;&#56;&#49;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#x68;&#117;&#97;&#x6e;&#103;&#49;&#56;&#49;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a></p>
+]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Information Visualization</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode</title>
+    <url>/2020/10/04/LeetCode/</url>
+    <content><![CDATA[<p>LeetCode records (In C++/Python 3)</p>
+<a id="more"></a>
+
+<h2 id="LeetCode-Hot-100-In-leetcode-cn"><a href="#LeetCode-Hot-100-In-leetcode-cn" class="headerlink" title="LeetCode Hot 100 (In leetcode.cn)"></a>LeetCode Hot 100 (In leetcode.cn)</h2><h3 id="2-Add-two-numbers"><a href="#2-Add-two-numbers" class="headerlink" title="(2) Add two numbers"></a>(2) Add two numbers</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">        ListNode *head = nullptr, *tail = nullptr;</span><br><span class="line">        int carry = 0;</span><br><span class="line">        <span class="keyword">while</span> (l1 || l2) &#123;</span><br><span class="line">            int n1 = l1 ? l1-&gt;val: 0;</span><br><span class="line">            int n2 = l2 ? l2-&gt;val: 0;</span><br><span class="line">            int sum = n1 + n2 + carry;</span><br><span class="line">            <span class="keyword">if</span> (!head) &#123;</span><br><span class="line">                head = tail = new ListNode(sum % 10);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                tail-&gt;next = new ListNode(sum % 10);</span><br><span class="line">                tail = tail-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">            carry = sum / 10;</span><br><span class="line">            <span class="keyword">if</span> (l1) &#123;</span><br><span class="line">                l1 = l1-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (l2) &#123;</span><br><span class="line">                l2 = l2-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (carry &gt; 0) &#123;</span><br><span class="line">            tail-&gt;next = new ListNode(carry);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> head;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br></pre></td></tr></table></figure>
+<p>本质: 链表基本知识与操作 + 取余操作 + 利用整数除后省略小数点的特性<br>技巧: 将取余操作与整除特性结合 + 进位符 -&gt; 模拟数学运算</p>
+<h3 id="20-Valid-Parentheses"><a href="#20-Valid-Parentheses" class="headerlink" title="(20) Valid Parentheses"></a>(20) Valid Parentheses</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    bool isValid(string s) &#123;</span><br><span class="line">        // simple check</span><br><span class="line">        int n = s.size();</span><br><span class="line">        <span class="keyword">if</span> (n % 2 == 1) &#123;</span><br><span class="line">            <span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        // map <span class="keyword">function</span>. Could also be applied by <span class="keyword">if</span></span><br><span class="line">        unordered_map&lt;char, char&gt; pairs = &#123;</span><br><span class="line">            &#123;<span class="string">&#x27;)&#x27;</span>, <span class="string">&#x27;(&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;]&#x27;</span>, <span class="string">&#x27;[&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;&#125;&#x27;</span>, <span class="string">&#x27;&#123;&#x27;</span>&#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        stack&lt;char&gt; stk;</span><br><span class="line">        <span class="keyword">for</span> (char ch: s) &#123;</span><br><span class="line">            <span class="keyword">if</span> (pairs.count(ch)) &#123;</span><br><span class="line">                <span class="keyword">if</span> (stk.empty() || stk.top() != pairs[ch]) &#123;</span><br><span class="line">                    <span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                stk.pop();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                stk.push(ch);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> stk.empty();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br></pre></td></tr></table></figure>
+<p>本质: 数据结构“栈”的基础应用 + 使用Hashmap来简化查找匹配问题<br>技巧: 使用hashmap来作为匹配工具 / 适当使用库函数来减少代码并提升可复用性</p>
+<h3 id="1-Two-Sum"><a href="#1-Two-Sum" class="headerlink" title="(1) Two Sum"></a>(1) Two Sum</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">        unordered_map&lt;int, int&gt; hashtable;</span><br><span class="line">        <span class="keyword">for</span> (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            auto it = hashtable.find(target - nums[i]);</span><br><span class="line">            <span class="keyword">if</span> (it != hashtable.end()) &#123;</span><br><span class="line">                // need to <span class="built_in">return</span> the index <span class="keyword">in</span> original array</span><br><span class="line">                <span class="built_in">return</span> &#123;it-&gt;second, i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            hashtable[nums[i]] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> &#123;&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>本质 &amp; 技巧: Hash表的使用</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://leetcode-cn.com/">LeetCode-cn官网</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Data Structure</category>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Data Science</title>
+    <url>/2020/09/25/Data-Science/</url>
+    <content><![CDATA[<p>Data Science ralated material</p>
+<a id="more"></a>
+
+<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
+<li>工程能力</li>
+<li>对数据、对业务的理解</li>
+<li>机器学习算法与模型</li>
+</ol>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
+<li>Kaggle天池比赛</li>
+<li>在github上follow一些有意思的ML项目</li>
+</ol>
+<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
+<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
+<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Data Science</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Study Records</title>
+    <url>/2020/09/25/Study-Records/</url>
+    <content><![CDATA[<p>Records studying useful knowledge</p>
+<a id="more"></a>
+
+<h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol>
+<li>机器学习</li>
+<li>数据挖掘</li>
+<li>统计学习</li>
+</ol>
+<h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol>
+<li>统计与概率</li>
+<li>工程设计</li>
+</ol>
+<h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol>
+<li>核心知识<ol>
+<li>编程语言: Java/C++</li>
+<li>算法与数据结构</li>
+<li>数据库</li>
+<li>一门技能课</li>
+</ol>
+</li>
+<li>自我提升<ol>
+<li>平台Coursera、哈佛公开课、斯坦福公开课</li>
+<li>基础课程: 计算机科学导论(Havard)</li>
+<li>编程平台: Leetcode</li>
+<li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li>
+</ol>
+</li>
+<li>核心要点:<ol>
+<li>算法与数据结构: Leetcode刷题</li>
+<li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li>
+</ol>
+</li>
+<li>目标: <ol>
+<li>大厂面试题对答如流</li>
+<li>独立完成3-4个编程项目</li>
+</ol>
+</li>
+</ol>
+<h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Small Tools</title>
+    <url>/2020/10/06/SmallTools/</url>
+    <content><![CDATA[<p>Some interesting small tools</p>
+<a id="more"></a>
+
+<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
+
+
+<ol>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://tool.lu/ip/">online ip check</a></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>Interesting</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Academic Records</title>
     <url>/2020/09/25/Academic-Records/</url>
     <content><![CDATA[<p>Records academic useful knowledge</p>
@@ -23,6 +291,17 @@
       </categories>
       <tags>
         <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Encrypted</title>
+    <url>/2020/09/24/Encrypted/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Encrypted</tag>
       </tags>
   </entry>
   <entry>
@@ -102,172 +381,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Data Mining</title>
-    <url>/2020/09/24/Data-Mining/</url>
-    <content><![CDATA[<p>Data Mining course</p>
-<a id="more"></a>
-
-<h2 id="Classification-Problem-dataset"><a href="#Classification-Problem-dataset" class="headerlink" title="Classification Problem dataset"></a>Classification Problem <a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></h2><h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
-<ol>
-<li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
-<li><script text='text/javascript' src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>
-&#123;% asset_jupyter /usr/local/bin/python3 Classification.ipynb %&#125;</li>
-</ol>
-<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
-<ol>
-<li>preprocessing</li>
-<li>train and test</li>
-<li>gather data and outcomes</li>
-<li>compare and analysis</li>
-<li>draw ROC plot</li>
-</ol>
-<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
-<li>change .data file into .arff file<br> .data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
-<li>use Weka to genarate</li>
-<li>compare and analysis</li>
-</ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
-<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
- can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
-<li><a href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
-<li><a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Data Mining</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Data Science</title>
-    <url>/2020/09/25/Data-Science/</url>
-    <content><![CDATA[<p>Data Science ralated material</p>
-<a id="more"></a>
-
-<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
-<li>工程能力</li>
-<li>对数据、对业务的理解</li>
-<li>机器学习算法与模型</li>
-</ol>
-<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
-<li>Kaggle天池比赛</li>
-<li>在github上follow一些有意思的ML项目</li>
-</ol>
-<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
-<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
-<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Data Science</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Encrypted</title>
-    <url>/2020/09/24/Encrypted/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Information Visualization</title>
-    <url>/2020/09/20/Information-Visualization/</url>
-    <content><![CDATA[<p>Information Visualization course</p>
-<a id="more"></a>
-
-<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
-<ol>
-<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
-</li>
-<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
-</li>
-<li><p>MA GUANGYI - why_are_cars_so_expensive_in_singapore<br><img src="/2020/09/20/Information-Visualization/singapore-car-price-infographic.jpg" alt="why-are-cars-so-expensive-in-singapore"><br><a href="https://dribbble.com/shots/14277182-Infographic-Singapore-car-price?utm_source=Clipboard_Shot&utm_campaign=maguangyi&utm_content=Infographic%20-%20Singapore%20car%20price&utm_medium=Social_Share">Dribbble Link</a></p>
-</li>
-<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
-</li>
-</ol>
-<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
-<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#x68;&#117;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#102;&#x68;&#117;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Information Visualization</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Internet Programming</title>
-    <url>/2020/09/24/Internet-Programming/</url>
-    <content><![CDATA[<p>Internet Programming course</p>
-<a id="more"></a>
-
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Internet Programming</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Intrusion Detection</title>
-    <url>/2020/09/24/Intrusion-Detection/</url>
-    <content><![CDATA[<p>Intrusion Detection course</p>
-<a id="more"></a>
-
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
-</ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Intrusion Detection</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode</title>
-    <url>/2020/10/04/LeetCode/</url>
-    <content><![CDATA[<p>LeetCode records (In C++/Python 3)</p>
-<a id="more"></a>
-
-<h2 id="LeetCode-Hot-100-In-leetcode-cn"><a href="#LeetCode-Hot-100-In-leetcode-cn" class="headerlink" title="LeetCode Hot 100 (In leetcode.cn)"></a>LeetCode Hot 100 (In leetcode.cn)</h2><h3 id="2-Add-two-numbers"><a href="#2-Add-two-numbers" class="headerlink" title="(2) Add two numbers"></a>(2) Add two numbers</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">        ListNode *head = nullptr, *tail = nullptr;</span><br><span class="line">        int carry = 0;</span><br><span class="line">        <span class="keyword">while</span> (l1 || l2) &#123;</span><br><span class="line">            int n1 = l1 ? l1-&gt;val: 0;</span><br><span class="line">            int n2 = l2 ? l2-&gt;val: 0;</span><br><span class="line">            int sum = n1 + n2 + carry;</span><br><span class="line">            <span class="keyword">if</span> (!head) &#123;</span><br><span class="line">                head = tail = new ListNode(sum % 10);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                tail-&gt;next = new ListNode(sum % 10);</span><br><span class="line">                tail = tail-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">            carry = sum / 10;</span><br><span class="line">            <span class="keyword">if</span> (l1) &#123;</span><br><span class="line">                l1 = l1-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (l2) &#123;</span><br><span class="line">                l2 = l2-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (carry &gt; 0) &#123;</span><br><span class="line">            tail-&gt;next = new ListNode(carry);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> head;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br></pre></td></tr></table></figure>
-<p>本质: 链表基本知识与操作 + 取余操作 + 利用整数除后省略小数点的特性<br>技巧: 将取余操作与整除特性结合 + 进位符 -&gt; 模拟数学运算</p>
-<h3 id="20-Valid-Parentheses"><a href="#20-Valid-Parentheses" class="headerlink" title="(20) Valid Parentheses"></a>(20) Valid Parentheses</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    bool isValid(string s) &#123;</span><br><span class="line">        // simple check</span><br><span class="line">        int n = s.size();</span><br><span class="line">        <span class="keyword">if</span> (n % 2 == 1) &#123;</span><br><span class="line">            <span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        // map <span class="keyword">function</span>. Could also be applied by <span class="keyword">if</span></span><br><span class="line">        unordered_map&lt;char, char&gt; pairs = &#123;</span><br><span class="line">            &#123;<span class="string">&#x27;)&#x27;</span>, <span class="string">&#x27;(&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;]&#x27;</span>, <span class="string">&#x27;[&#x27;</span>&#125;,</span><br><span class="line">            &#123;<span class="string">&#x27;&#125;&#x27;</span>, <span class="string">&#x27;&#123;&#x27;</span>&#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        stack&lt;char&gt; stk;</span><br><span class="line">        <span class="keyword">for</span> (char ch: s) &#123;</span><br><span class="line">            <span class="keyword">if</span> (pairs.count(ch)) &#123;</span><br><span class="line">                <span class="keyword">if</span> (stk.empty() || stk.top() != pairs[ch]) &#123;</span><br><span class="line">                    <span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                stk.pop();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                stk.push(ch);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> stk.empty();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br></pre></td></tr></table></figure>
-<p>本质: 数据结构“栈”的基础应用 + 使用Hashmap来简化查找匹配问题<br>技巧: 使用hashmap来作为匹配工具 / 适当使用库函数来减少代码并提升可复用性</p>
-<h3 id="1-Two-Sum"><a href="#1-Two-Sum" class="headerlink" title="(1) Two Sum"></a>(1) Two Sum</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">        unordered_map&lt;int, int&gt; hashtable;</span><br><span class="line">        <span class="keyword">for</span> (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            auto it = hashtable.find(target - nums[i]);</span><br><span class="line">            <span class="keyword">if</span> (it != hashtable.end()) &#123;</span><br><span class="line">                // need to <span class="built_in">return</span> the index <span class="keyword">in</span> original array</span><br><span class="line">                <span class="built_in">return</span> &#123;it-&gt;second, i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            hashtable[nums[i]] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">return</span> &#123;&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Author：LeetCode-Solution</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>本质 &amp; 技巧: Hash表的使用</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://leetcode-cn.com/">LeetCode-cn官网</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Data Structure</category>
-        <category>LeetCode</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python Learning</title>
     <url>/2020/09/08/Python-Learning/</url>
     <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
@@ -291,119 +404,6 @@
       <tags>
         <tag>Notes</tag>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Study Records</title>
-    <url>/2020/09/25/Study-Records/</url>
-    <content><![CDATA[<p>Records studying useful knowledge</p>
-<a id="more"></a>
-
-<h2 id="课程知识"><a href="#课程知识" class="headerlink" title="课程知识"></a>课程知识</h2><h3 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h3><ol>
-<li>机器学习</li>
-<li>数据挖掘</li>
-<li>统计学习</li>
-</ol>
-<h3 id="工程应用"><a href="#工程应用" class="headerlink" title="工程应用"></a>工程应用</h3><ol>
-<li>统计与概率</li>
-<li>工程设计</li>
-</ol>
-<h2 id="探索领域"><a href="#探索领域" class="headerlink" title="探索领域"></a>探索领域</h2><h3 id="工程开发"><a href="#工程开发" class="headerlink" title="工程开发"></a>工程开发</h3><ol>
-<li>核心知识<ol>
-<li>编程语言: Java/C++</li>
-<li>算法与数据结构</li>
-<li>数据库</li>
-<li>一门技能课</li>
-</ol>
-</li>
-<li>自我提升<ol>
-<li>平台Coursera、哈佛公开课、斯坦福公开课</li>
-<li>基础课程: 计算机科学导论(Havard)</li>
-<li>编程平台: Leetcode</li>
-<li>初级课程: <a href="https://www.deeplearning.ai/deep-learning-specialization/">深度学习入门</a>、机器学习入门-Stanford CS229、CV入门-CS231N、NLP入门-CS224N</li>
-</ol>
-</li>
-<li>核心要点:<ol>
-<li>算法与数据结构: Leetcode刷题</li>
-<li>数据库+一门技能课的实战:<br> 网页开发<br> 移动端开发-日历、通信软件<br> 云计算-用spark和Hadoop尝试对大数据进行删改读写<br> AI-推荐系统、搜索系统、CV、NLP</li>
-</ol>
-</li>
-<li>目标: <ol>
-<li>大厂面试题对答如流</li>
-<li>独立完成3-4个编程项目</li>
-</ol>
-</li>
-</ol>
-<h3 id="人工智能与安全"><a href="#人工智能与安全" class="headerlink" title="人工智能与安全"></a>人工智能与安全</h3><h3 id="推荐系统"><a href="#推荐系统" class="headerlink" title="推荐系统"></a>推荐系统</h3>]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Small Tools</title>
-    <url>/2020/10/06/SmallTools/</url>
-    <content><![CDATA[<p>Some interesting small tools</p>
-<a id="more"></a>
-
-<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
-
-
-<ol>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
-</ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://tool.lu/ip/">online ip check</a></li>
-</ol>
-]]></content>
-      <tags>
-        <tag>Interesting</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Text &amp; Web Mining</title>
-    <url>/2020/09/24/Text-Web-Mining/</url>
-    <content><![CDATA[<p>Text &amp; Web Mining course</p>
-<a id="more"></a>
-
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
-<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
-<ol>
-<li>learning_rate</li>
-<li>batch_size</li>
-<li>dropout (use only if it helps)</li>
-<li>batch norm (use only if it helps)</li>
-<li>weight_decay (L2 regularization) (use only if it helps)</li>
-<li>hidden_dim</li>
-<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
-</ol>
-<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
-<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
-<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
-<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
-<li>use code below to check GPU status<br> !nvidia-smi</li>
-<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
-<li>change dir<br> import os<br> os.chdir(“drive/…/…/“)</li>
-<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
-</ol>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
-<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Text &amp; Web Mining</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
