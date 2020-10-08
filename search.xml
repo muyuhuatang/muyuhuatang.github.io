@@ -69,7 +69,7 @@
 <h2 id="Classification-Problem-dataset"><a href="#Classification-Problem-dataset" class="headerlink" title="Classification Problem dataset"></a>Classification Problem <a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></h2><h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
 <ol>
 <li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
-<li><script src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>
+<li><script text='text/javascript' src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>
 &#123;% asset_jupyter /Users/hoan/opt/anaconda3/bin/python3.8 Classification.ipynb %&#125;</li>
 </ol>
 <h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
@@ -136,7 +136,7 @@
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#49;&#56;&#49;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#49;&#56;&#49;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>My email: <a href="mailto:&#102;&#x68;&#117;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#102;&#x68;&#117;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
