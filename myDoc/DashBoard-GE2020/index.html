@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html style="opacity:1;">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Index</title>
+		<script type="text/javascript", src="js/d3.v3.min.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="//d3js.org/topojson.v1.min.js"></script>
+		<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+<style type="text/css">
+	/*piechart*/
+	.plegend rect {
+	 fill:white;
+	 stroke:black;}
+
+	/*geomap*/
+	/*.geomap{
+	  background: #CEECF5;
+	}*/
+
+	#tooltip {
+	  font-size: 12px;
+	  position: absolute;
+	  width: auto;
+	  height: auto;
+	  padding: 2.5px;
+	  border:1px solid black;
+	  background: rgb(250, 250, 250);
+	  background: rgba(250, 250, 250, 0.8);
+	  -webkit-border-radius: 3px;
+	  -moz-border-radius: 3px;
+	  border-radius: 3px;
+	  pointer-events: none;
+	}
+	#tooltip.hidden {
+	  display: none;
+	}
+	path.area{
+	  stroke-width:0.3;
+	  fill: #ffffbf;
+	  stroke: black;
+	}
+	path.area.highlight{
+	  fill:#78c679;
+	}
+	/*linechart*/
+
+	.grid .tick {
+	    stroke: lightgrey;
+	    shape-rendering: crispEdges;
+	}
+
+	.grid path {
+	    stroke-width: 0;
+	}
+
+	.axis path {
+	    fill: none;
+	    stroke: #bbb;
+	    shape-rendering: crispEdges;
+	}
+
+	.axis text {
+	    fill: #555;
+	}
+
+	.axis line {
+	    stroke: #e7e7e7;
+	    shape-rendering: crispEdges;
+	}
+
+	.axis .axis-label {
+	    font-size: 14px;
+	}
+
+	.line {
+	    fill: none;
+	    stroke-width: 1px;
+	}
+
+	.dot {
+	    stroke: transparent;
+	    stroke-width: 10px;
+	    cursor: pointer;
+	}
+
+	.dot:hover {
+	    stroke: rgba(68, 127, 255);
+	}
+
+	#headline {
+		width: 1120px;
+		/*margin-top:5px;*/
+		height:110px;
+		background:#EAD6BD;
+	}
+
+	#headline1{
+		width:180px;
+		height:90px;
+		float:left;
+		/*position: relative;*/
+		margin-left: 12px;
+		margin-top: 8px;
+		/*border:1px solid #F5D0A9;*/
+		background: #FBFBEF;
+
+		margin-right:5px;
+		font-size: 10px;
+		text-align: center;
+	}
+	#number01{
+		color: #FA8258;
+		font-size: 28px;
+		margin-top: -10px;
+	}
+	#headline2{
+		width:150px;
+		height:90px;
+		margin-left: 20px;
+		margin-top: 8px;
+		float:left;
+		/*border:1px solid #F5D0A9;*/
+		/*background: #58D3F7;*/
+		background: #FBFBEF;
+		margin-right:5px;
+		font-size: 10px;
+		text-align: center;
+	}
+	#headline_party{
+		width:500px;
+		height:90px;
+		margin-left: 20px;
+		margin-top: 8px;
+		float:left;
+		/*border:1px solid #F5D0A9;*/
+		background: #FBF8EF;
+
+		margin-right:5px;
+		font-size: 10px;
+		text-align: center;
+	}
+	#number02{
+		color: #FA8258;
+		font-size: 28px;
+		margin-top: -10px;
+	}
+	
+	#headline3{
+		width:190px;
+		height:90px;
+		margin-left: 20px;
+		margin-top: 8px;
+		float:left;
+		/*border:1px solid #F5D0A9;*/
+		background: #FBF8EF;
+
+		margin-right:5px;
+		font-size: 10px;
+		text-align: center;
+	}
+	#number03{
+		color: #FA8258;
+		font-size: 28px;
+		margin-top: -10px;
+	}
+	.iii{
+		margin-left: 8px;
+	}
+
+	#middleline {
+		width: 1120px;
+		height: 330px;
+		background: #EAD6BD;
+	}
+	#my_title{
+		text-align:center;
+		height:60px;
+		width: 1120px;
+		background:#A88661;
+		margin-top:-10px;
+        font-size:16px;
+        font-weight:bold;
+        /*color: white;*/
+        letter-spacing :0.5em;
+	}
+	#tttt{
+		padding-top: 10px;
+	}
+	
+	#geomap{
+		/*background: #F5ECCE;*/
+		background: #F7F2E0;
+		float: left;
+		width: 630px;
+		height: 300px;
+		margin-top: 5px;
+		/*margin-bottom: 5px;*/
+		margin-left: 10px;
+		margin-right: 10px;
+	    padding: 5px;
+	}
+	#pieChart{
+		background: #F7F2E0;
+		/*background: white;*/
+		float: left;
+		width: 430px;
+		height: 300px;
+		margin-top: 5px;
+		/*margin-bottom: 5px;*/
+		margin-left: 10px;
+		margin-right: 10px;
+	    padding: 5px;
+	    font: 5px 'Open sans', sans-serif;
+	}
+	/*bottomline*/
+	#bottomline {
+		width: 1120px;
+		height: 250px;
+		/*padding: 5px;*/
+		background: #EAD6BD;
+	}
+	.smallbottomline {
+		float: left;
+		width: 300px;
+		height: 230px;
+		/*margin-top: 5px;*/
+		margin-bottom: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	    padding: 5px;
+		/*border: 1px solid blue;*/
+	}
+	
+	#chart0{
+		background: #FBF8EF;
+
+	}
+	#chart1{
+		background: #FBF8EF;
+		
+	}
+	#trendSvg {
+		background: #FBF8EF;
+		float: left;
+		width: 430px;
+		height: 230px;
+		/*margin-top: 5px;*/
+		margin-bottom: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	    padding: 5px;
+
+	    /*background: #F8E6E0;*/
+	}
+
+</style>
+    
+
+</head>
+<body style="opacity:1;">
+<div id="my_title">
+	<h1 id="tttt">GE2020</h1>
+</div>
+<div id="headline">
+	<div id="headline1" class="smallheadline">
+		<h1 id="voters">Voters</h1>
+		<h1 id="number01">2,647,372</h1>
+
+	</div>
+	<div id="headline2" class="smallheadline">
+		<h1>Seats</h1>
+		<h1 id="number02">93</h1>
+
+	</div>
+	<div id="headline_party" class="smallheadline">
+		<h1>Parties</h1>
+		<img class="iii" src="image/PAP.png" height="30" width="30" />
+		<img class="iii" src="image/WP.png" height="30" width="30" />
+		<img class="iii" src="image/PSP.png" height="30" width="30" />
+		<img class="iii" src="image/NSP.png" height="30" width="30" />
+		<img class="iii" src="image/SDP.png" height="30" width="30" />
+		<img class="iii" src="image/PPP.svg" height="30" width="30" />
+		<img class="iii" src="image/RDU.svg" height="30" width="30" />
+		<img class="iii" src="image/SPP.svg" height="30" width="30" />
+		<img class="iii" src="image/RPS.png" height="30" width="30" />
+		<img class="iii" src="image/Red.png" height="30" width="30" />
+		<img class="iii" src="image/pv.png" height="30" width="30" />
+
+	</div>
+	<div id="headline3" class="smallheadline">
+		<h1>Consistencies</h1>
+		<h1 id="number03">31</h1>
+		<!-- <h1 id="c_test">14 single-member constituencies and 17 group representation constituencies</h1> -->
+	</div>
+</div>
+
+<div id="middleline">
+	<div id="geomap" class="smallmiddleline">
+		<script type="text/javascript", src="js/geomap.js"></script>	
+	</div>
+
+	<div id="pieChart" class="smallmiddleline">
+	<script type="text/javascript", src="js/pieChart.js"></script>
+	</div>
+</div>
+
+<div id="bottomline">
+	<div id="chart0" class="smallbottomline">
+	<script type="text/javascript", src="js/stackedChart0.js"></script>
+	</div>
+
+	<div id="chart1" class="smallbottomline" >
+	<script type="text/javascript", src="js/stackedChart1.js"></script> 
+	</div>
+	<div id="trendSvg" >
+		<script type="text/javascript", src="js/lineChart.js"></script>
+	</div>
+
+	<div id="tooltip" class="hidden">
+		<p><span id="value"></p>
+	</div>
+
+	
+
+</div>
+
+
+</body>
+</html>
+
+
+
+
