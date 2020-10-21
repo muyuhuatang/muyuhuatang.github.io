@@ -147,7 +147,11 @@
     <content><![CDATA[<p>Internet Programming course</p>
 <a id="more"></a>
 
-<h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+<h2 id="Practical-homework"><a href="#Practical-homework" class="headerlink" title="Practical homework"></a>Practical homework</h2><p>tips:</p>
+<ol>
+<li>When use the higher version of tomcat (like version 8.5), it is very likely to happen this situation: the console report connection failure with database. One way to fix that is to use the new/lastest version of mysql connnector (like fullname is [mysql-connector-java-8.0.21.jar]).</li>
+</ol>
+]]></content>
       <categories>
         <category>Courses</category>
         <category>Internet Programming</category>

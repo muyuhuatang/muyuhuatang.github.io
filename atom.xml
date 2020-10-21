@@ -171,9 +171,9 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Internet-Programming/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Internet-Programming/</id>
     <published>2020-09-24T14:53:15.808Z</published>
-    <updated>2020-10-04T08:09:33.024Z</updated>
+    <updated>2020-10-21T16:23:41.847Z</updated>
     
-    <content type="html"><![CDATA[<p>Internet Programming course</p><a id="more"></a><h2 id="My"><a href="#My" class="headerlink" title="My"></a>My</h2>]]></content>
+    <content type="html"><![CDATA[<p>Internet Programming course</p><a id="more"></a><h2 id="Practical-homework"><a href="#Practical-homework" class="headerlink" title="Practical homework"></a>Practical homework</h2><p>tips:</p><ol><li>When use the higher version of tomcat (like version 8.5), it is very likely to happen this situation: the console report connection failure with database. One way to fix that is to use the new/lastest version of mysql connnector (like fullname is [mysql-connector-java-8.0.21.jar]).</li></ol>]]></content>
     
     
     <summary type="html">&lt;p&gt;Internet Programming course&lt;/p&gt;</summary>
