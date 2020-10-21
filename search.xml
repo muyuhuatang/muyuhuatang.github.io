@@ -1,104 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Academic Records</title>
-    <url>/2020/09/25/Academic-Records/</url>
-    <content><![CDATA[<p>Records about useful or intersting academic information</p>
+    <title>Intrusion Detection</title>
+    <url>/2020/09/24/Intrusion-Detection/</url>
+    <content><![CDATA[<p>Intrusion Detection course</p>
 <a id="more"></a>
 
-<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
-<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
-<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
-<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
-<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
-<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
-<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
-<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
+<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
+<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
+</li>
+<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
+</ol>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li></li>
+<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
+<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
 </ol>
 ]]></content>
       <categories>
-        <category>Documents</category>
+        <category>Courses</category>
+        <category>Intrusion Detection</category>
       </categories>
       <tags>
-        <tag>Record</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
-    <title>Book Notes - Chinese</title>
-    <url>/2020/09/19/Book-notes/</url>
-    <content><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p>
-<p> 这里也保存了一些优秀的中文版的图书的读书笔记.</p>
+    <title>Text &amp; Web Mining</title>
+    <url>/2020/09/24/Text-Web-Mining/</url>
+    <content><![CDATA[<p>Text &amp; Web Mining course</p>
 <a id="more"></a>
 
-
-
-<h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="Notes-collection-Computer-Science-Four-Element-Courses"><a href="#Notes-collection-Computer-Science-Four-Element-Courses" class="headerlink" title="Notes collection - Computer Science/Four Element Courses"></a>Notes collection - Computer Science/Four Element Courses</h3><p>   Reading notes:<br><object data="ComputerScience-fourElements.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
-<h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol>
-<li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p>
-</li>
-<li><p>锤子 + 钉子 理论</p>
-</li>
-<li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p>
-<p>随笔记录:</p>
-<object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px">
-</object><br><br>
-
-</li>
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
+<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
 </ol>
-<h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol>
-<li>单数名词末尾加‘s,构成名词所有格</li>
-<li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li>
-<li>将作附加说明的插入语放在两个逗号中间</li>
-<li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li>
-<li>不可以用逗号直接连接两个完整的句子</li>
-<li>不可以讲完整的句子任意拆分成两部分</li>
-<li>句首的分词短语所指代的主语应与主句的主语保持一致</li>
-<li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
+<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br> !nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br>import os<br>os.chdir(“drive/My Drive/Colab Notebooks/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
 </ol>
-<h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9">
-<li><p>以段落为写作的基本单位,每个段落有其中心主旨</p>
-</li>
-<li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p>
-</li>
-<li><p>使用主动语态</p>
-</li>
-<li><p>使用肯定句陈述</p>
-</li>
-<li><p>省略冗词</p>
-</li>
-<li><p>避免连续使用结构松散的句子</p>
-</li>
-<li><p>以相似的句型结构叙述对等的概念</p>
-</li>
-<li><p>将相关的词放在一起</p>
-</li>
-<li><p>总结叙述时,要使用同一时态</p>
-</li>
-<li><p>将需要强调的词或词组放在句子末尾</p>
-<p>随笔记录:</p>
-<object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px">
-</object><br><br>
-
-
-
-
-</li>
-</ol>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol>
-<li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p>
-</li>
-<li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 ]]></content>
       <categories>
-        <category>BookNotes</category>
+        <category>Courses</category>
+        <category>Text &amp; Web Mining</category>
       </categories>
       <tags>
-        <tag>Records</tag>
-        <tag>BookNotes</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -115,41 +80,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Data Science</title>
-    <url>/2020/09/25/Data-Science/</url>
-    <content><![CDATA[<p>Data Science ralated material</p>
+    <title>Internet Programming</title>
+    <url>/2020/09/24/Internet-Programming/</url>
+    <content><![CDATA[<p>Internet Programming course</p>
 <a id="more"></a>
 
-<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
-<li>工程能力</li>
-<li>对数据、对业务的理解</li>
-<li>机器学习算法与模型</li>
-</ol>
-<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
-<li>Kaggle天池比赛</li>
-<li>在github上follow一些有意思的ML项目</li>
-</ol>
-<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
-<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
-<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+<h2 id="Practical-homework"><a href="#Practical-homework" class="headerlink" title="Practical homework"></a>Practical homework</h2><p>tips:</p>
+<ol>
+<li>When use the higher version of tomcat (like version 8.5), it is very likely to happen this situation: the console report connection failure with database. One way to fix that is to use the new/lastest version of mysql connnector (like fullname is [mysql-connector-java-8.0.21.jar]).</li>
 </ol>
 ]]></content>
       <categories>
-        <category>Data Science</category>
+        <category>Courses</category>
+        <category>Internet Programming</category>
       </categories>
       <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Encrypted</title>
-    <url>/2020/09/24/Encrypted/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
+        <tag>Courses</tag>
       </tags>
   </entry>
   <entry>
@@ -183,7 +129,7 @@
 </li>
 <li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#102;&#104;&#117;&#x61;&#x6e;&#x67;&#x31;&#56;&#x31;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#102;&#104;&#117;&#x61;&#x6e;&#x67;&#x31;&#56;&#x31;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#104;&#x75;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x66;&#104;&#x75;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
 </li>
 <li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
 </li>
@@ -194,7 +140,7 @@
 <li>The html would possible automatically generate a opacity style with random value, it could be a headache.<br> put the line in the body title would kindly fix this problem <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;body style&#x3D;&quot;&#x2F;*! opacity:1; *&#x2F;&quot;&gt;</span><br></pre></td></tr></table></figure></li>
 <li>how to merge a html file with v3 and v4 of d3 framework:<br> download d3.v3 to local files and use d3.v3 as a local javascript.</li>
 </ol>
-<h3 id="You-can-see-the-project-through-this-link"><a href="#You-can-see-the-project-through-this-link" class="headerlink" title="You can see the project through this link"></a>You can see the project through <a href="muyuhuatang.github.io/myDoc/DashBoard-GE2020">this link</a></h3><h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
+<h3 id="You-can-see-the-project-through-this-link"><a href="#You-can-see-the-project-through-this-link" class="headerlink" title="You can see the project through this link"></a>You can see the project through <a href="http://muyuhuatang.github.io/myDoc/DashBoard-GE2020">this link</a></h3><h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
 <ol>
 <li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
 </li>
@@ -207,54 +153,11 @@
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#x66;&#x68;&#x75;&#97;&#110;&#103;&#49;&#x38;&#49;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#x66;&#x68;&#x75;&#97;&#110;&#103;&#49;&#x38;&#49;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
+<p>My email: <a href="mailto:&#102;&#x68;&#x75;&#97;&#110;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#102;&#x68;&#x75;&#97;&#110;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
         <category>Information Visualization</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Internet Programming</title>
-    <url>/2020/09/24/Internet-Programming/</url>
-    <content><![CDATA[<p>Internet Programming course</p>
-<a id="more"></a>
-
-<h2 id="Practical-homework"><a href="#Practical-homework" class="headerlink" title="Practical homework"></a>Practical homework</h2><p>tips:</p>
-<ol>
-<li>When use the higher version of tomcat (like version 8.5), it is very likely to happen this situation: the console report connection failure with database. One way to fix that is to use the new/lastest version of mysql connnector (like fullname is [mysql-connector-java-8.0.21.jar]).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Internet Programming</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Intrusion Detection</title>
-    <url>/2020/09/24/Intrusion-Detection/</url>
-    <content><![CDATA[<p>Intrusion Detection course</p>
-<a id="more"></a>
-
-<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
-<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
-</li>
-<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
-</ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
-<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Intrusion Detection</category>
       </categories>
       <tags>
         <tag>Courses</tag>
@@ -285,51 +188,30 @@
       </tags>
   </entry>
   <entry>
-    <title>Small Tools</title>
-    <url>/2020/10/06/SmallTools/</url>
-    <content><![CDATA[<p>Some interesting small tools</p>
+    <title>Data Science</title>
+    <url>/2020/09/25/Data-Science/</url>
+    <content><![CDATA[<p>Data Science ralated material</p>
 <a id="more"></a>
 
-<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
-
-
-<ol>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
+<li>工程能力</li>
+<li>对数据、对业务的理解</li>
+<li>机器学习算法与模型</li>
 </ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://tool.lu/ip/">online ip check</a></li>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
+<li>Kaggle天池比赛</li>
+<li>在github上follow一些有意思的ML项目</li>
 </ol>
-]]></content>
-      <tags>
-        <tag>Interesting</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python Learning</title>
-    <url>/2020/09/08/Python-Learning/</url>
-    <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
-<a id="more"></a>
-
-<p>Notes for 《Learn Python The Hard Way》:</p>
-<ol>
-<li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li>
-<li>Could use “%r” to debug because it will show the raw data of the parameter.</li>
-<li>Command Line programming is very important for beginners.</li>
-</ol>
-<p>Reference:</p>
-<ol>
-<li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li>
-<li></li>
+<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
+<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
+<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
 </ol>
 ]]></content>
       <categories>
-        <category>Programming Language</category>
+        <category>Data Science</category>
       </categories>
       <tags>
-        <tag>Notes</tag>
-        <tag>Python</tag>
+        <tag>Record</tag>
       </tags>
   </entry>
   <entry>
@@ -382,130 +264,6 @@
       </categories>
       <tags>
         <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Text &amp; Web Mining</title>
-    <url>/2020/09/24/Text-Web-Mining/</url>
-    <content><![CDATA[<p>Text &amp; Web Mining course</p>
-<a id="more"></a>
-
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
-<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
-<ol>
-<li>learning_rate</li>
-<li>batch_size</li>
-<li>dropout (use only if it helps)</li>
-<li>batch norm (use only if it helps)</li>
-<li>weight_decay (L2 regularization) (use only if it helps)</li>
-<li>hidden_dim</li>
-<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
-</ol>
-<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
-<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
-<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
-<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
-<li>use code below to check GPU status<br> !nvidia-smi</li>
-<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
-<li>change dir<br>import os<br>os.chdir(“drive/My Drive/Colab Notebooks/…/“)</li>
-<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
-</ol>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
-<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Text &amp; Web Mining</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog start-up and settings</title>
-    <url>/2020/09/04/blog/</url>
-    <content><![CDATA[<p>Welcome to Mysite!</p>
-<a id="more"></a>
-
-<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
-<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
-<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
-<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
-</li>
-</ol>
-<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
-<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
-<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
-<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
-</li>
-<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
-<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
-       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
-</li>
-<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
-</ol>
-<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
-<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
-</li>
-<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
-<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
-<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
-<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> to</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> So, I could use the format below:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
-<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-<pre><code> Tips: 1) set height as specific px but not percentage.
-       2) use local reference first, because URL need much more time to load.
-       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
-<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
-       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
-</li>
-<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
-</li>
-<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
-</li>
-<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
-</li>
-<li><p>How to show independent website page in the Github Pages blogs</p>
-<ol>
-<li>restore all the needed website page in the /myDoc file</li>
-<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
-<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
       </tags>
   </entry>
   <entry>
@@ -2430,5 +2188,247 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
       <categories>
         <category>Juypter</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Small Tools</title>
+    <url>/2020/10/06/SmallTools/</url>
+    <content><![CDATA[<p>Some interesting small tools</p>
+<a id="more"></a>
+
+<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
+
+
+<ol>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://tool.lu/ip/">online ip check</a></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>Interesting</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Academic Records</title>
+    <url>/2020/09/25/Academic-Records/</url>
+    <content><![CDATA[<p>Records about useful or intersting academic information</p>
+<a id="more"></a>
+
+<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
+<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
+<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
+<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
+<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
+<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
+<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
+<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Encrypted</title>
+    <url>/2020/09/24/Encrypted/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Encrypted</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Book Notes - Chinese</title>
+    <url>/2020/09/19/Book-notes/</url>
+    <content><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p>
+<p> 这里也保存了一些优秀的中文版的图书的读书笔记.</p>
+<a id="more"></a>
+
+
+
+<h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="Notes-collection-Computer-Science-Four-Element-Courses"><a href="#Notes-collection-Computer-Science-Four-Element-Courses" class="headerlink" title="Notes collection - Computer Science/Four Element Courses"></a>Notes collection - Computer Science/Four Element Courses</h3><p>   Reading notes:<br><object data="ComputerScience-fourElements.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
+<h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol>
+<li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p>
+</li>
+<li><p>锤子 + 钉子 理论</p>
+</li>
+<li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p>
+<p>随笔记录:</p>
+<object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px">
+</object><br><br>
+
+</li>
+</ol>
+<h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol>
+<li>单数名词末尾加‘s,构成名词所有格</li>
+<li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li>
+<li>将作附加说明的插入语放在两个逗号中间</li>
+<li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li>
+<li>不可以用逗号直接连接两个完整的句子</li>
+<li>不可以讲完整的句子任意拆分成两部分</li>
+<li>句首的分词短语所指代的主语应与主句的主语保持一致</li>
+<li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li>
+</ol>
+<h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9">
+<li><p>以段落为写作的基本单位,每个段落有其中心主旨</p>
+</li>
+<li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p>
+</li>
+<li><p>使用主动语态</p>
+</li>
+<li><p>使用肯定句陈述</p>
+</li>
+<li><p>省略冗词</p>
+</li>
+<li><p>避免连续使用结构松散的句子</p>
+</li>
+<li><p>以相似的句型结构叙述对等的概念</p>
+</li>
+<li><p>将相关的词放在一起</p>
+</li>
+<li><p>总结叙述时,要使用同一时态</p>
+</li>
+<li><p>将需要强调的词或词组放在句子末尾</p>
+<p>随笔记录:</p>
+<object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px">
+</object><br><br>
+
+
+
+
+</li>
+</ol>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol>
+<li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p>
+</li>
+<li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>BookNotes</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+        <tag>BookNotes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python Learning</title>
+    <url>/2020/09/08/Python-Learning/</url>
+    <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
+<a id="more"></a>
+
+<p>Notes for 《Learn Python The Hard Way》:</p>
+<ol>
+<li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li>
+<li>Could use “%r” to debug because it will show the raw data of the parameter.</li>
+<li>Command Line programming is very important for beginners.</li>
+</ol>
+<p>Reference:</p>
+<ol>
+<li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Programming Language</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog start-up and settings</title>
+    <url>/2020/09/04/blog/</url>
+    <content><![CDATA[<p>Welcome to Mysite!</p>
+<a id="more"></a>
+
+<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
+<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
+<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
+<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
+</li>
+</ol>
+<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
+<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
+<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
+<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
+</li>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
+<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
+       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
+</li>
+<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
+</ol>
+<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
+<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
+</li>
+<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
+<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
+<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
+<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> to</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> So, I could use the format below:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
+<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+<pre><code> Tips: 1) set height as specific px but not percentage.
+       2) use local reference first, because URL need much more time to load.
+       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
+</li>
+<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
+<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
+       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
+</li>
+<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
+</li>
+<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
+</li>
+<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
+</li>
+<li><p>How to show independent website page in the Github Pages blogs</p>
+<ol>
+<li>restore all the needed website page in the /myDoc file</li>
+<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
+<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
   </entry>
 </search>
