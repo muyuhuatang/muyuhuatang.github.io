@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-10-23T02:41:37.649Z</updated>
+  <updated>2020-10-23T02:43:29.621Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/"/>
     <id>http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/</id>
     <published>2020-10-23T02:41:34.399Z</published>
-    <updated>2020-10-23T02:41:37.649Z</updated>
+    <updated>2020-10-23T02:43:29.621Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol><li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li><li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li></ol><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol><li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li><li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li></ol><h3 id="Original-dataset-information"><a href="#Original-dataset-information" class="headerlink" title="Original dataset information"></a>Original dataset information</h3><p>Time    adult    breast-cancer    credit-rating    mushroom    ionosphere    waveform    sonar    supermarket<br>attribute number    15    10    16    23    35    41    61    217<br>instance number    32561    286    690    8124    351    5000    208    4637</p><h3 id="program-Reference"><a href="#program-Reference" class="headerlink" title="program Reference"></a>program Reference</h3><ol><li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>Detailed AR mining process</p><a id="more"></a><h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol><li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li><li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li></ol><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol><li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li><li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li></ol><h3 id="Original-dataset-information"><a href="#Original-dataset-information" class="headerlink" title="Original dataset information"></a>Original dataset information</h3><p>Time    adult    breast-cancer    credit-rating    mushroom    ionosphere    waveform    sonar    supermarket<br>attribute number    15    10    16    23    35    41    61    217<br>instance number    32561    286    690    8124    351    5000    208    4637</p><h3 id="program-Reference"><a href="#program-Reference" class="headerlink" title="program Reference"></a>program Reference</h3><ol><li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li></ol>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;h2 id=&quot;Association-Problem&quot;&gt;&lt;a href=&quot;#Association-Problem&quot; class=&quot;headerlink&quot; title=&quot;Association Problem&quot;&gt;&lt;/a&gt;Associatio</summary>
-      
+    <summary type="html">&lt;p&gt;Detailed AR mining process&lt;/p&gt;</summary>
     
     
     
