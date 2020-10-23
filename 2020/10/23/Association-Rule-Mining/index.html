@@ -28,11 +28,13 @@
 <meta property="og:site_name" content="Huang&#39;s Blog">
 <meta property="og:description" content="Detailed AR mining process">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/time-deduction.png">
 <meta property="article:published_time" content="2020-10-23T02:41:34.399Z">
-<meta property="article:modified_time" content="2020-10-23T02:43:29.621Z">
+<meta property="article:modified_time" content="2020-10-23T03:19:42.339Z">
 <meta property="article:author" content="Fan Huang">
 <meta property="article:tag" content="Data Mining">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/time-deduction.png">
 
 <link rel="canonical" href="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/">
 
@@ -226,7 +228,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-10-23 10:41:34 / Modified: 10:43:29" itemprop="dateCreated datePublished" datetime="2020-10-23T10:41:34+08:00">2020-10-23</time>
+              <time title="Created: 2020-10-23 10:41:34 / Modified: 11:19:42" itemprop="dateCreated datePublished" datetime="2020-10-23T10:41:34+08:00">2020-10-23</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -255,14 +257,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>514</span>
+              <span>2.2k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
+              <span>2 mins.</span>
             </span>
 
         </div>
@@ -285,8 +287,133 @@
 <li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
 <li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
 </ol>
-<h3 id="Original-dataset-information"><a href="#Original-dataset-information" class="headerlink" title="Original dataset information"></a>Original dataset information</h3><p>Time    adult    breast-cancer    credit-rating    mushroom    ionosphere    waveform    sonar    supermarket<br>attribute number    15    10    16    23    35    41    61    217<br>instance number    32561    286    690    8124    351    5000    208    4637</p>
-<h3 id="program-Reference"><a href="#program-Reference" class="headerlink" title="program Reference"></a>program Reference</h3><ol>
+<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
+<thead>
+<tr>
+<th>Time</th>
+<th>labor</th>
+<th>breast-cancer</th>
+<th>wisconsin-breast-cancer</th>
+<th>hypothyroid</th>
+<th>mushroom</th>
+<th>letter</th>
+<th>adult</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute number</td>
+<td>17</td>
+<td>10</td>
+<td>10</td>
+<td>30</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+</tr>
+<tr>
+<td>instance number</td>
+<td>57</td>
+<td>286</td>
+<td>699</td>
+<td>3772</td>
+<td>8124</td>
+<td>20000</td>
+<td>32561</td>
+</tr>
+<tr>
+<td>setting 1</td>
+<td>263</td>
+<td>302</td>
+<td>296</td>
+<td>372</td>
+<td>343</td>
+<td>526</td>
+<td>746</td>
+</tr>
+<tr>
+<td>setting 2</td>
+<td>289</td>
+<td>337</td>
+<td>314</td>
+<td>587</td>
+<td>723</td>
+<td>2493</td>
+<td>4633</td>
+</tr>
+<tr>
+<td>brute estimate</td>
+<td>16246</td>
+<td>81513</td>
+<td>199221</td>
+<td>1075057</td>
+<td>2315421</td>
+<td>5700200</td>
+<td>9280211</td>
+</tr>
+</tbody></table>
+<pre><code>Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100
+Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</code></pre>
+<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
+<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>spectrum disorder screening - adolescent</th>
+<th>spectrum disorder screening - children</th>
+<th>spectrum disorder screening - adult</th>
+<th>absent at work</th>
+<th>SouthGermanCredit</th>
+<th>mushroom</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>22-&gt;21</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>104</td>
+<td>292</td>
+<td>704</td>
+<td>740</td>
+<td>1000</td>
+<td>8124</td>
+</tr>
+<tr>
+<td>time / setting 1</td>
+<td>303</td>
+<td>320</td>
+<td>319</td>
+<td>317</td>
+<td>387</td>
+<td>409</td>
+</tr>
+<tr>
+<td>time / setting 2</td>
+<td>307</td>
+<td>346</td>
+<td>372</td>
+<td>472</td>
+<td>953</td>
+<td>976</td>
+</tr>
+</tbody></table>
+<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
+<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2020/10/23/Association-Rule-Mining/time-deduction.png" alt="time complexity deduction"></li>
+<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
+</ol>
+<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a target="_blank" rel="noopener" href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
 </ol>
 
@@ -389,7 +516,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number">1.</span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">1.1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">1.2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-information"><span class="nav-number">1.3.</span> <span class="nav-text">Original dataset information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#program-Reference"><span class="nav-number">1.4.</span> <span class="nav-text">program Reference</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number">1.</span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">1.1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">1.2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-test-information"><span class="nav-number">1.3.</span> <span class="nav-text">Original dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-dataset-test-information"><span class="nav-number">1.4.</span> <span class="nav-text">Additional dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brute-force-estimation"><span class="nav-number">1.5.</span> <span class="nav-text">Brute force estimation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number">1.6.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug-Reference"><span class="nav-number">1.7.</span> <span class="nav-text">Debug Reference</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -462,12 +589,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">81k</span>
+    <span title="Symbols count total">82k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">59 mins.</span>
+    <span title="Reading time total">1:01</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
