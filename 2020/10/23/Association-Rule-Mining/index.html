@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/time-deduction.png">
 <meta property="og:image" content="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/time-plot.png">
 <meta property="article:published_time" content="2020-10-23T02:41:34.399Z">
-<meta property="article:modified_time" content="2020-10-23T03:25:39.949Z">
+<meta property="article:modified_time" content="2020-10-25T03:34:55.002Z">
 <meta property="article:author" content="Fan Huang">
 <meta property="article:tag" content="Data Mining">
 <meta name="twitter:card" content="summary">
@@ -227,10 +227,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2020-10-23 10:41:34 / Modified: 11:25:39" itemprop="dateCreated datePublished" datetime="2020-10-23T10:41:34+08:00">2020-10-23</time>
+              <time title="Created: 2020-10-23 10:41:34" itemprop="dateCreated datePublished" datetime="2020-10-23T10:41:34+08:00">2020-10-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-10-25 11:34:55" itemprop="dateModified" datetime="2020-10-25T11:34:55+08:00">2020-10-25</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -258,7 +264,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>2.2k</span>
+              <span>3k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
@@ -287,6 +293,23 @@
 <h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
 <li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
 <li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
+<li><a target="_blank" rel="noopener" href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+</ol>
+<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
+<li><p>Algorithm steps<br> Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
+<p> Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
+<p> Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
+<p> Step-4: Sort the rules as the decreasing order of lift.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
+</li>
+</ol>
+<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
+<li>WEKA use data set in .arff format<br> tips: 1) use <a target="_blank" rel="noopener" href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a target="_blank" rel="noopener" href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><pre><code>   2) can also use [arff functions](https://www.youtube.com/watch?v=pecmx-KuUQA&amp;ab_channel=AsteroidGroup) to change xls and csv files directly into arff files</code></pre>
+</li>
+<li>There are 12 parameters could be set before running Apriori <a target="_blank" rel="noopener" href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
 </ol>
 <h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
 <thead>
@@ -410,7 +433,7 @@ Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfide
 <li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
 </ol>
 <h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2020/10/23/Association-Rule-Mining/time-plot.png" alt="time-plot"></p>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
 <li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
 <li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
 </ol>
@@ -518,7 +541,7 @@ Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfide
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number">1.</span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">1.1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">1.2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-test-information"><span class="nav-number">1.3.</span> <span class="nav-text">Original dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-dataset-test-information"><span class="nav-number">1.4.</span> <span class="nav-text">Additional dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brute-force-estimation"><span class="nav-number">1.5.</span> <span class="nav-text">Brute force estimation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plot"><span class="nav-number">1.6.</span> <span class="nav-text">Plot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number">1.7.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug-Reference"><span class="nav-number">1.8.</span> <span class="nav-text">Debug Reference</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number">1.</span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">1.1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">1.2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori"><span class="nav-number">1.3.</span> <span class="nav-text">Apriori</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori-in-WEKA"><span class="nav-number">1.4.</span> <span class="nav-text">Apriori in WEKA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-test-information"><span class="nav-number">1.5.</span> <span class="nav-text">Original dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-dataset-test-information"><span class="nav-number">1.6.</span> <span class="nav-text">Additional dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brute-force-estimation"><span class="nav-number">1.7.</span> <span class="nav-text">Brute force estimation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plot"><span class="nav-number">1.8.</span> <span class="nav-text">Plot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Error-analysis"><span class="nav-number">1.9.</span> <span class="nav-text">Error analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number">1.10.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug-Reference"><span class="nav-number">1.11.</span> <span class="nav-text">Debug Reference</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -591,12 +614,12 @@ Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfide
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">88k</span>
+    <span title="Symbols count total">89k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1:04</span>
+    <span title="Reading time total">1:05</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
