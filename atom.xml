@@ -6,7 +6,7 @@
   <link href="http://muyuhuatang.github.io/atom.xml" rel="self"/>
   
   <link href="http://muyuhuatang.github.io/"/>
-  <updated>2020-10-25T03:34:55.002Z</updated>
+  <updated>2020-10-29T08:06:10.168Z</updated>
   <id>http://muyuhuatang.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tools</title>
+    <link href="http://muyuhuatang.github.io/2020/10/27/Tools/"/>
+    <id>http://muyuhuatang.github.io/2020/10/27/Tools/</id>
+    <published>2020-10-27T04:12:53.324Z</published>
+    <updated>2020-10-29T08:06:10.168Z</updated>
+    
+    <content type="html"><![CDATA[<p>Useful tools and usage tips</p><a id="more"></a><h2 id="TeamViewer"><a href="#TeamViewer" class="headerlink" title="TeamViewer"></a>TeamViewer</h2><ol><li><a href="https://community.teamviewer.com/t5/TeamViewer-Knowledge-Base-ZH/%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD-Mac-%E4%B8%8A%E7%9A%84-TeamViewer/ta-p/33671">how to totally delete TeamViewer in Mac</a> </li><li>NTU internal network would block the sign-in and internet process of TV, can try to use VPN to fix this problem.</li><li><a href="https://community.teamviewer.com/t5/General-Questions-EN/PC-shows-as-online-then-connecting-then-nothing/td-p/26593">pc shows online but nothing happened, how to fix</a> / or just change internet or check the firewall settings.</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Useful tools and usage tips&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Records" scheme="http://muyuhuatang.github.io/categories/Records/"/>
+    
+    
+    <category term="Tools" scheme="http://muyuhuatang.github.io/tags/Tools/"/>
+    
+  </entry>
   
   <entry>
     <title>Association Rule Mining</title>
@@ -194,12 +215,12 @@
     <link href="http://muyuhuatang.github.io/2020/09/24/Internet-Programming/"/>
     <id>http://muyuhuatang.github.io/2020/09/24/Internet-Programming/</id>
     <published>2020-09-24T14:53:15.808Z</published>
-    <updated>2020-10-21T16:49:55.084Z</updated>
+    <updated>2020-10-29T08:07:54.708Z</updated>
     
-    <content type="html"><![CDATA[<p>Internet Programming course</p><a id="more"></a><h2 id="Practical-homework"><a href="#Practical-homework" class="headerlink" title="Practical homework"></a>Practical homework</h2><p>tips:</p><ol><li>When use the higher version of tomcat (like version 8.5), it is very likely to happen this situation: the console report connection failure with database. One way to fix that is to use the new/lastest version of mysql connnector (like fullname is [mysql-connector-java-8.0.21.jar]).</li></ol>]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="7e2f6b423377b020eaf76a3dafb3c0cee98cfb5f9ee09da5c600864f43e102ca">8e6e90801244b35f226b5f6902416b0e6674474bb2e04c3532aa41fc557375ba1216c06173c10b20fcbf4be5cfb07fe1ec781e00f7f689b0dc2e76b1847ac725efbb43fa891046e5b181e5ef9523cf3c8817e531f5f74cf3a5f12aaccfdfc6cdf1df5f6e6eb4e1beeb04600f6d8cf2c012c7fb5d25c497be1ccf7be87798c26f86c9586b3b3b2b366a43eb623190c22340f747a0cf9bb02919732a0ddec2d2b67ae1623f3e8d77e4ada4c4a4f4d38b92ace492769317c70b5b592f04908eed1a7734c5de27d4e97611ad2259ef56d868babdfa2b51c1b46d96231741193b870e0f759274df753bb2e77c55018f342e5d0a5b5f6c6e6ea33613f2eec52011661e35299dbf6f9617b276815375522a7111ca0757f75f3c33e0e930aed25693d515ea6cb505476663c5d8e78938bebe55a5afc65de0ed6dda70661be5044d2854502d77ba8304329acac91f4144f314ba23ba3a4b1390278e931ad20e2fc7f61b4c75ae21c4250138e37060687f88164ca3d0daff46983473933e1acd7ecf37aa6bffeaacea3e4294ced7dc4f8f049b1cbc4bbff0742f48d5098430a9e842a9ed619f25999d708f1a251c980f4e96ea196ce6b3f77e4b2f06ac8e48522f24c63d3402efecf54d98f4d9e9114ecc0483a6b693f60fa65afd1b16828b6f62308bb1d1f8f9568869f6ecdcb747cecb5ccb45d8a4e238df484c81bae01612b3a9dd1152022701f0ccd8636898d8b317d2307ff97d080026f8ee8f29b17bf80e4a84948e3c6fa33d96048fe1301cb69b7133c3c4ef9ede74135cefa2cba15e8749f50f2db91df5d8cf3dc1872983514289cff8845934a2de4ed65a235736988de6804ef797b6ea8957cafc880e869d4a7f12a93ec88c3a4614b629cabef2e590f15cc61dfcefb7f45449f582980f32b0d1d3426bd2956d34652c50a2aa1574e7060e82ac602fe9aa005ea0c9b29715fa16b964b593b38eead4ad8f71b6bc55eebfc10035799531024348a6c37ce90525d729408fc3bb65c0d556d2a2202657ef54a1919fe09df79f09c06f6cbdcfd6f7244a2682dd03bacdbfc191d8083dc92a57832f0beb72057217660d6ae8cb1148277fafb6a2c2c321d5801f589441c54f824d28fd2476e7d54b850cbbf8fa888a291d01641451c61fe3cdaa2ea3da31f03ed31a12a6fa73ba7983fa0835e1ba9200e6028db57989fbac71dd1850f76ce72aefc100a041122f82d3829f568ad889dec27754a47a625ffd200c0d3a828c2c17dee962da9c726f770fe71ccc49d934b02a3162430d53cd4284b4000c1713a35254debf496baffc11542feb390b4873f60ca0d1753d571a4f9e358602793c1a69c90d382f793271af80f5c62315b2b15be9f88065e033878195d49c60eaf94f7c2955b64f81084c95e4d93432704308a35a8ea2ab4c19c82b1dae77a23bc98ab4139c86b8e20cc636cf402ebfb638fdc877761e3effc1a0f64b8a688e15d09855cb032656663fbaa1159fcc221589e6668f3cec5bb6de50b5c0670d9e8b0a6158112ad3ae019045063684f7c83c3d4003ed31e3a9360d80fd596fe59d706f21e245518e4970ed5078c77ef5270fa42a10d6243a844ebea318fb7303c2279fb78de374f436b2c55468fc34a5ee614e1a5b0335190f72db746e1a90132fb393d29258ffdc0ce8d6f286e8a74de1f9d702fff66073007e5d4bffc1b9aa25d8eb19e2390ba46877cb91142497da75ca453bd435b29b7dacec730ddd24d7c97288cd0d708af4d89c6406cd6f15dfd7817c852a48eebf809e04e4ab5bba2dfea0fac83763916f5148b3a240a5af58d679cf8d6534977c8cabed25dd19f1521baf32011521c63cd656177fc6f77c94fe2c6a4665b91bb24eb84e4d8f806d455e585b5c422033effeb4a09244d223e640f09f5e25cf7defc4c73ac671464548425f53f3334acd063a6db0c96754da8666dc6997d544e075fc4ef8bd615e65ca5984ce3aea73156b35a4b2c1428812cc5361e26d056e73144be8848ba74007e880bc79704cb1d0b90dee8728a998a77e44ab2b42ae464d1cbbe9bc61460ee1882eb9dce3523905e333e1eac9c838f9ccceb2f6dc6a46900d9713c352afebace02232703ff52b0db5dba04e1758700b22c43b6d6eb10fa5d74646d65e1f07740aeb71a1242da90edb98ffbef5a30fc779cf76c49d70de3ffb83d07ccd87050f4b08663770711990909680087165b42c488a43586b2a8456c21f2167ee68de715b95660aa0cfc8f2de2483d6a716beb33138237fb96576b3bec77fc2153c37b3c9e52e4b1a1e2537cdd99566ed3e3329f02c2824ec58f6d77679f29f8504dcf933b65ea8e8657d34a03522b88ab7ebd186e4831a7e23bf7188c46f8b5b97cffea5cd01abf68e11c9272b914255ab9f12ff563b2990bbd330cdf2f09abce1b2ba2c5d129f3a6f5deeb1d93a454bfd17394c7217691900346abcb15b8dd0e31539e0b0c8ac1e6405770c2248d430433a31a554d642071da81e6e78b2effe60981520bb4548c82d16a41f2c7693881dfd3d389c56bb536b0d6831871e3d0d0123db5d60c6af3a9600e4757d3fb27be2cff227086535bfe865a1b46255a8ef73354d62ee655b775530aa8bb21047a92d3dbe3fbb5ba8a9cebbe12e60cf25f0396b817e3d0b7964a81ae23b44596fa203ec42a558308b69d87075e2e22dbba178a3c71d329018cd5e52415b70a00c280902e99c0252809669193144836de5c2254c971cea830f00397f264c83f69b3450b56850336ac8183ef00fcd28afaed6f6a43c1d1f42b5172439cd7b61fc8efd54e5aa05121c3c6ffaaa3fde0c401ca2317c456ade9a6c54c81eed806b3309883e8c6377c8a4f3abbaf889e001b941ee6d47e760ebe3d3a90dee2bef7c9a4b806c6238b4aa69660f286cb36aa51bbcbe3896099a8fb0dfe0fe04d04496fcd8f9c55a4779cdf9efb3a17ccd1d49c43a7e28c3acdd00e86dcb4e3e7ce85af68c9cf580913c08db45c7639dcdd03be51c295063462408200ce31a92db28f4464f8b5f895d913cb645d58a5b16cf22269acf80c833c47eaf7b3022d74b077eacdb9963043c8ec2513dffbad134d193109d1a98d812d8e02d35b9ea8d1657e69062902cf5fe192795f8e149ad1f1edc23f1fb9d53dd61020f482250ae098af8be2c88dad033b72e5a9b4a0453d0dd1dc062a864f853cb972b8a102259279394456494c312dad3dc1933d33503b1ae1f09d4331fd3728f1db812f90825054adef973e037d8a0fe6132702899770db5d9176728014e721ac93b3aeb8b41859844de1164653bb8002a0684fa9c54ade5cba6deb8c3367b0b330344dcfba8867ed5206c41b49cd07455cb69f984fe7d75e5fde1ce39b3aa6c950ffb13ece0e0158651a3fbb205c6ddd425c2aac71ae2b940a2c16521ed1f1cd3d137012114d0248b2e0cd55421bd69ab8791a451c36b0cb91e26ea648b3ab38d9b20dd83318906e545cc79d5abff47c606b385fd8d602d2551f08ff59d1b78bd287e26afd0f7744c606e76e96700c76d09a09fb022db809e711c96f8b4bc5b1cd8d8992368664edf1d51869720849ca16a1b46fa6f2c175759c6a53fb37ff65477c79146c092e14da2cdb2703f9f8b65972333fefa80dc058c8ca11509e8180e99a3158dc2301c74df70977d5744113d53aaae1738353f3e32ba5b406e861b41fcf6ea5b6f2f4eb22348a39c920695f7b490b713f5686b4d1fb834404675c27dd2c9934e100f19bbe05c877c25c105fef8d77f040be7ddbfd18175261570dac2968fbc64d12fa306707e097de1d94a4d4b12f9eec6f02c99ff44307c977789bec978c69df86f2c3382f69899f3e545998751ebeb45a102ceba16b8b567cb05a9f5187e70dd2cfafc3218dd6a43464da437bc4fe5aab377968dd63fdda82fdde03ec4820d5e8ea98e4218aa7f4267a812b65d4c1c37bbcb6bd36c792b68fb156d3cf3a5847bc089948b501ff2b71adb883557a042804b4ab0fbbbbf5ea64b6175cecc461cad8718a722626bb2a71ca3e938e7e5914555cced3419ac10afeea13b95cfe6f1e27114e26876dead67f9e253ffd63d13a8f53034ac1f058dc809e9f21391e881345c27bf569a223f489eb96e6aea3d12febc3ecff7bc24dd33189c11814f316f912e725f416d64ebb189a7d76275353fec971d57d1c58136b700cf17de8b8f56a63f2f413651a0d18c09d1c000f32f209da5e35bfacac1a43d8623eb20bd049dfa49cea66ad5052f3ac0ee757698117f21a97090f328ce85182fc93efcf8a6752e770a52a6b81ac9ad7bb19d82009a20aaa34f9596b40ebd72940e81c878ba23b1077904e75e6b9bea0fb404bb351af7b2b8da1a74b51b51dce9c47dce71adc35c12570251678ac29e44d8abcbb9e05e08481a8e9b5c283a72e2a4e07ec3844395755b0b9b71f4ee831638961a23881cb86cb3a3cdfa5474f5946cbeb03eb8ab1371d5320c448c8f8e334f776c60fc26bd0add3cac931d6dff21b12c21adc22431a205ff5428092f4599cb8f523fdd47c8e3f11315de66e94927a139a17af678067a73883a46f28950063359b215275e1183b2fc6315b55e5c9616208fdc69da73510d8dc8fe5a0d52f41711dcd3f246bdadfad33719b00b37bfe00e49e3299311bbe023228568451a721f989c4bf37104d0d2e1229a554f3db81acc02828ea2f54002acbb3389216aca5af4fc923ba0ad5db54d9de596d04430fdf2bf34e4c7096b896e83afb54c074c145e9e68d3d4da95c265696734fd5523c693bc7378c379fc143082a1fb1741237d28b803f593b9b1f1955b2e4e99d1380967fe7be394ba58045a382158f50174c580afb41f2caa0a4cd28ea393c2f63be9c7f35c2ca886de9e94b8ed8c802211b7db47fd7e0d4ad0437d0b4aded755872540d19fa7db6ea6df0756bfc5d642edeb634e25e44a5fb642dcf2b71423f4a4314e22241f28cb3dedc48fc32427bc4c0023e5db2cb9b9930c9a74e5adc4529bf9304a8bf6f90222edc5ca1358aefe2805072c09f6f54f1db6de31c9187d6c26953b4388923c26b524ebae5b82e08b497195c8d8e69a44ff78fca24f836923f48c8a89dc774e905a69fc56386cbbfa82843c9e39867de296432b79b66993d68cfa9135ae842e28035d8d7bddb80dc58fada88b62dc6d6a90fde2ff212cb164464701c6b74b5de1ccc045eace279607cc92b0f455e3017a468ea9798b0f4e6aea7f772f794fc448b37e8ea86f225095065a0d4f94fd9f38190d3bcb5f464a77822105b578d29489374a25383ada98bd48cc19a6202328f6bff7ba414c52ae95af9262bd45bb17995ab166b680e291e22798663f10d9089e74cb7a445696a95c3d75551a94bdb0ecddbdb454c38775d60b8e6007f9edcbb4e4cbdb3711b0b644815d0c035329a34592d6705e8b420483f34c1becdbd2edba9dc6bbb702713869b8284e87f081bc390c021fbbc6a805a1e6ab71cde5b9d8eba78dd9f3f94b2502e3a0e0a2dbc48654e23c069bb89ecd65079e64d6d2103f29103aae1bf99b264433f7f55448829a4768111a06a2e30ac5cc7f206b7386f33bcca2ceedaadeaeface299037fe2cfc5e52d5ecf30139ba3408728a8695a74e50df2a3e92584630289f77af295e311d9e9b1d35d288d33cec75cfc79c106de31d42f982fb86cc70d16b688e56e4ff519370113670ac0955fd9fd0c68d4286ef05ad830190259e5ac357088fac66a079f024f3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
-    <summary type="html">&lt;p&gt;Internet Programming course&lt;/p&gt;</summary>
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.</summary>
     
     
     
@@ -209,6 +230,8 @@
     
     
     <category term="Courses" scheme="http://muyuhuatang.github.io/tags/Courses/"/>
+    
+    <category term="Encrypted" scheme="http://muyuhuatang.github.io/tags/Encrypted/"/>
     
   </entry>
   
