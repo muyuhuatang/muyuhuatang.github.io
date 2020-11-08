@@ -1,139 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Intrusion Detection</title>
-    <url>/2020/09/24/Intrusion-Detection/</url>
-    <content><![CDATA[<p>Intrusion Detection course</p>
+    <title>Academic Records</title>
+    <url>/2020/09/25/Academic-Records/</url>
+    <content><![CDATA[<p>Records about useful or intersting academic information</p>
 <a id="more"></a>
 
-<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
-<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
-</li>
-<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
-</ol>
-<h2 id="APT-advanced-persistent-threat"><a href="#APT-advanced-persistent-threat" class="headerlink" title="APT - advanced persistent threat"></a>APT - advanced persistent threat</h2><ol>
-<li><a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E7%BA%A7%E9%95%BF%E6%9C%9F%E5%A8%81%E8%83%81">Wikipedia</a></li>
-<li>Refers mainly to hidden and long-term intrusion in computer, which is conducted mainly by professional attackers and aimed at specific targets.</li>
-<li>The biggest threat is that it is long-term, which means that people can not be certain when did their computers get infected. And that makes the process of recovery even harder and a bit more unnreliable.</li>
-</ol>
-<h2 id="Security-Orchestration-Automation-and-Response"><a href="#Security-Orchestration-Automation-and-Response" class="headerlink" title="Security Orchestration, Automation, and Response."></a>Security Orchestration, Automation, and Response.</h2><ol>
-<li><a href="https://www.fireeye.com/products/helix/what-is-soar.html">official website</a></li>
-</ol>
-<h2 id="Famous-virus"><a href="#Famous-virus" class="headerlink" title="Famous virus"></a>Famous virus</h2><p><a href="https://www.youtube.com/watch?v=3nrwAW_0FjU&ab_channel=TheScienceElf">A brief history of Computer Viruses - Youtube</a></p>
-<ol>
-<li>Stuxnet <a href="https://en.wikipedia.org/wiki/Stuxnet">wikipedia</a></li>
-</ol>
+<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
+<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
+<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
+<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
+<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
+<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
+<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
+<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
-<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
+<li></li>
 </ol>
 ]]></content>
       <categories>
-        <category>Courses</category>
-        <category>Intrusion Detection</category>
+        <category>Documents</category>
       </categories>
       <tags>
-        <tag>Courses</tag>
+        <tag>Record</tag>
       </tags>
   </entry>
   <entry>
-    <title>Text &amp; Web Mining</title>
-    <url>/2020/09/24/Text-Web-Mining/</url>
-    <content><![CDATA[<p>Text &amp; Web Mining course</p>
+    <title>Book Notes - Chinese</title>
+    <url>/2020/09/19/Book-notes/</url>
+    <content><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p>
+<p> 这里也保存了一些优秀的中文版的图书的读书笔记.</p>
 <a id="more"></a>
 
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
-<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
-<ol>
-<li>learning_rate</li>
-<li>batch_size</li>
-<li>dropout (use only if it helps)</li>
-<li>batch norm (use only if it helps)</li>
-<li>weight_decay (L2 regularization) (use only if it helps)</li>
-<li>hidden_dim</li>
-<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
+
+
+<h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="Notes-collection-Computer-Science-Four-Element-Courses"><a href="#Notes-collection-Computer-Science-Four-Element-Courses" class="headerlink" title="Notes collection - Computer Science/Four Element Courses"></a>Notes collection - Computer Science/Four Element Courses</h3><p>   Reading notes:<br><object data="ComputerScience-fourElements.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
+<h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol>
+<li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p>
+</li>
+<li><p>锤子 + 钉子 理论</p>
+</li>
+<li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p>
+<p>随笔记录:</p>
+<object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px">
+</object><br><br>
+
+</li>
 </ol>
-<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
-<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
-<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
-<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
-<li>use code below to check GPU status<br> !nvidia-smi</li>
-<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
-<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
-<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
+<h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol>
+<li>单数名词末尾加‘s,构成名词所有格</li>
+<li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li>
+<li>将作附加说明的插入语放在两个逗号中间</li>
+<li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li>
+<li>不可以用逗号直接连接两个完整的句子</li>
+<li>不可以讲完整的句子任意拆分成两部分</li>
+<li>句首的分词短语所指代的主语应与主句的主语保持一致</li>
+<li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li>
 </ol>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
-<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
+<h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9">
+<li><p>以段落为写作的基本单位,每个段落有其中心主旨</p>
+</li>
+<li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p>
+</li>
+<li><p>使用主动语态</p>
+</li>
+<li><p>使用肯定句陈述</p>
+</li>
+<li><p>省略冗词</p>
+</li>
+<li><p>避免连续使用结构松散的句子</p>
+</li>
+<li><p>以相似的句型结构叙述对等的概念</p>
+</li>
+<li><p>将相关的词放在一起</p>
+</li>
+<li><p>总结叙述时,要使用同一时态</p>
+</li>
+<li><p>将需要强调的词或词组放在句子末尾</p>
+<p>随笔记录:</p>
+<object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px">
+</object><br><br>
+
+
+
+
+</li>
+</ol>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol>
+<li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p>
+</li>
+<li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p>
 </li>
 </ol>
 ]]></content>
       <categories>
-        <category>Courses</category>
-        <category>Text &amp; Web Mining</category>
+        <category>BookNotes</category>
       </categories>
       <tags>
-        <tag>Courses</tag>
+        <tag>Records</tag>
+        <tag>BookNotes</tag>
       </tags>
   </entry>
   <entry>
     <title>Data Mining</title>
     <url>/2020/09/24/Data-Mining/</url>
-    <content><![CDATA[<p>Data Mining course</p>
-<a id="more"></a>
-
-<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
-<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
-</ol>
-<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><p><a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></p>
-<h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
-<ol>
-<li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
-</ol>
-<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
-<ol>
-<li>preprocessing</li>
-<li>train and test</li>
-<li>gather data and outcomes</li>
-<li>compare and analysis</li>
-<li>draw ROC plot</li>
-</ol>
-<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
-<li>convert .data file into .arff file<br> .data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
-<li>use Weka to genarate</li>
-<li>compare and analysis</li>
-</ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
-<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
- can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
-<li><a href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">Use MicroSoft and Weka to convert xls/csv to arff</a> / <a href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a> / <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">ARFF2CSV</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
-<li><a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
-</ol>
-<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><p><a href="http://muyuhuatang.github.io/2020/10/23/Association-Rule-Mining/">Article in my Blog</a></p>
-]]></content>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="f8eca327af94c95c7fc9b04fbc82608a43932e378e7d3aeff93b72577f0f3fea">de8bb467dda4831538238748ee3be954184d9f2f79c3cd483cb1027bc709f64cfd7d91e7241bd71af29ff9478073631ad45fbd20f2c5f481b3933026d9485d11885ebaee177fa0a06e73d597de88e16f4a9b3adb304c77e898c95dd3bdc4cc5725d9370e52dcd3ca6ebf4bb1d8c2372e9de07191863f276e134bdc75f5bc8f06a1dbd52c2b0192a5e0149238a8acde753df9ce05d0a7e562a75814a7d91ed53b3c8c37499338c71c9ae43918e2a25f4d395ab17bb1fc6bc577e3df206de5cc9d4b6bad0ff77ef49f7f2828ad7e9d21462cd4374ff0a794a64a07b4b13f6249e830fed11837131a45efb51ca2b0bdcbf9fb676a9c0ad8ca24ca63f6bd413239eb6f5387d1d75d0903f5cd10eef97ac0e33e8b58624ced3dca2dbb2c18eebb1c5eb5ccc2618d78f2371070dcabdebe2081542d602cfc761ca0c77d3cfe126c957571d9a72bef08d7a12671e57f6a9a112b1303539ac65c61921b15f8547341a61f03f70e39d5b1421c55acd7630db34de6497a0c67353143d8fa7452ed666437f5acc17cc33b23ccb51d709ed196ec904fe59593bdf6bbec1a6b15859a49683617ed219dc53cb6f58a1d86232b00a56e6b275778bf01008129e7d452bd13c0c717dfca6a5e2097ade060ef737d995b5004b55cc9d8de2a4de88e2836944be0692adf4274a6ee80b1c06e173ae7ace095d9c1acaf4d4c4b50440347bb31ad8e609753072e940b24730fab1fc2b13fe8aadbde291be95d3d0217c9370ea9bdd97003a4820d9f3101a2063f7db4a978cafc0b3812412c579eb503029616e1623cba6775f7d237902e082f4cac684ffdc614807f2d1e41e01496cc4f4623cb9afe86857463ec36e904873096323b415f1da6e79fd8eddd0d5fc915e1e296cd4408e8af6951f427e3e0a0bf802e552b23604302f0894425094a7531ec44c2fbd4dea15bf70f0c6f797ca89a3cc37df466b1a640cfb77e9883c040876c181fcec17940f533e3b33d27bf4e151537e9ad31c37fe02ceda826899add268472f23ae52d9bd09903631f650f5c568a5286b6719340f669d660821b8b54f04227cc034a483f8fc4babe40f236e3a2bc28187e4b7002921983748d67fa32d106bfa5863d4235e75dbae4190437297f775a377ba2e3ffdca9c83a1dd14891b99ad42401ff40729e8256f0365614de62a4348f95c6233df6341e100d1abbdd7cd25944210c7daa3b036344420bcd83b0e67e830ac91169e28c7a2153066b2b6edba18341ff259459fb4cfa2918875b396b3b835451dd486f61deaf7d8f9746ba9d2220216d81fb6e748b522c47d06bc0ece008d48bd4222a076186ba32b3658f322886231090413e7742d2bbbe8ebbba6e0fa2878a944c95ba7316c0548155502275c0a006b2ea84cb747ed5beff219342b427612277c2e0db75ca93ffc21d85daee29ea4d05095d284e9533b93bb810c97fdbe101337857da63e5e7d5b5f38f30ec6ade9d27e7b9d281d438fb2dd98223119dde0c6dcc8c6c21303ea3f388934d6afd30654ebc5f4c9bb3ef3f32c4e96b9ed963c32af5fe9e2caa7ac5f1e685be853aec3224f8fcd5b2f205135af1e891951518ebe7b0e16804938694523a04ae407fec1de0c8b4ba312a43db700fe77783bd1a41b2455488ad4267be93a60b38b2661b7073b046f46f8717bc1ad7093dc764f1cd62416de45c037b04bf8c5738b688e63260a634b377223674e606aec6de390613e644367c9ade3d7ab4ad2861023a1cadb93a73b60f1f916449dad030ebe67f3c50dbd6f4154a141ed8bed7127a02e7d28ef23c2d90876e82b63568775d12074332ed29d61d00dc76e23657645ef257c6625bce1671fb047ab16a4ec2bd9d0a3e7dce42abce44702dea526abcda2f6f38e928f5fad9764c0cc24bf978ca64d74f1b6eb848d14bab043142b1ed7c5929e945b3b7a9e5817c0d30638d57720b93e7b9af065b252d19451e05ad11a9df260aed6e98b247eacc9e10553aec38980ddff3d66256d765937755ce4bc2462e177cf89ecb10380ce12a4e4b69fe32cb9a8925410497ae6a8e7b2c5ad03286c35842b436f025b99c37bd90a70856a59b6532a2c4edec075e4feba5e8f21ecc4c0bc499e4826f14f41795cca9032a2f79bcc1b961f242b02204cb26637021b199bb2817d283f75573c15c0a84d7646c0af42f140e4470fd3cce8991d4f9d7081588677470591426c866b2675c3487e57e3ec807ddda90cf5990d3c88cc7b933da78559a72f412e5bff5bde1e56259833cd430ebf8adfb400efa7ed6995a22530958c8b6edff09aa921d15b332a7b500ec1002a4d551e5264239068e0b48d3c4b62428ac22e0ac46bbee3d2b7e04cde385e93199387fea44a620a3e6a71c5da065fdf9757aa978f85549c2ccc8fff5a5ed19c675c3b80a44436865c03191ea8bb27b1d12a205ffcc8a93b8da7e91004dfd2ab50c164a4a081f79d3e00c34de2435a6fc40402b042f7eff47cd5fef72989115abf769611a8fa0376cd6d2f1b5ba324532ebec7c1c46db69a0b5bfaeac1e92888b9f50d611d70845dfd4fc8add396ba5c5a83e8809c3b0cc4b9f25e7d932e25f749a41c9fba9b24b197654f7adc1e3646987a55b66f7b593579569e78123085588c3ccff952da25493386b8165724757f37af98837f398c7ff2fb608a19ccf74b0e6b546b7dbccaa04d6db12633aca4cefbae66e9ce469cb5076cb3de28cd122bd731fdf05b14be046a19b8e6e70ae19544236b9bca7dbe94e9f58f33fb66293320cf422432c40a84c9538276136378b13d4468ab1d4e603787d617896747357f815a09e0664d0e28691b1690c013972c7a39b0e35a366fee7de3b3d01b3c7f57112559e22fd502b6c6f4f097dd1d45aac7bbb69ed639b4c95bafc61b301db6d47e21c13727d68570e56400e788ce03454fd4c16eab5c8e6f40a54e6d084e7ab41c522f57d24a5f980899284e50381b40911bc9abe6d232ff46064d964793727056d9909e30ec3229f1fee45d0a847a4249a1784d07de4e88913a9e0c1afdd6902a92a6e6684b46ccba269760e83c34696d711ded56cb10347762e9d2f879f89c17eda38842c581ef973ea02fe3cef788c942bf1bac802f522f3fad8969ab65b0b2a4ce52fe50b95747643fee0c31443fb85b5e6ecfb1d11fe1816c7f29c6838a78b6ec1239685cb9260680a23285d122131c14c920e1d25fcbc035ba1a3c36755252e74fe68d1bb71e5a0df462807f0ebfc399045b377ff495943b39402e8ed1cdc5ea892163e810c326bba31aa42730cf710882e7ad7b13009a5d88dff3ce174c3482814a4853cdea01bc78feb3fc85f6c7a4dc7f66e1f5dc7e56e3f8eaf0319fe783f9a6c40e3264e5efe2ea20262fba4e2a80efeddc786f4be390f2eaaf10bdad657ce106a2bfc5d8af630a7117d257b90f3dc1a28134b8f5441c7e1681bf6510e9042157e4aae9f3ad4bf21faf583047d58499954a4c0040427a8b194ce7aa9f18b8a9b0148520e5b37cbea6bad2265e9d305622791adfc87cb28a93428ddb2314f320aa77a87c118b5f31c5072d0c2a94bb3105a2e5a7505a1617cf5ecc19d814c4f1fd2fdcc6343962932f28ec66e1165fd02dfdbc2515697ae2daaec5d81addc761205aa07820f82330ce9c47acb8bfb291f9a9c8b6ca5f0da1b9e6210410bbe54813c2175e61eca07a49b89bb98c4200b47d510bf82f2a13283bb2663b97274cceebfd164e34d6e93ea8f8fbe66898105f4eceb518f59614f971dcc76087e289bcb93f78b0ac74201fa87ca64ce157643ac4db12e2a8d2374b45375b000fdbf9a640bd3eafb3063c2e8c1b68d0b05ef20f4d68388175e7e55d3a59dc4bad068f1bd50d16eef84f354ed8e7794a5c5d296c94bfb1a512ca6b668f532835cfe4650e4dd8b13f582af7a692b38c687cdeb0c94fa2ec4fd2cfe3d2268851eacf4aff6477e9f2d9ac04a2b4286ea94aed6e01d6903250514410c39dca1c7bb8a4140044f35c7494363e076c6249ff7879a82fbe3e1c58f73018565e0befa458159e183bed8077ece13a5658d2d5879e2c67c8c4f5111b8d8058ca788258ff4d45fbb4b5f18d23f3b4958da115c9e88f68d9771bd588cb90de89e7bb2ff7b091d95c1346afeb8903e26f779eff21f8cdb6bc034ff9ac835e7694ee853f0b4cfad793b5d70e17c5ac88c2a3f949eca6d1a9dd6af2e87f9786d448c198055308cc7582a10c79885be9df470b2a114f68c4b4eac7065d8a73aaa4ebe9e96f4da3f9edc55bd4379799cd1bba927ae4314d1ab3abdb862d15c56d296ed59c0fa844a64089a04d96258c3f3148bf3943e3cbd9a302af1334f4a84171750106a246758d3a917ad586814740fd65fa6fc59534437cef5bb573b1a9b8f93e32d759e50fcc33931a5ffc5ea8c766892764332b57e9e1740cfd1914a10492df21700ceb0192c661190152607de79b3ca2b140c05bcea33c2f8d6e252a9018893967980b51ef0bbd6e727760d3c8cbab2ae153a242b3e59ba7fbc8f5eb025642bed11391128c264168887f306e6bbc0257b80bc7b87a4aa14492c098596cd5d310fc15b97d72c5cb8228f96eb68aa23aba8a7caf890cf71f990bf245d0a166c7f93a8880bd055a0018b3994f301e79948206f7b0e684b362d319257c72b77d21f202edb2a77da2481a0865226efcf7fba7318076a1fd7d7746ba474ddd57c28defb153693600f37b1a181c8962a1997e947a5de0501b5ee9238900575b9c95c8ae846f979091fcb4aab3e48526afa3bb4bbaae1b1113a865c361dfd401c86c413bdf9fa7c5b386848582be2f4600288af4de0d400b4abfcdfdd577a19bd7e998734d8f7389504a5b18216bd5c31a93846419144f223c1e2cebfcb463d0eba21ded6f62697c7064e80143e7b67b1d667c4f8313cd0d9a9e3ebb18116916e6629d329f7fe6bc61f407a18dc028eb517e15b453ed5118f397d8b1b0a461a9e2be6831a932d4d6bb038b57e4986d3d1f9253b0f681d7210f4f5ed1cafea61e31b6bc402de875885afc222bd052d1849a365580bab505544c6771f76d4f5ff5ce37a9ecc7dbd155778d5c0d531c34e744c4c02840cbd77495a07884e697c4d1225bc796486426b23fa3811e6ed09ed90dce93f0ad1ed5a7f4bdad76f65c593cadb6175af0eb90fc67a01d206266b098179de3cead6ecb29d65b19046e4fafd9692db4bb3e741e8da8250733c24dc6fb4a6bb1ac5a59ec1e42994e16947921897bba8c585c25c88b9ddc624611c514c540aeba267df61b5b116c4264c2aa127ff9a7bd5755f1addcdb16856da1da69c1e03c44ecf88a046eee34076d1943cd6c28c4171095197a2fd3774bb50998e1637a8232acaa7c355ae8d225e27b707e338820ef8576b10bfd4ddf6361b2127318f7bf5ee08c8622f3a60ab828c459485c6df8332f8a0b7a3c3fc5267ba12834cdd77817d8dcbf3ed554396a16c276b7ac580388f233ea73fc72f04910220acf939e6a1d4e5381fefaf4e7b8c099ca865bc8ee0749149dd5bff246ec4529dbdd83b22c469d02be32a91d96afbddf4066f551d55895e706523a9da80c855018243cccc9f6b4fa82e5c65d12905b527cccf00b05edde0fbf54c93722d6c7a77dce72d84890fae68b23874a181214142d093f8aec6002fb9f32a3b756799384925a17a1f640630c72eb888d133e0157ef8b3870e055856c7c62c5b4e3613b989dbda61db2801aacf68d4588d7cdc16a7d70aa7fffddb4f4e18a80c6f2bf783eed6afb042a1e16fb64651b10d44db26ac41a33621780b49f18d8312f2b21d809fecdb7e2948328ae2a5f3e55b683f5b9d49cf2552d74a6cab6a3777ab1d9ddffb800cb4e25a2902b46dcd2ce4f904b567a483851ccc97253e148c7364ada275b95356818a872b9f545569d2bc0869648771ccafc5497dd0d4e9ea6c0d4242cda453b5744a4988fc9885e97cdbaabf52932d984bb251def78476cff7863d0414c3784de9bb1b75f242d3f52af9aecefb8856d8d81c0ca938b8d63399637f8beb81d2f2d5389d9eafaab112360b264a9cd7c7fed4d24d11630fe8c072899f0075374bd5ba54b0b31d402c68b2c821e9d39fda4050623e40116394db9bb80cba1aab95a7ab124b256fcb6d7a57b285bcde1837bbc3bbed59d9d067d5aff624ca5757eec2bd2817cf4f5b95a1130e14247924d534dce96e742d0cf9b91859f2f497d42596b09bc6c905ca9f36f18f4e0b28ea0870f78deb06adb562a827ac0384ded7b504f96532ba389b555bfe06da7aa28481aef717eab802f2cc6c69acc4fa7b1709bb98c0425ae5c2d2b4a875fae4f37079c5212a45a307f726c570b03a9dddc0b3cf262c02fe93faf83ccd3ab1fed13b33b413318383eebba7adfc01630139d26a271db4ab3570d3122a22595f96cb7ea8d836db38df4b8f9eea9efaef12a9712fb2dbb12dc669e18cc251dfa8f2aec740654a26a54ed5b8fd96c53a9f30d0ab7dd4ca66bd1ccc71d13006fe597f6a5869120f0b7e9e50683d597634cf7d4a9fd21efd7022d9a12338e2d0750a489318ad121a3ce5984fc761943171a6bfe92a48fc54440d582c920dbaef0c7ff17463e09161533c03b818a1411af9aa4e0f7b9dc69f648fe6b59ce6d6ec08d8be6be7ac8a4b9425ec93eaf8d8cb8849c0275d6d20dfe1133f56989800b8d892d9f149e3d3dc901251e7f0ecf7a90d84f3dbd9251196dddce6dd2b696b2a5408695027cc69507ab8c82df24b094788fcff79640d52293b70df79372daa76eeb3854a6c74172dff7ba7f79658950d95abf3e2845fa99665482fb0ef76cc11f3f5124aa4a087932a0667a47a73f63323c916549944ffbabbba4c806c415f52dc5cd3f9c129c3cc72f4bba7fab5e1c4ef45f0e896cd04a917e82030e6f74d65ac3b091c23b1574a0ba7fbb5fc18bc72aef545d8b575b6687014becc35786fa019bbe3eb5cb1ef334cbf3c11889d35dc1f35aab60bf07462d096b8cc69843adf6ab4f72f2e241c1804ae40b128234678e4de9994073b1dc679102bf6244a46d862412a78e9999532025443a2c43d39ba710955fbcf978647e7666b05fbc1d911922b8503411e15700b2dbb75d8bc1b8a173da667434f050cedc1a195c23273fe64fed881edd507cb17a78c475bcbecc29850ea42da10603a21ef1e385c918e49a0b5835686d71684d34d2046dac03a391dc9df8edfaf38a9d180f64fc9daab6f63e6285729394121a03eb209f135aa21dd8971</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>Courses</category>
         <category>Data Mining</category>
       </categories>
       <tags>
         <tag>Courses</tag>
+        <tag>Encrypted</tag>
       </tags>
   </entry>
   <entry>
-    <title>Internet Programming</title>
-    <url>/2020/09/24/Internet-Programming/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="7fc1a15325e15fe57ca5992f185ecb89ab225ece8188d6b4073902375b809807">8e6e90801244b35f226b5f6902416b0e6674474bb2e04c3532aa41fc557375ba1216c06173c10b20fcbf4be5cfb07fe1ec781e00f7f689b0dc2e76b1847ac725efbb43fa891046e5b181e5ef9523cf3c8817e531f5f74cf3a5f12aaccfdfc6cdf1df5f6e6eb4e1beeb04600f6d8cf2c012c7fb5d25c497be1ccf7be87798c26f86c9586b3b3b2b366a43eb623190c22340f747a0cf9bb02919732a0ddec2d2b67ae1623f3e8d77e4ada4c4a4f4d38b92ace492769317c70b5b592f04908eed1a7734c5de27d4e97611ad2259ef56d868babdfa2b51c1b46d96231741193b870e0f759274df753bb2e77c55018f342e5d0a5b5f6c6e6ea33613f2eec52011661e35299dbf6f9617b276815375522a7111ca0757f75f3c33e0e930aed25693d515ea6cb505476663c5d8e78938bebe55a5afc65de0ed6dda70661be5044d2854502d77ba8304329acac91f4144f314ba23ba3a4b1390278e931ad20e2fc7f61b4c75ae21c4250138e37060687f88164ca3d0daff46983473933e1acd7ecf37aa6bffeaacea3e4294ced7dc4f8f049b1cbc4bbff0742f48d5098430a9e842a9ed619f25999d708f1a251c980f4e96ea196ce6b3f77e4b2f06ac8e48522f24c63d3402efecf54d98f4d9e9114ecc0483a6b693f60fa65afd1b16828b6f62308bb1d1f8f9568869f6ecdcb747cecb5ccb45d8a4e238df484c81bae01612b3a9dd1152022701f0ccd8636898d8b317d2307ff97d080026f8ee8f29b17bf80e4a84948e3c6fa33d96048fe1301cb69b7133c3c4ef9ede74135cefa2cba15e8749f50f2db91df5d8cf3dc1872983514289cff8845934a2de4ed65a235736988de6804ef797b6ea8957cafc880e869d4a7f12a93ec88c3a4614b629cabef2e590f15cc61dfcefb7f45449f582980f32b0d1d3426bd2956d34652c50a2aa1574e7060e82ac602fe9aa005ea0c9b29715fa16b964b593b38eead4ad8f71b6bc55eebfc10035799531024348a6c37ce90525d729408fc3bb65c0d556d2a2202657ef54a1919fe09df79f09c06f6cbdcfd6f7244a2682dd03bacdbfc191d8083dc92a57832f0beb72057217660d6ae8cb1148277fafb6a2c2c321d5801f589441c54f824d28fd2476e7d54b850cbbf8fa888a291d01641451c61fe3cdaa2ea3da31f03ed31a12a6fa73ba7983fa0835e1ba9200e6028db57989fbac71dd1850f76ce72aefc100a041122f82d3829f568ad889dec27754a47a625ffd200c0d3a828c2c17dee962da9c726f770fe71ccc49d934b02a3162430d53cd4284b4000c1713a35254debf496baffc11542feb390b4873f60ca0d1753d571a4f9e358602793c1a69c90d382f793271af80f5c62315b2b15be9f88065e033878195d49c60eaf94f7c2955b64f81084c95e4d93432704308a35a8ea2ab4c19c82b1dae77a23bc98ab4139c86b8e20cc636cf402ebfb638fdc877761e3effc1a0f64b8a688e15d09855cb032656663fbaa1159fcc221589e6668f3cec5bb6de50b5c0670d9e8b0a6158112ad3ae019045063684f7c83c3d4003ed31e3a9360d80fd596fe59d706f21e245518e4970ed5078c77ef5270fa42a10d6243a844ebea318fb7303c2279fb78de374f436b2c55468fc34a5ee614e1a5b0335190f72db746e1a90132fb393d29258ffdc0ce8d6f286e8a74de1f9d702fff66073007e5d4bffc1b9aa25d8eb19e2390ba46877cb91142497da75ca453bd435b29b7dacec730ddd24d7c97288cd0d708af4d89c6406cd6f15dfd7817c852a48eebf809e04e4ab5bba2dfea0fac83763916f5148b3a240a5af58d679cf8d6534977c8cabed25dd19f1521baf32011521c63cd656177fc6f77c94fe2c6a4665b91bb24eb84e4d8f806d455e585b5c422033effeb4a09244d223e640f09f5e25cf7defc4c73ac671464548425f53f3334acd063a6db0c96754da8666dc6997d544e075fc4ef8bd615e65ca5984ce3aea73156b35a4b2c1428812cc5361e26d056e73144be8848ba74007e880bc79704cb1d0b90dee8728a998a77e44ab2b42ae464d1cbbe9bc61460ee1882eb9dce3523905e333e1eac9c838f9ccceb2f6dc6a46900d10c4e55dfb2a299d8e05348849dcd841f1523d5da912c40f8a55b39002a64cec74b550df3f68df45bf1759050a13911ff1025a61372be6841a57de9cc99ba1aed487851e4a309450341f382dfa9208be0390bd7879b9c2d0051253aba35113c354bda5a7c8a5312471198469327a59272025e7aade1d82c4bd896f6e3e21c428ef25f25f6f451b03371aa1ea3a2eee715381774be5ca594c3583d784b6cd5110e7be7286be770736860cbc0de6dbef6016b14e49cc4153cedf74209e6c57281ab5064cdebb0014d595c2c2a114fb8d932e4ff784261f193f9f70ef36e138216adb2c5cc41d5e5485da323ae58331eee2ad1959597f30784fbb936f34d74391d930d041d6b5c163d9de5f670567b1dabc541c838786cad10863a3ac460951be3594cee7e4024d847d2de7fe1142de56ade8cc91366e8a81433345d83bf2bbd77cda29131a1564a16da92cd1b691059cbf393338022f2a49bd769e0333b79a5acf4f2bf5a4b44b50ad5390385bfb44a050aa88edbac1bf0f2deaf0019ed3eef7006837e448e76dd92be77878db27b56fae3fc362d8b69d7b08d6f6cdfe82949a5c5bf3b9f6fb6d09eeda782630bf4dba3389ea9f56a7a582aa211d004caeb7f6b64a1db2fc0cf1b9f958fd76a29e9859123b1cdbeb2b81f9e0e73d0f0980ce672580716307fe8bffe9d587ddc51ce9779de549ce2d74b5db48855a3e02cb11172dfb2d5660fda49d164cb243349728c915c33c8074cc8e497913c7cbb8acf733f335fbca7d790adfbcd31ba6bad8cf32534a99d095273ea28a820c6614c0a8d3b087fdc854ce7a430bd22c8f32287abc4d0cb03a3ee830600f2241418b64014a4874667121c1962814a9576cc230e25555c1898cdf380d81ba988ebcf635b7631b556911ab04db9a88bfdfae2ba42dace51368e9138c332eabf295017c9338453059549d0f64ca3d2f9c82063100b3f76ba2cae0773c4c6aa61c2f03d57be2f2d582b31f1f900bae4c5eff547f99e8466a9cf709c7a73bc382412738f46c0c25e3f05b67271250393de412f18526f9b63d60f0bb5a5b8db00f8f71664b61854a04de9235aec94e6b1dcf1f503bd84ee845081beea10797bd8fbefd7d9d1e2a9da6032edba7f298744fadd77e677e1d19b8b4cf7cf0c99a94b8fd7feb598fa9d1230b5a6484704c583c6d554ac689b6f3faf85697ff3661e77c5c3cbb1c87f7ea4e635e8cc7c689d6d049354b85c49c5efd77814ac625691580905aa2e8beb8e97cbc2c58a0961f7d2cbe350a2085eb81c1e242bb12f13915ffe63cfe15c60d5f8d2b07736748952288aac3da2faeec1b4de965589792fa20caf49d569a759f12bb00e71f6588a841e5c3b96d1af59035411c5c92432c3656d944ca24d738c1639b48d03984958d034fffea24b7e24bb98b52c96793aae7ba3c0fc16ff57bf51455b6d980071d3ce786c1e1ee22b73d7d2a0428a97011f929b8884bae029380d25872281f4cdd5b76c093c383080a5e1c8c7d3d2d2b2269681f4ceaf6afd8f5c44cf1ccd34d4dccaa5a6e189307040e2aced5cdcb87d6df814596af430a3460574bfc567b44df53066916221fb34df7a95dcb7258dd203f05fc2ad436e80f91598b44244a683148085fb42f74b3911f7937518385bc26c0937b6572f4b44e6001ee5de3b788ef54323d7b1b0673049ee07a9451c058fd6de7508446fdea8caecb248a30f8c97bef484a4868d5b57bc0ebdaee17b5a88cf9fbf7081911dd39b5b9903df01d5e71077262609956838c426acfe0ecdf27ed117e8349a04f7e437e79b138ac4c3215c06f596c854c3b89a1daf8e4cf7d4cc2aa2ed79dcdcde811e9386331dd4856fdf1386886cc1077a356053336947d80f688e8e9fcc694a6c073f90c4a13fda24bbbe10873cbe3d070ea2cab48f41eba6c1a1749b22ed4b44ffaa2fe3ef24d2a3d8361522a64cdd1f3b5a380c84212a871329c33cab5794801a3d4927b2a555752c92f1d80aef56efa79783479277f4c639cda8af7cf8a89c2d7e0abad2c799ec8c372401bbefda3705e443a86abe888e1b154ae2f10766e9ef6c0b4328445e712bac665dc255ea8d50f4c5cb4f8b9929446f8970c143d294b421c746c00eab77070be2ab3055da78b3c8921977ca76d5cc4d813fe042f709b50541e505d9c2f0ce8eb1ed16c47e9b94dd122c5855b41e4f686dcccc162881b855cf5bb972e3bd521c7b3a218812c134535841b9a6fbccc6199e181a30d8ca4563e4c1b0bcc97182361943e21f0cb433d8a27a30b5a9c690828033975e8f27649c5ebe1b581338717b7425fce12eac781b0cb8446af52ea42d6368a07e8afde95a76c9887bc6590f8f59d4af96e0f535d57fba7dd4e5b0dfa4c8c2643d9196f8703b2db0f66f1cccd1bce829e035af35ef4835149a75845511d902cab9ca0c63ec46ba8b9a2d153726bc838b9eadc2a9595e74af512bd7120e210af2e32cdf466c0d92106c26fa775022bc765072f9fe263cf4a12c143012b90c0c603f034edcbb27b440fb52747482bee97a6ebdff7431f2d8fc5d3b20a3a847e89fc4f4bfc2a50274291fe4bbdff9408b9c96e1f0a9ca65ba0a3d92bc6c712c7f6ad24d9ca7ba4558fd0b39eb697fabb74a1a6632db0621e7da868e174ed24b33b20cc97a9da94e44cd9bcdbda734541a0a83c49183f558067da1db78dfdf59835d15aaea542e97479e0234bf3a15b7c29a8005406759e70086da8f40561a62f308bdbf7a3351e5dd3b33cf0989384629b0eafb9f4ae3b66c1169d8ef9237705979f2a2c494b6ddfd36dbbc70d1c987b80d32087b34e07bf80af6e9ec4672d79d61f1b87566eada813b7358678c748329ecd5503bdb5108b6c0fb6ad61bb24caf7cdc0c1f40fa1dbce43c16dd2c77ca96da28b676f47a35dca7457ab47186845115e9bb339ac0b5dc19bd9cdeac2b5736ef56d7ab618e63f7c21dfb56a15c39377348268b16a1af0e57bffd6e5270266165d4fc0e0862bf422c809720abf216caaacdc0c0c4bf6738d6eff9bfb743649623b3f0d78b84e70b2566fe9745e4e93e36241c44f22040059b51318c4a0ac7f01d060861ff32702a1bcbf00bd3eae9343eebb831e7df21a62400004f1e6c3a3c490ea460b3228f931663041d6fe35025a9c72c188033b84ba24f92ba9e67552af622536bb4345097f536feefa995206864ba377195c454a2aa71225b0c19d9080e639cc07120e85e39da70fea8775c2e0b42071dd1154ba3fb24c57d6d897bb084ce84a4aab1267bcd608c016bd8db2ed7e9624caf42ac5bf7006dba2fa39f9067f8ae12855e723bc1816032ecd96c6becbc93cb18fc614adf8de90828f389ae2459b702a563ecd5e7e7b9bb19a5261f5372174a556d5456c5b06bd9aa41b72d77e8d75fd2e32bcf469ebefa707efaa64f699470b882fe8f67eb14a93d28d0022e0262406c653a03700e0837bc9e519a7ba46e8242220ab58d10ad826869aa1fe4a7aec88bbb5d59b46e4e7621bff96d23b7776f7e8802c5a713beedde012a9a3819afa18259a0f4c6e1e397773d586a9194ed1d666a02cbc690aa0e782fbc94756381e5b0e1828975f26801902814cf3a6b53939f5c7209a0b6d0e02be7a854339a4a31447e579ad3fdd601b92025e829b14be7e2a131f6973d217d522befa8e4f1aa7678545214e2c4d9f96965227ecd9dc19739b6b08bcc5ae09da2bc094b484c571fcf66620515de7cd0f7883cfe4cef6d41e69e24b2b45b83681ace1c34ff174ff56c96b38ef65eb689e7fd5a5b9f007dcb20eaaced9f1d1f9d11a1050ee90cfae237eaf29eabcd3b906c3177e1b266fd66e43de66bada40244814ca065468e0470a10805eab1cae169d47f7223f9f31b6a85e8403384c91c1176427a28cda0dde0aab257aec5c780147d83900a2445433efa3d9857f919e7f48fb0e59ac52568331b73718f471651fde482b119c3d85275071d44ce41025322f88098ded54a75cd6a9dd34eed1741a01e2279b1d4937921604a643ef13e5ad3a3129f8a64ccc24c8ba1c813be2309f3a16735767bf74f57b49bf88f1a2eaa51ee709e1d287bbac83ab03d644ff644b0625cb4495269935d2ff712476f87d86c4c57eccaee36bd5745bac4b48ea4c3c1b291c8133213add11a757b89c465ef43e69a432c1f229afff5e7b087bc3a06359df688c72428c21c591e2111bdc0736a5cd5ec2eac310f43cabfc681eb15b788d1e61833650e0ee2e84dfacc032c9e5048953b6a00399c2498a99c189b4d5d85f4f37c35d2324656fb9bd4bc1afdf0bf1728a0c15af847eb144e9c65dd864734d32481d55f84b770f8cd8138ec9d258f20c466f8ff68fff4d41da4b60d05627ecda96572bbe773ee23df850725a0521df6aea2c04245bd1a6854e842ccaffb92d2b0c755f6bb7dff14d22dd4c62a26cd3c14e9ca99ae017efe3b31f1702613ad8d52313cf5e4bb2467f1eef04f473880c5a33c1c72418752ad5267ce06cfb7d147edd42f8d038f7fe8d3e7c642a1a1de990e1108e1b63a59213f998ec5cb8e322514bf4580f6b6f157e8663c0d7b4a849fb5b2d81e77e90b1c3a978720c2e47b1839e47ce96025a3f6ee505b5aacd2a2cf98689f166d58d9696bc060181f3503ffd1f0d793f2b5b3d88fb0c35d66c200dec6818b92afd1ddef156fbc02f6b141731636f4b3143949b287389454e29fb3c972d43ced8da58dfc676f91d78bc70bf1195213f028b37565b674d172310fc70bf67cddce60cda4036f9a760ee610f23c9fbb715cfb1e8c0c917d45dee433b7d4b9d89c274a5a0b995e7cdbfd370239b4b5bc17c0e510e866198740a8f08b7d664473f73600d62287a75ee5d04e5d430d6eca642b7d6a280ac8fe6c2efe8a84f84e68f7a08eb70330f830af35c3f339273dfa42e79380d0de8f0e9f5cbc23bc26cef7f6703f840b15740863d618cea6192d51148eaee37e6529d2dd36361ac285a1eb26fad55f9124f9e910f4865f8473fb3b4f31d4e291e9f33c79a7a3c67977d22f0b103d8c5821f4b16182ef7542dab74d4909f3839b7347c10158244d98db9c29dc5e32ff2cfe8811cb074a55efb55f5a8330c8a303c84a9c9fd999da263e74b14263d4f985b150a884742f3d764a8971395d303a8c47801e62a94d74cb725158a2537553fb090941f2a531ae02eb88f67c42c4432f153e34dc4334932309148a0392172f31092293427037c24575a60326aa1a4aa9d800c04a4cdf24619d19bc6f77c137d816a45817b58665a65442ee32fd101b0925d3ed5286d8c56a94029fe1160ebb0e2bafab2f72590b9db1ff3dce007976cb28462ef3da8553100273d6462bf52aa690f2c8fa986d47e37c4be90f258ab67bd091d2e63b564aa43732532212e7e7b2f7989e0012d2d0ca5901d44d2b41b5252e5d47a5c8431adeaaa5f8df2a173d89fc11cce381075e27d8cfb5e9253f7dad451dd75cfa0a77ae95e4f4b622f45d83f456c2774b2178431d4e0d69fa4c22c2010fe6ba2c9ad66cedfec7ce087117e16dc86aef1c31d71cea6877ebbc2d982ad29920a42bc40b68336298c4a96725e53b87670ccbef9e5760b07717b66c789fa773105b0cdf9d404b4dcb411305a3de8de22c7b8bfeb8f8af0ec3cf0d087f0df8beb31a0a21c577d1dca9812b3027680bd5dcf6fa64bcc7006d9cc0e8c1c2734fefa104e01e8e1ec89d0a72feef2c7668ec0d49e7771bdf46445bb7d660aab0f5c4b518f938da5caa74c9ccf076b871a5e2f682bd621427a6732b33d165545c569eb12ee4c2230a374d08d60334ebeb7e132e42ffd76c075bcd0e7324b70c09c00e387121ab885f9438bf7a9fb10f4a462f7ea46ccda74110f721292260e883622ccab760ebb38c18378d126b775a3ded9f638ac5baa60b41689e1d3c4cf9e0a1496ae1c3c2a9bd69c65a6e22e85bf2f6714545bcf62b17ad63f4f6d4faf64b342abec17edeeb869c391ab42b8d3baf2461d442ae1551de9dcdbab6c647243f2cc23902f51561768df123224662f25feb1119b3f2271b706f82481f8e452caa394192040777f0a516430a1aed11d03fda2c8dc60e57b6372db37b9ddba9032de5be350af5257ca95eda0a3302d6cd876c91cf70bc0d871522419a88bee885b6ed3a3e564441361bac319d472ca11050e7a90d6c11d1e441ed66e45c5f5e57f55e07f4ff5d745cfedaf0cf9c2bcf26bdf216fd4f115c42528b24ac6f3a5dbd7c320dadb99db730203fe9fb197e85c2d6b4346b6a7c006608b89231c99d06ef372807c69620f70dc35810380b7f9ccee249d0e87c6347a2325126653d37b6b06bd5076547245426149b08253969d658cc022cdc1dcead1636343ec6742935a4d39f9e3f5fb59fbfa1d1900c392d419bc8a6bca9af25068984414eeb5fe53d26d1497d9ca9ce71a4cbb21cbce8060d974db47e243d5de5d98151e5af07e1ec98c1f52e42cb42ea3be351830db5f9b7442d18929d5ac49849c0995ee619ca3b2db147d8973944ad396aa975a594e98bf1cdc8465d91a6335162ec4ef26849a6d92f75ea2fe51ea01609779c62194d537b0f24a5abe2ba90b3d9328cc918b727f47e9ae840f1f605b9f76dd5de861115dc8d5d589f3a99a2ad7a41304cd0b32dc1b2fc6d089e0316fb549644c922335c724e089f8887d0a0778602f2102a4d22a49068f210b40eb211884e48e32a5c9302b6d5a95599af48b96afc9bc4a0bf4bad80c4c3a565db5a1b23208070793dd36b4b9d63fc60fea13f31f1b1fce0286338af82acd37ade044ba41cc5259ff64d03c439b342e4be179b7814ee539bf6ebc4ee8bee8aec187a7ffa45d9b9261af33bd16c687313002bd131adab6a3620bc112c872b824d2e58c08eef79eac556f58b7acb7bf77f64329960c7cdba67c4958239496ea169b167702dae08088162ff40cf0542834bd47fb75c9d5ca91c75f88d2f2818e5c8278cfd6e0da64b8651e14a58175b31452518db0fea825c2670c52c03458b4f1a50f4a79683e24e78eff9f292f257fece82c72a14410403ea93471ba2448d568c1b11cea189ca3e158d5ca80b64f9e3264c92e3d4035007411e904acbcaed3a97449a752b9a93ace000434926871eee0c1a977db3f001ef3bcad97c872434f27ed9d1c06963c39e5f40f9308d9dcfb898308cb461737a816898827c30604ba2b4cc1b5c74a918804bc86783320515a8e9a91a085e848a6cf4617fee6ad8c540c2ee608210852f33a08bd31d325c1a73a496e2fbc397411e515f227b2d840788aca23a920ae9a2d6dde468f61798476f9fd99a41155c262147aa47b5770a2c03060909ec7ecc1cf89bf385ecbd1dc582e</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <title>Data Science</title>
+    <url>/2020/09/25/Data-Science/</url>
+    <content><![CDATA[<p>Data Science ralated material</p>
+<a id="more"></a>
+
+<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
+<li>工程能力</li>
+<li>对数据、对业务的理解</li>
+<li>机器学习算法与模型</li>
+</ol>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
+<li>Kaggle天池比赛</li>
+<li>在github上follow一些有意思的ML项目</li>
+</ol>
+<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
+<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
+<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+</ol>
+]]></content>
       <categories>
-        <category>Courses</category>
-        <category>Internet Programming</category>
+        <category>Data Science</category>
       </categories>
       <tags>
-        <tag>Courses</tag>
+        <tag>Record</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Encrypted</title>
+    <url>/2020/09/24/Encrypted/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
         <tag>Encrypted</tag>
       </tags>
   </entry>
@@ -208,6 +223,118 @@
       </tags>
   </entry>
   <entry>
+    <title>Internet Programming</title>
+    <url>/2020/09/24/Internet-Programming/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="7fc1a15325e15fe57ca5992f185ecb89ab225ece8188d6b4073902375b809807">8e6e90801244b35f226b5f6902416b0e6674474bb2e04c3532aa41fc557375ba1216c06173c10b20fcbf4be5cfb07fe1ec781e00f7f689b0dc2e76b1847ac725efbb43fa891046e5b181e5ef9523cf3c8817e531f5f74cf3a5f12aaccfdfc6cdf1df5f6e6eb4e1beeb04600f6d8cf2c012c7fb5d25c497be1ccf7be87798c26f86c9586b3b3b2b366a43eb623190c22340f747a0cf9bb02919732a0ddec2d2b67ae1623f3e8d77e4ada4c4a4f4d38b92ace492769317c70b5b592f04908eed1a7734c5de27d4e97611ad2259ef56d868babdfa2b51c1b46d96231741193b870e0f759274df753bb2e77c55018f342e5d0a5b5f6c6e6ea33613f2eec52011661e35299dbf6f9617b276815375522a7111ca0757f75f3c33e0e930aed25693d515ea6cb505476663c5d8e78938bebe55a5afc65de0ed6dda70661be5044d2854502d77ba8304329acac91f4144f314ba23ba3a4b1390278e931ad20e2fc7f61b4c75ae21c4250138e37060687f88164ca3d0daff46983473933e1acd7ecf37aa6bffeaacea3e4294ced7dc4f8f049b1cbc4bbff0742f48d5098430a9e842a9ed619f25999d708f1a251c980f4e96ea196ce6b3f77e4b2f06ac8e48522f24c63d3402efecf54d98f4d9e9114ecc0483a6b693f60fa65afd1b16828b6f62308bb1d1f8f9568869f6ecdcb747cecb5ccb45d8a4e238df484c81bae01612b3a9dd1152022701f0ccd8636898d8b317d2307ff97d080026f8ee8f29b17bf80e4a84948e3c6fa33d96048fe1301cb69b7133c3c4ef9ede74135cefa2cba15e8749f50f2db91df5d8cf3dc1872983514289cff8845934a2de4ed65a235736988de6804ef797b6ea8957cafc880e869d4a7f12a93ec88c3a4614b629cabef2e590f15cc61dfcefb7f45449f582980f32b0d1d3426bd2956d34652c50a2aa1574e7060e82ac602fe9aa005ea0c9b29715fa16b964b593b38eead4ad8f71b6bc55eebfc10035799531024348a6c37ce90525d729408fc3bb65c0d556d2a2202657ef54a1919fe09df79f09c06f6cbdcfd6f7244a2682dd03bacdbfc191d8083dc92a57832f0beb72057217660d6ae8cb1148277fafb6a2c2c321d5801f589441c54f824d28fd2476e7d54b850cbbf8fa888a291d01641451c61fe3cdaa2ea3da31f03ed31a12a6fa73ba7983fa0835e1ba9200e6028db57989fbac71dd1850f76ce72aefc100a041122f82d3829f568ad889dec27754a47a625ffd200c0d3a828c2c17dee962da9c726f770fe71ccc49d934b02a3162430d53cd4284b4000c1713a35254debf496baffc11542feb390b4873f60ca0d1753d571a4f9e358602793c1a69c90d382f793271af80f5c62315b2b15be9f88065e033878195d49c60eaf94f7c2955b64f81084c95e4d93432704308a35a8ea2ab4c19c82b1dae77a23bc98ab4139c86b8e20cc636cf402ebfb638fdc877761e3effc1a0f64b8a688e15d09855cb032656663fbaa1159fcc221589e6668f3cec5bb6de50b5c0670d9e8b0a6158112ad3ae019045063684f7c83c3d4003ed31e3a9360d80fd596fe59d706f21e245518e4970ed5078c77ef5270fa42a10d6243a844ebea318fb7303c2279fb78de374f436b2c55468fc34a5ee614e1a5b0335190f72db746e1a90132fb393d29258ffdc0ce8d6f286e8a74de1f9d702fff66073007e5d4bffc1b9aa25d8eb19e2390ba46877cb91142497da75ca453bd435b29b7dacec730ddd24d7c97288cd0d708af4d89c6406cd6f15dfd7817c852a48eebf809e04e4ab5bba2dfea0fac83763916f5148b3a240a5af58d679cf8d6534977c8cabed25dd19f1521baf32011521c63cd656177fc6f77c94fe2c6a4665b91bb24eb84e4d8f806d455e585b5c422033effeb4a09244d223e640f09f5e25cf7defc4c73ac671464548425f53f3334acd063a6db0c96754da8666dc6997d544e075fc4ef8bd615e65ca5984ce3aea73156b35a4b2c1428812cc5361e26d056e73144be8848ba74007e880bc79704cb1d0b90dee8728a998a77e44ab2b42ae464d1cbbe9bc61460ee1882eb9dce3523905e333e1eac9c838f9ccceb2f6dc6a46900d10c4e55dfb2a299d8e05348849dcd841f1523d5da912c40f8a55b39002a64cec74b550df3f68df45bf1759050a13911ff1025a61372be6841a57de9cc99ba1aed487851e4a309450341f382dfa9208be0390bd7879b9c2d0051253aba35113c354bda5a7c8a5312471198469327a59272025e7aade1d82c4bd896f6e3e21c428ef25f25f6f451b03371aa1ea3a2eee715381774be5ca594c3583d784b6cd5110e7be7286be770736860cbc0de6dbef6016b14e49cc4153cedf74209e6c57281ab5064cdebb0014d595c2c2a114fb8d932e4ff784261f193f9f70ef36e138216adb2c5cc41d5e5485da323ae58331eee2ad1959597f30784fbb936f34d74391d930d041d6b5c163d9de5f670567b1dabc541c838786cad10863a3ac460951be3594cee7e4024d847d2de7fe1142de56ade8cc91366e8a81433345d83bf2bbd77cda29131a1564a16da92cd1b691059cbf393338022f2a49bd769e0333b79a5acf4f2bf5a4b44b50ad5390385bfb44a050aa88edbac1bf0f2deaf0019ed3eef7006837e448e76dd92be77878db27b56fae3fc362d8b69d7b08d6f6cdfe82949a5c5bf3b9f6fb6d09eeda782630bf4dba3389ea9f56a7a582aa211d004caeb7f6b64a1db2fc0cf1b9f958fd76a29e9859123b1cdbeb2b81f9e0e73d0f0980ce672580716307fe8bffe9d587ddc51ce9779de549ce2d74b5db48855a3e02cb11172dfb2d5660fda49d164cb243349728c915c33c8074cc8e497913c7cbb8acf733f335fbca7d790adfbcd31ba6bad8cf32534a99d095273ea28a820c6614c0a8d3b087fdc854ce7a430bd22c8f32287abc4d0cb03a3ee830600f2241418b64014a4874667121c1962814a9576cc230e25555c1898cdf380d81ba988ebcf635b7631b556911ab04db9a88bfdfae2ba42dace51368e9138c332eabf295017c9338453059549d0f64ca3d2f9c82063100b3f76ba2cae0773c4c6aa61c2f03d57be2f2d582b31f1f900bae4c5eff547f99e8466a9cf709c7a73bc382412738f46c0c25e3f05b67271250393de412f18526f9b63d60f0bb5a5b8db00f8f71664b61854a04de9235aec94e6b1dcf1f503bd84ee845081beea10797bd8fbefd7d9d1e2a9da6032edba7f298744fadd77e677e1d19b8b4cf7cf0c99a94b8fd7feb598fa9d1230b5a6484704c583c6d554ac689b6f3faf85697ff3661e77c5c3cbb1c87f7ea4e635e8cc7c689d6d049354b85c49c5efd77814ac625691580905aa2e8beb8e97cbc2c58a0961f7d2cbe350a2085eb81c1e242bb12f13915ffe63cfe15c60d5f8d2b07736748952288aac3da2faeec1b4de965589792fa20caf49d569a759f12bb00e71f6588a841e5c3b96d1af59035411c5c92432c3656d944ca24d738c1639b48d03984958d034fffea24b7e24bb98b52c96793aae7ba3c0fc16ff57bf51455b6d980071d3ce786c1e1ee22b73d7d2a0428a97011f929b8884bae029380d25872281f4cdd5b76c093c383080a5e1c8c7d3d2d2b2269681f4ceaf6afd8f5c44cf1ccd34d4dccaa5a6e189307040e2aced5cdcb87d6df814596af430a3460574bfc567b44df53066916221fb34df7a95dcb7258dd203f05fc2ad436e80f91598b44244a683148085fb42f74b3911f7937518385bc26c0937b6572f4b44e6001ee5de3b788ef54323d7b1b0673049ee07a9451c058fd6de7508446fdea8caecb248a30f8c97bef484a4868d5b57bc0ebdaee17b5a88cf9fbf7081911dd39b5b9903df01d5e71077262609956838c426acfe0ecdf27ed117e8349a04f7e437e79b138ac4c3215c06f596c854c3b89a1daf8e4cf7d4cc2aa2ed79dcdcde811e9386331dd4856fdf1386886cc1077a356053336947d80f688e8e9fcc694a6c073f90c4a13fda24bbbe10873cbe3d070ea2cab48f41eba6c1a1749b22ed4b44ffaa2fe3ef24d2a3d8361522a64cdd1f3b5a380c84212a871329c33cab5794801a3d4927b2a555752c92f1d80aef56efa79783479277f4c639cda8af7cf8a89c2d7e0abad2c799ec8c372401bbefda3705e443a86abe888e1b154ae2f10766e9ef6c0b4328445e712bac665dc255ea8d50f4c5cb4f8b9929446f8970c143d294b421c746c00eab77070be2ab3055da78b3c8921977ca76d5cc4d813fe042f709b50541e505d9c2f0ce8eb1ed16c47e9b94dd122c5855b41e4f686dcccc162881b855cf5bb972e3bd521c7b3a218812c134535841b9a6fbccc6199e181a30d8ca4563e4c1b0bcc97182361943e21f0cb433d8a27a30b5a9c690828033975e8f27649c5ebe1b581338717b7425fce12eac781b0cb8446af52ea42d6368a07e8afde95a76c9887bc6590f8f59d4af96e0f535d57fba7dd4e5b0dfa4c8c2643d9196f8703b2db0f66f1cccd1bce829e035af35ef4835149a75845511d902cab9ca0c63ec46ba8b9a2d153726bc838b9eadc2a9595e74af512bd7120e210af2e32cdf466c0d92106c26fa775022bc765072f9fe263cf4a12c143012b90c0c603f034edcbb27b440fb52747482bee97a6ebdff7431f2d8fc5d3b20a3a847e89fc4f4bfc2a50274291fe4bbdff9408b9c96e1f0a9ca65ba0a3d92bc6c712c7f6ad24d9ca7ba4558fd0b39eb697fabb74a1a6632db0621e7da868e174ed24b33b20cc97a9da94e44cd9bcdbda734541a0a83c49183f558067da1db78dfdf59835d15aaea542e97479e0234bf3a15b7c29a8005406759e70086da8f40561a62f308bdbf7a3351e5dd3b33cf0989384629b0eafb9f4ae3b66c1169d8ef9237705979f2a2c494b6ddfd36dbbc70d1c987b80d32087b34e07bf80af6e9ec4672d79d61f1b87566eada813b7358678c748329ecd5503bdb5108b6c0fb6ad61bb24caf7cdc0c1f40fa1dbce43c16dd2c77ca96da28b676f47a35dca7457ab47186845115e9bb339ac0b5dc19bd9cdeac2b5736ef56d7ab618e63f7c21dfb56a15c39377348268b16a1af0e57bffd6e5270266165d4fc0e0862bf422c809720abf216caaacdc0c0c4bf6738d6eff9bfb743649623b3f0d78b84e70b2566fe9745e4e93e36241c44f22040059b51318c4a0ac7f01d060861ff32702a1bcbf00bd3eae9343eebb831e7df21a62400004f1e6c3a3c490ea460b3228f931663041d6fe35025a9c72c188033b84ba24f92ba9e67552af622536bb4345097f536feefa995206864ba377195c454a2aa71225b0c19d9080e639cc07120e85e39da70fea8775c2e0b42071dd1154ba3fb24c57d6d897bb084ce84a4aab1267bcd608c016bd8db2ed7e9624caf42ac5bf7006dba2fa39f9067f8ae12855e723bc1816032ecd96c6becbc93cb18fc614adf8de90828f389ae2459b702a563ecd5e7e7b9bb19a5261f5372174a556d5456c5b06bd9aa41b72d77e8d75fd2e32bcf469ebefa707efaa64f699470b882fe8f67eb14a93d28d0022e0262406c653a03700e0837bc9e519a7ba46e8242220ab58d10ad826869aa1fe4a7aec88bbb5d59b46e4e7621bff96d23b7776f7e8802c5a713beedde012a9a3819afa18259a0f4c6e1e397773d586a9194ed1d666a02cbc690aa0e782fbc94756381e5b0e1828975f26801902814cf3a6b53939f5c7209a0b6d0e02be7a854339a4a31447e579ad3fdd601b92025e829b14be7e2a131f6973d217d522befa8e4f1aa7678545214e2c4d9f96965227ecd9dc19739b6b08bcc5ae09da2bc094b484c571fcf66620515de7cd0f7883cfe4cef6d41e69e24b2b45b83681ace1c34ff174ff56c96b38ef65eb689e7fd5a5b9f007dcb20eaaced9f1d1f9d11a1050ee90cfae237eaf29eabcd3b906c3177e1b266fd66e43de66bada40244814ca065468e0470a10805eab1cae169d47f7223f9f31b6a85e8403384c91c1176427a28cda0dde0aab257aec5c780147d83900a2445433efa3d9857f919e7f48fb0e59ac52568331b73718f471651fde482b119c3d85275071d44ce41025322f88098ded54a75cd6a9dd34eed1741a01e2279b1d4937921604a643ef13e5ad3a3129f8a64ccc24c8ba1c813be2309f3a16735767bf74f57b49bf88f1a2eaa51ee709e1d287bbac83ab03d644ff644b0625cb4495269935d2ff712476f87d86c4c57eccaee36bd5745bac4b48ea4c3c1b291c8133213add11a757b89c465ef43e69a432c1f229afff5e7b087bc3a06359df688c72428c21c591e2111bdc0736a5cd5ec2eac310f43cabfc681eb15b788d1e61833650e0ee2e84dfacc032c9e5048953b6a00399c2498a99c189b4d5d85f4f37c35d2324656fb9bd4bc1afdf0bf1728a0c15af847eb144e9c65dd864734d32481d55f84b770f8cd8138ec9d258f20c466f8ff68fff4d41da4b60d05627ecda96572bbe773ee23df850725a0521df6aea2c04245bd1a6854e842ccaffb92d2b0c755f6bb7dff14d22dd4c62a26cd3c14e9ca99ae017efe3b31f1702613ad8d52313cf5e4bb2467f1eef04f473880c5a33c1c72418752ad5267ce06cfb7d147edd42f8d038f7fe8d3e7c642a1a1de990e1108e1b63a59213f998ec5cb8e322514bf4580f6b6f157e8663c0d7b4a849fb5b2d81e77e90b1c3a978720c2e47b1839e47ce96025a3f6ee505b5aacd2a2cf98689f166d58d9696bc060181f3503ffd1f0d793f2b5b3d88fb0c35d66c200dec6818b92afd1ddef156fbc02f6b141731636f4b3143949b287389454e29fb3c972d43ced8da58dfc676f91d78bc70bf1195213f028b37565b674d172310fc70bf67cddce60cda4036f9a760ee610f23c9fbb715cfb1e8c0c917d45dee433b7d4b9d89c274a5a0b995e7cdbfd370239b4b5bc17c0e510e866198740a8f08b7d664473f73600d62287a75ee5d04e5d430d6eca642b7d6a280ac8fe6c2efe8a84f84e68f7a08eb70330f830af35c3f339273dfa42e79380d0de8f0e9f5cbc23bc26cef7f6703f840b15740863d618cea6192d51148eaee37e6529d2dd36361ac285a1eb26fad55f9124f9e910f4865f8473fb3b4f31d4e291e9f33c79a7a3c67977d22f0b103d8c5821f4b16182ef7542dab74d4909f3839b7347c10158244d98db9c29dc5e32ff2cfe8811cb074a55efb55f5a8330c8a303c84a9c9fd999da263e74b14263d4f985b150a884742f3d764a8971395d303a8c47801e62a94d74cb725158a2537553fb090941f2a531ae02eb88f67c42c4432f153e34dc4334932309148a0392172f31092293427037c24575a60326aa1a4aa9d800c04a4cdf24619d19bc6f77c137d816a45817b58665a65442ee32fd101b0925d3ed5286d8c56a94029fe1160ebb0e2bafab2f72590b9db1ff3dce007976cb28462ef3da8553100273d6462bf52aa690f2c8fa986d47e37c4be90f258ab67bd091d2e63b564aa43732532212e7e7b2f7989e0012d2d0ca5901d44d2b41b5252e5d47a5c8431adeaaa5f8df2a173d89fc11cce381075e27d8cfb5e9253f7dad451dd75cfa0a77ae95e4f4b622f45d83f456c2774b2178431d4e0d69fa4c22c2010fe6ba2c9ad66cedfec7ce087117e16dc86aef1c31d71cea6877ebbc2d982ad29920a42bc40b68336298c4a96725e53b87670ccbef9e5760b07717b66c789fa773105b0cdf9d404b4dcb411305a3de8de22c7b8bfeb8f8af0ec3cf0d087f0df8beb31a0a21c577d1dca9812b3027680bd5dcf6fa64bcc7006d9cc0e8c1c2734fefa104e01e8e1ec89d0a72feef2c7668ec0d49e7771bdf46445bb7d660aab0f5c4b518f938da5caa74c9ccf076b871a5e2f682bd621427a6732b33d165545c569eb12ee4c2230a374d08d60334ebeb7e132e42ffd76c075bcd0e7324b70c09c00e387121ab885f9438bf7a9fb10f4a462f7ea46ccda74110f721292260e883622ccab760ebb38c18378d126b775a3ded9f638ac5baa60b41689e1d3c4cf9e0a1496ae1c3c2a9bd69c65a6e22e85bf2f6714545bcf62b17ad63f4f6d4faf64b342abec17edeeb869c391ab42b8d3baf2461d442ae1551de9dcdbab6c647243f2cc23902f51561768df123224662f25feb1119b3f2271b706f82481f8e452caa394192040777f0a516430a1aed11d03fda2c8dc60e57b6372db37b9ddba9032de5be350af5257ca95eda0a3302d6cd876c91cf70bc0d871522419a88bee885b6ed3a3e564441361bac319d472ca11050e7a90d6c11d1e441ed66e45c5f5e57f55e07f4ff5d745cfedaf0cf9c2bcf26bdf216fd4f115c42528b24ac6f3a5dbd7c320dadb99db730203fe9fb197e85c2d6b4346b6a7c006608b89231c99d06ef372807c69620f70dc35810380b7f9ccee249d0e87c6347a2325126653d37b6b06bd5076547245426149b08253969d658cc022cdc1dcead1636343ec6742935a4d39f9e3f5fb59fbfa1d1900c392d419bc8a6bca9af25068984414eeb5fe53d26d1497d9ca9ce71a4cbb21cbce8060d974db47e243d5de5d98151e5af07e1ec98c1f52e42cb42ea3be351830db5f9b7442d18929d5ac49849c0995ee619ca3b2db147d8973944ad396aa975a594e98bf1cdc8465d91a6335162ec4ef26849a6d92f75ea2fe51ea01609779c62194d537b0f24a5abe2ba90b3d9328cc918b727f47e9ae840f1f605b9f76dd5de861115dc8d5d589f3a99a2ad7a41304cd0b32dc1b2fc6d089e0316fb549644c922335c724e089f8887d0a0778602f2102a4d22a49068f210b40eb211884e48e32a5c9302b6d5a95599af48b96afc9bc4a0bf4bad80c4c3a565db5a1b23208070793dd36b4b9d63fc60fea13f31f1b1fce0286338af82acd37ade044ba41cc5259ff64d03c439b342e4be179b7814ee539bf6ebc4ee8bee8aec187a7ffa45d9b9261af33bd16c687313002bd131adab6a3620bc112c872b824d2e58c08eef79eac556f58b7acb7bf77f64329960c7cdba67c4958239496ea169b167702dae08088162ff40cf0542834bd47fb75c9d5ca91c75f88d2f2818e5c8278cfd6e0da64b8651e14a58175b31452518db0fea825c2670c52c03458b4f1a50f4a79683e24e78eff9f292f257fece82c72a14410403ea93471ba2448d568c1b11cea189ca3e158d5ca80b64f9e3264c92e3d4035007411e904acbcaed3a97449a752b9a93ace000434926871eee0c1a977db3f001ef3bcad97c872434f27ed9d1c06963c39e5f40f9308d9dcfb898308cb461737a816898827c30604ba2b4cc1b5c74a918804bc86783320515a8e9a91a085e848a6cf4617fee6ad8c540c2ee608210852f33a08bd31d325c1a73a496e2fbc397411e515f227b2d840788aca23a920ae9a2d6dde468f61798476f9fd99a41155c262147aa47b5770a2c03060909ec7ecc1cf89bf385ecbd1dc582e</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Internet Programming</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+        <tag>Encrypted</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Intrusion Detection</title>
+    <url>/2020/09/24/Intrusion-Detection/</url>
+    <content><![CDATA[<p>Intrusion Detection course</p>
+<a id="more"></a>
+<h2 id="Group-Project-NotPetya-analysis"><a href="#Group-Project-NotPetya-analysis" class="headerlink" title="Group Project - NotPetya analysis"></a>Group Project - NotPetya analysis</h2><ol>
+<li>Interesting questions: shut down the SMBv1 could be a good prevent method, but is there any problems when using SMBv2 and SMBv3?<br> <a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/microsoft-network-client-digitally-sign-communications-always">Microsoft network client: Digitally sign communications (always)</a><br> <a href="https://www.cisco.com/c/en/us/td/docs/security/firepower/623/relnotes/Firepower_Release_Notes_623/new_features_and_changed_behavior.html">Cisco Firepower Release Notes, Version 6.2.3</a><br> <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-fss">Cisco Firepower System Software Server Message Block File Policy Bypass Vulnerability</a><br> <a href="https://www.lepide.com/blog/prevent-petya-and-other-ransomware-attacks-by-disabling-smbv1/">Prevent Petya and other Ransomware attacks by disabling SMBv1</a><br> <a href="https://www.extrahop.com/company/blog/2017/shut-down-smbv1/">Here’s why you need to stop using SMBv1 immediately. Even Microsoft agrees.</a><br> <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-0243">CVE-2018-0243 Detail</a></li>
+</ol>
+<h2 id="Research-Paper"><a href="#Research-Paper" class="headerlink" title="Research Paper"></a>Research Paper</h2><h3 id="preparation"><a href="#preparation" class="headerlink" title="preparation"></a>preparation</h3><ol>
+<li>Github repositries<br> <a href="https://github.com/harshilpatel1799/Iot-Cyber-Security-with-Machine-Learning-Research-Project">Iot-Cyber-Security-with-Machine-Learning-Research-Project</a><br> <a href="https://github.com/Akshat947/Network-intrusion-system-with-multinomial-classification">Network-intrusion-system-with-multinomial-classification</a><br> <a href="https://github.com/bhanuprakash556/INTRUSION-DETECTION-USING-MACHINE-LEARNING">INTRUSION-DETECTION-USING-MACHINE-LEARNING</a></li>
+<li><a href="https://github.com/sheng-qiang/BUPTBachelorThesis/issues/3">how to quote the online resource in Paper</a></li>
+</ol>
+<h3 id="Experiment-Design"><a href="#Experiment-Design" class="headerlink" title="Experiment Design"></a>Experiment Design</h3><ol>
+<li>Convert pcap to csv  using the Wireshark</li>
+<li><a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">Convert csv to txt</a></li>
+<li>Apply Network-intrusion-system-with-multinomial-classification for format fitting</li>
+<li>Use wireshark to generate train and validation data and convert it / checked</li>
+<li>Implement the existing project</li>
+<li>If error, try to fix and explain </li>
+<li>Record the key points when implementing</li>
+<li>Record the outcomes when running</li>
+<li>Evaluate the algorithm with validation dataset<br> machine learning regular evaluation</li>
+<li>Analyze test dataset using tools<br>My algorithm<br>other online or existing tools</li>
+<li>Conclusion<br>good points<br>possible error analysis<pre><code>1) in the music listenning dataset, if I want to use netease music, it need to set a VPN to China to enable it, this may change the attribute features of dataset and cause final classification bias or mistakes.</code></pre>
+where could be done better<br>possible ways to get better<pre><code>1) use tshark or python to extract the csv file from pcap file in a more customizable way
+2) config the wireshark to monitor only one application when generating test and validation data. [use wireshark to get specific application&#39;s internet package](https://blog.csdn.net/youxiansanren/article/details/48271851) / go to &quot;Activity Monitor&quot; of Mac to find the pid of firefox browser 441, and port is 31886 / [get the info of the application](https://blog.csdn.net/qq_24909089/article/details/90667898)
+3) use the spotfiy</code></pre>
+</li>
+</ol>
+<h3 id="Convert-pcap-to-csv"><a href="#Convert-pcap-to-csv" class="headerlink" title="Convert pcap to csv"></a>Convert pcap to csv</h3><ol start="0">
+<li>download the wireshark from <a href="https://www.wireshark.org/#download">official website</a> / <a href="https://jingyan.baidu.com/article/546ae1852ba4851149f28cd8.html">convert pcap to csv</a> / <a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">convert csv to txt</a></li>
+<li><a href="https://blog.csdn.net/LMD_BTBU/article/details/103146650">python ways in CSDN</a><ol>
+<li>pip install scapy</li>
+<li>confirm the format of given pcap file<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">###[ Ethernet ]### </span><br><span class="line">  dst       &#x3D; 52:54:00:12:35:02</span><br><span class="line">  src       &#x3D; 08:00:27:92:ab:0d</span><br><span class="line">  type      &#x3D; IPv4</span><br><span class="line">###[ IP ]### </span><br><span class="line">     version   &#x3D; 4</span><br><span class="line">     ihl       &#x3D; 5</span><br><span class="line">     tos       &#x3D; 0x0</span><br><span class="line">     len       &#x3D; 40</span><br><span class="line">     id        &#x3D; 45488</span><br><span class="line">     flags     &#x3D; DF</span><br><span class="line">     frag      &#x3D; 0</span><br><span class="line">     ttl       &#x3D; 64</span><br><span class="line">     proto     &#x3D; tcp</span><br><span class="line">     chksum    &#x3D; 0x7d53</span><br><span class="line">     src       &#x3D; 10.0.2.15</span><br><span class="line">     dst       &#x3D; 34.107.221.82</span><br><span class="line">     \options   \</span><br><span class="line">###[ TCP ]### </span><br><span class="line">        sport     &#x3D; 35546</span><br><span class="line">        dport     &#x3D; http</span><br><span class="line">        seq       &#x3D; 2415182248</span><br><span class="line">        ack       &#x3D; 14528222</span><br><span class="line">        dataofs   &#x3D; 5</span><br><span class="line">        reserved  &#x3D; 0</span><br><span class="line">        flags     &#x3D; A</span><br><span class="line">        window    &#x3D; 64020</span><br><span class="line">        chksum    &#x3D; 0xbe7</span><br><span class="line">        urgptr    &#x3D; 0</span><br><span class="line">        options   &#x3D; []</span><br></pre></td></tr></table></figure></li>
+</ol>
+ —–fail! just one row with wrong colums <ol start="3">
+<li>tshark -r sample1.pcap -T fields -e eth.src -e eth.dst -e ip.src -e ip.dst -e ip.proto -E header=y -E separator=, -E quote=d -E occurrence=f &gt; sample1.csv</li>
+</ol>
+</li>
+<li>Generate training dataset using wireshark<br> <a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">network trouble shotting</a><pre><code> 1) ping www.google.com
+ 2) traceroute www.google.com
+ 3) ipconfig ifcount
+ 4) nslookup www.google.com
+ 5) whois www.google.com
+ 6) netstat</code></pre>
+</li>
+<li>weka reference<br> <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">use weka to predict data</a>    / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">complement of the previews one</a><br> <a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">detailed output file instruction</a></li>
+<li>Prepare the data from raw data.<ol>
+<li>add “Class lable”, remember use ‘microsoft excel’ to add coloum but not the ‘mac numbers’ <a href="https://jingyan.baidu.com/article/4f34706e16474de386b56d77.html">how to use excel to fill one coloum to one value</a></li>
+<li>or directly use weka import csv file and convert it to arff file<br> in the ‘info’ attribute, can not contain double quotation marks, which would lead to generation error —– even if choose other method, this would also consequently cause error, so this is a very important tip. <a href="https://jingyan.baidu.com/article/d621e8da5a57492864913f75.html">replace the string in Excel with empty space</a>-tap a space in the replace textbox of excel but not nothing</li>
+</ol>
+</li>
+</ol>
+<ol start="6">
+<li>Dataset preprocessing<ol>
+<li>delete useless attribute ID, which does not contain any information about the intrusion detection process.</li>
+</ol>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="https://ieeexplore.ieee.org/document/6888681">Converting PCAPs into Weka mineable data - IEEE Xplore</a></li>
+<li>Good steps instruction —- <a href="https://blog.vikki.in/machine-learning-network-traffic-classification-using-weka/">Machine learning – Network traffic classification using weka
+</a></li>
+<li><a href="https://blog.csdn.net/oMengLiShuiXiang1234/article/details/48343987">Analysis J48 in Weka</a></li>
+<li><a href="https://www.cnblogs.com/garfieldcgf/p/10006546.html">Use the Wireshark in Mac</a></li>
+<li><a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">10 most used network trouble shooting commands</a></li>
+<li><a href="https://www.youtube.com/watch?v=FMiCOx95lAc&ab_channel=WekaMOOC">Data Mining with weka (2.2 training and testing) official video guidance</a></li>
+<li><a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Use weka to predict the test data set</a> / <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Visualization way in weka</a> / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">Command way in weka</a></li>
+</ol>
+<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
+<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
+</li>
+<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
+</ol>
+<h2 id="APT-advanced-persistent-threat"><a href="#APT-advanced-persistent-threat" class="headerlink" title="APT - advanced persistent threat"></a>APT - advanced persistent threat</h2><ol>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E7%BA%A7%E9%95%BF%E6%9C%9F%E5%A8%81%E8%83%81">Wikipedia</a></li>
+<li>Refers mainly to hidden and long-term intrusion in computer, which is conducted mainly by professional attackers and aimed at specific targets.</li>
+<li>The biggest threat is that it is long-term, which means that people can not be certain when did their computers get infected. And that makes the process of recovery even harder and a bit more unnreliable.</li>
+</ol>
+<h2 id="Security-Orchestration-Automation-and-Response"><a href="#Security-Orchestration-Automation-and-Response" class="headerlink" title="Security Orchestration, Automation, and Response."></a>Security Orchestration, Automation, and Response.</h2><ol>
+<li><a href="https://www.fireeye.com/products/helix/what-is-soar.html">official website</a></li>
+</ol>
+<h2 id="Famous-virus"><a href="#Famous-virus" class="headerlink" title="Famous virus"></a>Famous virus</h2><p><a href="https://www.youtube.com/watch?v=3nrwAW_0FjU&ab_channel=TheScienceElf">A brief history of Computer Viruses - Youtube</a></p>
+<ol>
+<li>Stuxnet <a href="https://en.wikipedia.org/wiki/Stuxnet">wikipedia</a></li>
+</ol>
+<h2 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
+<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Intrusion Detection</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LeetCode</title>
     <url>/2020/10/04/LeetCode/</url>
     <content><![CDATA[<p>LeetCode records (In C++/Python 3)</p>
@@ -232,30 +359,51 @@
       </tags>
   </entry>
   <entry>
-    <title>Data Science</title>
-    <url>/2020/09/25/Data-Science/</url>
-    <content><![CDATA[<p>Data Science ralated material</p>
+    <title>Small Tools</title>
+    <url>/2020/10/06/SmallTools/</url>
+    <content><![CDATA[<p>Some interesting small tools</p>
 <a id="more"></a>
 
-<h2 id="行业分析"><a href="#行业分析" class="headerlink" title="行业分析"></a>行业分析</h2><ol>
-<li>工程能力</li>
-<li>对数据、对业务的理解</li>
-<li>机器学习算法与模型</li>
+<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
+
+
+<ol>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
 </ol>
-<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h2><ol>
-<li>Kaggle天池比赛</li>
-<li>在github上follow一些有意思的ML项目</li>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://tool.lu/ip/">online ip check</a></li>
 </ol>
-<h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><ol>
-<li>BerkeleyX: CS190.1x <a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/">Scalable Machine Learning</a> CS105x <a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/">Introduction to Apache Spark</a></li>
-<li>Stanford CS231n <a href="https://cs231n.github.io/">Convolutional Neural Networks for Visual Recognition</a></li>
+]]></content>
+      <tags>
+        <tag>Interesting</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python Learning</title>
+    <url>/2020/09/08/Python-Learning/</url>
+    <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
+<a id="more"></a>
+
+<p>Notes for 《Learn Python The Hard Way》:</p>
+<ol>
+<li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li>
+<li>Could use “%r” to debug because it will show the raw data of the parameter.</li>
+<li>Command Line programming is very important for beginners.</li>
+</ol>
+<p>Reference:</p>
+<ol>
+<li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li>
+<li></li>
 </ol>
 ]]></content>
       <categories>
-        <category>Data Science</category>
+        <category>Programming Language</category>
       </categories>
       <tags>
-        <tag>Record</tag>
+        <tag>Notes</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -311,192 +459,134 @@
       </tags>
   </entry>
   <entry>
-    <title>Tools</title>
-    <url>/2020/10/27/Tools/</url>
-    <content><![CDATA[<p>Useful tools and usage tips</p>
+    <title>Text &amp; Web Mining</title>
+    <url>/2020/09/24/Text-Web-Mining/</url>
+    <content><![CDATA[<p>Text &amp; Web Mining course</p>
 <a id="more"></a>
 
-<h2 id="TeamViewer"><a href="#TeamViewer" class="headerlink" title="TeamViewer"></a>TeamViewer</h2><ol>
-<li><a href="https://community.teamviewer.com/t5/TeamViewer-Knowledge-Base-ZH/%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD-Mac-%E4%B8%8A%E7%9A%84-TeamViewer/ta-p/33671">how to totally delete TeamViewer in Mac</a> </li>
-<li>NTU internal network would block the sign-in and internet process of TV, can try to use VPN to fix this problem.</li>
-<li><a href="https://community.teamviewer.com/t5/General-Questions-EN/PC-shows-as-online-then-connecting-then-nothing/td-p/26593">pc shows online but nothing happened, how to fix</a> / or just change internet or check the firewall settings.</li>
+<h2 id="Group-Project-Taylor-Swift-lyrics-generator"><a href="#Group-Project-Taylor-Swift-lyrics-generator" class="headerlink" title="Group Project : Taylor Swift lyrics generator"></a>Group Project : Taylor Swift lyrics generator</h2><p>method: RNN LSTM GPT2</p>
+<ol>
+<li><a href="https://github.com/Nana0606/lyrics_generation">LSTM github good instance</a></li>
+<li><a href="https://github.com/fukuball/Tom-Chang-Deep-Lyrics">LSTM github detailed instance - Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生。</a></li>
+<li><a href="https://github.com/adigoryl/Styled-Lyrics-Generator-GPT2">GPT2 styled lyrics generator - github + colab</a></li>
 </ol>
-]]></content>
-      <categories>
-        <category>Records</category>
-      </categories>
-      <tags>
-        <tag>Tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Association Rule Mining</title>
-    <url>/2020/10/23/Association-Rule-Mining/</url>
-    <content><![CDATA[<p>Detailed AR mining process</p>
-<a id="more"></a>
-
-<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
-<li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
-<li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
+<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
 </ol>
-<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
-<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
-<li><a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
-<li><a href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
+<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br> !nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
 </ol>
-<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
-<li><p>Algorithm steps<br> Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
-<p> Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
-<p> Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
-<p> Step-4: Sort the rules as the decreasing order of lift.</p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
 </li>
-<li><p><a href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
-</li>
-</ol>
-<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
-<li>WEKA use data set in .arff format<br> tips: 1) use <a href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><pre><code>   2) can also use [arff functions](https://www.youtube.com/watch?v=pecmx-KuUQA&amp;ab_channel=AsteroidGroup) to change xls and csv files directly into arff files</code></pre>
-</li>
-<li>There are 12 parameters could be set before running Apriori <a href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
-<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
-</ol>
-<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
-<thead>
-<tr>
-<th>Time</th>
-<th>labor</th>
-<th>breast-cancer</th>
-<th>wisconsin-breast-cancer</th>
-<th>hypothyroid</th>
-<th>mushroom</th>
-<th>letter</th>
-<th>adult</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>attribute number</td>
-<td>17</td>
-<td>10</td>
-<td>10</td>
-<td>30</td>
-<td>23</td>
-<td>16</td>
-<td>15</td>
-</tr>
-<tr>
-<td>instance number</td>
-<td>57</td>
-<td>286</td>
-<td>699</td>
-<td>3772</td>
-<td>8124</td>
-<td>20000</td>
-<td>32561</td>
-</tr>
-<tr>
-<td>setting 1</td>
-<td>263</td>
-<td>302</td>
-<td>296</td>
-<td>372</td>
-<td>343</td>
-<td>526</td>
-<td>746</td>
-</tr>
-<tr>
-<td>setting 2</td>
-<td>289</td>
-<td>337</td>
-<td>314</td>
-<td>587</td>
-<td>723</td>
-<td>2493</td>
-<td>4633</td>
-</tr>
-<tr>
-<td>brute estimate</td>
-<td>16246</td>
-<td>81513</td>
-<td>199221</td>
-<td>1075057</td>
-<td>2315421</td>
-<td>5700200</td>
-<td>9280211</td>
-</tr>
-</tbody></table>
-<pre><code>Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100
-Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</code></pre>
-<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
-<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
-<table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>spectrum disorder screening - adolescent</th>
-<th>spectrum disorder screening - children</th>
-<th>spectrum disorder screening - adult</th>
-<th>absent at work</th>
-<th>SouthGermanCredit</th>
-<th>mushroom</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>attribute</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>22-&gt;21</td>
-</tr>
-<tr>
-<td>instance</td>
-<td>104</td>
-<td>292</td>
-<td>704</td>
-<td>740</td>
-<td>1000</td>
-<td>8124</td>
-</tr>
-<tr>
-<td>time / setting 1</td>
-<td>303</td>
-<td>320</td>
-<td>319</td>
-<td>317</td>
-<td>387</td>
-<td>409</td>
-</tr>
-<tr>
-<td>time / setting 2</td>
-<td>307</td>
-<td>346</td>
-<td>372</td>
-<td>472</td>
-<td>953</td>
-<td>976</td>
-</tr>
-</tbody></table>
-<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
-<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2020/10/23/Association-Rule-Mining/time-deduction.png" alt="time complexity deduction"></li>
-<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
-</ol>
-<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2020/10/23/Association-Rule-Mining/time-plot.png" alt="time-plot"></p>
-<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
-<li><a href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
-</ol>
-<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
-<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
-<li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
 </ol>
 ]]></content>
       <categories>
         <category>Courses</category>
-        <category>Data Mining</category>
+        <category>Text &amp; Web Mining</category>
       </categories>
       <tags>
-        <tag>Data Mining</tag>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog start-up and settings</title>
+    <url>/2020/09/04/blog/</url>
+    <content><![CDATA[<p>Welcome to Mysite!</p>
+<a id="more"></a>
+
+<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
+<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
+<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
+<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
+</li>
+</ol>
+<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
+<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
+<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
+<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
+</li>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
+<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
+       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
+</li>
+<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
+<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+</ol>
+<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
+<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
+</li>
+<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
+<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
+<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
+<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> to</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> So, I could use the format below:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
+<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+<pre><code> Tips: 1) set height as specific px but not percentage.
+       2) use local reference first, because URL need much more time to load.
+       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
+</li>
+<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
+<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
+       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
+</li>
+<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
+</li>
+<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
+</li>
+<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
+</li>
+<li><p>How to show independent website page in the Github Pages blogs</p>
+<ol>
+<li>restore all the needed website page in the /myDoc file</li>
+<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
+<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
       </tags>
   </entry>
   <entry>
@@ -2423,246 +2513,193 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>Small Tools</title>
-    <url>/2020/10/06/SmallTools/</url>
-    <content><![CDATA[<p>Some interesting small tools</p>
+    <title>Association Rule Mining</title>
+    <url>/2020/10/23/Association-Rule-Mining/</url>
+    <content><![CDATA[<p>Detailed AR mining process</p>
 <a id="more"></a>
 
-<h2 id="Use-small-software-to-use-netease-music-totally-free"><a href="#Use-small-software-to-use-netease-music-totally-free" class="headerlink" title="Use small software to use netease music totally free"></a>Use small software to use netease music totally free</h2><p>use the code below to open the local service</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure>
-
-
-<ol>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
+<li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
+<li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
 </ol>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://tool.lu/ip/">online ip check</a></li>
+<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+<li><a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
+<li><a href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+<li><a href="https://discrete.gr/complexity/">Complexity</a></li>
 </ol>
-]]></content>
-      <tags>
-        <tag>Interesting</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Academic Records</title>
-    <url>/2020/09/25/Academic-Records/</url>
-    <content><![CDATA[<p>Records about useful or intersting academic information</p>
-<a id="more"></a>
-
-<h2 id="Top-conferences-and-journals"><a href="#Top-conferences-and-journals" class="headerlink" title="Top conferences and journals"></a>Top conferences and journals</h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><p>NIPS / ICML / neurips / uai / aistats</p>
-<h3 id="Computer-Vision"><a href="#Computer-Vision" class="headerlink" title="Computer Vision"></a>Computer Vision</h3><p>CVPR / ICCV / ECCV / NIPS</p>
-<h3 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h3><p>KDD / ICDM / WSDM / SDM / CIK&lt;</p>
-<h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><p>ACL / EMNLP / NAACL</p>
-<h3 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h3><p>SIGIR / WWW</p>
-<h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><p>ICLR</p>
-<h3 id="Robotic"><a href="#Robotic" class="headerlink" title="Robotic"></a>Robotic</h3><p>ICRA / IROS / RSS</p>
-<h3 id="Artifical-Intelligence"><a href="#Artifical-Intelligence" class="headerlink" title="Artifical Intelligence"></a>Artifical Intelligence</h3><p>AAAI / IJCAI</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Encrypted</title>
-    <url>/2020/09/24/Encrypted/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="a5b0d5e8f494e5af0447bd438d63b60d0db0d4290ad14a1afc48ef5f74653ffd">77d7535348f6230f63550361cfb8db528ba5fc8bf8a16bd484ce4555d23e1db498f218e407f5f4fd1376813172648eed36c93ab6e576283afeb28b60b802620d10f43f3012706b714f7182fc1ac4714035172207b318c24edd9640b7d68e53cfefaac49c385b05691dbe62d4c01afdd8ee8fd23f35245c11c9612e6977448f6410e1eeeb7cd9e8fa40118efca5fd2c6719355afb101b12770dcd247a02365ef5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Book Notes - Chinese</title>
-    <url>/2020/09/19/Book-notes/</url>
-    <content><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p>
-<p> 这里也保存了一些优秀的中文版的图书的读书笔记.</p>
-<a id="more"></a>
-
-
-
-<h2 id="Notes-when-reading"><a href="#Notes-when-reading" class="headerlink" title="Notes when reading:"></a>Notes when reading:</h2><h3 id="Notes-collection-Computer-Science-Four-Element-Courses"><a href="#Notes-collection-Computer-Science-Four-Element-Courses" class="headerlink" title="Notes collection - Computer Science/Four Element Courses"></a>Notes collection - Computer Science/Four Element Courses</h3><p>   Reading notes:<br><object data="ComputerScience-fourElements.pdf" type="application/pdf" width="90%" height="800px"><br></object><br><br></p>
-<h3 id="《学术研究-你的成功之道》凌晓峰-杨强-著"><a href="#《学术研究-你的成功之道》凌晓峰-杨强-著" class="headerlink" title="《学术研究,你的成功之道》凌晓峰,杨强 著"></a>《学术研究,你的成功之道》凌晓峰,杨强 著</h3><ol>
-<li><p>研究生期间比较好的节奏: 认真学习,努力钻研,心无旁骛,培养起较强的独立科研工作能力</p>
+<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
+<li><p>Algorithm steps<br> Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
+<p> Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
+<p> Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
+<p> Step-4: Sort the rules as the decreasing order of lift.</p>
 </li>
-<li><p>锤子 + 钉子 理论</p>
-</li>
-<li><p>兴趣是研究的动力,创新是研究的核心,影响力是研究的成绩单</p>
-<p>随笔记录:</p>
-<object data="AcademicResearch.pdf" type="application/pdf" width="90%" height="800px">
-</object><br><br>
-
+<li><p><a href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
 </li>
 </ol>
-<h3 id="《风格的要素》-威廉斯托克-著-王书淮-译"><a href="#《风格的要素》-威廉斯托克-著-王书淮-译" class="headerlink" title="《风格的要素》 威廉斯托克 著 王书淮 译"></a>《风格的要素》 威廉斯托克 著 王书淮 译</h3><h4 id="英语用法的八个基本规则"><a href="#英语用法的八个基本规则" class="headerlink" title="英语用法的八个基本规则"></a>英语用法的八个基本规则</h4><ol>
-<li>单数名词末尾加‘s,构成名词所有格</li>
-<li>叙述一系列超过三个以上的名词,在最后一个名词前使用连接词,其余的每个名词以逗号隔开</li>
-<li>将作附加说明的插入语放在两个逗号中间</li>
-<li>以连接词and或but引导完整的句子时,连接词的前面要加逗号</li>
-<li>不可以用逗号直接连接两个完整的句子</li>
-<li>不可以讲完整的句子任意拆分成两部分</li>
-<li>句首的分词短语所指代的主语应与主句的主语保持一致</li>
-<li>在行末需要将单词拆分是,必须遵守构词和发音的规则.</li>
+<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
+<li>WEKA use data set in .arff format<br> tips: 1) use <a href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><pre><code>   2) can also use [arff functions](https://www.youtube.com/watch?v=pecmx-KuUQA&amp;ab_channel=AsteroidGroup) to change xls and csv files directly into arff files</code></pre>
+</li>
+<li>There are 12 parameters could be set before running Apriori <a href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
+<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
 </ol>
-<h4 id="英语写作的十个基本原则"><a href="#英语写作的十个基本原则" class="headerlink" title="英语写作的十个基本原则"></a>英语写作的十个基本原则</h4><ol start="9">
-<li><p>以段落为写作的基本单位,每个段落有其中心主旨</p>
-</li>
-<li><p>在段落的开始使用主旨句点题,段落的结尾与主旨句相呼应</p>
-</li>
-<li><p>使用主动语态</p>
-</li>
-<li><p>使用肯定句陈述</p>
-</li>
-<li><p>省略冗词</p>
-</li>
-<li><p>避免连续使用结构松散的句子</p>
-</li>
-<li><p>以相似的句型结构叙述对等的概念</p>
-</li>
-<li><p>将相关的词放在一起</p>
-</li>
-<li><p>总结叙述时,要使用同一时态</p>
-</li>
-<li><p>将需要强调的词或词组放在句子末尾</p>
-<p>随笔记录:</p>
-<object data="TheElementOfStyle.pdf" type="application/pdf" width="90%" height="800px">
-</object><br><br>
-
-
-
-
-</li>
+<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
+<thead>
+<tr>
+<th>Time</th>
+<th>labor</th>
+<th>breast-cancer</th>
+<th>wisconsin-breast-cancer</th>
+<th>hypothyroid</th>
+<th>mushroom</th>
+<th>letter</th>
+<th>adult</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute number</td>
+<td>17</td>
+<td>10</td>
+<td>10</td>
+<td>30</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+</tr>
+<tr>
+<td>instance number</td>
+<td>57</td>
+<td>286</td>
+<td>699</td>
+<td>3772</td>
+<td>8124</td>
+<td>20000</td>
+<td>32561</td>
+</tr>
+<tr>
+<td>setting 1</td>
+<td>263</td>
+<td>302</td>
+<td>296</td>
+<td>372</td>
+<td>343</td>
+<td>526</td>
+<td>746</td>
+</tr>
+<tr>
+<td>setting 2</td>
+<td>289</td>
+<td>337</td>
+<td>314</td>
+<td>587</td>
+<td>723</td>
+<td>2493</td>
+<td>4633</td>
+</tr>
+<tr>
+<td>brute estimate</td>
+<td>16246</td>
+<td>81513</td>
+<td>199221</td>
+<td>1075057</td>
+<td>2315421</td>
+<td>5700200</td>
+<td>9280211</td>
+</tr>
+</tbody></table>
+<pre><code>Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100
+Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</code></pre>
+<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
+<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>spectrum disorder screening - adolescent</th>
+<th>spectrum disorder screening - children</th>
+<th>spectrum disorder screening - adult</th>
+<th>absent at work</th>
+<th>SouthGermanCredit</th>
+<th>mushroom</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>22-&gt;21</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>104</td>
+<td>292</td>
+<td>704</td>
+<td>740</td>
+<td>1000</td>
+<td>8124</td>
+</tr>
+<tr>
+<td>time / setting 1</td>
+<td>303</td>
+<td>320</td>
+<td>319</td>
+<td>317</td>
+<td>387</td>
+<td>409</td>
+</tr>
+<tr>
+<td>time / setting 2</td>
+<td>307</td>
+<td>346</td>
+<td>372</td>
+<td>472</td>
+<td>953</td>
+<td>976</td>
+</tr>
+</tbody></table>
+<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
+<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2020/10/23/Association-Rule-Mining/time-deduction.png" alt="time complexity deduction"></li>
+<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
 </ol>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><ol>
-<li><p><a href="https://book.douban.com/subject/20284332/">《学术研究,你的成功之道》- 豆瓣</a></p>
-</li>
-<li><p><a href="http://product.dangdang.com/25229325.html">《风格的要素》- 当当</a></p>
-</li>
+<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2020/10/23/Association-Rule-Mining/time-plot.png" alt="time-plot"></p>
+<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
+<li><a href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
 </ol>
-]]></content>
-      <categories>
-        <category>BookNotes</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-        <tag>BookNotes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python Learning</title>
-    <url>/2020/09/08/Python-Learning/</url>
-    <content><![CDATA[<p> The introduciton of Python and some notes when learning</p>
-<a id="more"></a>
-
-<p>Notes for 《Learn Python The Hard Way》:</p>
-<ol>
-<li>Use PEMDAS(Parentheses Exponents Multiplication Division Addition Subtraction) to help remeber the calculating priority.</li>
-<li>Could use “%r” to debug because it will show the raw data of the parameter.</li>
-<li>Command Line programming is very important for beginners.</li>
-</ol>
-<p>Reference:</p>
-<ol>
-<li><a href="https://learnpythonthehardway.org/book/">《Learn Python The Hard Way》</a><br> This book is suitable for person who did not know much about Computer Programming and Python before.<br> This book indicate some good habits programer should posses, which I believe is very good for beginners.<br> Reading time apporximately is </li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Programming Language</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog start-up and settings</title>
-    <url>/2020/09/04/blog/</url>
-    <content><![CDATA[<p>Welcome to Mysite!</p>
-<a id="more"></a>
-
-<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
-<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
-<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
-<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
-</li>
-</ol>
-<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
-<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
-<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
-<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
-</li>
-<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
-<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
-       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
-</li>
-<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
+<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
 <li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
-</ol>
-<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
-<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
-</li>
-<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
-<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
-<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
-<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> to</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> So, I could use the format below:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
-<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-<pre><code> Tips: 1) set height as specific px but not percentage.
-       2) use local reference first, because URL need much more time to load.
-       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
-<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
-       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
-</li>
-<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
-</li>
-<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
-</li>
-<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
-</li>
-<li><p>How to show independent website page in the Github Pages blogs</p>
-<ol>
-<li>restore all the needed website page in the /myDoc file</li>
-<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
-<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
-</ol>
-</li>
+<li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
 </ol>
 ]]></content>
       <categories>
-        <category>Documents</category>
+        <category>Courses</category>
+        <category>Data Mining</category>
       </categories>
       <tags>
-        <tag>Records</tag>
+        <tag>Data Mining</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools</title>
+    <url>/2020/10/27/Tools/</url>
+    <content><![CDATA[<p>Useful tools and usage tips</p>
+<a id="more"></a>
+
+<h2 id="TeamViewer"><a href="#TeamViewer" class="headerlink" title="TeamViewer"></a>TeamViewer</h2><ol>
+<li><a href="https://community.teamviewer.com/t5/TeamViewer-Knowledge-Base-ZH/%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD-Mac-%E4%B8%8A%E7%9A%84-TeamViewer/ta-p/33671">how to totally delete TeamViewer in Mac</a> </li>
+<li>NTU internal network would block the sign-in and internet process of TV, can try to use VPN to fix this problem.</li>
+<li><a href="https://community.teamviewer.com/t5/General-Questions-EN/PC-shows-as-online-then-connecting-then-nothing/td-p/26593">pc shows online but nothing happened, how to fix</a> / or just change internet or check the firewall settings.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Records</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
       </tags>
   </entry>
 </search>
