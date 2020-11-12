@@ -178,7 +178,12 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
     <url>/2020/09/20/Information-Visualization/</url>
     <content><![CDATA[<p>Information Visualization course</p>
 <a id="more"></a>
-<h2 id="Information-Visualization-dashboard-of-GE2020"><a href="#Information-Visualization-dashboard-of-GE2020" class="headerlink" title="Information Visualization dashboard of GE2020"></a>Information Visualization dashboard of GE2020</h2><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
+<h2 id="Storytelling-about-Covid-19-LIFE-of-LI"><a href="#Storytelling-about-Covid-19-LIFE-of-LI" class="headerlink" title="Storytelling about Covid-19 - LIFE of LI"></a>Storytelling about Covid-19 - LIFE of LI</h2><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
+<li><a href="https://observablehq.com/">Very good D3 example and implementation website - observablehq.com</a></li>
+<li><a href="http://www.htmleaf.com/html5/html5donghua/20141103368.html">Base html with swig special effect</a></li>
+<li>Good examples: <a href="https://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/index.html">The New York Times - football races - information dashboard</a></li>
+</ol>
+<h2 id="Information-Visualization-dashboard-of-GE2020"><a href="#Information-Visualization-dashboard-of-GE2020" class="headerlink" title="Information Visualization dashboard of GE2020"></a>Information Visualization dashboard of GE2020</h2><h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
 <li>analysis about previews election date: <a href="https://github.com/chuachinhon/sg_elections_cch">about election time and timespan - sg_elections_cch</a></li>
 <li><a href="https://www.eld.gov.sg/elections_past_parliamentary.html">Singapore Official election data</a></li>
 <li><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_slice_array">js onine small tester - w3schools.com</a></li>
@@ -204,7 +209,7 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 </li>
 <li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#102;&#x68;&#x75;&#x61;&#x6e;&#103;&#49;&#x38;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#102;&#x68;&#x75;&#x61;&#x6e;&#103;&#49;&#x38;&#49;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#104;&#x75;&#97;&#110;&#103;&#49;&#56;&#x31;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x66;&#104;&#x75;&#97;&#110;&#103;&#49;&#56;&#x31;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
 </li>
 <li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
 </li>
@@ -233,7 +238,7 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#x66;&#104;&#117;&#x61;&#x6e;&#103;&#x31;&#x38;&#x31;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x66;&#104;&#117;&#x61;&#x6e;&#103;&#x31;&#x38;&#x31;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>My email: <a href="mailto:&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
@@ -356,6 +361,10 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 <li><a href="https://community.teamviewer.com/t5/TeamViewer-Knowledge-Base-ZH/%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BD-Mac-%E4%B8%8A%E7%9A%84-TeamViewer/ta-p/33671">how to totally delete TeamViewer in Mac</a> </li>
 <li>NTU internal network would block the sign-in and internet process of TV, can try to use VPN to fix this problem.</li>
 <li><a href="https://community.teamviewer.com/t5/General-Questions-EN/PC-shows-as-online-then-connecting-then-nothing/td-p/26593">pc shows online but nothing happened, how to fix</a> / or just change internet or check the firewall settings.</li>
+</ol>
+<h2 id="Keynote"><a href="#Keynote" class="headerlink" title="Keynote"></a>Keynote</h2><ol>
+<li><a href="https://www.youtube.com/watch?v=rKh9JM8Dti4&ab_channel=TechTalkAmerica">youtube keynote freshman guide</a> / <a href="https://www.uihere.com/">PNG cliparts, Design assets, Commercial-Use Photos for free download</a></li>
+<li><a href="https://elements.envato.com/">free elements every month- photo, ppt, video, voice source</a></li>
 </ol>
 ]]></content>
       <categories>
@@ -2471,7 +2480,16 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
 
 <ol>
 <li><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></li>
-<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br> note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/597">Mac implementation</a><br>Step: </li>
+</ol>
+<ol>
+<li>open the certificate “UnblockNeteaseMusic Root CA” in Keychain Access.</li>
+<li>terminal to service directory and use<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node app.js -p 80:443 -f 223.252.199.66</span><br></pre></td></tr></table></figure></li>
+<li>end the terminal and untrust the certificate.<br>note: use the ip in “Mac implementation” would be just fine. my ping result always can not connect to music.163.com</li>
+<li><a href="https://github.com/nondanee/UnblockNeteaseMusic/issues/65#issue-439169649">IOS implementation</a><br>Step:</li>
+<li>add the certificate </li>
+<li>could use and not necessary for pm2 start —— I assume that everybody used the same certificate with built-in https settings.</li>
+<li>untrust the certificate is fine</li>
 </ol>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
 <li><a href="https://tool.lu/ip/">online ip check</a></li>
