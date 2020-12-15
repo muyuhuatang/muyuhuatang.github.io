@@ -105,6 +105,28 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
     <content><![CDATA[<p>Text &amp; Web Mining course</p>
 <a id="more"></a>
 
+<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br>!nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br>from google.colab import drive<br>drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
+</ol>
+<h2 id="Take-Home-Project-2-sentiment-classifier"><a href="#Take-Home-Project-2-sentiment-classifier" class="headerlink" title="Take Home Project 2 - sentiment classifier"></a>Take Home Project 2 - sentiment classifier</h2><h3 id="preperation"><a href="#preperation" class="headerlink" title="preperation"></a>preperation</h3><ol start="0">
+<li>good examples and guide: <a href="https://github.com/bentrevett/pytorch-sentiment-analysis"> bentrevett / pytorch-sentiment-analysis </a> / <a href="https://medium.com/@galhever/sentiment-analysis-with-pytorch-part-3-cnn-model-7bb30712abd7">Sentiment Analysis with Pytorch — Part 3— CNN Model</a> / <a href="https://github.com/xalanq/chinese-sentiment-classification">xalanq<br>/ chinese-sentiment-classification</a> / <a href="https://github.com/slaysd/pytorch-sentiment-analysis-classification">slaysd<br>/ pytorch-sentiment-analysis-classification</a></li>
+<li>NN, RNN, BERT - given Jupyter files</li>
+<li>modify CNN Jupyter files<ol>
+<li>change surname model to sentiment model - character level tokens</li>
+<li>online reference: <a href="https://towardsdatascience.com/cnn-sentiment-analysis-9b1771e7cdd6">3 kind of outcome sentiment classifer</a></li>
+<li>use weka:<br><a href="https://www.researchgate.net/post/Can-we-use-CNN-and-RNN-algorithms-in-Weka">weka to do deep learning</a> / <a href="https://deeplearning.cms.waikato.ac.nz/install/#cpu">official guide of installing</a> / <a href="https://medium.com/@b10405022/wekadeeplearning4j-%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%9D-37632bc867fc">how to quick install weka deep learning toolkit</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="Further-work-direction"><a href="#Further-work-direction" class="headerlink" title="Further work direction"></a>Further work direction</h3><ol>
+<li>coBerta <a href="https://www.kaggle.com/iamprateek/sentiment-analysis-using-roberta">kaggle example using coBerta</a></li>
+<li>weka preprocessing + bert <a href="https://www.stefanoscerra.it/movie-reviews-classification-weka-data-mining/">weka preprocessing</a></li>
+<li>evaluation <a href="https://zhuanlan.zhihu.com/p/287911524?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056">ambert evaluation</a> / <a href="https://www.zhihu.com/question/418623902/answer/1453247561?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056&utm_content=group1_Answer&utm_campaign=shareopn">ambert discussion in zhihu</a></li>
+</ol>
 <h2 id="Group-Project-Taylor-Swift-lyrics-generator"><a href="#Group-Project-Taylor-Swift-lyrics-generator" class="headerlink" title="Group Project : Taylor Swift lyrics generator"></a>Group Project : Taylor Swift lyrics generator</h2><p>method: RNN LSTM GPT2</p>
 <ol>
 <li><a href="https://github.com/Nana0606/lyrics_generation">LSTM github good instance</a></li>
@@ -126,13 +148,6 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 <h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
 <h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
 <p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
-<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
-<li>use code below to check GPU status<br> !nvidia-smi</li>
-<li>build connection between google drive files and this notebook<br> from google.colab import drive<br> drive.mount(‘/content/drive/‘)</li>
-<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
-<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
-</ol>
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
 <li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
 <li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
@@ -181,7 +196,7 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 <h2 id="Storytelling-about-Covid-19-LIFE-of-LI"><a href="#Storytelling-about-Covid-19-LIFE-of-LI" class="headerlink" title="Storytelling about Covid-19 - LIFE of LI"></a>Storytelling about Covid-19 - LIFE of LI</h2><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
 <li><a href="https://observablehq.com/">Very good D3 example and implementation website - observablehq.com</a></li>
 <li><a href="http://www.htmleaf.com/html5/html5donghua/20141103368.html">Base html with swig special effect</a></li>
-<li>Good examples: <a href="https://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/index.html">The New York Times - football races - information dashboard</a></li>
+<li>Good examples: <a href="http://everylastdrop.co.uk/">small man animation effect functioned by scrolling from up to down</a> / <a href="http://www.anterior.banxico.org.mx/mibanxico/capitulo4/">3D special effect with zoom function</a> / <a href="https://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/index.html">The New York Times - football races - information dashboard</a></li>
 </ol>
 <h2 id="Information-Visualization-dashboard-of-GE2020"><a href="#Information-Visualization-dashboard-of-GE2020" class="headerlink" title="Information Visualization dashboard of GE2020"></a>Information Visualization dashboard of GE2020</h2><h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
 <li>analysis about previews election date: <a href="https://github.com/chuachinhon/sg_elections_cch">about election time and timespan - sg_elections_cch</a></li>
@@ -209,7 +224,7 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 </li>
 <li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#104;&#x75;&#97;&#110;&#103;&#49;&#56;&#x31;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x66;&#104;&#x75;&#97;&#110;&#103;&#49;&#56;&#x31;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#104;&#117;&#x61;&#110;&#x67;&#49;&#56;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x66;&#104;&#117;&#x61;&#110;&#x67;&#49;&#56;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
 </li>
 <li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
 </li>
@@ -238,7 +253,7 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#102;&#104;&#x75;&#x61;&#x6e;&#x67;&#x31;&#x38;&#x31;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></p>
+<p>My email: <a href="mailto:&#x66;&#104;&#117;&#97;&#110;&#x67;&#49;&#x38;&#x31;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x66;&#104;&#117;&#97;&#110;&#x67;&#49;&#x38;&#x31;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
@@ -2539,7 +2554,6 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
     <title>Book Notes - Chinese</title>
     <url>/2020/09/19/Book-notes/</url>
     <content><![CDATA[<p> This is a place I store book notes and related information. The books and the notes here are the Edition in Chinese.</p>
-<p> 这里也保存了一些优秀的中文版的图书的读书笔记.</p>
 <a id="more"></a>
 
 
