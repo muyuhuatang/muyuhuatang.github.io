@@ -21,19 +21,21 @@
     var CONFIG = {"hostname":"muyuhuatang.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.">
+  <meta name="description" content="Data Mining Notes">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Data Mining">
 <meta property="og:url" content="http://muyuhuatang.github.io/2020/09/24/Data-Mining/index.html">
 <meta property="og:site_name" content="Huang&#39;s Blog">
-<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.">
+<meta property="og:description" content="Data Mining Notes">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://muyuhuatang.github.io/2020/09/24/Data-Mining/time-deduction.png">
+<meta property="og:image" content="http://muyuhuatang.github.io/2020/09/24/Data-Mining/time-plot.png">
 <meta property="article:published_time" content="2020-09-24T14:49:42.263Z">
-<meta property="article:modified_time" content="2020-11-06T11:05:12.626Z">
+<meta property="article:modified_time" content="2021-03-09T16:33:43.846Z">
 <meta property="article:author" content="Fan Huang">
 <meta property="article:tag" content="Courses">
-<meta property="article:tag" content="Encrypted">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://muyuhuatang.github.io/2020/09/24/Data-Mining/time-deduction.png">
 
 <link rel="canonical" href="http://muyuhuatang.github.io/2020/09/24/Data-Mining/">
 
@@ -237,7 +239,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-11-06 19:05:12" itemprop="dateModified" datetime="2020-11-06T19:05:12+08:00">2020-11-06</time>
+                <time title="Modified: 2021-03-10 00:33:43" itemprop="dateModified" datetime="2021-03-10T00:33:43+08:00">2021-03-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -266,14 +268,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>10k</span>
+              <span>4.4k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>7 mins.</span>
+              <span>3 mins.</span>
             </span>
 
         </div>
@@ -285,7 +287,206 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="f8eca327af94c95c7fc9b04fbc82608a43932e378e7d3aeff93b72577f0f3fea">de8bb467dda4831538238748ee3be954184d9f2f79c3cd483cb1027bc709f64cfd7d91e7241bd71af29ff9478073631ad45fbd20f2c5f481b3933026d9485d11885ebaee177fa0a06e73d597de88e16f4a9b3adb304c77e898c95dd3bdc4cc5725d9370e52dcd3ca6ebf4bb1d8c2372e9de07191863f276e134bdc75f5bc8f06a1dbd52c2b0192a5e0149238a8acde753df9ce05d0a7e562a75814a7d91ed53b3c8c37499338c71c9ae43918e2a25f4d395ab17bb1fc6bc577e3df206de5cc9d4b6bad0ff77ef49f7f2828ad7e9d21462cd4374ff0a794a64a07b4b13f6249e830fed11837131a45efb51ca2b0bdcbf9fb676a9c0ad8ca24ca63f6bd413239eb6f5387d1d75d0903f5cd10eef97ac0e33e8b58624ced3dca2dbb2c18eebb1c5eb5ccc2618d78f2371070dcabdebe2081542d602cfc761ca0c77d3cfe126c957571d9a72bef08d7a12671e57f6a9a112b1303539ac65c61921b15f8547341a61f03f70e39d5b1421c55acd7630db34de6497a0c67353143d8fa7452ed666437f5acc17cc33b23ccb51d709ed196ec904fe59593bdf6bbec1a6b15859a49683617ed219dc53cb6f58a1d86232b00a56e6b275778bf01008129e7d452bd13c0c717dfca6a5e2097ade060ef737d995b5004b55cc9d8de2a4de88e2836944be0692adf4274a6ee80b1c06e173ae7ace095d9c1acaf4d4c4b50440347bb31ad8e609753072e940b24730fab1fc2b13fe8aadbde291be95d3d0217c9370ea9bdd97003a4820d9f3101a2063f7db4a978cafc0b3812412c579eb503029616e1623cba6775f7d237902e082f4cac684ffdc614807f2d1e41e01496cc4f4623cb9afe86857463ec36e904873096323b415f1da6e79fd8eddd0d5fc915e1e296cd4408e8af6951f427e3e0a0bf802e552b23604302f0894425094a7531ec44c2fbd4dea15bf70f0c6f797ca89a3cc37df466b1a640cfb77e9883c040876c181fcec17940f533e3b33d27bf4e151537e9ad31c37fe02ceda826899add268472f23ae52d9bd09903631f650f5c568a5286b6719340f669d660821b8b54f04227cc034a483f8fc4babe40f236e3a2bc28187e4b7002921983748d67fa32d106bfa5863d4235e75dbae4190437297f775a377ba2e3ffdca9c83a1dd14891b99ad42401ff40729e8256f0365614de62a4348f95c6233df6341e100d1abbdd7cd25944210c7daa3b036344420bcd83b0e67e830ac91169e28c7a2153066b2b6edba18341ff259459fb4cfa2918875b396b3b835451dd486f61deaf7d8f9746ba9d2220216d81fb6e748b522c47d06bc0ece008d48bd4222a076186ba32b3658f322886231090413e7742d2bbbe8ebbba6e0fa2878a944c95ba7316c0548155502275c0a006b2ea84cb747ed5beff219342b427612277c2e0db75ca93ffc21d85daee29ea4d05095d284e9533b93bb810c97fdbe101337857da63e5e7d5b5f38f30ec6ade9d27e7b9d281d438fb2dd98223119dde0c6dcc8c6c21303ea3f388934d6afd30654ebc5f4c9bb3ef3f32c4e96b9ed963c32af5fe9e2caa7ac5f1e685be853aec3224f8fcd5b2f205135af1e891951518ebe7b0e16804938694523a04ae407fec1de0c8b4ba312a43db700fe77783bd1a41b2455488ad4267be93a60b38b2661b7073b046f46f8717bc1ad7093dc764f1cd62416de45c037b04bf8c5738b688e63260a634b377223674e606aec6de390613e644367c9ade3d7ab4ad2861023a1cadb93a73b60f1f916449dad030ebe67f3c50dbd6f4154a141ed8bed7127a02e7d28ef23c2d90876e82b63568775d12074332ed29d61d00dc76e23657645ef257c6625bce1671fb047ab16a4ec2bd9d0a3e7dce42abce44702dea526abcda2f6f38e928f5fad9764c0cc24bf978ca64d74f1b6eb848d14bab043142b1ed7c5929e945b3b7a9e5817c0d30638d57720b93e7b9af065b252d19451e05ad11a9df260aed6e98b247eacc9e10553aec38980ddff3d66256d765937755ce4bc2462e177cf89ecb10380ce12a4e4b69fe32cb9a8925410497ae6a8e7b2c5ad03286c35842b436f025b99c37bd90a70856a59b6532a2c4edec075e4feba5e8f21ecc4c0bc499e4826f14f41795cca9032a2f79bcc1b961f242b02204cb26637021b199bb2817d283f75573c15c0a84d7646c0af42f140e4470fd3cce8991d4f9d7081588677470591426c866b2675c3487e57e3ec807ddda90cf5990d3c88cc7b933da78559a72f412e5bff5bde1e56259833cd430ebf8adfb400efa7ed6995a22530958c8b6edff09aa921d15b332a7b500ec1002a4d551e5264239068e0b48d3c4b62428ac22e0ac46bbee3d2b7e04cde385e93199387fea44a620a3e6a71c5da065fdf9757aa978f85549c2ccc8fff5a5ed19c675c3b80a44436865c03191ea8bb27b1d12a205ffcc8a93b8da7e91004dfd2ab50c164a4a081f79d3e00c34de2435a6fc40402b042f7eff47cd5fef72989115abf769611a8fa0376cd6d2f1b5ba324532ebec7c1c46db69a0b5bfaeac1e92888b9f50d611d70845dfd4fc8add396ba5c5a83e8809c3b0cc4b9f25e7d932e25f749a41c9fba9b24b197654f7adc1e3646987a55b66f7b593579569e78123085588c3ccff952da25493386b8165724757f37af98837f398c7ff2fb608a19ccf74b0e6b546b7dbccaa04d6db12633aca4cefbae66e9ce469cb5076cb3de28cd122bd731fdf05b14be046a19b8e6e70ae19544236b9bca7dbe94e9f58f33fb66293320cf422432c40a84c9538276136378b13d4468ab1d4e603787d617896747357f815a09e0664d0e28691b1690c013972c7a39b0e35a366fee7de3b3d01b3c7f57112559e22fd502b6c6f4f097dd1d45aac7bbb69ed639b4c95bafc61b301db6d47e21c13727d68570e56400e788ce03454fd4c16eab5c8e6f40a54e6d084e7ab41c522f57d24a5f980899284e50381b40911bc9abe6d232ff46064d964793727056d9909e30ec3229f1fee45d0a847a4249a1784d07de4e88913a9e0c1afdd6902a92a6e6684b46ccba269760e83c34696d711ded56cb10347762e9d2f879f89c17eda38842c581ef973ea02fe3cef788c942bf1bac802f522f3fad8969ab65b0b2a4ce52fe50b95747643fee0c31443fb85b5e6ecfb1d11fe1816c7f29c6838a78b6ec1239685cb9260680a23285d122131c14c920e1d25fcbc035ba1a3c36755252e74fe68d1bb71e5a0df462807f0ebfc399045b377ff495943b39402e8ed1cdc5ea892163e810c326bba31aa42730cf710882e7ad7b13009a5d88dff3ce174c3482814a4853cdea01bc78feb3fc85f6c7a4dc7f66e1f5dc7e56e3f8eaf0319fe783f9a6c40e3264e5efe2ea20262fba4e2a80efeddc786f4be390f2eaaf10bdad657ce106a2bfc5d8af630a7117d257b90f3dc1a28134b8f5441c7e1681bf6510e9042157e4aae9f3ad4bf21faf583047d58499954a4c0040427a8b194ce7aa9f18b8a9b0148520e5b37cbea6bad2265e9d305622791adfc87cb28a93428ddb2314f320aa77a87c118b5f31c5072d0c2a94bb3105a2e5a7505a1617cf5ecc19d814c4f1fd2fdcc6343962932f28ec66e1165fd02dfdbc2515697ae2daaec5d81addc761205aa07820f82330ce9c47acb8bfb291f9a9c8b6ca5f0da1b9e6210410bbe54813c2175e61eca07a49b89bb98c4200b47d510bf82f2a13283bb2663b97274cceebfd164e34d6e93ea8f8fbe66898105f4eceb518f59614f971dcc76087e289bcb93f78b0ac74201fa87ca64ce157643ac4db12e2a8d2374b45375b000fdbf9a640bd3eafb3063c2e8c1b68d0b05ef20f4d68388175e7e55d3a59dc4bad068f1bd50d16eef84f354ed8e7794a5c5d296c94bfb1a512ca6b668f532835cfe4650e4dd8b13f582af7a692b38c687cdeb0c94fa2ec4fd2cfe3d2268851eacf4aff6477e9f2d9ac04a2b4286ea94aed6e01d6903250514410c39dca1c7bb8a4140044f35c7494363e076c6249ff7879a82fbe3e1c58f73018565e0befa458159e183bed8077ece13a5658d2d5879e2c67c8c4f5111b8d8058ca788258ff4d45fbb4b5f18d23f3b4958da115c9e88f68d9771bd588cb90de89e7bb2ff7b091d95c1346afeb8903e26f779eff21f8cdb6bc034ff9ac835e7694ee853f0b4cfad793b5d70e17c5ac88c2a3f949eca6d1a9dd6af2e87f9786d448c198055308cc7582a10c79885be9df470b2a114f68c4b4eac7065d8a73aaa4ebe9e96f4da3f9edc55bd4379799cd1bba927ae4314d1ab3abdb862d15c56d296ed59c0fa844a64089a04d96258c3f3148bf3943e3cbd9a302af1334f4a84171750106a246758d3a917ad586814740fd65fa6fc59534437cef5bb573b1a9b8f93e32d759e50fcc33931a5ffc5ea8c766892764332b57e9e1740cfd1914a10492df21700ceb0192c661190152607de79b3ca2b140c05bcea33c2f8d6e252a9018893967980b51ef0bbd6e727760d3c8cbab2ae153a242b3e59ba7fbc8f5eb025642bed11391128c264168887f306e6bbc0257b80bc7b87a4aa14492c098596cd5d310fc15b97d72c5cb8228f96eb68aa23aba8a7caf890cf71f990bf245d0a166c7f93a8880bd055a0018b3994f301e79948206f7b0e684b362d319257c72b77d21f202edb2a77da2481a0865226efcf7fba7318076a1fd7d7746ba474ddd57c28defb153693600f37b1a181c8962a1997e947a5de0501b5ee9238900575b9c95c8ae846f979091fcb4aab3e48526afa3bb4bbaae1b1113a865c361dfd401c86c413bdf9fa7c5b386848582be2f4600288af4de0d400b4abfcdfdd577a19bd7e998734d8f7389504a5b18216bd5c31a93846419144f223c1e2cebfcb463d0eba21ded6f62697c7064e80143e7b67b1d667c4f8313cd0d9a9e3ebb18116916e6629d329f7fe6bc61f407a18dc028eb517e15b453ed5118f397d8b1b0a461a9e2be6831a932d4d6bb038b57e4986d3d1f9253b0f681d7210f4f5ed1cafea61e31b6bc402de875885afc222bd052d1849a365580bab505544c6771f76d4f5ff5ce37a9ecc7dbd155778d5c0d531c34e744c4c02840cbd77495a07884e697c4d1225bc796486426b23fa3811e6ed09ed90dce93f0ad1ed5a7f4bdad76f65c593cadb6175af0eb90fc67a01d206266b098179de3cead6ecb29d65b19046e4fafd9692db4bb3e741e8da8250733c24dc6fb4a6bb1ac5a59ec1e42994e16947921897bba8c585c25c88b9ddc624611c514c540aeba267df61b5b116c4264c2aa127ff9a7bd5755f1addcdb16856da1da69c1e03c44ecf88a046eee34076d1943cd6c28c4171095197a2fd3774bb50998e1637a8232acaa7c355ae8d225e27b707e338820ef8576b10bfd4ddf6361b2127318f7bf5ee08c8622f3a60ab828c459485c6df8332f8a0b7a3c3fc5267ba12834cdd77817d8dcbf3ed554396a16c276b7ac580388f233ea73fc72f04910220acf939e6a1d4e5381fefaf4e7b8c099ca865bc8ee0749149dd5bff246ec4529dbdd83b22c469d02be32a91d96afbddf4066f551d55895e706523a9da80c855018243cccc9f6b4fa82e5c65d12905b527cccf00b05edde0fbf54c93722d6c7a77dce72d84890fae68b23874a181214142d093f8aec6002fb9f32a3b756799384925a17a1f640630c72eb888d133e0157ef8b3870e055856c7c62c5b4e3613b989dbda61db2801aacf68d4588d7cdc16a7d70aa7fffddb4f4e18a80c6f2bf783eed6afb042a1e16fb64651b10d44db26ac41a33621780b49f18d8312f2b21d809fecdb7e2948328ae2a5f3e55b683f5b9d49cf2552d74a6cab6a3777ab1d9ddffb800cb4e25a2902b46dcd2ce4f904b567a483851ccc97253e148c7364ada275b95356818a872b9f545569d2bc0869648771ccafc5497dd0d4e9ea6c0d4242cda453b5744a4988fc9885e97cdbaabf52932d984bb251def78476cff7863d0414c3784de9bb1b75f242d3f52af9aecefb8856d8d81c0ca938b8d63399637f8beb81d2f2d5389d9eafaab112360b264a9cd7c7fed4d24d11630fe8c072899f0075374bd5ba54b0b31d402c68b2c821e9d39fda4050623e40116394db9bb80cba1aab95a7ab124b256fcb6d7a57b285bcde1837bbc3bbed59d9d067d5aff624ca5757eec2bd2817cf4f5b95a1130e14247924d534dce96e742d0cf9b91859f2f497d42596b09bc6c905ca9f36f18f4e0b28ea0870f78deb06adb562a827ac0384ded7b504f96532ba389b555bfe06da7aa28481aef717eab802f2cc6c69acc4fa7b1709bb98c0425ae5c2d2b4a875fae4f37079c5212a45a307f726c570b03a9dddc0b3cf262c02fe93faf83ccd3ab1fed13b33b413318383eebba7adfc01630139d26a271db4ab3570d3122a22595f96cb7ea8d836db38df4b8f9eea9efaef12a9712fb2dbb12dc669e18cc251dfa8f2aec740654a26a54ed5b8fd96c53a9f30d0ab7dd4ca66bd1ccc71d13006fe597f6a5869120f0b7e9e50683d597634cf7d4a9fd21efd7022d9a12338e2d0750a489318ad121a3ce5984fc761943171a6bfe92a48fc54440d582c920dbaef0c7ff17463e09161533c03b818a1411af9aa4e0f7b9dc69f648fe6b59ce6d6ec08d8be6be7ac8a4b9425ec93eaf8d8cb8849c0275d6d20dfe1133f56989800b8d892d9f149e3d3dc901251e7f0ecf7a90d84f3dbd9251196dddce6dd2b696b2a5408695027cc69507ab8c82df24b094788fcff79640d52293b70df79372daa76eeb3854a6c74172dff7ba7f79658950d95abf3e2845fa99665482fb0ef76cc11f3f5124aa4a087932a0667a47a73f63323c916549944ffbabbba4c806c415f52dc5cd3f9c129c3cc72f4bba7fab5e1c4ef45f0e896cd04a917e82030e6f74d65ac3b091c23b1574a0ba7fbb5fc18bc72aef545d8b575b6687014becc35786fa019bbe3eb5cb1ef334cbf3c11889d35dc1f35aab60bf07462d096b8cc69843adf6ab4f72f2e241c1804ae40b128234678e4de9994073b1dc679102bf6244a46d862412a78e9999532025443a2c43d39ba710955fbcf978647e7666b05fbc1d911922b8503411e15700b2dbb75d8bc1b8a173da667434f050cedc1a195c23273fe64fed881edd507cb17a78c475bcbecc29850ea42da10603a21ef1e385c918e49a0b5835686d71684d34d2046dac03a391dc9df8edfaf38a9d180f64fc9daab6f63e6285729394121a03eb209f135aa21dd8971</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+        <p>Data Mining Notes</p>
+<a id="more"></a>
+
+<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+</ol>
+<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><p><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></p>
+<h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
+</ol>
+<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a target="_blank" rel="noopener" href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
+<ol>
+<li>preprocessing</li>
+<li>train and test</li>
+<li>gather data and outcomes</li>
+<li>compare and analysis</li>
+<li>draw ROC plot</li>
+</ol>
+<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
+<li>convert .data file into .arff file<br> .data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
+<li>use Weka to genarate</li>
+<li>compare and analysis</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
+<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
+ can be fixed by remove the null values in dataset. <a target="_blank" rel="noopener" href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a target="_blank" rel="noopener" href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">Use MicroSoft and Weka to convert xls/csv to arff</a> / <a target="_blank" rel="noopener" href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a> / <a target="_blank" rel="noopener" href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">ARFF2CSV</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
+</ol>
+<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a target="_blank" rel="noopener" href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a target="_blank" rel="noopener" href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
+<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
+</ol>
+<h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
+<li><a target="_blank" rel="noopener" href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+<li><a target="_blank" rel="noopener" href="https://discrete.gr/complexity/">Complexity</a></li>
+</ol>
+<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
+<li><p>Algorithm steps<br> Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
+<p> Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
+<p> Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
+<p> Step-4: Sort the rules as the decreasing order of lift.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
+</li>
+</ol>
+<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
+<li>WEKA use data set in .arff format<br> tips: 1) use <a target="_blank" rel="noopener" href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a target="_blank" rel="noopener" href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><pre><code>   2) can also use [arff functions](https://www.youtube.com/watch?v=pecmx-KuUQA&amp;ab_channel=AsteroidGroup) to change xls and csv files directly into arff files</code></pre>
+</li>
+<li>There are 12 parameters could be set before running Apriori <a target="_blank" rel="noopener" href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
+</ol>
+<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
+<thead>
+<tr>
+<th>Time</th>
+<th>labor</th>
+<th>breast-cancer</th>
+<th>wisconsin-breast-cancer</th>
+<th>hypothyroid</th>
+<th>mushroom</th>
+<th>letter</th>
+<th>adult</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute number</td>
+<td>17</td>
+<td>10</td>
+<td>10</td>
+<td>30</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+</tr>
+<tr>
+<td>instance number</td>
+<td>57</td>
+<td>286</td>
+<td>699</td>
+<td>3772</td>
+<td>8124</td>
+<td>20000</td>
+<td>32561</td>
+</tr>
+<tr>
+<td>setting 1</td>
+<td>263</td>
+<td>302</td>
+<td>296</td>
+<td>372</td>
+<td>343</td>
+<td>526</td>
+<td>746</td>
+</tr>
+<tr>
+<td>setting 2</td>
+<td>289</td>
+<td>337</td>
+<td>314</td>
+<td>587</td>
+<td>723</td>
+<td>2493</td>
+<td>4633</td>
+</tr>
+<tr>
+<td>brute estimate</td>
+<td>16246</td>
+<td>81513</td>
+<td>199221</td>
+<td>1075057</td>
+<td>2315421</td>
+<td>5700200</td>
+<td>9280211</td>
+</tr>
+</tbody></table>
+<pre><code>Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100
+Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</code></pre>
+<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
+<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>spectrum disorder screening - adolescent</th>
+<th>spectrum disorder screening - children</th>
+<th>spectrum disorder screening - adult</th>
+<th>absent at work</th>
+<th>SouthGermanCredit</th>
+<th>mushroom</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>22-&gt;21</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>104</td>
+<td>292</td>
+<td>704</td>
+<td>740</td>
+<td>1000</td>
+<td>8124</td>
+</tr>
+<tr>
+<td>time / setting 1</td>
+<td>303</td>
+<td>320</td>
+<td>319</td>
+<td>317</td>
+<td>387</td>
+<td>409</td>
+</tr>
+<tr>
+<td>time / setting 2</td>
+<td>307</td>
+<td>346</td>
+<td>372</td>
+<td>472</td>
+<td>953</td>
+<td>976</td>
+</tr>
+</tbody></table>
+<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
+<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2020/09/24/Data-Mining/time-deduction.png" alt="time complexity deduction"></li>
+<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
+</ol>
+<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2020/09/24/Data-Mining/time-plot.png" alt="time-plot"></p>
+<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
+</ol>
+<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a target="_blank" rel="noopener" href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
+</ol>
+<h2 id="K-means-visualization"><a href="#K-means-visualization" class="headerlink" title="K-means visualization"></a>K-means visualization</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://stanford.edu/class/engr108/visualizations/kmeans/kmeans.html">stanford edu</a></li>
+<li>[naftali harris(<a target="_blank" rel="noopener" href="https://www.naftaliharris.com/blog/visualizing-k-means-clustering/">https://www.naftaliharris.com/blog/visualizing-k-means-clustering/</a>)</li>
+</ol>
+<h2 id="Small-interesting-points"><a href="#Small-interesting-points" class="headerlink" title="Small interesting points"></a>Small interesting points</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://sebastianraschka.com/faq/docs/lazy-knn.html">Machine Learning FAQ Why is Nearest Neighbor a Lazy Algorithm?</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.quora.com/Is-temperature-an-ordinal-interval-or-ratio-measurement-statistically">Is temperature an ordinal, interval or ratio measurement statistically?</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.imatheq.com/imatheq/com/imatheq/math-equation-editor_zh_cn.html">online math formula website - iMathEQ</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/37875887">k-means notes</a></li>
+</ol>
+
     </div>
 
     
@@ -295,13 +496,13 @@
   <div class="popular-posts-header">Related Posts</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/2020/09/24/Internet-Programming/" rel="bookmark">Internet Programming</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/2020/09/24/Intrusion-Detection/" rel="bookmark">Intrusion Detection</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/2020/09/24/Text-Web-Mining/" rel="bookmark">Text & Web Mining</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2020/09/24/Internet-Programming/" rel="bookmark">Internet Programming</a></div>
     </li>
   </ul>
 
@@ -326,7 +527,6 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/Courses/" rel="tag"># Courses</a>
-              <a href="/tags/Encrypted/" rel="tag"># Encrypted</a>
           </div>
 
         
@@ -401,6 +601,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">1.</span> <span class="nav-text">Preparation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Classification-Problem"><span class="nav-number"></span> <span class="nav-text">Classification Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Basic-acknowledge-and-demo-testing"><span class="nav-number">1.</span> <span class="nav-text">Basic acknowledge and demo testing</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Build-project"><span class="nav-number">2.</span> <span class="nav-text">Build project</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-way-use-Weka-to-generate-result"><span class="nav-number">3.</span> <span class="nav-text">Additional way: use Weka to generate result</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">Reference</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number"></span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation-1"><span class="nav-number">2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori"><span class="nav-number">3.</span> <span class="nav-text">Apriori</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori-in-WEKA"><span class="nav-number">4.</span> <span class="nav-text">Apriori in WEKA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-test-information"><span class="nav-number">5.</span> <span class="nav-text">Original dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-dataset-test-information"><span class="nav-number">6.</span> <span class="nav-text">Additional dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brute-force-estimation"><span class="nav-number">7.</span> <span class="nav-text">Brute force estimation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plot"><span class="nav-number">8.</span> <span class="nav-text">Plot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Error-analysis"><span class="nav-number">9.</span> <span class="nav-text">Error analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference-1"><span class="nav-number">10.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug-Reference"><span class="nav-number">11.</span> <span class="nav-text">Debug Reference</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#K-means-visualization"><span class="nav-number"></span> <span class="nav-text">K-means visualization</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Small-interesting-points"><span class="nav-number"></span> <span class="nav-text">Small interesting points</span></a></div>
       </div>
       <!--/noindex-->
 
@@ -416,20 +617,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -464,7 +665,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2020</span>
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -473,12 +674,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">119k</span>
+    <span title="Symbols count total">108k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1:26</span>
+    <span title="Reading time total">1:19</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
