@@ -247,7 +247,7 @@ Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfide
 </li>
 <li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#x68;&#x75;&#x61;&#x6e;&#x67;&#49;&#56;&#x31;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x66;&#x68;&#x75;&#x61;&#x6e;&#x67;&#49;&#56;&#x31;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#102;&#x68;&#x75;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#102;&#x68;&#x75;&#x61;&#110;&#x67;&#49;&#x38;&#49;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
 </li>
 <li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
 </li>
@@ -276,7 +276,7 @@ Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfide
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#104;&#117;&#97;&#110;&#x67;&#x31;&#56;&#49;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#102;&#104;&#117;&#97;&#110;&#x67;&#x31;&#56;&#49;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>My email: <a href="mailto:&#102;&#x68;&#x75;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#102;&#x68;&#x75;&#x61;&#x6e;&#103;&#49;&#x38;&#x31;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
@@ -2607,5 +2607,51 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
       <categories>
         <category>Juypter</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Hobbies &amp; Interests</title>
+    <url>/2021/03/10/Hobbies%20&amp;%20Interests/</url>
+    <content><![CDATA[<p>My Hobbies and Interests records</p>
+<a id="more"></a>
+
+
+<h2 id="Swimming"><a href="#Swimming" class="headerlink" title="Swimming"></a>Swimming</h2><h3 id="Use-ActiveSG-app-in-smartphone-to-book-a-slot"><a href="#Use-ActiveSG-app-in-smartphone-to-book-a-slot" class="headerlink" title="Use ActiveSG app in smartphone to book a slot"></a>Use ActiveSG app in smartphone to book a slot</h3><h3 id="Location-recommendation"><a href="#Location-recommendation" class="headerlink" title="Location recommendation"></a>Location recommendation</h3><p>Jalan Besar Swimming Complex <a href="https://www.myactivesg.com/facilities/jalan-besar-swimming-complex">ActiveSG</a><br>    100 Tyrwhitt Road, Singapore 207542<br>    Telephone Number: 62939058<br>    Price $1.30 for foreigner adults (1 hour)<br><img src="/2021/03/10/Hobbies%20&%20Interests/JalanBesarSwimmingComplex.png" alt="JalanBesarSwimmingComplex"></p>
+]]></content>
+      <categories>
+        <category>Records</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Machine%20Learning%20and%20Deep%20Learning/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Research%20Interests/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Text%20Web%20Mining%20&amp;%20Data%20Mining/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Machine%20Learning%20Engineer/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Data%20Analyst/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/03/10/Full%20Stack%20Developer/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
