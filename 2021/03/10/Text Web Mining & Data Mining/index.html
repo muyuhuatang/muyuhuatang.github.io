@@ -21,17 +21,21 @@
     var CONFIG = {"hostname":"muyuhuatang.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="The blog site of Fan Huang">
+  <meta name="description" content="Text Web Mining &amp; Data Mining Notes and Records">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Huang&#39;s Blog">
+<meta property="og:title" content="Text Web Mining &amp; Data Mining">
 <meta property="og:url" content="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/index.html">
 <meta property="og:site_name" content="Huang&#39;s Blog">
-<meta property="og:description" content="The blog site of Fan Huang">
+<meta property="og:description" content="Text Web Mining &amp; Data Mining Notes and Records">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-deduction.png">
+<meta property="og:image" content="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-plot.png">
 <meta property="article:published_time" content="2021-03-09T16:59:38.276Z">
-<meta property="article:modified_time" content="2021-03-09T16:59:46.766Z">
+<meta property="article:modified_time" content="2021-03-10T08:17:04.350Z">
 <meta property="article:author" content="Fan Huang">
+<meta property="article:tag" content="Courses">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-deduction.png">
 
 <link rel="canonical" href="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/">
 
@@ -46,7 +50,7 @@
   };
 </script>
 
-  <title> | Huang's Blog</title>
+  <title>Text Web Mining & Data Mining | Huang's Blog</title>
   
 
 
@@ -213,11 +217,15 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
+          Text Web Mining & Data Mining
         </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
+            
+              <i class="fa fa-thumb-tack"></i>
+              <font color=7D26CD>TOP</font>
+               <span class="post-meta-divider">|</span>
             
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
@@ -225,7 +233,20 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-03-10 00:59:38 / Modified: 00:59:46" itemprop="dateCreated datePublished" datetime="2021-03-10T00:59:38+08:00">2021-03-10</time>
+              <time title="Created: 2021-03-10 00:59:38 / Modified: 16:17:04" itemprop="dateCreated datePublished" datetime="2021-03-10T00:59:38+08:00">2021-03-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Courses/" itemprop="url" rel="index"><span itemprop="name">Courses</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Courses/Text-Web-Mining/" itemprop="url" rel="index"><span itemprop="name">Text & Web Mining</span></a>
+                </span>
             </span>
 
           
@@ -241,14 +262,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>0</span>
+              <span>6.9k</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
+              <span>5 mins.</span>
             </span>
 
         </div>
@@ -260,13 +281,293 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <p>Text Web Mining &amp; Data Mining Notes and Records</p>
+<a id="more"></a>
+
+
+<h1 id="Text-Web-Mining"><a href="#Text-Web-Mining" class="headerlink" title="Text Web Mining"></a>Text Web Mining</h1><h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br>!nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br>from google.colab import drive<br>drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
+</ol>
+<h2 id="Take-Home-Project-2-sentiment-classifier"><a href="#Take-Home-Project-2-sentiment-classifier" class="headerlink" title="Take Home Project 2 - sentiment classifier"></a>Take Home Project 2 - sentiment classifier</h2><h3 id="preperation"><a href="#preperation" class="headerlink" title="preperation"></a>preperation</h3><ol start="0">
+<li>good examples and guide: <a target="_blank" rel="noopener" href="https://github.com/bentrevett/pytorch-sentiment-analysis"> bentrevett / pytorch-sentiment-analysis </a> / <a target="_blank" rel="noopener" href="https://medium.com/@galhever/sentiment-analysis-with-pytorch-part-3-cnn-model-7bb30712abd7">Sentiment Analysis with Pytorch — Part 3— CNN Model</a> / <a target="_blank" rel="noopener" href="https://github.com/xalanq/chinese-sentiment-classification">xalanq<br>/ chinese-sentiment-classification</a> / <a target="_blank" rel="noopener" href="https://github.com/slaysd/pytorch-sentiment-analysis-classification">slaysd<br>/ pytorch-sentiment-analysis-classification</a></li>
+<li>NN, RNN, BERT - given Jupyter files</li>
+<li>modify CNN Jupyter files<ol>
+<li>change surname model to sentiment model - character level tokens</li>
+<li>online reference: <a target="_blank" rel="noopener" href="https://towardsdatascience.com/cnn-sentiment-analysis-9b1771e7cdd6">3 kind of outcome sentiment classifer</a></li>
+<li>use weka:<br><a target="_blank" rel="noopener" href="https://www.researchgate.net/post/Can-we-use-CNN-and-RNN-algorithms-in-Weka">weka to do deep learning</a> / <a target="_blank" rel="noopener" href="https://deeplearning.cms.waikato.ac.nz/install/#cpu">official guide of installing</a> / <a target="_blank" rel="noopener" href="https://medium.com/@b10405022/wekadeeplearning4j-%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%9D-37632bc867fc">how to quick install weka deep learning toolkit</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="Further-work-direction"><a href="#Further-work-direction" class="headerlink" title="Further work direction"></a>Further work direction</h3><ol>
+<li>coBerta <a target="_blank" rel="noopener" href="https://www.kaggle.com/iamprateek/sentiment-analysis-using-roberta">kaggle example using coBerta</a></li>
+<li>weka preprocessing + bert <a target="_blank" rel="noopener" href="https://www.stefanoscerra.it/movie-reviews-classification-weka-data-mining/">weka preprocessing</a></li>
+<li>evaluation <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/287911524?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056">ambert evaluation</a> / <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/418623902/answer/1453247561?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056&utm_content=group1_Answer&utm_campaign=shareopn">ambert discussion in zhihu</a></li>
+</ol>
+<h2 id="Group-Project-Taylor-Swift-lyrics-generator"><a href="#Group-Project-Taylor-Swift-lyrics-generator" class="headerlink" title="Group Project : Taylor Swift lyrics generator"></a>Group Project : Taylor Swift lyrics generator</h2><p>method: RNN LSTM GPT2</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://github.com/Nana0606/lyrics_generation">LSTM github good instance</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/fukuball/Tom-Chang-Deep-Lyrics">LSTM github detailed instance - Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生。</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/adigoryl/Styled-Lyrics-Generator-GPT2">GPT2 styled lyrics generator - github + colab</a></li>
+</ol>
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a target="_blank" rel="noopener" href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
+<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
+</ol>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
+<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+<li>homebrew to solve environment path problem. <a target="_blank" rel="noopener" href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h1 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h1><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+</ol>
+<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><p><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a></p>
+<h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
+</ol>
+<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a target="_blank" rel="noopener" href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
+<ol>
+<li>preprocessing</li>
+<li>train and test</li>
+<li>gather data and outcomes</li>
+<li>compare and analysis</li>
+<li>draw ROC plot</li>
+</ol>
+<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
+<li>convert .data file into .arff file<br>.data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
+<li>use Weka to genarate</li>
+<li>compare and analysis</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
+<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
+can be fixed by remove the null values in dataset. <a target="_blank" rel="noopener" href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a target="_blank" rel="noopener" href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">Use MicroSoft and Weka to convert xls/csv to arff</a> / <a target="_blank" rel="noopener" href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a> / <a target="_blank" rel="noopener" href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">ARFF2CSV</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
+</ol>
+<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a target="_blank" rel="noopener" href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a target="_blank" rel="noopener" href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
+<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
+</ol>
+<h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a target="_blank" rel="noopener" href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
+<li><a target="_blank" rel="noopener" href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+<li><a target="_blank" rel="noopener" href="https://discrete.gr/complexity/">Complexity</a></li>
+</ol>
+<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
+<li><p>Algorithm steps<br>Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
+<p>Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
+<p>Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
+<p>Step-4: Sort the rules as the decreasing order of lift.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
+</li>
+</ol>
+<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
+<li>WEKA use data set in .arff format<br>tips: 1) use <a target="_blank" rel="noopener" href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a target="_blank" rel="noopener" href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><ol start="2">
+<li>can also use <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">arff functions</a> to change xls and csv files directly into arff files</li>
+</ol>
+</li>
+<li>There are 12 parameters could be set before running Apriori <a target="_blank" rel="noopener" href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
+</ol>
+<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
+<thead>
+<tr>
+<th>Time</th>
+<th>labor</th>
+<th>breast-cancer</th>
+<th>wisconsin-breast-cancer</th>
+<th>hypothyroid</th>
+<th>mushroom</th>
+<th>letter</th>
+<th>adult</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute number</td>
+<td>17</td>
+<td>10</td>
+<td>10</td>
+<td>30</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+</tr>
+<tr>
+<td>instance number</td>
+<td>57</td>
+<td>286</td>
+<td>699</td>
+<td>3772</td>
+<td>8124</td>
+<td>20000</td>
+<td>32561</td>
+</tr>
+<tr>
+<td>setting 1</td>
+<td>263</td>
+<td>302</td>
+<td>296</td>
+<td>372</td>
+<td>343</td>
+<td>526</td>
+<td>746</td>
+</tr>
+<tr>
+<td>setting 2</td>
+<td>289</td>
+<td>337</td>
+<td>314</td>
+<td>587</td>
+<td>723</td>
+<td>2493</td>
+<td>4633</td>
+</tr>
+<tr>
+<td>brute estimate</td>
+<td>16246</td>
+<td>81513</td>
+<td>199221</td>
+<td>1075057</td>
+<td>2315421</td>
+<td>5700200</td>
+<td>9280211</td>
+</tr>
+<tr>
+<td>Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
+<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>spectrum disorder screening - adolescent</th>
+<th>spectrum disorder screening - children</th>
+<th>spectrum disorder screening - adult</th>
+<th>absent at work</th>
+<th>SouthGermanCredit</th>
+<th>mushroom</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>22-&gt;21</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>104</td>
+<td>292</td>
+<td>704</td>
+<td>740</td>
+<td>1000</td>
+<td>8124</td>
+</tr>
+<tr>
+<td>time / setting 1</td>
+<td>303</td>
+<td>320</td>
+<td>319</td>
+<td>317</td>
+<td>387</td>
+<td>409</td>
+</tr>
+<tr>
+<td>time / setting 2</td>
+<td>307</td>
+<td>346</td>
+<td>372</td>
+<td>472</td>
+<td>953</td>
+<td>976</td>
+</tr>
+</tbody></table>
+<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
+<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-deduction.png" alt="time complexity deduction"></li>
+<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
+</ol>
+<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-plot.png" alt="time-plot"></p>
+<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
+</ol>
+<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a target="_blank" rel="noopener" href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
+</ol>
+<h2 id="K-means-visualization"><a href="#K-means-visualization" class="headerlink" title="K-means visualization"></a>K-means visualization</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://stanford.edu/class/engr108/visualizations/kmeans/kmeans.html">stanford edu</a></li>
+<li>[naftali harris(<a target="_blank" rel="noopener" href="https://www.naftaliharris.com/blog/visualizing-k-means-clustering/">https://www.naftaliharris.com/blog/visualizing-k-means-clustering/</a>)</li>
+</ol>
+<h2 id="Small-interesting-points"><a href="#Small-interesting-points" class="headerlink" title="Small interesting points"></a>Small interesting points</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://sebastianraschka.com/faq/docs/lazy-knn.html">Machine Learning FAQ Why is Nearest Neighbor a Lazy Algorithm?</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.quora.com/Is-temperature-an-ordinal-interval-or-ratio-measurement-statistically">Is temperature an ordinal, interval or ratio measurement statistically?</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.imatheq.com/imatheq/com/imatheq/math-equation-editor_zh_cn.html">online math formula website - iMathEQ</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/37875887">k-means notes</a></li>
+</ol>
+
     </div>
 
     
     
     
       
+  <div class="popular-posts-header">Related Posts</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2020/09/24/Internet-Programming/" rel="bookmark">Internet Programming</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2020/09/20/Information-Visualization/" rel="bookmark">Information Visualization</a></div>
+    </li>
+  </ul>
 
         
 
@@ -277,7 +578,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/" title="">http://muyuhuatang.github.io/2021/03/10/Text Web Mining & Data Mining/</a>
+    <a href="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/" title="Text Web Mining &amp; Data Mining">http://muyuhuatang.github.io/2021/03/10/Text Web Mining & Data Mining/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -287,6 +588,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Courses/" rel="tag"># Courses</a>
+          </div>
 
         
 
@@ -294,13 +598,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/03/10/Research%20Interests/" rel="prev" title="">
-      <i class="fa fa-chevron-left"></i> 
+    <a href="/2021/03/10/Research%20Interests/" rel="prev" title="Research Interests">
+      <i class="fa fa-chevron-left"></i> Research Interests
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/03/10/Machine%20Learning%20Engineer/" rel="next" title="">
-       <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -360,6 +661,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Text-Web-Mining"><span class="nav-number">1.</span> <span class="nav-text">Text Web Mining</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Training-Skills"><span class="nav-number">1.1.</span> <span class="nav-text">Training Skills</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#How-to-use-colab-to-run-ML-tasks"><span class="nav-number">1.1.1.</span> <span class="nav-text">How to use colab to run ML tasks</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Take-Home-Project-2-sentiment-classifier"><span class="nav-number">1.2.</span> <span class="nav-text">Take Home Project 2 - sentiment classifier</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#preperation"><span class="nav-number">1.2.1.</span> <span class="nav-text">preperation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Further-work-direction"><span class="nav-number">1.2.2.</span> <span class="nav-text">Further work direction</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Group-Project-Taylor-Swift-lyrics-generator"><span class="nav-number">1.3.</span> <span class="nav-text">Group Project : Taylor Swift lyrics generator</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><span class="nav-number">1.4.</span> <span class="nav-text">Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><span class="nav-number">1.4.1.</span> <span class="nav-text">Optimize target: Classifying Surnames with a Multilayer Perceptron</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Values-of-given-parameters"><span class="nav-number">1.4.2.</span> <span class="nav-text">Values of given parameters</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Best-outcomes"><span class="nav-number">1.4.3.</span> <span class="nav-text">Best outcomes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Taking-%E2%80%9Cdrewer%E2%80%9D-as-an-example"><span class="nav-number">1.4.4.</span> <span class="nav-text">Taking “drewer” as an example</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tips"><span class="nav-number">1.5.</span> <span class="nav-text">Tips</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Data-Mining"><span class="nav-number">2.</span> <span class="nav-text">Data Mining</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation"><span class="nav-number">2.0.1.</span> <span class="nav-text">Preparation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Classification-Problem"><span class="nav-number">2.1.</span> <span class="nav-text">Classification Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Basic-acknowledge-and-demo-testing"><span class="nav-number">2.1.1.</span> <span class="nav-text">Basic acknowledge and demo testing</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Build-project"><span class="nav-number">2.1.2.</span> <span class="nav-text">Build project</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-way-use-Weka-to-generate-result"><span class="nav-number">2.1.3.</span> <span class="nav-text">Additional way: use Weka to generate result</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference"><span class="nav-number">2.1.4.</span> <span class="nav-text">Reference</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Association-Problem"><span class="nav-number">2.2.</span> <span class="nav-text">Association Problem</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Weka"><span class="nav-number">2.2.1.</span> <span class="nav-text">Weka</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Preparation-1"><span class="nav-number">2.2.2.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori"><span class="nav-number">2.2.3.</span> <span class="nav-text">Apriori</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apriori-in-WEKA"><span class="nav-number">2.2.4.</span> <span class="nav-text">Apriori in WEKA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Original-dataset-test-information"><span class="nav-number">2.2.5.</span> <span class="nav-text">Original dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Additional-dataset-test-information"><span class="nav-number">2.2.6.</span> <span class="nav-text">Additional dataset test information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Brute-force-estimation"><span class="nav-number">2.2.7.</span> <span class="nav-text">Brute force estimation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Plot"><span class="nav-number">2.2.8.</span> <span class="nav-text">Plot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Error-analysis"><span class="nav-number">2.2.9.</span> <span class="nav-text">Error analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reference-1"><span class="nav-number">2.2.10.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Debug-Reference"><span class="nav-number">2.2.11.</span> <span class="nav-text">Debug Reference</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#K-means-visualization"><span class="nav-number">2.3.</span> <span class="nav-text">K-means visualization</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Small-interesting-points"><span class="nav-number">2.4.</span> <span class="nav-text">Small interesting points</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -375,14 +677,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -432,12 +734,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">91k</span>
+    <span title="Symbols count total">92k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1:06</span>
+    <span title="Reading time total">1:07</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
