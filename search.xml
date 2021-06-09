@@ -1,366 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Machine Learning &amp; Deep Learning</title>
-    <url>/2021/03/10/Machine%20Learning%20&amp;%20Deep%20Learning/</url>
-    <content><![CDATA[<p>Machine Learning &amp; Deep Learning Notes and Records</p>
+    <title>Information Visualization</title>
+    <url>/2020/09/20/Information-Visualization/</url>
+    <content><![CDATA[<p>Information Visualization Notes and Records</p>
 <a id="more"></a>
 
-<h1 id="Intrusion-Detection"><a href="#Intrusion-Detection" class="headerlink" title="Intrusion Detection"></a>Intrusion Detection</h1><h2 id="Group-Project-NotPetya-analysis"><a href="#Group-Project-NotPetya-analysis" class="headerlink" title="Group Project - NotPetya analysis"></a>Group Project - NotPetya analysis</h2><ol>
-<li>Interesting questions: shut down the SMBv1 could be a good prevent method, but is there any problems when using SMBv2 and SMBv3?<br> <a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/microsoft-network-client-digitally-sign-communications-always">Microsoft network client: Digitally sign communications (always)</a><br> <a href="https://www.cisco.com/c/en/us/td/docs/security/firepower/623/relnotes/Firepower_Release_Notes_623/new_features_and_changed_behavior.html">Cisco Firepower Release Notes, Version 6.2.3</a><br> <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-fss">Cisco Firepower System Software Server Message Block File Policy Bypass Vulnerability</a><br> <a href="https://www.lepide.com/blog/prevent-petya-and-other-ransomware-attacks-by-disabling-smbv1/">Prevent Petya and other Ransomware attacks by disabling SMBv1</a><br> <a href="https://www.extrahop.com/company/blog/2017/shut-down-smbv1/">Here’s why you need to stop using SMBv1 immediately. Even Microsoft agrees.</a><br> <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-0243">CVE-2018-0243 Detail</a></li>
+<h1 id="D3-Application"><a href="#D3-Application" class="headerlink" title="D3 Application"></a>D3 Application</h1><h2 id="Good-and-easy-online-website-to-draw-a-Infographic"><a href="#Good-and-easy-online-website-to-draw-a-Infographic" class="headerlink" title="Good and easy online website to draw a Infographic"></a>Good and easy online website to draw a Infographic</h2><ol>
+<li>Canvas (the china mianland version is mostly free to use)</li>
 </ol>
-<h2 id="Research-Paper-Utilizing-J48-to-conduct-classification-task-of-Network-Activity-Recognition"><a href="#Research-Paper-Utilizing-J48-to-conduct-classification-task-of-Network-Activity-Recognition" class="headerlink" title="Research Paper: Utilizing J48 to conduct classification task of Network Activity Recognition"></a>Research Paper: Utilizing J48 to conduct classification task of Network Activity Recognition</h2><h3 id="preparation"><a href="#preparation" class="headerlink" title="preparation"></a>preparation</h3><ol>
-<li>Github repositries<br> <a href="https://github.com/harshilpatel1799/Iot-Cyber-Security-with-Machine-Learning-Research-Project">Iot-Cyber-Security-with-Machine-Learning-Research-Project</a><br> <a href="https://github.com/Akshat947/Network-intrusion-system-with-multinomial-classification">Network-intrusion-system-with-multinomial-classification</a><br> <a href="https://github.com/bhanuprakash556/INTRUSION-DETECTION-USING-MACHINE-LEARNING">INTRUSION-DETECTION-USING-MACHINE-LEARNING</a></li>
-<li><a href="https://github.com/sheng-qiang/BUPTBachelorThesis/issues/3">how to quote the online resource in Paper</a></li>
+<h2 id="Storytelling-about-Covid-19-LIFE-of-LI"><a href="#Storytelling-about-Covid-19-LIFE-of-LI" class="headerlink" title="Storytelling about Covid-19 - LIFE of LI"></a>Storytelling about Covid-19 - LIFE of LI</h2><h3 id="Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks"><a href="#Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks" class="headerlink" title="Online Presentation —— constrained(only use D3 and no other plug-ins or frameworks)"></a><a href="http://muyuhuatang.github.io/myDoc/COVID_Storytelling/">Online Presentation</a> —— constrained(only use D3 and no other plug-ins or frameworks)</h3><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
+<li><a href="https://observablehq.com/">Very good D3 example and implementation website - observablehq.com</a></li>
+<li><a href="http://www.htmleaf.com/html5/html5donghua/20141103368.html">Base html with swig special effect</a></li>
+<li>Good examples: <a href="http://everylastdrop.co.uk/">small man animation effect functioned by scrolling from up to down</a> / <a href="http://www.anterior.banxico.org.mx/mibanxico/capitulo4/">3D special effect with zoom function</a> / <a href="https://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/index.html">The New York Times - football races - information dashboard</a></li>
 </ol>
-<h3 id="Experiment-Design"><a href="#Experiment-Design" class="headerlink" title="Experiment Design"></a>Experiment Design</h3><ol>
-<li>Convert pcap to csv  using the Wireshark</li>
-<li><a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">Convert csv to txt</a></li>
-<li>Apply Network-intrusion-system-with-multinomial-classification for format fitting</li>
-<li>Use wireshark to generate train and validation data and convert it / checked</li>
-<li>Implement the existing project</li>
-<li>If error, try to fix and explain </li>
-<li>Record the key points when implementing</li>
-<li>Record the outcomes when running</li>
-<li>Evaluate the algorithm with validation dataset<br> machine learning regular evaluation</li>
-<li>Analyze test dataset using tools<br>My algorithm<br>other online or existing tools</li>
-<li>Conclusion<br>good points<br>possible error analysis<pre><code>1) in the music listenning dataset, if I want to use netease music, it need to set a VPN to China to enable it, this may change the attribute features of dataset and cause final classification bias or mistakes.</code></pre>
-where could be done better<br>possible ways to get better<pre><code>1) use tshark or python to extract the csv file from pcap file in a more customizable way
-2) config the wireshark to monitor only one application when generating test and validation data. [use wireshark to get specific application&#39;s internet package](https://blog.csdn.net/youxiansanren/article/details/48271851) / go to &quot;Activity Monitor&quot; of Mac to find the pid of firefox browser 441, and port is 31886 / [get the info of the application](https://blog.csdn.net/qq_24909089/article/details/90667898)
-3) use the spotfiy</code></pre>
+<h2 id="Information-Visualization-dashboard-of-GE2020"><a href="#Information-Visualization-dashboard-of-GE2020" class="headerlink" title="Information Visualization dashboard of GE2020"></a>Information Visualization dashboard of GE2020</h2><h3 id="Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks-1"><a href="#Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks-1" class="headerlink" title="Online Presentation —— constrained(only use D3 and no other plug-ins or frameworks)"></a><a href="http://muyuhuatang.github.io/myDoc/DashBoard-GE2020/">Online Presentation</a> —— constrained(only use D3 and no other plug-ins or frameworks)</h3><h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
+<li>analysis about previews election date: <a href="https://github.com/chuachinhon/sg_elections_cch">about election time and timespan - sg_elections_cch</a></li>
+<li><a href="https://www.eld.gov.sg/elections_past_parliamentary.html">Singapore Official election data</a></li>
+<li><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_slice_array">js onine small tester - w3schools.com</a></li>
+<li><a href="https://encycolorpedia.com/377eb8">color code in javascript</a></li>
+</ol>
+<h3 id="MapBox"><a href="#MapBox" class="headerlink" title="MapBox"></a>MapBox</h3><ol>
+<li><p><a href="https://www.mapbox.com/">Official websit</a> / <a href="https://www.mapbox.com/install/">Official demo</a> / [official ]</p>
+</li>
+<li><p><a href="https://data.gov.sg/organization/prime-ministers-office-elections-department">Election Boundarys from Singapore offcial database</a> / Small tool <a href="https://mygeodata.cloud/converter/kmz-to-json">KMZ to GeoJson convertor</a></p>
+</li>
+<li><p><a href="https://docs.mapbox.com/mapbox-gl-js/example/geojson-polygon/">Add a GeoJSON polygon - mapbox</a></p>
+</li>
+<li><p>How to use mapbox to implement the function [mouse move in show popup and mouse move out unshow popup] meterial: <a href="https://docs.mapbox.com/mapbox-gl-js/api/events/#evented#off">Official document</a> / <a href="https://www.thinbug.com/q/50397421">Implementation</a></p>
+</li>
+<li><p><a href="https://elections.viz.sg/">A excellent online implementation</a> / <a href="https://interactive.zaobao.com/2020/singapore-13th-general-election/sg-electoral-boundaries.php">Official website of ZaoBao GE2020 page</a></p>
+</li>
+<li><p>further explore: <a href="https://github.com/mapbox/mapbox-gl-js/blob/main/CONTRIBUTING.md">mapbox-gl github guide of installation</a> / <a href="https://blog.csdn.net/donglaoxie/article/details/104516405">implementation about mapbox-gl - Blog</a> / <a href="https://github.com/muyuhuatang/ge2020">an interesting github program not successfully deployed</a> / <a href="https://beiyuan.me/geospatial-analysis-with-python-8/">mapbox and python analysis - Blog</a></p>
 </li>
 </ol>
-<h3 id="Convert-pcap-to-csv"><a href="#Convert-pcap-to-csv" class="headerlink" title="Convert pcap to csv"></a>Convert pcap to csv</h3><ol start="0">
-<li>download the wireshark from <a href="https://www.wireshark.org/#download">official website</a> / <a href="https://jingyan.baidu.com/article/546ae1852ba4851149f28cd8.html">convert pcap to csv</a> / <a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">convert csv to txt</a></li>
-<li><a href="https://blog.csdn.net/LMD_BTBU/article/details/103146650">python ways in CSDN</a><ol>
-<li>pip install scapy</li>
-<li>confirm the format of given pcap file<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">###[ Ethernet ]### </span><br><span class="line">  dst       &#x3D; 52:54:00:12:35:02</span><br><span class="line">  src       &#x3D; 08:00:27:92:ab:0d</span><br><span class="line">  type      &#x3D; IPv4</span><br><span class="line">###[ IP ]### </span><br><span class="line">     version   &#x3D; 4</span><br><span class="line">     ihl       &#x3D; 5</span><br><span class="line">     tos       &#x3D; 0x0</span><br><span class="line">     len       &#x3D; 40</span><br><span class="line">     id        &#x3D; 45488</span><br><span class="line">     flags     &#x3D; DF</span><br><span class="line">     frag      &#x3D; 0</span><br><span class="line">     ttl       &#x3D; 64</span><br><span class="line">     proto     &#x3D; tcp</span><br><span class="line">     chksum    &#x3D; 0x7d53</span><br><span class="line">     src       &#x3D; 10.0.2.15</span><br><span class="line">     dst       &#x3D; 34.107.221.82</span><br><span class="line">     \options   \</span><br><span class="line">###[ TCP ]### </span><br><span class="line">        sport     &#x3D; 35546</span><br><span class="line">        dport     &#x3D; http</span><br><span class="line">        seq       &#x3D; 2415182248</span><br><span class="line">        ack       &#x3D; 14528222</span><br><span class="line">        dataofs   &#x3D; 5</span><br><span class="line">        reserved  &#x3D; 0</span><br><span class="line">        flags     &#x3D; A</span><br><span class="line">        window    &#x3D; 64020</span><br><span class="line">        chksum    &#x3D; 0xbe7</span><br><span class="line">        urgptr    &#x3D; 0</span><br><span class="line">        options   &#x3D; []</span><br></pre></td></tr></table></figure></li>
-</ol>
- —–fail! just one row with wrong colums <ol start="3">
-<li>tshark -r sample1.pcap -T fields -e eth.src -e eth.dst -e ip.src -e ip.dst -e ip.proto -E header=y -E separator=, -E quote=d -E occurrence=f &gt; sample1.csv</li>
-</ol>
+<p>might useful: <a href="https://docs.mapbox.com/mapbox-gl-js/example/fill-pattern/">add a pattern to a polygon</a> </p>
+<h3 id="D3-script-to-geojson"><a href="#D3-script-to-geojson" class="headerlink" title="D3 script to geojson"></a>D3 script to geojson</h3><ol>
+<li><p><a href="https://jingyan.baidu.com/article/15622f24a182c1bdfcbea5e6.html">How to fix the problem that can not read loal files when testing in browser</a> <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp">firefox error report</a></p>
 </li>
-<li>Generate training dataset using wireshark<br> <a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">network trouble shotting</a><pre><code> 1) ping www.google.com
- 2) traceroute www.google.com
- 3) ipconfig ifcount
- 4) nslookup www.google.com
- 5) whois www.google.com
- 6) netstat</code></pre>
+<li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li>weka reference<br> <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">use weka to predict data</a>    / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">complement of the previews one</a><br> <a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">detailed output file instruction</a></li>
-<li>Prepare the data from raw data.<ol>
-<li>add “Class lable”, remember use ‘microsoft excel’ to add coloum but not the ‘mac numbers’ <a href="https://jingyan.baidu.com/article/4f34706e16474de386b56d77.html">how to use excel to fill one coloum to one value</a></li>
-<li>or directly use weka import csv file and convert it to arff file<br> in the ‘info’ attribute, can not contain double quotation marks, which would lead to generation error —– even if choose other method, this would also consequently cause error, so this is a very important tip. <a href="https://jingyan.baidu.com/article/d621e8da5a57492864913f75.html">replace the string in Excel with empty space</a>-tap a space in the replace textbox of excel but not nothing</li>
-</ol>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#x68;&#117;&#97;&#x6e;&#x67;&#x31;&#x38;&#x31;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#x66;&#x68;&#117;&#97;&#x6e;&#x67;&#x31;&#x38;&#x31;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+</li>
+<li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
+</li>
+<li><p><a href="https://mapshaper.org/">Use website to modify geomap.json file</a></p>
 </li>
 </ol>
-<ol start="6">
-<li>Dataset preprocessing<ol>
-<li>delete useless attribute ID, which does not contain any information about the intrusion detection process.</li>
+<h3 id="Merge-projects"><a href="#Merge-projects" class="headerlink" title="Merge projects"></a>Merge projects</h3><ol>
+<li>The html would possible automatically generate a opacity style with random value, it could be a headache.<br> put the line in the body title would kindly fix this problem <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;body style&#x3D;&quot;&#x2F;*! opacity:1; *&#x2F;&quot;&gt;</span><br></pre></td></tr></table></figure></li>
+<li>how to merge a html file with v3 and v4 of d3 framework:<br> download d3.v3 to local files and use d3.v3 as a local javascript.</li>
 </ol>
-</li>
-</ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="https://ieeexplore.ieee.org/document/6888681">Converting PCAPs into Weka mineable data - IEEE Xplore</a></li>
-<li>Good step instruction —- <a href="https://blog.vikki.in/machine-learning-network-traffic-classification-using-weka/">Machine learning – Network traffic classification using weka
-</a></li>
-<li><a href="https://blog.csdn.net/oMengLiShuiXiang1234/article/details/48343987">Analysis J48 in Weka</a></li>
-<li><a href="https://www.cnblogs.com/garfieldcgf/p/10006546.html">Use the Wireshark in Mac</a></li>
-<li><a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">10 most used network trouble shooting commands</a></li>
-<li><a href="https://www.youtube.com/watch?v=FMiCOx95lAc&ab_channel=WekaMOOC">Data Mining with weka (2.2 training and testing) official video guidance</a></li>
-<li><a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Use weka to predict the test data set</a> / <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Visualization way in weka</a> / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">Command way in weka</a></li>
-</ol>
-<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
-<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
-</li>
-<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
-</ol>
-<h2 id="APT-advanced-persistent-threat"><a href="#APT-advanced-persistent-threat" class="headerlink" title="APT - advanced persistent threat"></a>APT - advanced persistent threat</h2><ol>
-<li><a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E7%BA%A7%E9%95%BF%E6%9C%9F%E5%A8%81%E8%83%81">Wikipedia</a></li>
-<li>Refers mainly to hidden and long-term intrusion in computer, which is conducted mainly by professional attackers and aimed at specific targets.</li>
-<li>The biggest threat is that it is long-term, which means that people can not be certain when did their computers get infected. And that makes the process of recovery even harder and a bit more unnreliable.</li>
-</ol>
-<h2 id="Security-Orchestration-Automation-and-Response"><a href="#Security-Orchestration-Automation-and-Response" class="headerlink" title="Security Orchestration, Automation, and Response."></a>Security Orchestration, Automation, and Response.</h2><ol>
-<li><a href="https://www.fireeye.com/products/helix/what-is-soar.html">official website</a></li>
-</ol>
-<h2 id="Famous-virus"><a href="#Famous-virus" class="headerlink" title="Famous virus"></a>Famous virus</h2><p><a href="https://www.youtube.com/watch?v=3nrwAW_0FjU&ab_channel=TheScienceElf">A brief history of Computer Viruses - Youtube</a></p>
-<ol>
-<li>Stuxnet <a href="https://en.wikipedia.org/wiki/Stuxnet">wikipedia</a></li>
-</ol>
-<h2 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
-<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
-</ol>
-<h1 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a>Sentiment Analysis</h1><p>   Use Bert to conduct Aspect Based Sentiment Analysis in short text datasets (like tweets) and analysis the trend of the tweets through different years based on one specific pubic topic.    </p>
-<h1 id="Video-understanding"><a href="#Video-understanding" class="headerlink" title="Video understanding"></a>Video understanding</h1><p>   Apply deep learning methods to build a highlight timestamp prediction model for videos of one certain category.</p>
-]]></content>
-      <categories>
-        <category>Record</category>
-        <category>Machine Learning and Deep Learning</category>
-      </categories>
-      <tags>
-        <tag>Record</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Text Web Mining &amp; Data Mining</title>
-    <url>/2021/03/10/Text%20Web%20Mining%20&amp;%20Data%20Mining/</url>
-    <content><![CDATA[<p>Text Web Mining &amp; Data Mining Notes and Records</p>
-<a id="more"></a>
-
-
-<h1 id="Text-Web-Mining"><a href="#Text-Web-Mining" class="headerlink" title="Text Web Mining"></a>Text Web Mining</h1><h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
-<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
-<li>use code below to check GPU status<br>!nvidia-smi</li>
-<li>build connection between google drive files and this notebook<br>from google.colab import drive<br>drive.mount(‘/content/drive/‘)</li>
-<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
-<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
-</ol>
-<h2 id="Take-Home-Project-2-sentiment-classifier"><a href="#Take-Home-Project-2-sentiment-classifier" class="headerlink" title="Take Home Project 2 - sentiment classifier"></a>Take Home Project 2 - sentiment classifier</h2><h3 id="preperation"><a href="#preperation" class="headerlink" title="preperation"></a>preperation</h3><ol start="0">
-<li>good examples and guide: <a href="https://github.com/bentrevett/pytorch-sentiment-analysis"> bentrevett / pytorch-sentiment-analysis </a> / <a href="https://medium.com/@galhever/sentiment-analysis-with-pytorch-part-3-cnn-model-7bb30712abd7">Sentiment Analysis with Pytorch — Part 3— CNN Model</a> / <a href="https://github.com/xalanq/chinese-sentiment-classification">xalanq<br>/ chinese-sentiment-classification</a> / <a href="https://github.com/slaysd/pytorch-sentiment-analysis-classification">slaysd<br>/ pytorch-sentiment-analysis-classification</a></li>
-<li>NN, RNN, BERT - given Jupyter files</li>
-<li>modify CNN Jupyter files<ol>
-<li>change surname model to sentiment model - character level tokens</li>
-<li>online reference: <a href="https://towardsdatascience.com/cnn-sentiment-analysis-9b1771e7cdd6">3 kind of outcome sentiment classifer</a></li>
-<li>use weka:<br><a href="https://www.researchgate.net/post/Can-we-use-CNN-and-RNN-algorithms-in-Weka">weka to do deep learning</a> / <a href="https://deeplearning.cms.waikato.ac.nz/install/#cpu">official guide of installing</a> / <a href="https://medium.com/@b10405022/wekadeeplearning4j-%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%9D-37632bc867fc">how to quick install weka deep learning toolkit</a></li>
-</ol>
-</li>
-</ol>
-<h3 id="Further-work-direction"><a href="#Further-work-direction" class="headerlink" title="Further work direction"></a>Further work direction</h3><ol>
-<li>coBerta <a href="https://www.kaggle.com/iamprateek/sentiment-analysis-using-roberta">kaggle example using coBerta</a></li>
-<li>weka preprocessing + bert <a href="https://www.stefanoscerra.it/movie-reviews-classification-weka-data-mining/">weka preprocessing</a></li>
-<li>evaluation <a href="https://zhuanlan.zhihu.com/p/287911524?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056">ambert evaluation</a> / <a href="https://www.zhihu.com/question/418623902/answer/1453247561?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056&utm_content=group1_Answer&utm_campaign=shareopn">ambert discussion in zhihu</a></li>
-</ol>
-<h2 id="Group-Project-Taylor-Swift-lyrics-generator"><a href="#Group-Project-Taylor-Swift-lyrics-generator" class="headerlink" title="Group Project : Taylor Swift lyrics generator"></a>Group Project : Taylor Swift lyrics generator</h2><p>method: RNN LSTM GPT2</p>
-<ol>
-<li><a href="https://github.com/Nana0606/lyrics_generation">LSTM github good instance</a></li>
-<li><a href="https://github.com/fukuball/Tom-Chang-Deep-Lyrics">LSTM github detailed instance - Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生。</a></li>
-<li><a href="https://github.com/adigoryl/Styled-Lyrics-Generator-GPT2">GPT2 styled lyrics generator - github + colab</a></li>
-</ol>
-<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
-<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
-<ol>
-<li>learning_rate</li>
-<li>batch_size</li>
-<li>dropout (use only if it helps)</li>
-<li>batch norm (use only if it helps)</li>
-<li>weight_decay (L2 regularization) (use only if it helps)</li>
-<li>hidden_dim</li>
-<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
-</ol>
-<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
-<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
-<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
-<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
-<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
-
-
+<h3 id="You-can-see-the-project-through-this-link"><a href="#You-can-see-the-project-through-this-link" class="headerlink" title="You can see the project through this link"></a>You can see the project through <a href="http://muyuhuatang.github.io/myDoc/DashBoard-GE2020">this link</a></h3><h3 id="D3-usage-notes"><a href="#D3-usage-notes" class="headerlink" title="D3 usage notes"></a>D3 usage notes</h3><ol>
+<li><a href="https://stackoverflow.com/questions/54085560/d3js-v5-selectall-data-enter-is-not-a-function">D3Js.v5: …selectAll(…).data(…).enter is not a function ERROR</a><br> example: 03_D3_TSV_Loading.html<br> codes:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;en&quot;</span>&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">		&lt;title&gt;D3: Loading data from a TSV file&lt;/title&gt;</span><br><span class="line">		&lt;script <span class="built_in">type</span>=<span class="string">&quot;text/javascript&quot;</span> src=<span class="string">&quot;d3.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">	&lt;body&gt;</span><br><span class="line">		&lt;script <span class="built_in">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line"></span><br><span class="line">			d3.tsv(<span class="string">&quot;employees.tsv&quot;</span>).<span class="keyword">then</span>(<span class="keyword">function</span>(data) &#123;</span><br><span class="line">				<span class="keyword">for</span> (var i = 0; i &lt; data.length; i++)&#123;</span><br><span class="line">				console.log(data[i].Name);</span><br><span class="line">				console.log(data[i].Age);</span><br><span class="line">			&#125;&#125;);</span><br><span class="line"></span><br><span class="line">		&lt;/script&gt;</span><br><span class="line">	&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
-<h1 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h1><h2 id="Useful-Info"><a href="#Useful-Info" class="headerlink" title="Useful Info"></a>Useful Info</h2><ol>
-<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
-</ol>
-<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><p><a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a><br><a href="http://muyuhuatang.github.io/2020/10/08/Hidden%20-%20Census%20Income%20Dataset/">Final result online presentation (Jupyter)</a></p>
-<h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
+<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
 <ol>
-<li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
-</ol>
-<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
-<ol>
-<li>preprocessing</li>
-<li>train and test</li>
-<li>gather data and outcomes</li>
-<li>compare and analysis</li>
-<li>draw ROC plot</li>
-</ol>
-<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
-<li>convert .data file into .arff file<br>.data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
-<li>use Weka to genarate</li>
-<li>compare and analysis</li>
-</ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
-<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
-can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
-<li><a href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">Use MicroSoft and Weka to convert xls/csv to arff</a> / <a href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a> / <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">ARFF2CSV</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
-<li><a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
-</ol>
-<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
-<li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
-<li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
-</ol>
-<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
-<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
-<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
-<li><a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
-<li><a href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
-<li><a href="https://discrete.gr/complexity/">Complexity</a></li>
-</ol>
-<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
-<li><p>Algorithm steps<br>Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
-<p>Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
-<p>Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
-<p>Step-4: Sort the rules as the decreasing order of lift.</p>
+<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
 </li>
-<li><p><a href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
+<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
+</li>
+<li><p>MA GUANGYI - why_are_cars_so_expensive_in_singapore<br><img src="/2020/09/20/Information-Visualization/singapore-car-price-infographic.jpg" alt="why-are-cars-so-expensive-in-singapore"><br><a href="https://dribbble.com/shots/14277182-Infographic-Singapore-car-price?utm_source=Clipboard_Shot&utm_campaign=maguangyi&utm_content=Infographic%20-%20Singapore%20car%20price&utm_medium=Social_Share">Dribbble Link</a></p>
+</li>
+<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
 </li>
 </ol>
-<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
-<li>WEKA use data set in .arff format<br>tips: 1) use <a href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><ol start="2">
-<li>can also use <a href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">arff functions</a> to change xls and csv files directly into arff files</li>
-</ol>
-</li>
-<li>There are 12 parameters could be set before running Apriori <a href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
-<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
-</ol>
-<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
-<thead>
-<tr>
-<th>Time</th>
-<th>labor</th>
-<th>breast-cancer</th>
-<th>wisconsin-breast-cancer</th>
-<th>hypothyroid</th>
-<th>mushroom</th>
-<th>letter</th>
-<th>adult</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>attribute number</td>
-<td>17</td>
-<td>10</td>
-<td>10</td>
-<td>30</td>
-<td>23</td>
-<td>16</td>
-<td>15</td>
-</tr>
-<tr>
-<td>instance number</td>
-<td>57</td>
-<td>286</td>
-<td>699</td>
-<td>3772</td>
-<td>8124</td>
-<td>20000</td>
-<td>32561</td>
-</tr>
-<tr>
-<td>setting 1</td>
-<td>263</td>
-<td>302</td>
-<td>296</td>
-<td>372</td>
-<td>343</td>
-<td>526</td>
-<td>746</td>
-</tr>
-<tr>
-<td>setting 2</td>
-<td>289</td>
-<td>337</td>
-<td>314</td>
-<td>587</td>
-<td>723</td>
-<td>2493</td>
-<td>4633</td>
-</tr>
-<tr>
-<td>brute estimate</td>
-<td>16246</td>
-<td>81513</td>
-<td>199221</td>
-<td>1075057</td>
-<td>2315421</td>
-<td>5700200</td>
-<td>9280211</td>
-</tr>
-</tbody></table>
-<p>  Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100<br>  Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</p>
-<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
-<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
-<table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>spectrum disorder screening - adolescent</th>
-<th>spectrum disorder screening - children</th>
-<th>spectrum disorder screening - adult</th>
-<th>absent at work</th>
-<th>SouthGermanCredit</th>
-<th>mushroom</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>attribute</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>21</td>
-<td>22-&gt;21</td>
-</tr>
-<tr>
-<td>instance</td>
-<td>104</td>
-<td>292</td>
-<td>704</td>
-<td>740</td>
-<td>1000</td>
-<td>8124</td>
-</tr>
-<tr>
-<td>time / setting 1</td>
-<td>303</td>
-<td>320</td>
-<td>319</td>
-<td>317</td>
-<td>387</td>
-<td>409</td>
-</tr>
-<tr>
-<td>time / setting 2</td>
-<td>307</td>
-<td>346</td>
-<td>372</td>
-<td>472</td>
-<td>953</td>
-<td>976</td>
-</tr>
-</tbody></table>
-<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
-<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-deduction.png" alt="time complexity deduction"></li>
-<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
-</ol>
-<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-plot.png" alt="time-plot"></p>
-<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h3><ol>
-<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
-<li><a href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
-</ol>
-<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
-<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
-<li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
-</ol>
-<h2 id="K-means-visualization"><a href="#K-means-visualization" class="headerlink" title="K-means visualization"></a>K-means visualization</h2><ol>
-<li><a href="https://stanford.edu/class/engr108/visualizations/kmeans/kmeans.html">stanford edu</a></li>
-<li><a href="https://www.naftaliharris.com/blog/visualizing-k-means-clustering/">naftali harris</a></li>
-</ol>
-<h2 id="Small-interesting-points"><a href="#Small-interesting-points" class="headerlink" title="Small interesting points"></a>Small interesting points</h2><ol>
-<li><a href="https://sebastianraschka.com/faq/docs/lazy-knn.html">Machine Learning FAQ Why is Nearest Neighbor a Lazy Algorithm?</a></li>
-<li><a href="https://www.quora.com/Is-temperature-an-ordinal-interval-or-ratio-measurement-statistically">Is temperature an ordinal, interval or ratio measurement statistically?</a></li>
-<li><a href="http://www.imatheq.com/imatheq/com/imatheq/math-equation-editor_zh_cn.html">online math formula website - iMathEQ</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/37875887">k-means notes</a></li>
-</ol>
+<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
+<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
+<p>My email: <a href="mailto:&#102;&#104;&#117;&#97;&#110;&#103;&#x31;&#56;&#x31;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#102;&#104;&#117;&#97;&#110;&#103;&#x31;&#56;&#x31;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
-        <category>Text &amp; Web Mining</category>
+        <category>Information Visualization</category>
       </categories>
       <tags>
         <tag>Courses</tag>
@@ -450,127 +163,6 @@ can be fixed by remove the null values in dataset. <a href="https://pbpython.com
       </tags>
   </entry>
   <entry>
-    <title>Information Visualization</title>
-    <url>/2020/09/20/Information-Visualization/</url>
-    <content><![CDATA[<p>Information Visualization Notes and Records</p>
-<a id="more"></a>
-
-<h1 id="D3-Application"><a href="#D3-Application" class="headerlink" title="D3 Application"></a>D3 Application</h1><h2 id="Good-and-easy-online-website-to-draw-a-Infographic"><a href="#Good-and-easy-online-website-to-draw-a-Infographic" class="headerlink" title="Good and easy online website to draw a Infographic"></a>Good and easy online website to draw a Infographic</h2><ol>
-<li>Canvas (the china mianland version is mostly free to use)</li>
-</ol>
-<h2 id="Storytelling-about-Covid-19-LIFE-of-LI"><a href="#Storytelling-about-Covid-19-LIFE-of-LI" class="headerlink" title="Storytelling about Covid-19 - LIFE of LI"></a>Storytelling about Covid-19 - LIFE of LI</h2><h3 id="Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks"><a href="#Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks" class="headerlink" title="Online Presentation —— constrained(only use D3 and no other plug-ins or frameworks)"></a><a href="http://muyuhuatang.github.io/myDoc/COVID_Storytelling/">Online Presentation</a> —— constrained(only use D3 and no other plug-ins or frameworks)</h3><h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
-<li><a href="https://observablehq.com/">Very good D3 example and implementation website - observablehq.com</a></li>
-<li><a href="http://www.htmleaf.com/html5/html5donghua/20141103368.html">Base html with swig special effect</a></li>
-<li>Good examples: <a href="http://everylastdrop.co.uk/">small man animation effect functioned by scrolling from up to down</a> / <a href="http://www.anterior.banxico.org.mx/mibanxico/capitulo4/">3D special effect with zoom function</a> / <a href="https://www.nytimes.com/newsgraphics/2013/09/28/eli-manning-milestone/index.html">The New York Times - football races - information dashboard</a></li>
-</ol>
-<h2 id="Information-Visualization-dashboard-of-GE2020"><a href="#Information-Visualization-dashboard-of-GE2020" class="headerlink" title="Information Visualization dashboard of GE2020"></a>Information Visualization dashboard of GE2020</h2><h3 id="Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks-1"><a href="#Online-Presentation-——-constrained-only-use-D3-and-no-other-plug-ins-or-frameworks-1" class="headerlink" title="Online Presentation —— constrained(only use D3 and no other plug-ins or frameworks)"></a><a href="http://muyuhuatang.github.io/myDoc/DashBoard-GE2020/">Online Presentation</a> —— constrained(only use D3 and no other plug-ins or frameworks)</h3><h3 id="Preparation-1"><a href="#Preparation-1" class="headerlink" title="Preparation"></a>Preparation</h3><ol start="0">
-<li>analysis about previews election date: <a href="https://github.com/chuachinhon/sg_elections_cch">about election time and timespan - sg_elections_cch</a></li>
-<li><a href="https://www.eld.gov.sg/elections_past_parliamentary.html">Singapore Official election data</a></li>
-<li><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_slice_array">js onine small tester - w3schools.com</a></li>
-<li><a href="https://encycolorpedia.com/377eb8">color code in javascript</a></li>
-</ol>
-<h3 id="MapBox"><a href="#MapBox" class="headerlink" title="MapBox"></a>MapBox</h3><ol>
-<li><p><a href="https://www.mapbox.com/">Official websit</a> / <a href="https://www.mapbox.com/install/">Official demo</a> / [official ]</p>
-</li>
-<li><p><a href="https://data.gov.sg/organization/prime-ministers-office-elections-department">Election Boundarys from Singapore offcial database</a> / Small tool <a href="https://mygeodata.cloud/converter/kmz-to-json">KMZ to GeoJson convertor</a></p>
-</li>
-<li><p><a href="https://docs.mapbox.com/mapbox-gl-js/example/geojson-polygon/">Add a GeoJSON polygon - mapbox</a></p>
-</li>
-<li><p>How to use mapbox to implement the function [mouse move in show popup and mouse move out unshow popup] meterial: <a href="https://docs.mapbox.com/mapbox-gl-js/api/events/#evented#off">Official document</a> / <a href="https://www.thinbug.com/q/50397421">Implementation</a></p>
-</li>
-<li><p><a href="https://elections.viz.sg/">A excellent online implementation</a> / <a href="https://interactive.zaobao.com/2020/singapore-13th-general-election/sg-electoral-boundaries.php">Official website of ZaoBao GE2020 page</a></p>
-</li>
-<li><p>further explore: <a href="https://github.com/mapbox/mapbox-gl-js/blob/main/CONTRIBUTING.md">mapbox-gl github guide of installation</a> / <a href="https://blog.csdn.net/donglaoxie/article/details/104516405">implementation about mapbox-gl - Blog</a> / <a href="https://github.com/muyuhuatang/ge2020">an interesting github program not successfully deployed</a> / <a href="https://beiyuan.me/geospatial-analysis-with-python-8/">mapbox and python analysis - Blog</a></p>
-</li>
-</ol>
-<p>might useful: <a href="https://docs.mapbox.com/mapbox-gl-js/example/fill-pattern/">add a pattern to a polygon</a> </p>
-<h3 id="D3-script-to-geojson"><a href="#D3-script-to-geojson" class="headerlink" title="D3 script to geojson"></a>D3 script to geojson</h3><ol>
-<li><p><a href="https://jingyan.baidu.com/article/15622f24a182c1bdfcbea5e6.html">How to fix the problem that can not read loal files when testing in browser</a> <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp">firefox error report</a></p>
-</li>
-<li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
-</li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#x68;&#117;&#97;&#x6e;&#x67;&#x31;&#x38;&#x31;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;">&#x66;&#x68;&#117;&#97;&#x6e;&#x67;&#x31;&#x38;&#x31;&#64;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#109;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
-</li>
-<li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
-</li>
-<li><p><a href="https://mapshaper.org/">Use website to modify geomap.json file</a></p>
-</li>
-</ol>
-<h3 id="Merge-projects"><a href="#Merge-projects" class="headerlink" title="Merge projects"></a>Merge projects</h3><ol>
-<li>The html would possible automatically generate a opacity style with random value, it could be a headache.<br> put the line in the body title would kindly fix this problem <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;body style&#x3D;&quot;&#x2F;*! opacity:1; *&#x2F;&quot;&gt;</span><br></pre></td></tr></table></figure></li>
-<li>how to merge a html file with v3 and v4 of d3 framework:<br> download d3.v3 to local files and use d3.v3 as a local javascript.</li>
-</ol>
-<h3 id="You-can-see-the-project-through-this-link"><a href="#You-can-see-the-project-through-this-link" class="headerlink" title="You can see the project through this link"></a>You can see the project through <a href="http://muyuhuatang.github.io/myDoc/DashBoard-GE2020">this link</a></h3><h3 id="D3-usage-notes"><a href="#D3-usage-notes" class="headerlink" title="D3 usage notes"></a>D3 usage notes</h3><ol>
-<li><a href="https://stackoverflow.com/questions/54085560/d3js-v5-selectall-data-enter-is-not-a-function">D3Js.v5: …selectAll(…).data(…).enter is not a function ERROR</a><br> example: 03_D3_TSV_Loading.html<br> codes:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;en&quot;</span>&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">		&lt;title&gt;D3: Loading data from a TSV file&lt;/title&gt;</span><br><span class="line">		&lt;script <span class="built_in">type</span>=<span class="string">&quot;text/javascript&quot;</span> src=<span class="string">&quot;d3.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">	&lt;body&gt;</span><br><span class="line">		&lt;script <span class="built_in">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line"></span><br><span class="line">			d3.tsv(<span class="string">&quot;employees.tsv&quot;</span>).<span class="keyword">then</span>(<span class="keyword">function</span>(data) &#123;</span><br><span class="line">				<span class="keyword">for</span> (var i = 0; i &lt; data.length; i++)&#123;</span><br><span class="line">				console.log(data[i].Name);</span><br><span class="line">				console.log(data[i].Age);</span><br><span class="line">			&#125;&#125;);</span><br><span class="line"></span><br><span class="line">		&lt;/script&gt;</span><br><span class="line">	&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h2 id="Infographic"><a href="#Infographic" class="headerlink" title="Infographic"></a>Infographic</h2><h3 id="My-classmates’-excellent-works"><a href="#My-classmates’-excellent-works" class="headerlink" title="My classmates’ excellent works:"></a>My classmates’ excellent works:</h3><p>I have get the permission from my classmates, and I sort works by alphabetic order of their names.</p>
-<ol>
-<li><p>HUANG TIANTIAN - dream_space<br><img src="/2020/09/20/Information-Visualization/dream_space.jpg" alt="HUANG TIANTIAN - dream_space"></p>
-</li>
-<li><p>HE XINYI - infographic_hxy<br><img src="/2020/09/20/Information-Visualization/infographic_hxy.jpg" alt="HE XINYI - infographic_hxy"></p>
-</li>
-<li><p>MA GUANGYI - why_are_cars_so_expensive_in_singapore<br><img src="/2020/09/20/Information-Visualization/singapore-car-price-infographic.jpg" alt="why-are-cars-so-expensive-in-singapore"><br><a href="https://dribbble.com/shots/14277182-Infographic-Singapore-car-price?utm_source=Clipboard_Shot&utm_campaign=maguangyi&utm_content=Infographic%20-%20Singapore%20car%20price&utm_medium=Social_Share">Dribbble Link</a></p>
-</li>
-<li><p>PETER LING CHONG TECK -  cybercrime<br><img src="/2020/09/20/Information-Visualization/cybercrime.jpg" alt="PETER LING CHONG TECK -  cybercrime"></p>
-</li>
-</ol>
-<h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
-<p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#104;&#117;&#97;&#110;&#103;&#x31;&#56;&#x31;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#102;&#104;&#117;&#97;&#110;&#103;&#x31;&#56;&#x31;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></p>
-]]></content>
-      <categories>
-        <category>Courses</category>
-        <category>Information Visualization</category>
-      </categories>
-      <tags>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hobbies &amp; Interests</title>
-    <url>/2021/03/10/Hobbies%20&amp;%20Interests/</url>
-    <content><![CDATA[<p>My Hobbies and Interests records</p>
-<a id="more"></a>
-
-<h2 id="Swimming"><a href="#Swimming" class="headerlink" title="Swimming"></a>Swimming</h2><h3 id="Use-ActiveSG-app-in-smartphone-to-book-a-slot"><a href="#Use-ActiveSG-app-in-smartphone-to-book-a-slot" class="headerlink" title="Use ActiveSG app in smartphone to book a slot"></a>Use ActiveSG app in smartphone to book a slot</h3><h3 id="Location-recommendation"><a href="#Location-recommendation" class="headerlink" title="Location recommendation"></a>Location recommendation</h3><h4 id="Jalan-Besar-Swimming-Complex-ActiveSG"><a href="#Jalan-Besar-Swimming-Complex-ActiveSG" class="headerlink" title="Jalan Besar Swimming Complex ActiveSG"></a>Jalan Besar Swimming Complex <a href="https://www.myactivesg.com/facilities/jalan-besar-swimming-complex">ActiveSG</a></h4><pre><code>100 Tyrwhitt Road, Singapore 207542
-Telephone Number: 62939058
-Price $1.30/hour for foreigner adults (price in Mar-2021)</code></pre>
-<p><img src="/2021/03/10/Hobbies%20&%20Interests/JalanBesarSwimmingComplex.png" alt="JalanBesarSwimmingComplex"></p>
-<h3 id="Tutorial-videos"><a href="#Tutorial-videos" class="headerlink" title="Tutorial videos"></a>Tutorial videos</h3><h4 id="蛙泳"><a href="#蛙泳" class="headerlink" title="蛙泳"></a>蛙泳</h4><p>基本动作: <a href="https://www.youtube.com/watch?v=FbGeBzFGsNA">https://www.youtube.com/watch?v=FbGeBzFGsNA</a><br>手臂划水动作: <a href="https://www.youtube.com/watch?v=wiI4VgX3dg8&amp;t=13s">https://www.youtube.com/watch?v=wiI4VgX3dg8&amp;t=13s</a></p>
-<h4 id="自由泳"><a href="#自由泳" class="headerlink" title="自由泳"></a>自由泳</h4><p>介绍: <a href="https://www.youtube.com/watch?v=ZvxXZQiNBq4">https://www.youtube.com/watch?v=ZvxXZQiNBq4</a><br>打腿: <a href="https://www.youtube.com/watch?v=u8mQlZo3tQQ">https://www.youtube.com/watch?v=u8mQlZo3tQQ</a><br>唤气: <a href="https://www.youtube.com/watch?v=SuruIX4JJIw">https://www.youtube.com/watch?v=SuruIX4JJIw</a><br>翻滚转身: <a href="https://www.youtube.com/watch?v=onjcAG1u_MY">https://www.youtube.com/watch?v=onjcAG1u_MY</a><br>划水: <a href="https://www.youtube.com/watch?v=6kTqy8i0y38">https://www.youtube.com/watch?v=6kTqy8i0y38</a> </p>
-<h2 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h2><h3 id="Science-Fiction"><a href="#Science-Fiction" class="headerlink" title="Science Fiction"></a>Science Fiction</h3><ol>
-<li><a href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)">三体(The Three-Body Problem)</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E7%A5%9E%E7%A7%98%E5%B2%9B_(%E5%B0%8F%E8%AF%B4)">L’Île mystérieuse(神秘岛)</a></li>
-</ol>
-<h3 id="People-Biography"><a href="#People-Biography" class="headerlink" title="People Biography"></a>People Biography</h3><ol>
-<li>Lincoln Biography</li>
-<li>Freud Biography - Irving Stone</li>
-</ol>
-<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ol>
-<li><a href="https://book.douban.com/subject/13221012//">神游(Spirit Tour)</a></li>
-<li><a href="https://baike.baidu.com/item/%E7%81%B5%E5%B1%B1/20606385">灵山(Spirit Mount)</a></li>
-<li><a href="https://baike.baidu.com/item/%E5%A4%A9%E6%9E%A2/4908655#viewPageContent">天枢(Sky Hub)</a></li>
-</ol>
-<h2 id="Listen-to-Music"><a href="#Listen-to-Music" class="headerlink" title="Listen to Music"></a>Listen to Music</h2><h3 id="Classical-Music"><a href="#Classical-Music" class="headerlink" title="Classical Music"></a>Classical Music</h3><ol>
-<li><a href="https://www.youtube.com/watch?v=CvglW3KNSsQ&ab_channel=HAUSER">HAUSER - Air on the G String (J. S. Bach)</a></li>
-<li><a href="https://www.youtube.com/watch?v=MSPrTlFVBLI&ab_channel=KatherineJenkins-Topic">Vide cor meum</a></li>
-<li><a href="https://www.youtube.com/watch?v=g1hEszuZ4lo&ab_channel=HALIDONMUSIC">Vivaldi : The Four Seasons ( Spring, Summer, Autumn, Winter - full/complete)</a></li>
-</ol>
-<h3 id="Guqin"><a href="#Guqin" class="headerlink" title="Guqin"></a>Guqin</h3><ol>
-<li><a href="https://www.youtube.com/watch?v=JDfEMf2mFBg&list=PLLOGFieKASI0p6FygiLrpplUTCrdFnqWp&index=6&ab_channel=%E8%87%AA%E5%BE%97%E7%90%B4%E7%A4%BEZiDeGuqinStudio">Zi De Guqin Studio</a></li>
-</ol>
-<h2 id="中国书法-Chinese-Calligraphy"><a href="#中国书法-Chinese-Calligraphy" class="headerlink" title="中国书法 (Chinese Calligraphy)"></a>中国书法 (Chinese Calligraphy)</h2><h3 id="《麻姑仙坛记-节选》-颜真卿"><a href="#《麻姑仙坛记-节选》-颜真卿" class="headerlink" title="《麻姑仙坛记-节选》 颜真卿"></a>《麻姑仙坛记-节选》 颜真卿</h3><p><img src="/2021/03/10/Hobbies%20&%20Interests/%E9%BA%BB%E5%A7%91%E4%BB%99%E5%9D%9B%E8%AE%B01.png" alt="麻姑仙坛记1.png"></p>
-]]></content>
-      <categories>
-        <category>Records</category>
-      </categories>
-      <tags>
-        <tag>Records</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Tools</title>
     <url>/2020/10/27/Tools/</url>
     <content><![CDATA[<p>Useful tools and usage tips</p>
@@ -607,6 +199,107 @@ Price $1.30/hour for foreigner adults (price in Mar-2021)</code></pre>
       </categories>
       <tags>
         <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog start-up and settings</title>
+    <url>/2020/09/04/Blog%20start-up%20and%20settings/</url>
+    <content><![CDATA[<p>Welcome to Mysite!</p>
+<a id="more"></a>
+
+<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
+<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
+<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
+<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
+</li>
+</ol>
+<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
+<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
+<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
+<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
+</li>
+<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
+<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
+       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
+</li>
+<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
+<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+</ol>
+<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
+<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
+</li>
+<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
+<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
+<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
+<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> to</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
+<p> So, I could use the format below:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
+<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+<pre><code> Tips: 1) set height as specific px but not percentage.
+       2) use local reference first, because URL need much more time to load.
+       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
+</li>
+<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
+<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
+       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
+</li>
+<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
+</li>
+<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
+</li>
+<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
+</li>
+<li><p>How to show independent website page in the Github Pages blogs</p>
+<ol>
+<li>restore all the needed website page in the /myDoc file</li>
+<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
+<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
+</ol>
+</li>
+<li><p>How to dis-combine the github.io URL with purchased personal URL</p>
+<ol>
+<li>just delete the URL in the CNAME file (now, it is empty) located in the ./source path.</li>
+<li>hexo d </li>
+<li>hexo g</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Personal Materials</title>
+    <url>/2020/09/24/Encrypted-Personal-Material/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ef8c71076f2ae43acd8d5ef0d3a2e01a2ac60b1635e3c99b20d012385bf3cc01">ea55f7137be215b5c09760071df14e8a0d8e8e50f3a3bb4a4ba10a47a2b82c7297568730ae639cd1eb85f5002dd8e58de04ac151b0c08335efa4dc82ad52fdc9d29648e89518f22a8b4b7e37cd7f4702be0fe7da0591f0ae460fad2bc4c93bffdb9dfd4c205d9dcbb568a8953ecc4d2594a22fff1c3045447190864fb8fb9549f90ab3aceb7fc9ebfcd2761fe9dd2769287d156c6a6df279bfa89495d2e8af2e9dcdad27de928d79194ff026bfe8367e527db03a3131170f310d2ea8c42355237c023bef32d8a599453a41b88cd66e0497e7c90657c1dd4ca3edd280a45112f3b6dffce0ec42bf6dacf9f474ff9d04be102b583782cad49d30ebf22eb4c1a9838c342b6942eec262936f8d554c8e5671e7d39afd2faeff8d966ed9c055a64bd70b67291bf3e98f3d8aee0ed687a965bcd321a4ea8c50cc437df302584107e1f86384fdb029efeb68205956b1943e030a106e76e0a9bd69b03ad29405ac86c670f69f273746ecea476264bc4d9a8d445c01a3928e5814bc62f98519dfcedb731162cba240f971c8a748b4bc9f1d6fc27d2dde8c13b6525eafcab23ad2e5a35d5bbc7ea94046d5322dd38753b00452d39475e6ba73bec9d888a9fb18e16149f06f80f91fafc559d6dabeab9d40c07eab6e4aafebc4875c61da046a9b9d42fed0d2c0c55ae3f9706ded522dc78d3321e7e937d2d652b6a00d72366f278fd25a5bacba03aa141de6146ead3b56e78fc7d85ee3123e34c6fa279fec3d59400543fec60ca2e72b9eb62d61344e784755393805f2cce9e1637a6e4cd0aa0ab962751eb55498c05cbd3fa6fa2c230635901d7993612784d63bf5c8229cf84a5b33aba21ac8c231274105f0139e2f591c723bbd6175a6e560638f547b8fdcb8fa5237e0952fc81cbc907500c924acd80d8aa5ffc5e43c0084560c64b919ec734b1bf80619b1620a3d7c5de09d2a850709a075f88e62f0510eb43e9e2089fce6f8d68a02ca069ee2f7f3573054d0d3879286682c136c2ed8968225ffd5527cf60ad868f8230d6c631d5a3cba84d6fd6c7714f565b0a320da566143fd696e6260c0a05a8fee81ee957a7f88b669015ae8b5b0f0a59ad8527627f8d94fbec19124969168e7ee3ea36b2d39583bce704fb504aa2e63ecefe0acb105685709551ce69fa3e93131819f341a408ae40aa12f732c069f91a19183b91ac69b978e320d08a952fd99f03de6569c16b106a93f9f926ae28937b7edeee6ced138e0bf6b67d1f8bf48186dea56f5d0c6b62569ca96598048c756e19ac935663163d4d39d75bfce0b1f7e7d854f5cb8189197f629f394ee583002071f92a1f31faceb9ba9e49e74cd64561f35faa88194e53e5ebf09835903df1c72ee613f306529036da7530c0995166ddc7a1ffabf8ad1d32dc5a9e2221eff0181055705baa2c34dcc8ff14a3af0b6b9a231309a4ee645bc311f97869a4dbaf636aa030dabdf292293ad6187d321bb63d945e29ca3111ca2d5c89867ce88496f72410081bf603dbb5238bcf9018d5b2524facfd3d85d7d2d0ecc7398c0df896b3db86e13c70341b5a8bca01eb9b77a9bed99860874f3019de0386891ce12882f87fe6c9661f3855c6476a8b32387e00814c1c3e5d462d3a0479339c521e37e252b26733374d6b3eb48991c686f2c2bd4c9a1681250c64935b711da6d5331fc30a9cc200cdd1a2890fa8ba708e5b1ab1786a269bab8f2d91f17f1e9c0420383f765bb54c594af1c3c51a226d1d20fe8295d22fd79b4320c46a7c7022aa2b0cefb736c4dc87dd622a75d927bbfa893d074014fe99cbf611fcde05a912b85466503e6bc0d1851d6a1addf501101f3dcf06e03bc3ab2cf04db1d43da679d1550b85fcd469ef41fdf7a42464959ef5e786dbc3a18d7408990479693491e66bf22ad42f563d0feecf78e0f0a6f6ebc36274e24dd6800ccbed906d2883c6857505ebf3a61483bfac87cfc8284b16c6cab150ce983217c19188700db36da23d1e6486cc02d61eca9a1223764c0ae3e3b0dd900f7080868778012b5ef111d320652d382258fa76d1a2041032af15fca468e8bbdc20c6b2ff7e90ea477b6cd28ba392f99f632d1b4c4ee18d3c46c9d4a2b2bb8d537d3a443cd1ebe9e2eb53b99bd71fc98c02806116003aa01bfcff914045b1bf44617f023d041ad93db5f8742718dea534da326d05c2bfb8160622b3e8bbab9a42639bd75b3c0db942767f0ddd2c731f2302e36c02cd2adce846ebdd84ad8c7f25dea978d0378f425a88696d049ec2bc3765bab451d97d30e6bcbb2bea6a8b7fda85d5c71616257416a2a3d9699ccc556e56a10af2a3ce63e80df8a7456ea3e2e48aedb6cafb11076d8cce523745247b53b1f41adca3448e0ae8e497ea98fdd03e3f6c980f3e4d5e9cd10ee64c270ff090596f204127210565d1b9556bf2e4fb275aed2450bac0267c67e0b46882c2fd15a8137258d4b6bc5d874eb76943fcdfa534749bfec7fc177042f5f0be07a98dde106bf2dfa1bc7efb084ac3644ad69953b9a0aa2ac185931dcd4b1eae9e748dcb2457f976e21a020ddb037be7e105eb7c9ae395f880b98e60a13d176153a00b3727482a86a737913049e35f52d62c4109d63f381d70371353bf6e37ce71ee73748ccd1c5d8e5b03e42c8775d44fc7e55b81a9f085be22eec351b2df5627ed54f50ac790304ca88326361fc8839f86b95d1ef82c1276e341d660368601fcbbfb3bdec36cd0905592c9231207c2d21e4db2100c7f0d565a8473d907ade9461d863daf7cea68589d324fa08927c42313ea8109dcab03d31d6c33427f074e03889e9ce15e879e3c7c3a52b64863e63fa6b09c53ffd1f876029195c07b5fa14999159edccf659cf92bbfad7d1b72b52ceaf27cae816a44a06323180a8108b762fb7f522e3fe09f16081008699b340f07308d335248ba696a6f86978e6c797a31c71538e26abc00abb3edff155a471979ca7a726134b005e047f798a0510e616fe6c2e21e39a115188439a241c9fd6e199b8d94150abb33f54b36cb5a72fe83c1f47e396187e2918c77eeb1f4585ecaa0e8713d7ee12b3ac37e0fa234a7b7d12b9f9f35daa548be9e1a3965d8b442d434edb9160b9ff452febc8a20234521068c49f3f477e8f646f07f4b2703701ebe26eaf2b998f929509b4fae1ff58c75500364da8ed4e90c4c30d686c88811cfc6ea389dd606771798a91687164a2233c8a9e24f43826a14f80d3af96665e581f164a9b596741f530a0890baea307ef922bac5fa89e09d8b5b924a93d87c4c8f0eccbaf779ff0a41f501bb05ff473d8eacbbc2510c235591f6a6f35fffab79bbd8505056d12479b3ba4619a462ce9f23974c1c9876b4c05c2225ba4300440f8ecb6578982db2ed08d56b2974225209fe92a9789e738fcbfc8efcf583dd69b2fd24df065859fc54851a8a33ca410d83176e9fbbaa1b0ee6a0b69f91f5b951a079acec09fccab716fa70a2141a245f1a6ad65f70a4e9c5506307cccded9f555b5da9dcafba5bb54d73c513e270aa530fe8799084a218d00fe8659a2dbdcac0506270bd9e3862a6978f3ec21c88df51c8e9d92ab435a2a31a74c4369c27f73d3e29ba8b86180fd9ca5cc333d43ab9a0e4867bee39d1c39b238a734754117dbe100fa0c0847d61204788744ebc3852cd296ed4ec4ba164a34ef63cd04dc7e50e8aa882b6fd1fb4eb10e96d89a3d6522ae704d21de2be19ad200465118901b5cf4b6001884cd3a35c3f80d7d71c7a6ab5bb97daf55d47c19a815653222b53120248e8847bea6f1d336474a159765113f289ec2e7a1d2d5f5158afa43f8e75be5ed9e4c6cfa848793669d78a6a068368168d8b04c6f5136a38ecdd6076159a8699027518eacd6ddcfba4055133f8d5abb3f4c39fd6fc3aee961a1294dc7850c001537fe531163e02b3d3cd708908f95ef9c1f8d53617f24fcd4f0907afaafd82569348acc669b04f825bb87c4c77ea3076796d4cb667335142c02b54e71c6f12feebde6def40a343865ca928ef676861d30bd3540fdf268310a359d910dfb2770b60f8e7b9cdfa414344d3a160c0fab48f6d2464d91b3eb5364b4a7a5fc99724582812238c5ef55ce89d99df71162ba1b47543a217a4d2199358fcab3c32348f2fcb917c290e2dd125d907d396465cb1abf6807898f9caf8d86465ca075ba84ace407afe4617de98472a647d4210a3a10ff9837e31394a0aef45bfb77ed6e3990140368e1e93dcaac72599eb4be83186e4cb7413de165988e5d30e538d2393f54df1c1a9384d6a25769e4d398d25ca618d866d4334c8983285f38e94f2f247dbeb10af72c17660e1dcd4569190c40a03d3c886b7f9c5ffe45cb15fcd62fb1edbfc797a98cde296021d65addfa67a45556674ecca78e9cc451478364ef82ca54b1beec2b834ce026c3adfbedb96e9062e267d7e210eff32130898755cf978f147d29463736903bc8382d5e21427b9cc9470c72cdd72c3d4825d0afa22ef4e77bbb6cdbbd5fee3b0289561231566dee8e676bd09cba941352e06d8ac1eb009d4705c20e86f00f0a1c4cf01f61f4831eca210899c12df3fcbeeec0b4c72ea1c8487cdaa8316e473f57c25202800b2e3a0729dc49672879c541300358edb0de7a9742596f7e0b02f9d9f35ecfa899a03cfc78087d186b8232ef2c626d9b097ee0df8f311168db8eb4cc43d05cfcb802d380015379a78f33f82c9ce59c775609f6ec8acf5b7f359a49d5fb322582092954085af0137737eeb94e50c0cc40e9988a847b702ace33de422a1520b4e23ebbba1c28f00e07c1d9679c33d6aee58639300d532640c1f6c1873ae8cdeff4daae6a096d9ad05baf85892347dfb59fc0ebb05f14ad1d63549557c3bf881e032e75967de7cfaf9b565e5be29e6c473568d83d3a01042c947da1280216b187eb77892f2ded4001585dd69c81dcee020d89fb7b0aa8b5041d9423d2232840bf696eadc34d6c79b0ba945c96c73cb8871adbbbc5f5fc2ef1bdd8412ca1144af8c9288d78494389451dfebf5392bc394f3f464e817d1d34b759dc69442c367c7c2ba1d962558166cb6df71dc3fe259885029c19cd30856c8250e6caa620017ee9e357f2547907e3ed78c931934ac0965769defea0826bbaac2e90276c4453d7ba67b3ceaaff19d339e51ea767e82456acaee3c7a521dbf4052ea12a352e62dc8696c35730a0163e74b66ab67c7b065c3122b1e4da33b80de45b3acce2665d844fe77186bfe2601109762398f485eee2d681d3f1d8219e0ba21f1244b3114f1cdaf20641bda401c54cde88cb529bb2658289f6e16b40fd8df050b136742af4c6bf724658dfcc536242d4d7f7da063d83979d8b9d77cad8a23fed2bc0e3e599d8e1c6b419e252571223cb906f5c5c0df70d8222be95ab99b0c719467a1f4e135838eb10e5096168de963057e3fc43607842498168571c7264edbd4917173d2303809de1d4ae29e8034272ef7f28792f5c23671287f121fa168abce6554da3834e6ead86a81d520cc460782dfa98a05b1544335fbb633221f205c9e26e7f70a7554a33c1fe3bc6d3134c770e016939017d2667d09e5ef65f3a09b856d8449f82ab0129c6ad5b58ff1218112a2661e981a2d669f4917fdf6894a2a153c362f57094382cafcc790c947b0efaa37ec5e24418eb94086777deaa2437fa85d4493bb38f042449386c92805b037a54c4c9ec8465e6fdc52382cf534cca5e3760b326766da8e17174609276f5b2bb678d8774ca8a99826cb5d464652a1bb04a08192fafd1a1ddcaaebd87b72d862b69d61a8a65997e54b1eb86b943bfcacee9f7e6b2e9e89d6ab0869fbde1763b0e929c6f0d0dffc3e72e97ab0c69e2505b12a0fd5a43289431082d80ff47074f2ac62ef6ca534d1d21dd00d8512a298a382fd18950c1ed6a6edaff4b83d72abcbd08c91281ba30839908bd4935a25ccf42682f9ec5294d3f86489d4dcdaf32f281f9fc728b76695fe7857c41362ac4a781237ef7b0f8e679b4af20b5241b5530d7d83660a048c8b253dd82edf466bac4264f5c9d5464837feb01ca9ce39b3b7bca980ab43945a43fc96ad976b179462d357e6c3c495cd3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Encrypted</tag>
       </tags>
   </entry>
   <entry>
@@ -2533,104 +2226,413 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
       </categories>
   </entry>
   <entry>
-    <title>Personal Materials</title>
-    <url>/2020/09/24/Encrypted-Personal-Material/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="ef8c71076f2ae43acd8d5ef0d3a2e01a2ac60b1635e3c99b20d012385bf3cc01">ea55f7137be215b5c09760071df14e8a0d8e8e50f3a3bb4a4ba10a47a2b82c7297568730ae639cd1eb85f5002dd8e58de04ac151b0c08335efa4dc82ad52fdc9d29648e89518f22a8b4b7e37cd7f4702be0fe7da0591f0ae460fad2bc4c93bffdb9dfd4c205d9dcbb568a8953ecc4d2594a22fff1c3045447190864fb8fb9549f90ab3aceb7fc9ebfcd2761fe9dd2769287d156c6a6df279bfa89495d2e8af2e9dcdad27de928d79194ff026bfe8367e527db03a3131170f310d2ea8c42355237c023bef32d8a599453a41b88cd66e0497e7c90657c1dd4ca3edd280a45112f3b6dffce0ec42bf6dacf9f474ff9d04be102b583782cad49d30ebf22eb4c1a9838c342b6942eec262936f8d554c8e5671e7d39afd2faeff8d966ed9c055a64bd70b67291bf3e98f3d8aee0ed687a965bcd321a4ea8c50cc437df302584107e1f86384fdb029efeb68205956b1943e030a106e76e0a9bd69b03ad29405ac86c670f69f273746ecea476264bc4d9a8d445c01a3928e5814bc62f98519dfcedb731162cba240f971c8a748b4bc9f1d6fc27d2dde8c13b6525eafcab23ad2e5a35d5bbc7ea94046d5322dd38753b00452d39475e6ba73bec9d888a9fb18e16149f06f80f91fafc559d6dabeab9d40c07eab6e4aafebc4875c61da046a9b9d42fed0d2c0c55ae3f9706ded522dc78d3321e7e937d2d652b6a00d72366f278fd25a5bacba03aa141de6146ead3b56e78fc7d85ee3123e34c6fa279fec3d59400543fec60ca2e72b9eb62d61344e784755393805f2cce9e1637a6e4cd0aa0ab962751eb55498c05cbd3fa6fa2c230635901d7993612784d63bf5c8229cf84a5b33aba21ac8c231274105f0139e2f591c723bbd6175a6e560638f547b8fdcb8fa5237e0952fc81cbc907500c924acd80d8aa5ffc5e43c0084560c64b919ec734b1bf80619b1620a3d7c5de09d2a850709a075f88e62f0510eb43e9e2089fce6f8d68a02ca069ee2f7f3573054d0d3879286682c136c2ed8968225ffd5527cf60ad868f8230d6c631d5a3cba84d6fd6c7714f565b0a320da566143fd696e6260c0a05a8fee81ee957a7f88b669015ae8b5b0f0a59ad8527627f8d94fbec19124969168e7ee3ea36b2d39583bce704fb504aa2e63ecefe0acb105685709551ce69fa3e93131819f341a408ae40aa12f732c069f91a19183b91ac69b978e320d08a952fd99f03de6569c16b106a93f9f926ae28937b7edeee6ced138e0bf6b67d1f8bf48186dea56f5d0c6b62569ca96598048c756e19ac935663163d4d39d75bfce0b1f7e7d854f5cb8189197f629f394ee583002071f92a1f31faceb9ba9e49e74cd64561f35faa88194e53e5ebf09835903df1c72ee613f306529036da7530c0995166ddc7a1ffabf8ad1d32dc5a9e2221eff0181055705baa2c34dcc8ff14a3af0b6b9a231309a4ee645bc311f97869a4dbaf636aa030dabdf292293ad6187d321bb63d945e29ca3111ca2d5c89867ce88496f72410081bf603dbb5238bcf9018d5b2524facfd3d85d7d2d0ecc7398c0df896b3db86e13c70341b5a8bca01eb9b77a9bed99860874f3019de0386891ce12882f87fe6c9661f3855c6476a8b32387e00814c1c3e5d462d3a0479339c521e37e252b26733374d6b3eb48991c686f2c2bd4c9a1681250c64935b711da6d5331fc30a9cc200cdd1a2890fa8ba708e5b1ab1786a269bab8f2d91f17f1e9c0420383f765bb54c594af1c3c51a226d1d20fe8295d22fd79b4320c46a7c7022aa2b0cefb736c4dc87dd622a75d927bbfa893d074014fe99cbf611fcde05a912b85466503e6bc0d1851d6a1addf501101f3dcf06e03bc3ab2cf04db1d43da679d1550b85fcd469ef41fdf7a42464959ef5e786dbc3a18d7408990479693491e66bf22ad42f563d0feecf78e0f0a6f6ebc36274e24dd6800ccbed906d2883c6857505ebf3a61483bfac87cfc8284b16c6cab150ce983217c19188700db36da23d1e6486cc02d61eca9a1223764c0ae3e3b0dd900f7080868778012b5ef111d320652d382258fa76d1a2041032af15fca468e8bbdc20c6b2ff7e90ea477b6cd28ba392f99f632d1b4c4ee18d3c46c9d4a2b2bb8d537d3a443cd1ebe9e2eb53b99bd71fc98c02806116003aa01bfcff914045b1bf44617f023d041ad93db5f8742718dea534da326d05c2bfb8160622b3e8bbab9a42639bd75b3c0db942767f0ddd2c731f2302e36c02cd2adce846ebdd84ad8c7f25dea978d0378f425a88696d049ec2bc3765bab451d97d30e6bcbb2bea6a8b7fda85d5c71616257416a2a3d9699ccc556e56a10af2a3ce63e80df8a7456ea3e2e48aedb6cafb11076d8cce523745247b53b1f41adca3448e0ae8e497ea98fdd03e3f6c980f3e4d5e9cd10ee64c270ff090596f204127210565d1b9556bf2e4fb275aed2450bac0267c67e0b46882c2fd15a8137258d4b6bc5d874eb76943fcdfa534749bfec7fc177042f5f0be07a98dde106bf2dfa1bc7efb084ac3644ad69953b9a0aa2ac185931dcd4b1eae9e748dcb2457f976e21a020ddb037be7e105eb7c9ae395f880b98e60a13d176153a00b3727482a86a737913049e35f52d62c4109d63f381d70371353bf6e37ce71ee73748ccd1c5d8e5b03e42c8775d44fc7e55b81a9f085be22eec351b2df5627ed54f50ac790304ca88326361fc8839f86b95d1ef82c1276e341d660368601fcbbfb3bdec36cd0905592c9231207c2d21e4db2100c7f0d565a8473d907ade9461d863daf7cea68589d324fa08927c42313ea8109dcab03d31d6c33427f074e03889e9ce15e879e3c7c3a52b64863e63fa6b09c53ffd1f876029195c07b5fa14999159edccf659cf92bbfad7d1b72b52ceaf27cae816a44a06323180a8108b762fb7f522e3fe09f16081008699b340f07308d335248ba696a6f86978e6c797a31c71538e26abc00abb3edff155a471979ca7a726134b005e047f798a0510e616fe6c2e21e39a115188439a241c9fd6e199b8d94150abb33f54b36cb5a72fe83c1f47e396187e2918c77eeb1f4585ecaa0e8713d7ee12b3ac37e0fa234a7b7d12b9f9f35daa548be9e1a3965d8b442d434edb9160b9ff452febc8a20234521068c49f3f477e8f646f07f4b2703701ebe26eaf2b998f929509b4fae1ff58c75500364da8ed4e90c4c30d686c88811cfc6ea389dd606771798a91687164a2233c8a9e24f43826a14f80d3af96665e581f164a9b596741f530a0890baea307ef922bac5fa89e09d8b5b924a93d87c4c8f0eccbaf779ff0a41f501bb05ff473d8eacbbc2510c235591f6a6f35fffab79bbd8505056d12479b3ba4619a462ce9f23974c1c9876b4c05c2225ba4300440f8ecb6578982db2ed08d56b2974225209fe92a9789e738fcbfc8efcf583dd69b2fd24df065859fc54851a8a33ca410d83176e9fbbaa1b0ee6a0b69f91f5b951a079acec09fccab716fa70a2141a245f1a6ad65f70a4e9c5506307cccded9f555b5da9dcafba5bb54d73c513e270aa530fe8799084a218d00fe8659a2dbdcac0506270bd9e3862a6978f3ec21c88df51c8e9d92ab435a2a31a74c4369c27f73d3e29ba8b86180fd9ca5cc333d43ab9a0e4867bee39d1c39b238a734754117dbe100fa0c0847d61204788744ebc3852cd296ed4ec4ba164a34ef63cd04dc7e50e8aa882b6fd1fb4eb10e96d89a3d6522ae704d21de2be19ad200465118901b5cf4b6001884cd3a35c3f80d7d71c7a6ab5bb97daf55d47c19a815653222b53120248e8847bea6f1d336474a159765113f289ec2e7a1d2d5f5158afa43f8e75be5ed9e4c6cfa848793669d78a6a068368168d8b04c6f5136a38ecdd6076159a8699027518eacd6ddcfba4055133f8d5abb3f4c39fd6fc3aee961a1294dc7850c001537fe531163e02b3d3cd708908f95ef9c1f8d53617f24fcd4f0907afaafd82569348acc669b04f825bb87c4c77ea3076796d4cb667335142c02b54e71c6f12feebde6def40a343865ca928ef676861d30bd3540fdf268310a359d910dfb2770b60f8e7b9cdfa414344d3a160c0fab48f6d2464d91b3eb5364b4a7a5fc99724582812238c5ef55ce89d99df71162ba1b47543a217a4d2199358fcab3c32348f2fcb917c290e2dd125d907d396465cb1abf6807898f9caf8d86465ca075ba84ace407afe4617de98472a647d4210a3a10ff9837e31394a0aef45bfb77ed6e3990140368e1e93dcaac72599eb4be83186e4cb7413de165988e5d30e538d2393f54df1c1a9384d6a25769e4d398d25ca618d866d4334c8983285f38e94f2f247dbeb10af72c17660e1dcd4569190c40a03d3c886b7f9c5ffe45cb15fcd62fb1edbfc797a98cde296021d65addfa67a45556674ecca78e9cc451478364ef82ca54b1beec2b834ce026c3adfbedb96e9062e267d7e210eff32130898755cf978f147d29463736903bc8382d5e21427b9cc9470c72cdd72c3d4825d0afa22ef4e77bbb6cdbbd5fee3b0289561231566dee8e676bd09cba941352e06d8ac1eb009d4705c20e86f00f0a1c4cf01f61f4831eca210899c12df3fcbeeec0b4c72ea1c8487cdaa8316e473f57c25202800b2e3a0729dc49672879c541300358edb0de7a9742596f7e0b02f9d9f35ecfa899a03cfc78087d186b8232ef2c626d9b097ee0df8f311168db8eb4cc43d05cfcb802d380015379a78f33f82c9ce59c775609f6ec8acf5b7f359a49d5fb322582092954085af0137737eeb94e50c0cc40e9988a847b702ace33de422a1520b4e23ebbba1c28f00e07c1d9679c33d6aee58639300d532640c1f6c1873ae8cdeff4daae6a096d9ad05baf85892347dfb59fc0ebb05f14ad1d63549557c3bf881e032e75967de7cfaf9b565e5be29e6c473568d83d3a01042c947da1280216b187eb77892f2ded4001585dd69c81dcee020d89fb7b0aa8b5041d9423d2232840bf696eadc34d6c79b0ba945c96c73cb8871adbbbc5f5fc2ef1bdd8412ca1144af8c9288d78494389451dfebf5392bc394f3f464e817d1d34b759dc69442c367c7c2ba1d962558166cb6df71dc3fe259885029c19cd30856c8250e6caa620017ee9e357f2547907e3ed78c931934ac0965769defea0826bbaac2e90276c4453d7ba67b3ceaaff19d339e51ea767e82456acaee3c7a521dbf4052ea12a352e62dc8696c35730a0163e74b66ab67c7b065c3122b1e4da33b80de45b3acce2665d844fe77186bfe2601109762398f485eee2d681d3f1d8219e0ba21f1244b3114f1cdaf20641bda401c54cde88cb529bb2658289f6e16b40fd8df050b136742af4c6bf724658dfcc536242d4d7f7da063d83979d8b9d77cad8a23fed2bc0e3e599d8e1c6b419e252571223cb906f5c5c0df70d8222be95ab99b0c719467a1f4e135838eb10e5096168de963057e3fc43607842498168571c7264edbd4917173d2303809de1d4ae29e8034272ef7f28792f5c23671287f121fa168abce6554da3834e6ead86a81d520cc460782dfa98a05b1544335fbb633221f205c9e26e7f70a7554a33c1fe3bc6d3134c770e016939017d2667d09e5ef65f3a09b856d8449f82ab0129c6ad5b58ff1218112a2661e981a2d669f4917fdf6894a2a153c362f57094382cafcc790c947b0efaa37ec5e24418eb94086777deaa2437fa85d4493bb38f042449386c92805b037a54c4c9ec8465e6fdc52382cf534cca5e3760b326766da8e17174609276f5b2bb678d8774ca8a99826cb5d464652a1bb04a08192fafd1a1ddcaaebd87b72d862b69d61a8a65997e54b1eb86b943bfcacee9f7e6b2e9e89d6ab0869fbde1763b0e929c6f0d0dffc3e72e97ab0c69e2505b12a0fd5a43289431082d80ff47074f2ac62ef6ca534d1d21dd00d8512a298a382fd18950c1ed6a6edaff4b83d72abcbd08c91281ba30839908bd4935a25ccf42682f9ec5294d3f86489d4dcdaf32f281f9fc728b76695fe7857c41362ac4a781237ef7b0f8e679b4af20b5241b5530d7d83660a048c8b253dd82edf466bac4264f5c9d5464837feb01ca9ce39b3b7bca980ab43945a43fc96ad976b179462d357e6c3c495cd3</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blog start-up and settings</title>
-    <url>/2020/09/04/Blog%20start-up%20and%20settings/</url>
-    <content><![CDATA[<p>Welcome to Mysite!</p>
+    <title>Hobbies &amp; Interests</title>
+    <url>/2021/03/10/Hobbies%20&amp;%20Interests/</url>
+    <content><![CDATA[<p>My Hobbies and Interests records</p>
 <a id="more"></a>
 
-<h2 id="Hexo-Official-Reference"><a href="#Hexo-Official-Reference" class="headerlink" title="Hexo Official Reference"></a>Hexo Official Reference</h2><p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h3 id="Hexo-Tips"><a href="#Hexo-Tips" class="headerlink" title="Hexo Tips"></a>Hexo Tips</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><h3 id="Building"><a href="#Building" class="headerlink" title="Building:"></a>Building:</h3><ol>
-<li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029">How to build this blog and some small improvements</a> </li>
-<li><a href="https://blog.csdn.net/weixin_42357048/article/details/80540728">How to deploy Articles</a></li>
-<li>How to optimize Visualization Performance of Next <a href="https://sspai.com/post/59568"> - 1</a><a href="https://www.jianshu.com/p/4b54b1b350c6"> - 2</a><pre><code> Tips: only for reference, many method in these two pages are outdate.</code></pre>
-</li>
+<h2 id="Swimming"><a href="#Swimming" class="headerlink" title="Swimming"></a>Swimming</h2><h3 id="Location-recommendation"><a href="#Location-recommendation" class="headerlink" title="Location recommendation"></a>Location recommendation</h3><h4 id="Swimming-pool-in-Condo-Apartment-Singapore"><a href="#Swimming-pool-in-Condo-Apartment-Singapore" class="headerlink" title="Swimming pool in Condo/Apartment (Singapore)"></a>Swimming pool in Condo/Apartment (Singapore)</h4><p>Always only 1.0m deep, which is good is relax but not recommand to practice swiming skills. </p>
+<h4 id="Jalan-Besar-Swimming-Complex-ActiveSG-Use-ActiveSG-app-in-smartphone-to-book-a-slot"><a href="#Jalan-Besar-Swimming-Complex-ActiveSG-Use-ActiveSG-app-in-smartphone-to-book-a-slot" class="headerlink" title="Jalan Besar Swimming Complex ActiveSG // Use ActiveSG app in smartphone to book a slot"></a>Jalan Besar Swimming Complex <a href="https://www.myactivesg.com/facilities/jalan-besar-swimming-complex">ActiveSG</a> // Use ActiveSG app in smartphone to book a slot</h4><pre><code>100 Tyrwhitt Road, Singapore 207542
+Telephone Number: 62939058
+Price $1.30/hour for foreigner adults (price in Mar-2021)</code></pre>
+<p><img src="/2021/03/10/Hobbies%20&%20Interests/JalanBesarSwimmingComplex.png" alt="JalanBesarSwimmingComplex"></p>
+<h3 id="Tutorial-videos"><a href="#Tutorial-videos" class="headerlink" title="Tutorial videos"></a>Tutorial videos</h3><h4 id="蛙泳"><a href="#蛙泳" class="headerlink" title="蛙泳"></a>蛙泳</h4><p>基本动作: <a href="https://www.youtube.com/watch?v=FbGeBzFGsNA">https://www.youtube.com/watch?v=FbGeBzFGsNA</a><br>手臂划水动作: <a href="https://www.youtube.com/watch?v=wiI4VgX3dg8&amp;t=13s">https://www.youtube.com/watch?v=wiI4VgX3dg8&amp;t=13s</a></p>
+<h4 id="自由泳"><a href="#自由泳" class="headerlink" title="自由泳"></a>自由泳</h4><p>介绍: <a href="https://www.youtube.com/watch?v=ZvxXZQiNBq4">https://www.youtube.com/watch?v=ZvxXZQiNBq4</a><br>打腿: <a href="https://www.youtube.com/watch?v=u8mQlZo3tQQ">https://www.youtube.com/watch?v=u8mQlZo3tQQ</a><br>唤气: <a href="https://www.youtube.com/watch?v=SuruIX4JJIw">https://www.youtube.com/watch?v=SuruIX4JJIw</a><br>翻滚转身: <a href="https://www.youtube.com/watch?v=onjcAG1u_MY">https://www.youtube.com/watch?v=onjcAG1u_MY</a><br>划水: <a href="https://www.youtube.com/watch?v=6kTqy8i0y38">https://www.youtube.com/watch?v=6kTqy8i0y38</a> </p>
+<h2 id="Reading"><a href="#Reading" class="headerlink" title="Reading"></a>Reading</h2><h3 id="Science-Fiction"><a href="#Science-Fiction" class="headerlink" title="Science Fiction"></a>Science Fiction</h3><ol>
+<li><a href="https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)">三体(The Three-Body Problem)</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E7%A5%9E%E7%A7%98%E5%B2%9B_(%E5%B0%8F%E8%AF%B4)">L’Île mystérieuse(神秘岛)</a></li>
 </ol>
-<h3 id="Adjusting"><a href="#Adjusting" class="headerlink" title="Adjusting:"></a>Adjusting:</h3><ol>
-<li>How to activate “tags” and “categories” functions<br><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154?utm_source=blogxgwz7">Step 1</a><br><a href="https://www.jianshu.com/p/e17711e44e00">Step 2</a></li>
-<li><a href="https://www.yuque.com/leader755/blog/ox1gpk">How to enable the search function in blog</a></li>
-<li><a href="https://www.jianshu.com/p/a94422c0dc48/">How to add “top” function</a><pre><code> Tips: 1) the value of &quot;top&quot; tag bigger, the rank of article higher</code></pre>
-</li>
-<li><a href="https://github.com/theme-next/hexo-symbols-count-time">Word count and read time function</a></li>
-<li><a href="https://blog.csdn.net/qq_43751489/article/details/102990376">Visiting number count function</a><pre><code> Tips: 1) This is an embedded plugin in NexT theme
-       2) the homepage of [&quot;busuanzi&quot;](http://ibruce.info/2015/04/04/busuanzi/)</code></pre>
-</li>
-<li><a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">Use Taobao npm to accelerate installation process</a></li>
-<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+<h3 id="People-Biography"><a href="#People-Biography" class="headerlink" title="People Biography"></a>People Biography</h3><ol>
+<li>Lincoln Biography</li>
+<li>Freud Biography - Irving Stone</li>
 </ol>
-<h3 id="Modifying-Updating"><a href="#Modifying-Updating" class="headerlink" title="Modifying/Updating:"></a>Modifying/Updating:</h3><ol>
-<li><p><a href="https://www.jianshu.com/p/65b6c8ac38f5">Use hexo-hey to manage Blog</a><br> <a href="https://github.com/nihgwu/hexo-hey">hexo-hey github source code page</a></p>
-</li>
-<li><p>How to store the images in github repository<br> 2.1. (Recommand)<a href="https://hexo.io/zh-cn/docs/asset-folders.html">Use plug-in unit of relative routine / Embedding an image using markdown</a></p>
-<p> 2.1.1. Plug-in unit format: put the image in “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img [imageFullName] [imamge descirption]] %&#125;</span><br></pre></td></tr></table></figure>
-<p> 2.1.2. Embedding an image using markdown: do not have to put the in the specific “public” file because the image there would be automatically generated if you have put the image in the “source/_post/[your new article’s tile]/“</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]]([imageFullName])</span><br></pre></td></tr></table></figure>
-<p> 2.2. (Sometimes would fail to load)<a href="https://github.com/nihgwu/hexo-hey">Use hexo-hey funtion</a><br> Put the image in the “source/images/“: I changed 236th row in file “node_modules/hexo-hey/api.js” with <a href="https://blog.csdn.net/qq_43147039/article/details/103085168">this step</a> and adjust </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: hexo.config.url + <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> to</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">filename: <span class="string">&#x27;/&#x27;</span> + req.file.filename</span><br></pre></td></tr></table></figure>
-<p> So, I could use the format below:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![[descirption]](/images/[imageFullName])</span><br></pre></td></tr></table></figure></li>
-<li><p>How to preview pdf files in Blog<br> <a href="https://github.com/superalsrk/hexo-pdf">Github: Hexo-pdf</a><br> <a href="https://blog.csdn.net/longlongqin/article/details/105111524#%E7%BC%96%E8%BE%91test-md">Use object tag &amp; asset_floder to load pdf</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;object data=<span class="string">&quot;./[pdfFullName]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br><span class="line">&lt;object data=<span class="string">&quot;[previewURL]&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;application/pdf&quot;</span> width=<span class="string">&quot;100%&quot;</span> height=<span class="string">&quot;800px&quot;</span>&gt;&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-<pre><code> Tips: 1) set height as specific px but not percentage.
-       2) use local reference first, because URL need much more time to load.
-       3) if you want to insert a pdf file in &quot;about&quot; page, you should put the file directly in &quot;source/about/&quot;</code></pre>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt">How to use encrypt function for specific articles</a></p>
-<pre><code> Tips: 1) download of hexo-blog-encrypt may fail using npm method, try yarn method instead.
-       2) TOC function may disable encrypted article loading, so you can set toc as &#39;false&#39; in config file of theme.</code></pre>
-</li>
-<li><p>How to add canvas special effects<br> <a href="https://github.com/theme-next/theme-next-canvas-ribbon">Canvas-ribbon</a><br> <a href="https://github.com/theme-next/theme-next-three">Canvas-three</a></p>
-</li>
-<li><p><a href="https://blog.csdn.net/qq_29834241/article/details/108578936">How to recommand related articles at the bottom</a></p>
-</li>
-<li><p><a href="https://github.com/qiliux/hexo-jupyter-notebook/blob/master/README.md">How to out Jupyter notebook in hexo</a>————unstable and not available now.<br> Should ues “download the file in jupyter as MD file” + <a href="https://blog.si-yee.com/2019/04/23/hexo-next%E4%B8%BB%E9%A2%98%E9%A6%96%E9%A1%B5%E9%9A%90%E8%97%8F%E6%8C%87%E5%AE%9A%E6%96%87%E7%AB%A0/">“ hide article in hexo net”</a></p>
-</li>
-<li><p>How to show independent website page in the Github Pages blogs</p>
-<ol>
-<li>restore all the needed website page in the /myDoc file</li>
-<li>when need to show through Github Pages, paste the file directly in /public file. Generate and deploy then would be fine to show throung relative path in the blog.</li>
-<li>Remember! the [hexo clean] command would erase [myDoc] file, so it is needed to restore the file in the root path of Blog</li>
+<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ol>
+<li><a href="https://book.douban.com/subject/13221012//">神游(Spirit Tour)</a></li>
+<li><a href="https://baike.baidu.com/item/%E7%81%B5%E5%B1%B1/20606385">灵山(Spirit Mount)</a></li>
+<li><a href="https://baike.baidu.com/item/%E5%A4%A9%E6%9E%A2/4908655#viewPageContent">天枢(Sky Hub)</a></li>
 </ol>
-</li>
-<li><p>How to dis-combine the github.io URL with purchased personal URL</p>
-<ol>
-<li>just delete the URL in the CNAME file (now, it is empty) located in the ./source path.</li>
-<li>hexo d </li>
-<li>hexo g</li>
+<h2 id="Listen-to-Music"><a href="#Listen-to-Music" class="headerlink" title="Listen to Music"></a>Listen to Music</h2><h3 id="Classical-Music"><a href="#Classical-Music" class="headerlink" title="Classical Music"></a>Classical Music</h3><ol>
+<li><a href="https://www.youtube.com/watch?v=CvglW3KNSsQ&ab_channel=HAUSER">HAUSER - Air on the G String (J. S. Bach)</a></li>
+<li><a href="https://www.youtube.com/watch?v=MSPrTlFVBLI&ab_channel=KatherineJenkins-Topic">Vide cor meum</a></li>
+<li><a href="https://www.youtube.com/watch?v=g1hEszuZ4lo&ab_channel=HALIDONMUSIC">Vivaldi : The Four Seasons ( Spring, Summer, Autumn, Winter - full/complete)</a></li>
 </ol>
-</li>
+<h3 id="Guqin"><a href="#Guqin" class="headerlink" title="Guqin"></a>Guqin</h3><ol>
+<li><a href="https://www.youtube.com/watch?v=JDfEMf2mFBg&list=PLLOGFieKASI0p6FygiLrpplUTCrdFnqWp&index=6&ab_channel=%E8%87%AA%E5%BE%97%E7%90%B4%E7%A4%BEZiDeGuqinStudio">Zi De Guqin Studio</a></li>
 </ol>
+<h2 id="中国书法-Chinese-Calligraphy"><a href="#中国书法-Chinese-Calligraphy" class="headerlink" title="中国书法 (Chinese Calligraphy)"></a>中国书法 (Chinese Calligraphy)</h2><h3 id="《麻姑仙坛记-节选》-颜真卿"><a href="#《麻姑仙坛记-节选》-颜真卿" class="headerlink" title="《麻姑仙坛记-节选》 颜真卿"></a>《麻姑仙坛记-节选》 颜真卿</h3><p><img src="/2021/03/10/Hobbies%20&%20Interests/%E9%BA%BB%E5%A7%91%E4%BB%99%E5%9D%9B%E8%AE%B01.png" alt="麻姑仙坛记1.png"></p>
+<h2 id="Dancing"><a href="#Dancing" class="headerlink" title="Dancing"></a>Dancing</h2><h3 id="in-Switch"><a href="#in-Switch" class="headerlink" title=" in Switch"></a><JustDance Ultimate> in Switch</h3><p>Perfect for both exercise and relax! NICE!!! :)<br><img src="/2021/03/10/Hobbies%20&%20Interests/JustDance.png" alt="JustDance.png"></p>
 ]]></content>
       <categories>
-        <category>Documents</category>
+        <category>Records</category>
       </categories>
       <tags>
         <tag>Records</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Text Web Mining &amp; Data Mining</title>
+    <url>/2021/03/10/Text%20Web%20Mining%20&amp;%20Data%20Mining/</url>
+    <content><![CDATA[<p>Text Web Mining &amp; Data Mining Notes and Records</p>
+<a id="more"></a>
+
+
+<h1 id="Text-Web-Mining"><a href="#Text-Web-Mining" class="headerlink" title="Text Web Mining"></a>Text Web Mining</h1><h2 id="Training-Skills"><a href="#Training-Skills" class="headerlink" title="Training Skills"></a>Training Skills</h2><h3 id="How-to-use-colab-to-run-ML-tasks"><a href="#How-to-use-colab-to-run-ML-tasks" class="headerlink" title="How to use colab to run ML tasks"></a>How to use colab to run ML tasks</h3><ol>
+<li>click “Runtime” -&gt; “Change Runtime Type” -&gt; select GPU or TPU</li>
+<li>use code below to check GPU status<br>!nvidia-smi</li>
+<li>build connection between google drive files and this notebook<br>from google.colab import drive<br>drive.mount(‘/content/drive/‘)</li>
+<li>change dir<br>import os<br>os.chdir(“/content/drive/My Drive/Colab Notebooks/…/“)</li>
+<li>Do not use same browser to run both Jupyter and Colab, might crash</li>
+</ol>
+<h2 id="Take-Home-Project-2-sentiment-classifier"><a href="#Take-Home-Project-2-sentiment-classifier" class="headerlink" title="Take Home Project 2 - sentiment classifier"></a>Take Home Project 2 - sentiment classifier</h2><h3 id="preperation"><a href="#preperation" class="headerlink" title="preperation"></a>preperation</h3><ol start="0">
+<li>good examples and guide: <a href="https://github.com/bentrevett/pytorch-sentiment-analysis"> bentrevett / pytorch-sentiment-analysis </a> / <a href="https://medium.com/@galhever/sentiment-analysis-with-pytorch-part-3-cnn-model-7bb30712abd7">Sentiment Analysis with Pytorch — Part 3— CNN Model</a> / <a href="https://github.com/xalanq/chinese-sentiment-classification">xalanq<br>/ chinese-sentiment-classification</a> / <a href="https://github.com/slaysd/pytorch-sentiment-analysis-classification">slaysd<br>/ pytorch-sentiment-analysis-classification</a></li>
+<li>NN, RNN, BERT - given Jupyter files</li>
+<li>modify CNN Jupyter files<ol>
+<li>change surname model to sentiment model - character level tokens</li>
+<li>online reference: <a href="https://towardsdatascience.com/cnn-sentiment-analysis-9b1771e7cdd6">3 kind of outcome sentiment classifer</a></li>
+<li>use weka:<br><a href="https://www.researchgate.net/post/Can-we-use-CNN-and-RNN-algorithms-in-Weka">weka to do deep learning</a> / <a href="https://deeplearning.cms.waikato.ac.nz/install/#cpu">official guide of installing</a> / <a href="https://medium.com/@b10405022/wekadeeplearning4j-%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%9D-37632bc867fc">how to quick install weka deep learning toolkit</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="Further-work-direction"><a href="#Further-work-direction" class="headerlink" title="Further work direction"></a>Further work direction</h3><ol>
+<li>coBerta <a href="https://www.kaggle.com/iamprateek/sentiment-analysis-using-roberta">kaggle example using coBerta</a></li>
+<li>weka preprocessing + bert <a href="https://www.stefanoscerra.it/movie-reviews-classification-weka-data-mining/">weka preprocessing</a></li>
+<li>evaluation <a href="https://zhuanlan.zhihu.com/p/287911524?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056">ambert evaluation</a> / <a href="https://www.zhihu.com/question/418623902/answer/1453247561?utm_source=wechat_session&utm_medium=social&utm_oi=1185372448818733056&utm_content=group1_Answer&utm_campaign=shareopn">ambert discussion in zhihu</a></li>
+</ol>
+<h2 id="Group-Project-Taylor-Swift-lyrics-generator"><a href="#Group-Project-Taylor-Swift-lyrics-generator" class="headerlink" title="Group Project : Taylor Swift lyrics generator"></a>Group Project : Taylor Swift lyrics generator</h2><p>method: RNN LSTM GPT2</p>
+<ol>
+<li><a href="https://github.com/Nana0606/lyrics_generation">LSTM github good instance</a></li>
+<li><a href="https://github.com/fukuball/Tom-Chang-Deep-Lyrics">LSTM github detailed instance - Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生。</a></li>
+<li><a href="https://github.com/adigoryl/Styled-Lyrics-Generator-GPT2">GPT2 styled lyrics generator - github + colab</a></li>
+</ol>
+<h2 id="Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss"><a href="#Lab-no2-adjust-hyperparameters-to-get-higher-accuracy-and-lower-loss" class="headerlink" title="Lab-no2 adjust hyperparameters to get higher accuracy and lower loss"></a>Lab-no2 adjust hyperparameters to get higher accuracy and lower loss</h2><h3 id="Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron"><a href="#Optimize-target-Classifying-Surnames-with-a-Multilayer-Perceptron" class="headerlink" title="Optimize target: Classifying Surnames with a Multilayer Perceptron"></a>Optimize target: Classifying Surnames with a Multilayer Perceptron</h3><p>original code from the textbook website, <a href="https://github.com/joosthub/PyTorchNLPBook">https://github.com/joosthub/PyTorchNLPBook</a>.</p>
+<p>Build the best model (based on test loss and test accuracy) by exploring following options:</p>
+<ol>
+<li>learning_rate</li>
+<li>batch_size</li>
+<li>dropout (use only if it helps)</li>
+<li>batch norm (use only if it helps)</li>
+<li>weight_decay (L2 regularization) (use only if it helps)</li>
+<li>hidden_dim</li>
+<li>Note that it is not necessary to adjust other parameter values even though you are allowed to do so.</li>
+</ol>
+<h3 id="Values-of-given-parameters"><a href="#Values-of-given-parameters" class="headerlink" title="Values of given parameters"></a>Values of given parameters</h3><p>Thanks for Professor Jin’s suggestion and instruction, I would choose to share some findings when using a slightly different input dataset later on, but not share my answer directly.</p>
+<h3 id="Best-outcomes"><a href="#Best-outcomes" class="headerlink" title="Best outcomes"></a>Best outcomes</h3><p>Test loss: 1.61;<br>Test Accuracy: 57.789</p>
+<h3 id="Taking-“drewer”-as-an-example"><a href="#Taking-“drewer”-as-an-example" class="headerlink" title="Taking “drewer” as an example"></a>Taking “drewer” as an example</h3><p>Top 15 predictions:</p>
+<p>drewer -&gt; German (p=0.46)<br>drewer -&gt; English (p=0.35)<br>drewer -&gt; Dutch (p=0.06)<br>drewer -&gt; Scottish (p=0.04)<br>drewer -&gt; Czech (p=0.04)<br>drewer -&gt; Polish (p=0.01)<br>drewer -&gt; Spanish (p=0.01)<br>drewer -&gt; French (p=0.01)<br>drewer -&gt; Portuguese (p=0.01)<br>drewer -&gt; Russian (p=0.00)<br>drewer -&gt; Irish (p=0.00)<br>drewer -&gt; Chinese (p=0.00)<br>drewer -&gt; Japanese (p=0.00)<br>drewer -&gt; Italian (p=0.00)<br>drewer -&gt; Arabic (p=0.00)<br><br><br></p>
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li>Using VPN would block anaconda-navigator startup, because VPN would probably take up the specific localhost port.</li>
+<li>homebrew to solve environment path problem. <a href="https://qastack.cn/programming/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft">Install graphviz</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install graphviz</span><br><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h1 id="Data-Mining"><a href="#Data-Mining" class="headerlink" title="Data Mining"></a>Data Mining</h1><h2 id="Useful-Info"><a href="#Useful-Info" class="headerlink" title="Useful Info"></a>Useful Info</h2><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+</ol>
+<h2 id="Classification-Problem"><a href="#Classification-Problem" class="headerlink" title="Classification Problem"></a>Classification Problem</h2><p><a href="https://archive.ics.uci.edu/ml/datasets/Census+Income">dataset</a><br><a href="http://muyuhuatang.github.io/2020/10/08/Hidden%20-%20Census%20Income%20Dataset/">Final result online presentation (Jupyter)</a></p>
+<h3 id="Basic-acknowledge-and-demo-testing"><a href="#Basic-acknowledge-and-demo-testing" class="headerlink" title="Basic acknowledge and demo testing"></a>Basic acknowledge and demo testing</h3><p>Environment: anaconda-nevigator / Jupyter-pytorch / sklearn</p>
+<ol>
+<li><a href="https://methods.sagepub.com/dataset/howtoguide/classification-tree-in-aci-1996-python">How to implement decision tree classifier model</a></li>
+</ol>
+<h3 id="Build-project"><a href="#Build-project" class="headerlink" title="Build project"></a>Build project</h3><p>Environment: Docker / Jupyter-tensorflow / sklearn / <a href="https://github.com/dformoso/sklearn-classification">original reference</a></p>
+<ol>
+<li>preprocessing</li>
+<li>train and test</li>
+<li>gather data and outcomes</li>
+<li>compare and analysis</li>
+<li>draw ROC plot</li>
+</ol>
+<h3 id="Additional-way-use-Weka-to-generate-result"><a href="#Additional-way-use-Weka-to-generate-result" class="headerlink" title="Additional way: use Weka to generate result"></a>Additional way: use Weka to generate result</h3><ol>
+<li>convert .data file into .arff file<br>.data -&gt; .csv (use “sublime text”) -&gt; add label names in .csv (use “sublime text” but not “numbers”) -&gt; use tools to change to .arff, remember to select first row contains labels.</li>
+<li>use Weka to genarate</li>
+<li>compare and analysis</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="https://blog.csdn.net/yimingsilence/article/details/79388205">Use conda environment when facing conda install inconsistency</a></li>
+<li>Using label encoding function would lead to error below. <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Encoders require their input to be uniformly strings or numbers. Got [<span class="string">&#x27;float&#x27;</span>, <span class="string">&#x27;str&#x27;</span>]</span><br></pre></td></tr></table></figure>
+can be fixed by remove the null values in dataset. <a href="https://pbpython.com/categorical-encoding.html">Basic guide</a> <a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Application guide</a></li>
+<li><a href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">Use MicroSoft and Weka to convert xls/csv to arff</a> / <a href="http://ikuz.eu/csv2arff/">CSV2ARFF website</a> / <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">ARFF2CSV</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/36804348">Label encoding &amp; One-Hot encoding</a></li>
+<li><a href="https://blog.csdn.net/lwgkzl/article/details/80948548">Pandas missing value process methods</a></li>
+</ol>
+<h2 id="Association-Problem"><a href="#Association-Problem" class="headerlink" title="Association Problem"></a>Association Problem</h2><h3 id="Weka"><a href="#Weka" class="headerlink" title="Weka"></a>Weka</h3><ol>
+<li><a href="https://blog.csdn.net/qqnbsp/article/details/77360654">Use Java to launch Weka.jar</a> / <a href="https://www.youtube.com/watch?v=gdz9lc_6gTs&ab_channel=NoureddinSadawi">Youtube example video</a> / <a href="https://blog.csdn.net/xidianbaby/article/details/84774488">Weka-Apriori parameter meaning</a> / <a href="https://weka.sourceforge.io/doc.dev/weka/associations/package-summary.html">Weka Javadoc - Association</a></li>
+<li><a href="https://stackoverflow.com/questions/42912987/how-to-get-execution-time-in-milliseconds-format-in-weka">output runtime in association progress</a></li>
+</ol>
+<h3 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h3><ol>
+<li>Learn <Data Mining with Weka> - University of Waikato. Course Link: <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / <More Data Mining with Weka> <a href="https://www.youtube.com/watch?v=iqQn6YfyGs0&list=PLm4W7_iX_v4OMSgc8xowC2h70s-unJKCp&ab_channel=WekaMOOC">Youtube</a> / Learn <Advanced data mining with Weka> Course Link: <a href="https://www.youtube.com/watch?v=Lhw_XcGCTFg&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&ab_channel=WekaMOOC">Youtube</a></li>
+<li><a href="https://archive.ics.uci.edu/ml/datasets.php">Dataset repository of UCI</a></li>
+<li><a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">Small example of running Apriori in Websit javaTpoint</a></li>
+<li><a href="http://home.ustc.edu.cn/~zengxy/dm/courseware/association%20rule.pdf">Detailed ppt of Association Rule Mining from USTC</a></li>
+<li><a href="https://discrete.gr/complexity/">Complexity</a></li>
+</ol>
+<h3 id="Apriori"><a href="#Apriori" class="headerlink" title="Apriori"></a>Apriori</h3><ol>
+<li><p>Algorithm steps<br>Step-1: Determine the support of itemsets in the transactional database, and select the minimum support and confidence.</p>
+<p>Step-2: Take all supports in the transaction with higher support value than the minimum or selected support value.</p>
+<p>Step-3: Find all the rules of these subsets that have higher confidence value than the threshold or minimum confidence.</p>
+<p>Step-4: Sort the rules as the decreasing order of lift.</p>
+</li>
+<li><p><a href="https://www.codeproject.com/Articles/5161259/Association-Rules-Learning-ARL-Part-1-Apriori-Algo">Detailed analysis and C++ implementation</a></p>
+</li>
+</ol>
+<h3 id="Apriori-in-WEKA"><a href="#Apriori-in-WEKA" class="headerlink" title="Apriori in WEKA"></a>Apriori in WEKA</h3><ol>
+<li>WEKA use data set in .arff format<br>tips: 1) use <a href="http://ikuz.eu/csv2arff/#">csv2arff</a> or <a href="https://pulipulichen.github.io/jieba-js/weka/arff2csv/">arff2csv</a><ol start="2">
+<li>can also use <a href="https://www.youtube.com/watch?v=pecmx-KuUQA&ab_channel=AsteroidGroup">arff functions</a> to change xls and csv files directly into arff files</li>
+</ol>
+</li>
+<li>There are 12 parameters could be set before running Apriori <a href="https://blog.csdn.net/Marelin/article/details/17503477">reference</a></li>
+<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">Apriori properties in WEKA</a>.)</li>
+</ol>
+<h3 id="Original-dataset-test-information"><a href="#Original-dataset-test-information" class="headerlink" title="Original dataset test information"></a>Original dataset test information</h3><table>
+<thead>
+<tr>
+<th>Time</th>
+<th>labor</th>
+<th>breast-cancer</th>
+<th>wisconsin-breast-cancer</th>
+<th>hypothyroid</th>
+<th>mushroom</th>
+<th>letter</th>
+<th>adult</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute number</td>
+<td>17</td>
+<td>10</td>
+<td>10</td>
+<td>30</td>
+<td>23</td>
+<td>16</td>
+<td>15</td>
+</tr>
+<tr>
+<td>instance number</td>
+<td>57</td>
+<td>286</td>
+<td>699</td>
+<td>3772</td>
+<td>8124</td>
+<td>20000</td>
+<td>32561</td>
+</tr>
+<tr>
+<td>setting 1</td>
+<td>263</td>
+<td>302</td>
+<td>296</td>
+<td>372</td>
+<td>343</td>
+<td>526</td>
+<td>746</td>
+</tr>
+<tr>
+<td>setting 2</td>
+<td>289</td>
+<td>337</td>
+<td>314</td>
+<td>587</td>
+<td>723</td>
+<td>2493</td>
+<td>4633</td>
+</tr>
+<tr>
+<td>brute estimate</td>
+<td>16246</td>
+<td>81513</td>
+<td>199221</td>
+<td>1075057</td>
+<td>2315421</td>
+<td>5700200</td>
+<td>9280211</td>
+</tr>
+</tbody></table>
+<p>  Setting 1: lowerBoundMinSupport = 0.5; classindex = -1; delta = 0.05; minConfidence = 0.9; minRules = 100<br>  Setting 2: lowerBoundMinSupport = 0.1; classindex = -1; delta = 0.01; minConfidence = 0.95; minRules = 200</p>
+<p>The reason for disturbance in the plot is that Apriori in WEKA starts with the upper bound support and incrementally decreases support. The algorithm stops when either the specified number of rules are generated, or the lower bound for min is reached. So the abnormal run time is due to the different stop criteria[1]. </p>
+<h3 id="Additional-dataset-test-information"><a href="#Additional-dataset-test-information" class="headerlink" title="Additional dataset test information"></a>Additional dataset test information</h3><p>In addition, I choose a set of datasets with similar structure, the experimental outcome fits the theoretical prediction very well.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>spectrum disorder screening - adolescent</th>
+<th>spectrum disorder screening - children</th>
+<th>spectrum disorder screening - adult</th>
+<th>absent at work</th>
+<th>SouthGermanCredit</th>
+<th>mushroom</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>attribute</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>21</td>
+<td>22-&gt;21</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>104</td>
+<td>292</td>
+<td>704</td>
+<td>740</td>
+<td>1000</td>
+<td>8124</td>
+</tr>
+<tr>
+<td>time / setting 1</td>
+<td>303</td>
+<td>320</td>
+<td>319</td>
+<td>317</td>
+<td>387</td>
+<td>409</td>
+</tr>
+<tr>
+<td>time / setting 2</td>
+<td>307</td>
+<td>346</td>
+<td>372</td>
+<td>472</td>
+<td>953</td>
+<td>976</td>
+</tr>
+</tbody></table>
+<h3 id="Brute-force-estimation"><a href="#Brute-force-estimation" class="headerlink" title="Brute force estimation"></a>Brute force estimation</h3><ol>
+<li>The brute force step can be summed up as follows. Firstly, generate all association rules. Then, determine whether the item sets fit the criteria by checking through all the instances.<br><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-deduction.png" alt="time complexity deduction"></li>
+<li>Set d as the number of attributes and N as the number of instances, then the number of all association rules is [3 ^ d - 2 ^ (d + 1) + 1]. The overall time complexity is [k * {3 ^ D-2 ^ (D + 1) + 1} * N]. In test experiment, it takes 1ms to estimate the brute force time of D = 4, n = 4, so K is 0.005. When d = 10, n = 57, the total time of “labor” dataset spent could be estimated as 16.246s, so as to other datasets.</li>
+</ol>
+<h3 id="Plot"><a href="#Plot" class="headerlink" title="Plot"></a>Plot</h3><p><img src="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/time-plot.png" alt="time-plot"></p>
+<h3 id="Error-analysis"><a href="#Error-analysis" class="headerlink" title="Error analysis"></a>Error analysis</h3><h3 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25">http://facweb.cs.depaul.edu/mobasher/classes/ect584/WEKA/associate.html#:~:text=The%20upper%20bound%20for%20minimum,to%200.05%20or%205%25</a>).</li>
+<li><a href="https://www.cnblogs.com/en-heng/p/5719101.html">https://www.cnblogs.com/en-heng/p/5719101.html</a></li>
+</ol>
+<h3 id="Debug-Reference"><a href="#Debug-Reference" class="headerlink" title="Debug Reference"></a>Debug Reference</h3><ol>
+<li><a href="https://blog.csdn.net/ShaynJ/article/details/103653574">How to avoid form error in hexo display</a></li>
+<li><a href="https://github.com/amalad/Association-Rule-Mining">Association-Rule-Mining</a> / <a href="https://github.com/bcxiao2106/Java-Apriori">Java-Apriori</a></li>
+</ol>
+<h2 id="K-means-visualization"><a href="#K-means-visualization" class="headerlink" title="K-means visualization"></a>K-means visualization</h2><ol>
+<li><a href="https://stanford.edu/class/engr108/visualizations/kmeans/kmeans.html">stanford edu</a></li>
+<li><a href="https://www.naftaliharris.com/blog/visualizing-k-means-clustering/">naftali harris</a></li>
+</ol>
+<h2 id="Small-interesting-points"><a href="#Small-interesting-points" class="headerlink" title="Small interesting points"></a>Small interesting points</h2><ol>
+<li><a href="https://sebastianraschka.com/faq/docs/lazy-knn.html">Machine Learning FAQ Why is Nearest Neighbor a Lazy Algorithm?</a></li>
+<li><a href="https://www.quora.com/Is-temperature-an-ordinal-interval-or-ratio-measurement-statistically">Is temperature an ordinal, interval or ratio measurement statistically?</a></li>
+<li><a href="http://www.imatheq.com/imatheq/com/imatheq/math-equation-editor_zh_cn.html">online math formula website - iMathEQ</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/37875887">k-means notes</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Courses</category>
+        <category>Text &amp; Web Mining</category>
+      </categories>
+      <tags>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Machine Learning &amp; Deep Learning</title>
+    <url>/2021/03/10/Machine%20Learning%20&amp;%20Deep%20Learning/</url>
+    <content><![CDATA[<p>Machine Learning &amp; Deep Learning Notes and Records</p>
+<a id="more"></a>
+
+<h1 id="Intrusion-Detection"><a href="#Intrusion-Detection" class="headerlink" title="Intrusion Detection"></a>Intrusion Detection</h1><h2 id="Group-Project-NotPetya-analysis"><a href="#Group-Project-NotPetya-analysis" class="headerlink" title="Group Project - NotPetya analysis"></a>Group Project - NotPetya analysis</h2><ol>
+<li>Interesting questions: shut down the SMBv1 could be a good prevent method, but is there any problems when using SMBv2 and SMBv3?<br> <a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/microsoft-network-client-digitally-sign-communications-always">Microsoft network client: Digitally sign communications (always)</a><br> <a href="https://www.cisco.com/c/en/us/td/docs/security/firepower/623/relnotes/Firepower_Release_Notes_623/new_features_and_changed_behavior.html">Cisco Firepower Release Notes, Version 6.2.3</a><br> <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180418-fss">Cisco Firepower System Software Server Message Block File Policy Bypass Vulnerability</a><br> <a href="https://www.lepide.com/blog/prevent-petya-and-other-ransomware-attacks-by-disabling-smbv1/">Prevent Petya and other Ransomware attacks by disabling SMBv1</a><br> <a href="https://www.extrahop.com/company/blog/2017/shut-down-smbv1/">Here’s why you need to stop using SMBv1 immediately. Even Microsoft agrees.</a><br> <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-0243">CVE-2018-0243 Detail</a></li>
+</ol>
+<h2 id="Research-Paper-Utilizing-J48-to-conduct-classification-task-of-Network-Activity-Recognition"><a href="#Research-Paper-Utilizing-J48-to-conduct-classification-task-of-Network-Activity-Recognition" class="headerlink" title="Research Paper: Utilizing J48 to conduct classification task of Network Activity Recognition"></a>Research Paper: Utilizing J48 to conduct classification task of Network Activity Recognition</h2><h3 id="preparation"><a href="#preparation" class="headerlink" title="preparation"></a>preparation</h3><ol>
+<li>Github repositries<br> <a href="https://github.com/harshilpatel1799/Iot-Cyber-Security-with-Machine-Learning-Research-Project">Iot-Cyber-Security-with-Machine-Learning-Research-Project</a><br> <a href="https://github.com/Akshat947/Network-intrusion-system-with-multinomial-classification">Network-intrusion-system-with-multinomial-classification</a><br> <a href="https://github.com/bhanuprakash556/INTRUSION-DETECTION-USING-MACHINE-LEARNING">INTRUSION-DETECTION-USING-MACHINE-LEARNING</a></li>
+<li><a href="https://github.com/sheng-qiang/BUPTBachelorThesis/issues/3">how to quote the online resource in Paper</a></li>
+</ol>
+<h3 id="Experiment-Design"><a href="#Experiment-Design" class="headerlink" title="Experiment Design"></a>Experiment Design</h3><ol>
+<li>Convert pcap to csv  using the Wireshark</li>
+<li><a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">Convert csv to txt</a></li>
+<li>Apply Network-intrusion-system-with-multinomial-classification for format fitting</li>
+<li>Use wireshark to generate train and validation data and convert it / checked</li>
+<li>Implement the existing project</li>
+<li>If error, try to fix and explain </li>
+<li>Record the key points when implementing</li>
+<li>Record the outcomes when running</li>
+<li>Evaluate the algorithm with validation dataset<br> machine learning regular evaluation</li>
+<li>Analyze test dataset using tools<br>My algorithm<br>other online or existing tools</li>
+<li>Conclusion<br>good points<br>possible error analysis<pre><code>1) in the music listenning dataset, if I want to use netease music, it need to set a VPN to China to enable it, this may change the attribute features of dataset and cause final classification bias or mistakes.</code></pre>
+where could be done better<br>possible ways to get better<pre><code>1) use tshark or python to extract the csv file from pcap file in a more customizable way
+2) config the wireshark to monitor only one application when generating test and validation data. [use wireshark to get specific application&#39;s internet package](https://blog.csdn.net/youxiansanren/article/details/48271851) / go to &quot;Activity Monitor&quot; of Mac to find the pid of firefox browser 441, and port is 31886 / [get the info of the application](https://blog.csdn.net/qq_24909089/article/details/90667898)
+3) use the spotfiy</code></pre>
+</li>
+</ol>
+<h3 id="Convert-pcap-to-csv"><a href="#Convert-pcap-to-csv" class="headerlink" title="Convert pcap to csv"></a>Convert pcap to csv</h3><ol start="0">
+<li>download the wireshark from <a href="https://www.wireshark.org/#download">official website</a> / <a href="https://jingyan.baidu.com/article/546ae1852ba4851149f28cd8.html">convert pcap to csv</a> / <a href="https://onlineconvertfree.com/zh/convert-format/csv-to-txt/">convert csv to txt</a></li>
+<li><a href="https://blog.csdn.net/LMD_BTBU/article/details/103146650">python ways in CSDN</a><ol>
+<li>pip install scapy</li>
+<li>confirm the format of given pcap file<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">###[ Ethernet ]### </span><br><span class="line">  dst       &#x3D; 52:54:00:12:35:02</span><br><span class="line">  src       &#x3D; 08:00:27:92:ab:0d</span><br><span class="line">  type      &#x3D; IPv4</span><br><span class="line">###[ IP ]### </span><br><span class="line">     version   &#x3D; 4</span><br><span class="line">     ihl       &#x3D; 5</span><br><span class="line">     tos       &#x3D; 0x0</span><br><span class="line">     len       &#x3D; 40</span><br><span class="line">     id        &#x3D; 45488</span><br><span class="line">     flags     &#x3D; DF</span><br><span class="line">     frag      &#x3D; 0</span><br><span class="line">     ttl       &#x3D; 64</span><br><span class="line">     proto     &#x3D; tcp</span><br><span class="line">     chksum    &#x3D; 0x7d53</span><br><span class="line">     src       &#x3D; 10.0.2.15</span><br><span class="line">     dst       &#x3D; 34.107.221.82</span><br><span class="line">     \options   \</span><br><span class="line">###[ TCP ]### </span><br><span class="line">        sport     &#x3D; 35546</span><br><span class="line">        dport     &#x3D; http</span><br><span class="line">        seq       &#x3D; 2415182248</span><br><span class="line">        ack       &#x3D; 14528222</span><br><span class="line">        dataofs   &#x3D; 5</span><br><span class="line">        reserved  &#x3D; 0</span><br><span class="line">        flags     &#x3D; A</span><br><span class="line">        window    &#x3D; 64020</span><br><span class="line">        chksum    &#x3D; 0xbe7</span><br><span class="line">        urgptr    &#x3D; 0</span><br><span class="line">        options   &#x3D; []</span><br></pre></td></tr></table></figure></li>
+</ol>
+ —–fail! just one row with wrong colums <ol start="3">
+<li>tshark -r sample1.pcap -T fields -e eth.src -e eth.dst -e ip.src -e ip.dst -e ip.proto -E header=y -E separator=, -E quote=d -E occurrence=f &gt; sample1.csv</li>
+</ol>
+</li>
+<li>Generate training dataset using wireshark<br> <a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">network trouble shotting</a><pre><code> 1) ping www.google.com
+ 2) traceroute www.google.com
+ 3) ipconfig ifcount
+ 4) nslookup www.google.com
+ 5) whois www.google.com
+ 6) netstat</code></pre>
+</li>
+<li>weka reference<br> <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">use weka to predict data</a>    / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">complement of the previews one</a><br> <a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">detailed output file instruction</a></li>
+<li>Prepare the data from raw data.<ol>
+<li>add “Class lable”, remember use ‘microsoft excel’ to add coloum but not the ‘mac numbers’ <a href="https://jingyan.baidu.com/article/4f34706e16474de386b56d77.html">how to use excel to fill one coloum to one value</a></li>
+<li>or directly use weka import csv file and convert it to arff file<br> in the ‘info’ attribute, can not contain double quotation marks, which would lead to generation error —– even if choose other method, this would also consequently cause error, so this is a very important tip. <a href="https://jingyan.baidu.com/article/d621e8da5a57492864913f75.html">replace the string in Excel with empty space</a>-tap a space in the replace textbox of excel but not nothing</li>
+</ol>
+</li>
+</ol>
+<ol start="6">
+<li>Dataset preprocessing<ol>
+<li>delete useless attribute ID, which does not contain any information about the intrusion detection process.</li>
+</ol>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li><a href="https://ieeexplore.ieee.org/document/6888681">Converting PCAPs into Weka mineable data - IEEE Xplore</a></li>
+<li>Good step instruction —- <a href="https://blog.vikki.in/machine-learning-network-traffic-classification-using-weka/">Machine learning – Network traffic classification using weka
+</a></li>
+<li><a href="https://blog.csdn.net/oMengLiShuiXiang1234/article/details/48343987">Analysis J48 in Weka</a></li>
+<li><a href="https://www.cnblogs.com/garfieldcgf/p/10006546.html">Use the Wireshark in Mac</a></li>
+<li><a href="https://www.pluralsight.com/blog/it-ops/best-network-troubleshooting-tools">10 most used network trouble shooting commands</a></li>
+<li><a href="https://www.youtube.com/watch?v=FMiCOx95lAc&ab_channel=WekaMOOC">Data Mining with weka (2.2 training and testing) official video guidance</a></li>
+<li><a href="https://blog.csdn.net/Winnycatty/article/details/106048322?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v28-4-106048322.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Use weka to predict the test data set</a> / <a href="https://blog.csdn.net/weixin_33804582/article/details/86205808?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-86205808.nonecase&utm_term=%E5%A6%82%E4%BD%95%E7%94%A8weka%E6%B5%8B%E8%AF%95%E5%A5%BD%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B&spm=1000.2123.3001.4430">Visualization way in weka</a> / <a href="http://blog.sina.com.cn/s/blog_4e253e0d0100al2o.html">Command way in weka</a></li>
+</ol>
+<h2 id="Use-Lubuntu-to-test-programs-in-VirtulBox"><a href="#Use-Lubuntu-to-test-programs-in-VirtulBox" class="headerlink" title="Use Lubuntu to test programs in VirtulBox"></a>Use Lubuntu to test programs in VirtulBox</h2><ol>
+<li>In order to use share function<br> (1) set up <a href="https://blog.csdn.net/u010559257/article/details/79640718">shared files</a><br> (2) when restart Lubuntu, check in terminal “df -l”, and use “sudo mount -t vboxsf [MacSharedFileName] /mnt/shareMac”<pre><code> sudo mount -t vboxsf Shared /mnt/shareMac</code></pre>
+</li>
+<li><a href="https://blog.csdn.net/haeasringnar/article/details/82079943">Install anaconda</a> / <a href="https://blog.csdn.net/hang916/article/details/79530108">Uninstall anaconda</a></li>
+</ol>
+<h2 id="APT-advanced-persistent-threat"><a href="#APT-advanced-persistent-threat" class="headerlink" title="APT - advanced persistent threat"></a>APT - advanced persistent threat</h2><ol>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%AB%98%E7%BA%A7%E9%95%BF%E6%9C%9F%E5%A8%81%E8%83%81">Wikipedia</a></li>
+<li>Refers mainly to hidden and long-term intrusion in computer, which is conducted mainly by professional attackers and aimed at specific targets.</li>
+<li>The biggest threat is that it is long-term, which means that people can not be certain when did their computers get infected. And that makes the process of recovery even harder and a bit more unnreliable.</li>
+</ol>
+<h2 id="Security-Orchestration-Automation-and-Response"><a href="#Security-Orchestration-Automation-and-Response" class="headerlink" title="Security Orchestration, Automation, and Response."></a>Security Orchestration, Automation, and Response.</h2><ol>
+<li><a href="https://www.fireeye.com/products/helix/what-is-soar.html">official website</a></li>
+</ol>
+<h2 id="Famous-virus"><a href="#Famous-virus" class="headerlink" title="Famous virus"></a>Famous virus</h2><p><a href="https://www.youtube.com/watch?v=3nrwAW_0FjU&ab_channel=TheScienceElf">A brief history of Computer Viruses - Youtube</a></p>
+<ol>
+<li>Stuxnet <a href="https://en.wikipedia.org/wiki/Stuxnet">wikipedia</a></li>
+</ol>
+<h2 id="Reference-1"><a href="#Reference-1" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
+<li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
+</ol>
+<h1 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a>Sentiment Analysis</h1><p>   Use Bert to conduct Aspect Based Sentiment Analysis in short text datasets (like tweets) and analysis the trend of the tweets through different years based on one specific pubic topic.    </p>
+<h1 id="Video-understanding"><a href="#Video-understanding" class="headerlink" title="Video understanding"></a>Video understanding</h1><p>   Apply deep learning methods to build a highlight timestamp prediction model for videos of one certain category.</p>
+]]></content>
+      <categories>
+        <category>Record</category>
+        <category>Machine Learning and Deep Learning</category>
+      </categories>
+      <tags>
+        <tag>Record</tag>
       </tags>
   </entry>
 </search>
