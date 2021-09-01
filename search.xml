@@ -94,17 +94,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Personal Materials</title>
-    <url>/2020/09/24/Encrypted-Personal-Material/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="9516270e422f780ff1026933f31d2ea6fa315bf629c7e4a97c906e4d3cc8b49f">ea55f7137be215b5c09760071df14e8a0d8e8e50f3a3bb4a4ba10a47a2b82c7297568730ae639cd1eb85f5002dd8e58de04ac151b0c08335efa4dc82ad52fdc9d29648e89518f22a8b4b7e37cd7f4702be0fe7da0591f0ae460fad2bc4c93bffdb9dfd4c205d9dcbb568a8953ecc4d2594a22fff1c3045447190864fb8fb9549f90ab3aceb7fc9ebfcd2761fe9dd2769287d156c6a6df279bfa89495d2e8af2e9dcdad27de928d79194ff026bfe8367e527db03a3131170f310d2ea8c42355237c023bef32d8a599453a41b88cd66e0497e7c90657c1dd4ca3edd280a45112f3b6dffce0ec42bf6dacf9f474ff9d04be102b583782cad49d30ebf22eb4c1a9838c342b6942eec262936f8d554c8e5671e7d39afd2faeff8d966ed9c055a64bd70b67291bf3e98f3d8aee0ed687a965bcd321a4ea8c50cc437df302584107e1f86384fdb029efeb68205956b1943e030a106e76e0a9bd69b03ad29405ac86c670f69f273746ecea476264bc4d9a8d445c01a3928e5814bc62f98519dfcedb731162cba240f971c8a748b4bc9f1d6fc27d2dde8c13b6525eafcab23ad2e5a35d5bbc7ea94046d5322dd38753b00452d39475e6ba73bec9d888a9fb18e16149f06f80f91fafc559d6dabeab9d40c07eab6e4aafebc4875c61da046a9b9d42fed0d2c0c55ae3f9706ded522dc78d3321e7e937d2d652b6a00d72366f278fd25a5bacba03aa141de6146ead3b56e78fc7d85ee3123e34c6fa279fec3d59400543fec60ca2e72b9eb62d61344e784755393805f2cce9e1637a6e4cd0aa0ab962751eb55498c05cbd3fa6fa2c230635901d7993b564ade3baafbc06a097bb9e049372f9</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Documents</category>
-      </categories>
-      <tags>
-        <tag>Encrypted</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Information Visualization</title>
     <url>/2020/09/20/Information-Visualization/</url>
     <content><![CDATA[<p>Information Visualization Notes and Records</p>
@@ -144,7 +133,7 @@
 </li>
 <li><p><a href="https://www.jb51.net/softjc/485789.html">How to set Sublime Text to auto change lines in the view when one single line is too long</a></p>
 </li>
-<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email(<a href="mailto:&#x66;&#104;&#x75;&#97;&#x6e;&#103;&#49;&#56;&#49;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x66;&#104;&#x75;&#97;&#x6e;&#103;&#49;&#56;&#49;&#x40;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a>). :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
+<li><p>The much too high density of edge data could possible cause D3 crash and output a BIG SQUARE on the screen. So if this happens, try to use lower presion data. (Lower means much fewer coordinate point pairs). While on the other hand, this crash would not happen on Mapbox. It not vary hard to find out and understand. For example, CHOA CHU KANG of singapore in the official ge2020 boundary data. But at the same time, the EAST COAST is also very huge in the amount of coordinate pairs and it does not make D3 crash. So maybe the true reason still remain exploration. If you find something, I would be very pleasure if you share your discovery via email. :)———— After the test in the WEST COAST data, it could be sure that the problem lies in the to much detialed borders of districts data provided by goveronment, which is very hard for d3 to recongnize.<br> There is a slow but very useful way to handle this problem. I can just try to delete randomly some coordinate pairs and test if the output is valid. Again and again, the iteration of this process could finally focus on the real “bad points”. [Random select - Top2Down approximation - Down2Top approximaiton] is my approch.<br> This problem could also be fixed by changing data density of the geojson file.</p>
 </li>
 <li><p><a href="https://blog.csdn.net/weixin_30376323/article/details/97604820">How to draw and control d3 colors</a></p>
 </li>
@@ -173,7 +162,7 @@
 </ol>
 <h3 id="My-self-made-infographic-and-its-report"><a href="#My-self-made-infographic-and-its-report" class="headerlink" title="My self-made infographic and its report."></a>My self-made infographic and its report.</h3><p><img src="/2020/09/20/Information-Visualization/StudyEffectively_1.0.png" alt="Study_Effectively"></p>
 <p>If you have any suggestions or ideas, I am very glad to recieve your letter. Feel welcomed to email me. :)</p>
-<p>My email: <a href="mailto:&#102;&#104;&#x75;&#97;&#110;&#x67;&#x31;&#x38;&#49;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#102;&#104;&#x75;&#97;&#110;&#x67;&#x31;&#x38;&#49;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></p>
+<p>My email: <a href="mailto:&#x66;&#104;&#x75;&#x61;&#110;&#103;&#x31;&#56;&#49;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#104;&#x75;&#x61;&#110;&#103;&#x31;&#56;&#49;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></p>
 ]]></content>
       <categories>
         <category>Courses</category>
@@ -186,7 +175,7 @@
   <entry>
     <title>Hobbies &amp; Interests</title>
     <url>/2021/03/10/Hobbies%20&amp;%20Interests/</url>
-    <content><![CDATA[<p>My Hobbies and Interests records</p>
+    <content><![CDATA[<p>My Hobbies and Interests</p>
 <a id="more"></a>
 
 <h2 id="Swimming"><a href="#Swimming" class="headerlink" title="Swimming"></a>Swimming</h2><h3 id="Location-recommendation"><a href="#Location-recommendation" class="headerlink" title="Location recommendation"></a>Location recommendation</h3><h4 id="Swimming-pool-in-Condo-Apartment-Singapore"><a href="#Swimming-pool-in-Condo-Apartment-Singapore" class="headerlink" title="Swimming pool in Condo/Apartment (Singapore)"></a>Swimming pool in Condo/Apartment (Singapore)</h4><p>Always only 1.0m deep, which is good is relax but not recommand to practice swiming skills. </p>
@@ -227,7 +216,7 @@ Price $1.30/hour for foreigner adults (price in Mar-2021)</code></pre>
 </li>
 </ol>
 <h2 id="中国书法-Chinese-Calligraphy"><a href="#中国书法-Chinese-Calligraphy" class="headerlink" title="中国书法 (Chinese Calligraphy)"></a>中国书法 (Chinese Calligraphy)</h2><h3 id="《麻姑仙坛记-节选》-颜真卿"><a href="#《麻姑仙坛记-节选》-颜真卿" class="headerlink" title="《麻姑仙坛记-节选》 颜真卿"></a>《麻姑仙坛记-节选》 颜真卿</h3><p><img src="/2021/03/10/Hobbies%20&%20Interests/%E9%BA%BB%E5%A7%91%E4%BB%99%E5%9D%9B%E8%AE%B01.png" alt="麻姑仙坛记1.png"></p>
-<h2 id="Dancing"><a href="#Dancing" class="headerlink" title="Dancing"></a>Dancing</h2><h3 id="in-Switch"><a href="#in-Switch" class="headerlink" title=" in Switch"></a><JustDance Unlimited> in Switch</h3><p>Perfect for both exercise and relax! NICE!!! :)<br><img src="/2021/03/10/Hobbies%20&%20Interests/JustDance.png" alt="JustDance.png"></p>
+<h2 id="Dancing-Game"><a href="#Dancing-Game" class="headerlink" title="Dancing Game"></a>Dancing Game</h2><h3 id="in-Switch"><a href="#in-Switch" class="headerlink" title=" in Switch"></a><JustDance Unlimited> in Switch</h3><p>Perfect for both exercise and relax! NICE!!! :)<br><img src="/2021/03/10/Hobbies%20&%20Interests/JustDance.png" alt="JustDance.png"></p>
 ]]></content>
       <categories>
         <category>Records</category>
@@ -410,8 +399,6 @@ where could be done better<br>possible ways to get better<pre><code>1) use tshar
 <li><a href="https://blog.csdn.net/duantihi/article/details/50282155?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">How to share files between host-mac and client-virtualbox-Lubuntu</a></li>
 <li><a href="https://forums.virtualbox.org/viewtopic.php?f=3&t=93668">How to fix ‘virtualbox failed to get display change request’ error</a> / my solution: change the value of video memory of display settings from 16MB to 64MB would make resolution of display become much higher.</li>
 </ol>
-<h1 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a>Sentiment Analysis</h1><p>   Use Bert to conduct Aspect Based Sentiment Analysis in short text datasets (like tweets) and analysis the trend of the tweets through different years based on one specific pubic topic.    </p>
-<h1 id="Video-understanding"><a href="#Video-understanding" class="headerlink" title="Video understanding"></a>Video understanding</h1><p>   Apply deep learning methods to build a highlight timestamp prediction model for videos of one certain category.</p>
 ]]></content>
       <categories>
         <category>Record</category>
@@ -2646,5 +2633,16 @@ weighted avg       0.84      0.85      0.84     16282</code></pre>
       <categories>
         <category>Juypter</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Encrypted File</title>
+    <url>/2020/09/24/Encrypted-File/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="Hey, password is required here." /><label>Hey, password is required here.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="334f133c62387161cdb0251a8a7da51b91e7185465008b54123318fcf2c3b3e6">fa6f7849161d0d785f7c7e2a21269498100aaed5a499f5f108d221ec248203ffce30d943a80fac1f158f0813dd91ac9a53a585e08b3cfaba360b23eaca2fb255</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Documents</category>
+      </categories>
+      <tags>
+        <tag>Encrypted</tag>
+      </tags>
   </entry>
 </search>
