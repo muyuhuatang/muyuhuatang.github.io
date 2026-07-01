@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech Package · Fan Huang</title>
+  <meta name="description" content="A hands-on LLM engineering package by Fan Huang — parameter-efficient fine-tuning (LoRA / QLoRA) of Llama-2 and Llama-3.1, local model serving with Ollama, and running DeepSeek-R1 under 1.58-bit dynamic quantization with llama.cpp.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a26'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23f7f8fb' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/fonts/rsms-inter/inter.css">
+  <link rel="stylesheet" href="../assets/fonts/google-fonts/fonts.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">Fan Huang</span>
+        <span class="brand-sub">Indiana University Bloomington</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a class="navlink" style="--nav-accent:var(--c-home)" href="../index.html">Home</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-pubs)" href="../publications/index.html">Publications</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-research)" href="../research/index.html">Research</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-projects)" href="../projects/index.html">Projects</a></li>
+          <li><a class="navlink is-active" style="--nav-accent:var(--c-tech)" href="index.html">Tech Package</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-cv)" href="../cv/index.html">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Tech Package</h1>
+      <p>A hands-on lab of LLM engineering techniques I've implemented end-to-end — <strong style="color:var(--ink)">parameter-efficient
+      fine-tuning</strong>, <strong style="color:var(--ink)">local model serving</strong>, and running frontier open-weight models under
+      <strong style="color:var(--ink)">aggressive quantization</strong>. Reproducible notebooks, real datasets, and the
+      un-glamorous glue that turns a research idea into a running system.</p>
+    </div>
+
+    <section class="section" style="border-top:none;padding-top:0">
+
+      <!-- toolchain -->
+      <div class="subhead" style="margin-bottom:.7rem">Toolchain</div>
+      <ul class="chips" style="margin-bottom:2.25rem">
+        <li>PyTorch</li>
+        <li>Hugging&nbsp;Face Transformers</li>
+        <li>PEFT · LoRA</li>
+        <li>TRL · SFTTrainer</li>
+        <li>bitsandbytes · 4-bit</li>
+        <li>Ollama</li>
+        <li>llama.cpp</li>
+        <li>Unsloth GGUF</li>
+        <li>Neptune</li>
+        <li>CUDA</li>
+        <li>conda</li>
+      </ul>
+
+      <!-- lead: fine-tuning suite -->
+      <article class="proj-lead">
+        <div class="proj-lead-body">
+          <div class="proj-org">LoRA · QLoRA · Parameter-Efficient Fine-Tuning</div>
+          <h2>LLM Fine-Tuning Suite <span class="badge-featured">Featured</span></h2>
+          <p>
+            End-to-end supervised fine-tuning of <em>Llama-2</em> (7B, 13B) and <em>Llama-3.1</em> (8B, 70B)
+            with <strong style="color:var(--ink)">LoRA</strong> low-rank adapters layered on <strong style="color:var(--ink)">4-bit
+            NF4 quantization</strong> (QLoRA via <code>bitsandbytes</code>), so multi-billion-parameter checkpoints train on a
+            single GPU. Built on Hugging&nbsp;Face <code>transformers</code> + <code>peft</code> and <code>trl</code>'s
+            <code>SFTTrainer</code>, with Neptune experiment tracking and side-by-side <em>full fine-tuning</em> baselines
+            to measure exactly what the adapters buy. Includes a CPU-only run of Llama-3.1-8B for hardware-constrained settings,
+            plus controlled generation and fine-grained performance analysis of the tuned models.
+          </p>
+
+          <div class="subhead" style="margin-top:1.25rem;margin-bottom:.5rem">Applied to</div>
+          <ul class="deflist" style="border-top:none">
+            <li style="flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:.15rem">
+              <span class="d-main">Finance-Alpaca QA</span>
+              <span class="d-sub">Instruction-tuning on financial knowledge — down to a Bitcoin buy/sell read from CNBC headlines</span>
+            </li>
+            <li style="flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:.15rem">
+              <span class="d-main">Implicit Hate Speech · NLE</span>
+              <span class="d-sub">Fine-tuning to generate natural-language explanations of implicit hate</span>
+            </li>
+          </ul>
+
+          <div class="proj-tags" style="margin-top:1.1rem">
+            <span class="tag">LoRA</span>
+            <span class="tag">QLoRA</span>
+            <span class="tag">4-bit NF4</span>
+            <span class="tag">Llama-2</span>
+            <span class="tag">Llama-3.1</span>
+            <span class="tag">SFTTrainer</span>
+            <span class="tag">PEFT</span>
+            <span class="tag">bitsandbytes</span>
+            <span class="tag">Neptune</span>
+          </div>
+          <div class="proj-foot">
+            <a class="proj-link" href="https://github.com/muyuhuatang/LLMsFT_LoRA" target="_blank" rel="noopener">github.com/muyuhuatang/LLMsFT_LoRA →</a>
+          </div>
+        </div>
+
+        <div class="proj-illu" aria-hidden="true">
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+            <!-- frozen base weights W -->
+            <rect x="14" y="50" width="94" height="94" rx="8" fill="#eef1f6" stroke="#d5dae4"/>
+            <text x="61" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#868ea1">W</text>
+            <text x="61" y="162" text-anchor="middle" font-size="11" fill="#868ea1">frozen base</text>
+            <!-- plus -->
+            <g stroke="#868ea1" stroke-width="3" stroke-linecap="round">
+              <line x1="118" y1="97" x2="134" y2="97"/>
+              <line x1="126" y1="89" x2="126" y2="105"/>
+            </g>
+            <!-- delta-W = B x A (low-rank adapter) -->
+            <rect x="146" y="50" width="94" height="94" rx="8" fill="none" stroke="#d5dae4" stroke-dasharray="4 4"/>
+            <!-- A: wide, short top factor (rank r x d) -->
+            <rect x="146" y="50" width="94" height="19" rx="4" fill="#06b6d4"/>
+            <text x="200" y="64" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">A</text>
+            <!-- B: tall, narrow left factor (d x rank r) -->
+            <rect x="146" y="50" width="19" height="94" rx="4" fill="#6366f1"/>
+            <text x="155" y="112" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">B</text>
+            <text x="200" y="162" text-anchor="middle" font-size="11" fill="#868ea1">ΔW ≈ B·A · rank r</text>
+          </svg>
+        </div>
+      </article>
+
+      <!-- grid: local inference + frontier models -->
+      <div class="section-head" style="margin-top:2.5rem">
+        <h2>Local inference &amp; frontier open models</h2>
+      </div>
+
+      <div class="proj-grid">
+
+        <article class="proj-card">
+          <div class="proj-org">Ollama · Python client</div>
+          <h3>Local Model Serving</h3>
+          <p class="proj-desc">Stand up local LLMs (Llama&nbsp;3.1 / 3.2) behind an Ollama server and drive them from the <code>ollama</code> Python <code>chat</code> API — including structured extraction, like pulling dataset names out of research-paper text.</p>
+          <div class="proj-tags"><span class="tag">Ollama</span> <span class="tag">Llama 3.2</span> <span class="tag">Chat API</span> <span class="tag">Self-hosted</span></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">Ollama · deepseek-r1:671b</div>
+          <h3>DeepSeek-R1 · 671B, Local</h3>
+          <p class="proj-desc">Pulled and ran the full <em>DeepSeek-R1</em> (671B) reasoning model locally through Ollama's library — reproducing frontier open-weight reasoning on self-hosted hardware.</p>
+          <div class="proj-tags"><span class="tag">DeepSeek-R1</span> <span class="tag">671B</span> <span class="tag">Reasoning</span> <span class="tag">Ollama</span></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">Unsloth GGUF · llama.cpp</div>
+          <h3>DeepSeek-R1 · 1.58-bit Quant</h3>
+          <p class="proj-desc">Ran DeepSeek-R1 under Unsloth's <strong style="color:var(--ink)">1.58-bit dynamic quantization</strong> (UD-IQ1_S GGUF) with <code>llama.cpp</code> and partial GPU offload — shrinking a 671B model enough to run on modest hardware while keeping it coherent.</p>
+          <div class="proj-tags"><span class="tag">llama.cpp</span> <span class="tag">GGUF</span> <span class="tag">1.58-bit</span> <span class="tag">Quantization</span></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">conda · environment.yaml</div>
+          <h3>Reproducible Environments</h3>
+          <p class="proj-desc">Pinned conda environments and dependency-conflict fixes (the <code>datasets</code>/<code>fsspec</code> cache issue, PEFT-in-pipeline quirks) so every notebook reruns cleanly — the plumbing that makes experiments reproducible.</p>
+          <div class="proj-tags"><span class="tag">conda</span> <span class="tag">Reproducibility</span> <span class="tag">MLOps</span> <span class="tag">Jupyter</span></div>
+        </article>
+
+      </div>
+
+      <p style="margin-top:2rem;font-size:.9rem;line-height:1.6;color:var(--ink-faint)">
+        These are personal engineering labs built as Jupyter notebooks. The LoRA reference implementation is public on
+        <a href="https://github.com/muyuhuatang/LLMsFT_LoRA" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:underline;text-underline-offset:2px">GitHub</a>;
+        the rest are available on request.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="foot-title">Fan Huang</div>
+        <p>
+          Informatics Ph.D. Candidate<br>
+          Luddy School of Informatics, Computing, and Engineering<br>
+          Indiana University Bloomington
+        </p>
+      </div>
+      <div>
+        <div class="foot-title">Contact</div>
+        <p><a href="mailto:fhuang181@gmail.com">fhuang181<span aria-hidden="true"> [at] </span>gmail.com</a></p>
+      </div>
+      <div>
+        <div class="foot-title">Links</div>
+        <ul class="foot-links">
+          <li><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/muyuhuatang" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fhuang181/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/HuangFan_Hoan" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap foot-copy">© 2026 Fan Huang</div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+</body>
+</html>

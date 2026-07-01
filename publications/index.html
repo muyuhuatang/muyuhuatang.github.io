@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications · Fan Huang</title>
+  <meta name="description" content="Publications by Fan Huang — human–AI alignment, large language models, NLP, and computational social science.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a26'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23f7f8fb' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/fonts/rsms-inter/inter.css">
+  <link rel="stylesheet" href="../assets/fonts/google-fonts/fonts.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">Fan Huang</span>
+        <span class="brand-sub">Indiana University Bloomington</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a class="navlink" style="--nav-accent:var(--c-home)" href="../index.html">Home</a></li>
+          <li><a class="navlink is-active" style="--nav-accent:var(--c-pubs)" href="index.html">Publications</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-research)" href="../research/index.html">Research</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-projects)" href="../projects/index.html">Projects</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-tech)" href="../tech-package/index.html">Tech Package</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-cv)" href="../cv/index.html">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Publications</h1>
+      <p>19 papers · 3 featured · spanning human–AI alignment, large language models, NLP, and
+      computational social science. <span style="color:var(--ink-faint)">Author's name in <strong style="color:var(--ink)">bold</strong>.</span></p>
+    </div>
+
+    <!-- filter controls -->
+    <section class="section" style="border-top:none;padding-top:0">
+      <div class="pub-controls">
+        <input class="pub-search" id="pub-search" type="search" placeholder="Search title, author, venue, year…" aria-label="Search publications">
+        <span class="pub-sort-label">Sort</span>
+        <select class="pub-sort" id="pub-sort" aria-label="Sort order">
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+        </select>
+        <button class="pub-clear" id="pub-clear" type="button">Clear</button>
+      </div>
+
+      <div class="filter-group">
+        <div class="glabel">Topic</div>
+        <div class="filter-chips">
+          <button class="chip t-llms"       data-group="topic" data-key="llms-responsible-ai">LLMs &amp; responsible AI <span class="cnt"></span></button>
+          <button class="chip t-reasoning"  data-group="topic" data-key="reasoning">Reasoning &amp; interpretability <span class="cnt"></span></button>
+          <button class="chip t-beliefs"    data-group="topic" data-key="beliefs">Beliefs &amp; opinions <span class="cnt"></span></button>
+          <button class="chip t-harm"       data-group="topic" data-key="online-harm">Online harm <span class="cnt"></span></button>
+          <button class="chip t-bias"       data-group="topic" data-key="bias-fairness">Bias &amp; fairness <span class="cnt"></span></button>
+          <button class="chip t-alignment"  data-group="topic" data-key="alignment">Human–AI alignment <span class="cnt"></span></button>
+          <button class="chip t-nlp"        data-group="topic" data-key="nlp-generation">NLP &amp; generation <span class="cnt"></span></button>
+          <button class="chip t-networks"   data-group="topic" data-key="networks">Networks <span class="cnt"></span></button>
+          <button class="chip t-user"       data-group="topic" data-key="user-behavior">User behavior <span class="cnt"></span></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="glabel">Method</div>
+        <div class="filter-chips">
+          <button class="chip m-llms"      data-group="method" data-key="llms">LLMs <span class="cnt"></span></button>
+          <button class="chip m-nlp"       data-group="method" data-key="nlp">NLP <span class="cnt"></span></button>
+          <button class="chip m-dataset"   data-group="method" data-key="dataset">Dataset <span class="cnt"></span></button>
+          <button class="chip m-networks"  data-group="method" data-key="networks">Networks <span class="cnt"></span></button>
+          <button class="chip m-userstudy" data-group="method" data-key="user-study">User study <span class="cnt"></span></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="glabel">Platform</div>
+        <div class="filter-chips">
+          <button class="chip plat" data-group="platform" data-key="twitter">Twitter/X <span class="cnt"></span></button>
+          <button class="chip plat" data-group="platform" data-key="youtube">YouTube <span class="cnt"></span></button>
+          <button class="chip plat" data-group="platform" data-key="bluesky">Bluesky <span class="cnt"></span></button>
+          <button class="chip plat" data-group="platform" data-key="multi">Multi-platform <span class="cnt"></span></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="glabel">Year</div>
+        <div class="filter-chips">
+          <button class="chip plat" data-group="year" data-key="2026">2026 <span class="cnt"></span></button>
+          <button class="chip plat" data-group="year" data-key="2025">2025 <span class="cnt"></span></button>
+          <button class="chip plat" data-group="year" data-key="2024">2024 <span class="cnt"></span></button>
+          <button class="chip plat" data-group="year" data-key="2023">2023 <span class="cnt"></span></button>
+          <button class="chip plat" data-group="year" data-key="2021">2021 <span class="cnt"></span></button>
+        </div>
+      </div>
+
+      <div class="pub-count" id="pub-count"></div>
+      <div class="pub-empty" id="pub-empty" hidden>No publications match your filters.</div>
+
+      <!-- flat list -->
+      <div id="pub-list">
+
+        <article class="pub-item" data-order="1" data-year="2026" data-topics="online-harm llms-responsible-ai" data-methods="llms" data-platforms="multi">
+          <div class="pub-body">
+            <div class="pub-title">Simulating Hate Speech Cascades with Multi-LLM Agents: Empirical Grounding, Modeling Fidelity, and Intervention Strategies</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-harm">Online harm</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="2" data-year="2026" data-topics="reasoning llms-responsible-ai" data-methods="llms" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">ReFlect: An Effective Harness System for Complex Long-Horizon LLM Reasoning</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-reasoning">Reasoning &amp; interpretability</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="3" data-year="2026" data-topics="bias-fairness llms-responsible-ai" data-methods="llms" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">CogBias: Measuring and Mitigating Cognitive Bias in Large Language Models</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Songheng Zhang, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">Preprint · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-bias">Bias &amp; fairness</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="4" data-year="2026" data-topics="networks llms-responsible-ai" data-methods="llms networks" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">Can LLMs Predict Academic Collaboration? Topology Heuristics vs. LLM-Based Link Prediction on Real Co-authorship Networks</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Munjung Kim</div>
+            <div class="pub-venue">Preprint · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-networks">Networks</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="5" data-year="2026" data-topics="reasoning networks" data-methods="llms" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">Reasoning Topology Matters: Network-of-Thought for Complex Reasoning Tasks</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-reasoning">Reasoning &amp; interpretability</span> <span class="tag t-networks">Networks</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="6" data-year="2026" data-topics="reasoning llms-responsible-ai" data-methods="llms" data-platforms="" data-featured="1">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2603.16017" target="_blank" rel="noopener">Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability</a><span class="badge-featured">Featured</span></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">IC2S2 2026 (Parallel Talk) · 2026 · arXiv</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2603.16017" target="_blank" rel="noopener">arXiv:2603.16017</a>
+              <a href="https://github.com/muyuhuatang/llm_morality" target="_blank" rel="noopener">GitHub: LLM-Morality</a>
+            </div>
+            <div class="pub-tags"><span class="tag t-reasoning">Reasoning &amp; interpretability</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="7" data-year="2026" data-topics="beliefs llms-responsible-ai" data-methods="llms" data-platforms="" data-featured="1">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2601.13590" target="_blank" rel="noopener">Vulnerability of LLMs' Stated Belief? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions</a><span class="badge-featured">Featured</span></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">ACL 2026 Findings · 2026 <span class="tag t-llms" style="margin-left:.3rem">ACL</span></div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2601.13590" target="_blank" rel="noopener">arXiv:2601.13590</a>
+              <a href="https://github.com/muyuhuatang/llm_stated_belief" target="_blank" rel="noopener">GitHub: LLM-Stated-Belief</a>
+            </div>
+            <div class="pub-tags"><span class="tag t-beliefs">Beliefs &amp; opinions</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="8" data-year="2026" data-topics="reasoning llms-responsible-ai" data-methods="llms" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://openreview.net/pdf?id=eBNpytJp2L" target="_blank" rel="noopener">LLMs as Implicit Probabilistic World Models: Distributional Stability, Convergence, and Scale Discordance</a></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Minsuk Kim</div>
+            <div class="pub-venue">OpenReview · 2026</div>
+            <div class="pub-links"><a href="https://openreview.net/pdf?id=eBNpytJp2L" target="_blank" rel="noopener">OpenReview PDF</a></div>
+            <div class="pub-tags"><span class="tag t-reasoning">Reasoning &amp; interpretability</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="9" data-year="2026" data-topics="alignment llms-responsible-ai" data-methods="llms user-study" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">XChoice: Explainable Evaluation of AI-Human Alignment in LLM-based Constrained Choice Decision Making</div>
+            <div class="pub-authors">Weihong Qi, <span class="self">Fan Huang</span>, Rasika Muralidharan, Jisun An, Haewoon Kwak</div>
+            <div class="pub-venue">IC2S2 2026 (Poster) · 2026 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-alignment">Human–AI alignment</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="10" data-year="2025" data-topics="beliefs llms-responsible-ai" data-methods="llms" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation?</div>
+            <div class="pub-authors">Weihong Qi, <span class="self">Fan Huang</span>, Jisun An, Haewoon Kwak</div>
+            <div class="pub-venue">ICDM 2025 · 2025 <span class="tag t-beliefs" style="margin-left:.3rem">ICDM</span></div>
+            <div class="pub-tags"><span class="tag t-beliefs">Beliefs &amp; opinions</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="11" data-year="2025" data-topics="bias-fairness llms-responsible-ai" data-methods="llms dataset" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">Dif: A Framework for Benchmarking and Verifying Implicit Bias in LLMs</div>
+            <div class="pub-authors">Lake Yin, <span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2025 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-bias">Bias &amp; fairness</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="12" data-year="2025" data-topics="user-behavior networks" data-methods="dataset networks" data-platforms="bluesky">
+          <div class="pub-body">
+            <div class="pub-title">The Rise of Bluesky</div>
+            <div class="pub-authors">Ozgur Can Seckin, Filipi Nascimento Silva, Bao Tran Truong, Sangyeon Kim, <span class="self">Fan Huang</span>, Nick Liu, Alessandro Flammini, Filippo Menczer</div>
+            <div class="pub-venue">Preprint · 2025 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-user">User behavior</span> <span class="tag t-networks">Networks</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="13" data-year="2024" data-topics="nlp-generation llms-responsible-ai" data-methods="llms nlp" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">Preprint · 2024 · arXiv</div>
+            <div class="pub-tags"><span class="tag t-nlp">NLP &amp; generation</span> <span class="tag t-llms">LLMs &amp; responsible AI</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="14" data-year="2024" data-topics="nlp-generation alignment" data-methods="llms nlp user-study" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title">ChatGPT Rates Like Human: Towards a Better Alignment of Text Explanation Quality Assessments</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Kunwoo Park, Jisun An</div>
+            <div class="pub-venue">LREC-COLING 2024 · 2024 <span class="tag t-nlp" style="margin-left:.3rem">LREC-COLING</span></div>
+            <div class="pub-tags"><span class="tag t-nlp">NLP &amp; generation</span> <span class="tag t-alignment">Human–AI alignment</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="15" data-year="2023" data-topics="online-harm user-behavior" data-methods="dataset" data-platforms="youtube">
+          <div class="pub-body">
+            <div class="pub-title">YouNICon: YouTube's CommuNIty of Conspiracy Videos</div>
+            <div class="pub-authors">Shaoyi Liaw, <span class="self">Fan Huang</span>, Fabricio Benevenuto, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">ICWSM 2023 · 2023 <span class="tag t-harm" style="margin-left:.3rem">ICWSM</span></div>
+            <div class="pub-tags"><span class="tag t-harm">Online harm</span> <span class="tag t-user">User behavior</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="16" data-year="2023" data-topics="online-harm nlp-generation" data-methods="llms nlp user-study" data-platforms="twitter" data-featured="1">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2302.07736" target="_blank" rel="noopener">Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a><span class="badge-featured">Featured</span></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">The Web Conference (WWW) 2023 · 2023 <span class="tag t-harm" style="margin-left:.3rem">WWW</span></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2302.07736" target="_blank" rel="noopener">arXiv:2302.07736</a></div>
+            <div class="pub-tags"><span class="tag t-harm">Online harm</span> <span class="tag t-nlp">NLP &amp; generation</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="17" data-year="2023" data-topics="online-harm nlp-generation" data-methods="llms nlp" data-platforms="twitter">
+          <div class="pub-body">
+            <div class="pub-title">Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech</div>
+            <div class="pub-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="pub-venue">The Web Conference (WWW) 2023 · 2023 <span class="tag t-harm" style="margin-left:.3rem">WWW</span></div>
+            <div class="pub-tags"><span class="tag t-harm">Online harm</span> <span class="tag t-nlp">NLP &amp; generation</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="18" data-year="2021" data-topics="nlp-generation" data-methods="nlp" data-platforms="youtube">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2106.00451" target="_blank" rel="noopener">Highlight Timestamp Detection Model for Comedy Videos via Multimodal Sentiment Analysis</a></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2021 · arXiv</div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2106.00451" target="_blank" rel="noopener">arXiv:2106.00451</a></div>
+            <div class="pub-tags"><span class="tag t-nlp">NLP &amp; generation</span></div>
+          </div>
+        </article>
+
+        <article class="pub-item" data-order="19" data-year="2021" data-topics="networks" data-methods="networks" data-platforms="">
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2105.13698" target="_blank" rel="noopener">Network Activities Recognition and Analysis Based on Supervised Machine Learning Classification Methods Using J48 and Naïve Bayes Algorithm</a></div>
+            <div class="pub-authors"><span class="self">Fan Huang</span></div>
+            <div class="pub-venue">Preprint · 2021 · arXiv</div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2105.13698" target="_blank" rel="noopener">arXiv:2105.13698</a></div>
+            <div class="pub-tags"><span class="tag t-networks">Networks</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="foot-title">Fan Huang</div>
+        <p>
+          Informatics Ph.D. Candidate<br>
+          Luddy School of Informatics, Computing, and Engineering<br>
+          Indiana University Bloomington
+        </p>
+      </div>
+      <div>
+        <div class="foot-title">Contact</div>
+        <p><a href="mailto:fhuang181@gmail.com">fhuang181<span aria-hidden="true"> [at] </span>gmail.com</a></p>
+      </div>
+      <div>
+        <div class="foot-title">Links</div>
+        <ul class="foot-links">
+          <li><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/muyuhuatang" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fhuang181/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/HuangFan_Hoan" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap foot-copy">© 2026 Fan Huang</div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+  <script src="../assets/js/publications.js"></script>
+</body>
+</html>

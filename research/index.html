@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · Fan Huang</title>
+  <meta name="description" content="Fan Huang's research themes: human–AI alignment, reasoning & interpretability, bias & safety, and computational social science.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a26'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23f7f8fb' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/fonts/rsms-inter/inter.css">
+  <link rel="stylesheet" href="../assets/fonts/google-fonts/fonts.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">Fan Huang</span>
+        <span class="brand-sub">Indiana University Bloomington</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a class="navlink" style="--nav-accent:var(--c-home)" href="../index.html">Home</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-pubs)" href="../publications/index.html">Publications</a></li>
+          <li><a class="navlink is-active" style="--nav-accent:var(--c-research)" href="index.html">Research</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-projects)" href="../projects/index.html">Projects</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-tech)" href="../tech-package/index.html">Tech Package</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-cv)" href="../cv/index.html">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- statement hero -->
+    <section class="research-hero">
+      <div>
+        <h1 class="research-statement">How language models <em>reason</em>, and how we keep them <em>aligned</em> with people.</h1>
+        <p class="research-sub">I build methods to probe, evaluate, and steer AI toward trustworthy, human-aligned behavior — and use those models, in turn, to study people.</p>
+      </div>
+      <div class="research-illu" aria-hidden="true">
+        <svg viewBox="0 0 360 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- soft orbit -->
+          <ellipse cx="186" cy="160" rx="150" ry="120" stroke="#d5dae4" stroke-width="1.2"/>
+          <ellipse cx="186" cy="160" rx="150" ry="120" stroke="#d5dae4" stroke-width="1.2" transform="rotate(28 186 160)"/>
+          <!-- network edges -->
+          <g stroke="#171a26" stroke-width="1.3" opacity="0.55" stroke-linecap="round">
+            <path d="M70 92 L150 56"/>
+            <path d="M150 56 L250 92"/>
+            <path d="M70 92 L120 162"/>
+            <path d="M150 56 L120 162"/>
+            <path d="M250 92 L210 172"/>
+            <path d="M150 56 L210 172"/>
+            <path d="M120 162 L210 172"/>
+            <path d="M250 92 L300 150"/>
+            <path d="M210 172 L300 150"/>
+            <path d="M120 162 L80 244"/>
+            <path d="M210 172 L175 262"/>
+            <path d="M120 162 L175 262"/>
+            <path d="M210 172 L272 250"/>
+            <path d="M300 150 L272 250"/>
+            <path d="M80 244 L175 262"/>
+            <path d="M175 262 L272 250"/>
+          </g>
+          <!-- highlighted reasoning path -->
+          <path d="M70 92 L120 162 L210 172 L300 150" stroke="#6366f1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+          <!-- nodes -->
+          <g fill="#f7f8fb" stroke="#171a26" stroke-width="1.4">
+            <circle cx="150" cy="56" r="6"/>
+            <circle cx="250" cy="92" r="6"/>
+            <circle cx="80" cy="244" r="6"/>
+            <circle cx="175" cy="262" r="6"/>
+            <circle cx="272" cy="250" r="6"/>
+          </g>
+          <!-- accent path nodes -->
+          <circle cx="70" cy="92" r="7" fill="#6366f1"/>
+          <circle cx="120" cy="162" r="7" fill="#0ea5e9"/>
+          <circle cx="210" cy="172" r="7" fill="#06b6d4"/>
+          <circle cx="300" cy="150" r="7" fill="#8b5cf6"/>
+        </svg>
+      </div>
+    </section>
+
+    <div class="themes-head">
+      <span class="lbl">Themes</span>
+      <span class="rule"></span>
+      <span class="note">what I'm working on</span>
+    </div>
+
+    <!-- theme 01 -->
+    <section class="theme" style="--tc:#d97706">
+      <div class="theme-head">
+        <span class="theme-num">01</span>
+        <span class="theme-cat">Human–AI alignment</span>
+      </div>
+      <div class="theme-body">
+        <h2 class="theme-title">Keeping models aligned with people</h2>
+        <p>
+          I measure where language models drift from human values and judgments — under
+          persuasive pressure, in constrained decision making, and across cultures — and design
+          interventions that close the gap. This includes evaluating how robust models' stated
+          beliefs are, and making AI–human alignment explainable rather than a black box.
+        </p>
+        <div class="theme-links">
+          <a href="https://arxiv.org/abs/2601.13590" target="_blank" rel="noopener">Vulnerability of LLMs' Stated Belief →</a>
+          <a href="../publications/index.html">XChoice & more →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- theme 02 -->
+    <section class="theme" style="--tc:#2563eb">
+      <div class="theme-head">
+        <span class="theme-num">02</span>
+        <span class="theme-cat">Reasoning &amp; interpretability</span>
+      </div>
+      <div class="theme-body">
+        <h2 class="theme-title">Looking inside the chain of thought</h2>
+        <p>
+          I open up how models reason step by step — tracing moral-framework trajectories across
+          intermediate steps, probing the internal representations that encode them, and using
+          lightweight activation steering to shape how those frameworks are integrated. I also build
+          harnesses and network-of-thought structures that make long-horizon reasoning more reliable.
+        </p>
+        <div class="theme-links">
+          <a href="https://arxiv.org/abs/2603.16017" target="_blank" rel="noopener">Moral Reasoning Trajectories →</a>
+          <a href="../publications/index.html">Network-of-Thought, ReFlect →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- theme 03 -->
+    <section class="theme" style="--tc:#dc2626">
+      <div class="theme-head">
+        <span class="theme-num">03</span>
+        <span class="theme-cat">Bias, safety &amp; online harm</span>
+      </div>
+      <div class="theme-body">
+        <h2 class="theme-title">Auditing and mitigating harm</h2>
+        <p>
+          I audit the biases and harms that surface in models and on online platforms — cognitive
+          and social bias, the (mis)detection of AI-generated text, and implicit hate speech — and
+          build benchmarks and methods to mitigate them, from explanation generation to
+          characterizing harmful online communities.
+        </p>
+        <div class="theme-links">
+          <a href="https://arxiv.org/abs/2302.07736" target="_blank" rel="noopener">Implicit Hate Speech &amp; ChatGPT →</a>
+          <a href="../publications/index.html">CogBias, Dif, YouNICon →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- theme 04 -->
+    <section class="theme" style="--tc:#0891b2">
+      <div class="theme-head">
+        <span class="theme-num">04</span>
+        <span class="theme-cat">Computational social science</span>
+      </div>
+      <div class="theme-body">
+        <h2 class="theme-title">LLMs as instruments for studying society</h2>
+        <p>
+          I use large language models and network science as instruments to study collective
+          behavior — simulating public opinion, modeling the dynamics of emerging platforms, and
+          predicting scientific collaboration — connecting model behavior back to real social systems.
+        </p>
+        <div class="theme-links">
+          <a href="../publications/index.html">DeepSeek opinion simulation →</a>
+          <a href="../publications/index.html">The Rise of Bluesky →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="foot-title">Fan Huang</div>
+        <p>
+          Informatics Ph.D. Candidate<br>
+          Luddy School of Informatics, Computing, and Engineering<br>
+          Indiana University Bloomington
+        </p>
+      </div>
+      <div>
+        <div class="foot-title">Contact</div>
+        <p><a href="mailto:fhuang181@gmail.com">fhuang181<span aria-hidden="true"> [at] </span>gmail.com</a></p>
+      </div>
+      <div>
+        <div class="foot-title">Links</div>
+        <ul class="foot-links">
+          <li><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/muyuhuatang" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fhuang181/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/HuangFan_Hoan" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap foot-copy">© 2026 Fan Huang</div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+</body>
+</html>

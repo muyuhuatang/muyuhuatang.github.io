@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Fan Huang</title>
+  <meta name="description" content="Engineering and applied projects by Fan Huang — research tooling, evaluation harnesses, and data systems, building toward enterprise-grade AI applications.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a26'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23f7f8fb' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/fonts/rsms-inter/inter.css">
+  <link rel="stylesheet" href="../assets/fonts/google-fonts/fonts.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">Fan Huang</span>
+        <span class="brand-sub">Indiana University Bloomington</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a class="navlink" style="--nav-accent:var(--c-home)" href="../index.html">Home</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-pubs)" href="../publications/index.html">Publications</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-research)" href="../research/index.html">Research</a></li>
+          <li><a class="navlink is-active" style="--nav-accent:var(--c-projects)" href="index.html">Projects</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-tech)" href="../tech-package/index.html">Tech Package</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-cv)" href="../cv/index.html">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Projects</h1>
+      <p>Engineering and applied work — research tooling, evaluation harnesses, and data-science
+      pipelines. I'm building toward <strong style="color:var(--ink)">enterprise-grade AI
+      applications</strong>; for now, here are projects I've shipped.</p>
+    </div>
+
+    <section class="section" style="border-top:none;padding-top:0">
+
+      <!-- lead project -->
+      <article class="proj-lead">
+        <div class="proj-lead-body">
+          <div class="proj-org">CNS-IU · Human Reference Atlas (HuBMAP)</div>
+          <h2>HRA Cell Embeddings <span class="badge-featured">Featured</span></h2>
+          <p>
+            A visualization pipeline for single-cell transcriptomics embeddings from the
+            <em>Human Reference Atlas</em> (HRA) and the HuBMAP consortium. It progresses from raw
+            UMAP mappings through tuned PCA + t-SNE combinations over ~453k cells, isolating the
+            top 24 cell types for clearer biological interpretation — turning massive single-cell
+            datasets into legible maps.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">Python</span>
+            <span class="tag">AnnData / h5ad</span>
+            <span class="tag">UMAP</span>
+            <span class="tag">t-SNE</span>
+            <span class="tag">PCA</span>
+            <span class="tag">Jupyter</span>
+          </div>
+          <div class="proj-foot">
+            <a class="proj-link" href="https://github.com/cns-iu/hra-cell-embeddings" target="_blank" rel="noopener">github.com/cns-iu/hra-cell-embeddings →</a>
+          </div>
+        </div>
+        <div class="proj-illu" aria-hidden="true">
+          <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.92">
+              <!-- cluster A (red) -->
+              <g fill="#6366f1"><circle cx="58" cy="62" r="5"/><circle cx="72" cy="50" r="5"/><circle cx="48" cy="74" r="5"/><circle cx="66" cy="74" r="5"/><circle cx="80" cy="64" r="5"/><circle cx="56" cy="48" r="4"/></g>
+              <!-- cluster B (amber) -->
+              <g fill="#0ea5e9"><circle cx="168" cy="58" r="5"/><circle cx="182" cy="70" r="5"/><circle cx="156" cy="70" r="5"/><circle cx="176" cy="48" r="4"/><circle cx="190" cy="60" r="5"/><circle cx="164" cy="44" r="4"/></g>
+              <!-- cluster C (blue) -->
+              <g fill="#06b6d4"><circle cx="48" cy="170" r="5"/><circle cx="62" cy="182" r="5"/><circle cx="40" cy="184" r="5"/><circle cx="60" cy="166" r="4"/><circle cx="74" cy="178" r="5"/><circle cx="52" cy="196" r="4"/></g>
+              <!-- cluster D (violet) -->
+              <g fill="#8b5cf6"><circle cx="176" cy="176" r="5"/><circle cx="190" cy="166" r="5"/><circle cx="166" cy="166" r="5"/><circle cx="184" cy="188" r="5"/><circle cx="200" cy="178" r="4"/><circle cx="170" cy="190" r="4"/></g>
+              <!-- cluster E (green, center) -->
+              <g fill="#10b981"><circle cx="116" cy="118" r="5"/><circle cx="128" cy="108" r="5"/><circle cx="104" cy="110" r="5"/><circle cx="122" cy="130" r="5"/><circle cx="106" cy="128" r="4"/><circle cx="134" cy="122" r="4"/></g>
+            </g>
+          </svg>
+        </div>
+      </article>
+
+      <!-- other projects -->
+      <div class="proj-grid">
+
+        <article class="proj-card">
+          <div class="proj-org">muyuhuatang/llm_morality</div>
+          <h3>LLM-Morality</h3>
+          <p class="proj-desc">Probing-based toolkit for analyzing moral reasoning trajectories in LLMs — linear probes for ethical-framework attribution and lightweight activation steering across reasoning steps.</p>
+          <div class="proj-tags"><span class="tag">Python</span> <span class="tag">PyTorch</span> <span class="tag">Probing</span> <span class="tag">Steering</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://github.com/muyuhuatang/llm_morality" target="_blank" rel="noopener">View on GitHub →</a></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">muyuhuatang/llm_stated_belief</div>
+          <h3>LLM-Stated-Belief</h3>
+          <p class="proj-desc">Evaluation harness for LLM belief resistance under strategic persuasion, built on the Source–Message–Channel–Receiver (SMCR) framework across six models and three domains.</p>
+          <div class="proj-tags"><span class="tag">Python</span> <span class="tag">LLM eval</span> <span class="tag">Fine-tuning</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://github.com/muyuhuatang/llm_stated_belief" target="_blank" rel="noopener">View on GitHub →</a></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">muyuhuatang/ChatGPTRater</div>
+          <h3>ChatGPTRater</h3>
+          <p class="proj-desc">Dataset and code studying how ChatGPT rates the quality of natural-language explanations compared with human assessments (LREC-COLING 2024).</p>
+          <div class="proj-tags"><span class="tag">Dataset</span> <span class="tag">NLP</span> <span class="tag">Evaluation</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://github.com/muyuhuatang/ChatGPTRater" target="_blank" rel="noopener">View on GitHub →</a></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">muyuhuatang/LLMsFT_LoRA</div>
+          <h3>LLMs Fine-tuning · LoRA</h3>
+          <p class="proj-desc">A clean replication of efficient LLM fine-tuning with LoRA (low-rank adaptation) — a compact reference for parameter-efficient adaptation.</p>
+          <div class="proj-tags"><span class="tag">Python</span> <span class="tag">LoRA</span> <span class="tag">Fine-tuning</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://github.com/muyuhuatang/LLMsFT_LoRA" target="_blank" rel="noopener">View on GitHub →</a></div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-org">muyuhuatang/IsChatGPTBetter</div>
+          <h3>Is ChatGPT Better — Dataset</h3>
+          <p class="proj-desc">Dataset supporting the study of ChatGPT vs. human annotators in explaining implicit hate speech (The Web Conference, WWW 2023).</p>
+          <div class="proj-tags"><span class="tag">Dataset</span> <span class="tag">Hate speech</span> <span class="tag">NLE</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://github.com/muyuhuatang/IsChatGPTBetter" target="_blank" rel="noopener">View on GitHub →</a></div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="foot-title">Fan Huang</div>
+        <p>
+          Informatics Ph.D. Candidate<br>
+          Luddy School of Informatics, Computing, and Engineering<br>
+          Indiana University Bloomington
+        </p>
+      </div>
+      <div>
+        <div class="foot-title">Contact</div>
+        <p><a href="mailto:fhuang181@gmail.com">fhuang181<span aria-hidden="true"> [at] </span>gmail.com</a></p>
+      </div>
+      <div>
+        <div class="foot-title">Links</div>
+        <ul class="foot-links">
+          <li><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/muyuhuatang" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fhuang181/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/HuangFan_Hoan" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap foot-copy">© 2026 Fan Huang</div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+</body>
+</html>

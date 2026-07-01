@@ -1,1283 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-<meta name="google-site-verification" content="wt9QnF9m4U8ehNPooNKt3-RfFJ_aA3yh1J3ckY7ieTo" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.1.1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"muyuhuatang.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
-
-  <meta name="description" content="The blog site of Fan Huang">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Huang&#39;s Blog">
-<meta property="og:url" content="http://muyuhuatang.github.io/index.html">
-<meta property="og:site_name" content="Huang&#39;s Blog">
-<meta property="og:description" content="The blog site of Fan Huang">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="Fan Huang">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://muyuhuatang.github.io/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'en'
-  };
-</script>
-
-  <title>Huang's Blog</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-<link rel="alternate" href="/atom.xml" title="Huang's Blog" type="application/atom+xml">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fan Huang · Human–AI Alignment</title>
+  <meta name="description" content="Fan Huang — Informatics Ph.D. candidate at Indiana University Bloomington, working on human–AI alignment, NLP, large language models, and computational social science.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23171a26'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23f7f8fb' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/fonts/rsms-inter/inter.css">
+  <link rel="stylesheet" href="assets/fonts/google-fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
+<body>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">Fan Huang</span>
+        <span class="brand-sub">Indiana University Bloomington</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav">
+        <ul>
+          <li><a class="navlink is-active" style="--nav-accent:var(--c-home)" href="index.html">Home</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-pubs)" href="publications/index.html">Publications</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-research)" href="research/index.html">Research</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-projects)" href="projects/index.html">Projects</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-tech)" href="tech-package/index.html">Tech Package</a></li>
+          <li><a class="navlink" style="--nav-accent:var(--c-cv)" href="cv/index.html">CV</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Huang's Blog</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
-
-  </li>
-        <li class="menu-item menu-item-schedule">
-
-    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a>
-
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
-        </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
-           placeholder="Searching..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2021/03/10/Machine%20Learning%20&%20Deep%20Learning/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/10/Machine%20Learning%20&%20Deep%20Learning/" class="post-title-link" itemprop="url">Machine Learning & Deep Learning</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <i class="fa fa-thumb-tack"></i>
-              <font color=7D26CD>TOP</font>
-               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-03-10 00:58:57" itemprop="dateCreated datePublished" datetime="2021-03-10T00:58:57+08:00">2021-03-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-09-01 20:54:16" itemprop="dateModified" datetime="2021-09-01T20:54:16+08:00">2021-09-01</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Record/" itemprop="url" rel="index"><span itemprop="name">Record</span></a>
-                </span>
-                  , 
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Record/Machine-Learning-and-Deep-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning and Deep Learning</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>4.9k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>4 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Machine Learning &amp; Deep Learning Notes and Records</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/03/10/Machine%20Learning%20&%20Deep%20Learning/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/" class="post-title-link" itemprop="url">Text Web Mining & Data Mining</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <i class="fa fa-thumb-tack"></i>
-              <font color=7D26CD>TOP</font>
-               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-03-10 00:59:38 / Modified: 16:48:02" itemprop="dateCreated datePublished" datetime="2021-03-10T00:59:38+08:00">2021-03-10</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/" itemprop="url" rel="index"><span itemprop="name">Courses</span></a>
-                </span>
-                  , 
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/Text-Web-Mining/" itemprop="url" rel="index"><span itemprop="name">Text & Web Mining</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>6.8k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>5 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Text Web Mining &amp; Data Mining Notes and Records</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/03/10/Text%20Web%20Mining%20&%20Data%20Mining/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2020/09/24/Internet-Programming/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/24/Internet-Programming/" class="post-title-link" itemprop="url">Internet Programming</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <i class="fa fa-thumb-tack"></i>
-              <font color=7D26CD>TOP</font>
-               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-09-24 22:53:15" itemprop="dateCreated datePublished" datetime="2020-09-24T22:53:15+08:00">2020-09-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-03-10 16:41:28" itemprop="dateModified" datetime="2021-03-10T16:41:28+08:00">2021-03-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/" itemprop="url" rel="index"><span itemprop="name">Courses</span></a>
-                </span>
-                  , 
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/Internet-Programming/" itemprop="url" rel="index"><span itemprop="name">Internet Programming</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>3.1k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>2 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Internet Programming Notes and Records</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/09/24/Internet-Programming/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2020/09/20/Information-Visualization/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/20/Information-Visualization/" class="post-title-link" itemprop="url">Information Visualization</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <i class="fa fa-thumb-tack"></i>
-              <font color=7D26CD>TOP</font>
-               <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-09-20 21:57:02" itemprop="dateCreated datePublished" datetime="2020-09-20T21:57:02+08:00">2020-09-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-09-01 20:35:29" itemprop="dateModified" datetime="2021-09-01T20:35:29+08:00">2021-09-01</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/" itemprop="url" rel="index"><span itemprop="name">Courses</span></a>
-                </span>
-                  , 
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Courses/Information-Visualization/" itemprop="url" rel="index"><span itemprop="name">Information Visualization</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>4k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>3 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Information Visualization Notes and Records</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/09/20/Information-Visualization/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2021/03/10/Hobbies%20&%20Interests/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/10/Hobbies%20&%20Interests/" class="post-title-link" itemprop="url">Hobbies & Interests</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-03-10 00:58:32" itemprop="dateCreated datePublished" datetime="2021-03-10T00:58:32+08:00">2021-03-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-12-28 22:53:17" itemprop="dateModified" datetime="2021-12-28T22:53:17+08:00">2021-12-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Records/" itemprop="url" rel="index"><span itemprop="name">Records</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>1.4k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>My Hobbies and Interests</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/03/10/Hobbies%20&%20Interests/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2020/10/27/Tools/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/10/27/Tools/" class="post-title-link" itemprop="url">Tools</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-10-27 12:12:53" itemprop="dateCreated datePublished" datetime="2020-10-27T12:12:53+08:00">2020-10-27</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-03-13 13:29:10" itemprop="dateModified" datetime="2021-03-13T13:29:10+08:00">2021-03-13</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Records/" itemprop="url" rel="index"><span itemprop="name">Records</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>1.1k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Useful tools and usage tips</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/10/27/Tools/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2020/09/24/Encrypted-File/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/24/Encrypted-File/" class="post-title-link" itemprop="url">Encrypted File</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-09-24 22:44:45" itemprop="dateCreated datePublished" datetime="2020-09-24T22:44:45+08:00">2020-09-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-12-28 22:58:00" itemprop="dateModified" datetime="2021-12-28T22:58:00+08:00">2021-12-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Documents/" itemprop="url" rel="index"><span itemprop="name">Documents</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>1.8k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          Here's something encrypted, password is required to continue reading. Feel free to email me to get the password with fair reason.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/09/24/Encrypted-File/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-  	
-    	  
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://muyuhuatang.github.io/2020/09/04/Blog%20start-up%20and%20settings/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Fan Huang">
-      <meta itemprop="description" content="The blog site of Fan Huang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Huang's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/04/Blog%20start-up%20and%20settings/" class="post-title-link" itemprop="url">Blog start-up and settings</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-            
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-09-04 01:50:15" itemprop="dateCreated datePublished" datetime="2020-09-04T01:50:15+08:00">2020-09-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-08-15 20:11:24" itemprop="dateModified" datetime="2021-08-15T20:11:24+08:00">2021-08-15</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Documents/" itemprop="url" rel="index"><span itemprop="name">Documents</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>3.4k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>2 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to Mysite!</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/09/04/Blog%20start-up%20and%20settings/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  	
-
-  
-
-
-
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section class="wrap hero">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Ph.D. Candidate · Informatics · Indiana University</p>
+          <h1 class="hero-title">Aligning <em>humans</em><br>and <em>AI</em></h1>
+          <p class="hero-lead">
+            I study <em>human–AI alignment</em> — probing and mitigating the biases and
+            limitations of large language models so they can be implemented more faithfully, with <em>reliable interpretability</em>.
+            My work spans <em>natural language processing</em>, <em>large language models</em>,
+            and <em>computational social science</em>.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="publications/index.html">Browse publications →</a>
+            <a class="btn btn-outline" href="mailto:fhuang181@gmail.com">Email</a>
+            <a class="btn btn-outline" href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
+        <div class="hero-photo">
+          <img src="assets/img/profile.png" alt="Portrait of Fan Huang" width="240" height="264">
+        </div>
+      </div>
+    </section>
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
+    <!-- main two-column -->
+    <section class="wrap section columns">
+      <div class="stack">
 
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
+        <div>
+          <h2 class="section-eyebrow eyebrow">About</h2>
+          <div class="prose">
+            <p>
+              I am Fan Huang, a fourth-year Informatics Ph.D. candidate in Complex Networks and
+              Systems at Indiana University Bloomington, advised by Prof.
+              <a href="https://jisun.me/" target="_blank" rel="noopener">Jisun An</a> and Prof.
+              <a href="https://haewoon.github.io/" target="_blank" rel="noopener">Haewoon Kwak</a>.
+              I also work with Prof.
+              <a href="https://yongyeol.com/" target="_blank" rel="noopener">Yong-Yeol Ahn</a> and Prof.
+              <a href="https://cnets.indiana.edu/fil" target="_blank" rel="noopener">Filippo Menczer</a>
+              on research projects.
+            </p>
+            <p>
+              My current projects investigate the <em>human–AI alignment</em> problems and
+              challenges that can be used to mitigate LLMs' biases and limitations and lead to a
+              better implementation of AI models — working across Natural Language Processing,
+              Large Language Models, and Computational Social Science.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <span class="dot"></span>
+          <div>I am <strong>actively seeking</strong> Research Scientist, Post-Doc, Research Fellow, or
+          Tenure-Track Faculty opportunities starting <strong>Spring/Fall 2027</strong>, around the world.</div>
+        </div>
+
+        <div>
+          <h2 class="section-eyebrow eyebrow">Education</h2>
+          <ul class="deflist">
+            <li><span class="d-main">Ph.D. in Informatics</span> <span class="d-sub">Indiana University Bloomington</span> <span class="d-meta">2023–present</span></li>
+            <li><span class="d-main">Ph.D. in Computer Science</span> <span class="d-sub">Singapore Management University</span> <span class="d-meta">2022–2023</span></li>
+            <li><span class="d-main">M.S. in Information Systems</span> <span class="d-sub">Nanyang Technological University</span> <span class="d-meta">2020–2022</span></li>
+            <li><span class="d-main">B.S. in Computer Science &amp; Technology</span> <span class="d-sub">Central South University</span> <span class="d-meta">2014–2018</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <aside class="news" aria-labelledby="news-heading">
+        <div class="news-head">
+          <h2 class="eyebrow" id="news-heading">News</h2>
+          <a class="news-all" href="news/index.html">All news →</a>
+        </div>
+        <ul>
+          <li>
+            <div class="news-date">June 2026</div>
+            <div class="news-body">Delivered a talk <em>LLM Moral Reasoning Trajectory Analysis</em>, invited by Prof. Han Xue's lab, Donghua University, Shanghai.</div>
+          </li>
+          <li>
+            <div class="news-date">April 2026</div>
+            <div class="news-body">Delivered a talk <em>AI-assisted Research</em>, invited by Prof. Thai Le's lab, Indiana University Bloomington.</div>
+          </li>
+          <li>
+            <div class="news-date">April 2026</div>
+            <div class="news-body">Our paper <em>Understanding Moral Reasoning Trajectories in Large Language Models</em> is accepted at IC2S2 2026 (Parallel Talk track).</div>
+          </li>
+          <li>
+            <div class="news-date">April 2026</div>
+            <div class="news-body">Our paper <em>XChoice: Explainable Evaluation of AI-Human Alignment</em> is accepted at IC2S2 2026 (Poster track).</div>
+          </li>
+          <li>
+            <div class="news-date">April 2026</div>
+            <div class="news-body">Our paper <em>Vulnerability of LLMs' Stated Belief?</em> is accepted at ACL 2026 Findings.</div>
+          </li>
+          <li>
+            <div class="news-date">March 2026</div>
+            <div class="news-body">Presenting <em>Vulnerability of LLMs' Stated Belief?</em> at MSLD 2026 (UIUC).</div>
+          </li>
+          <li>
+            <div class="news-date">Sept 2025</div>
+            <div class="news-body">Our paper <em>Is DeepSeek a New Voice Among LLMs in Public Opinion Simulation</em> is accepted at ICDM 2025, Washington DC.</div>
+          </li>
+          <li>
+            <div class="news-date">April 2025</div>
+            <div class="news-body">Passed my Ph.D. Qualification Exam at IUB!</div>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- featured work -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>Featured work</h2>
+        <a class="link-arrow" href="publications/index.html">All publications →</a>
+      </div>
+      <ul class="featured-list">
+
+        <li class="feat-item">
+          <a class="feat-fig" href="https://arxiv.org/abs/2601.13590" target="_blank" rel="noopener">
+            <img src="assets/img/featured/belief.png" alt="SMCR model and persuasion pipeline figure">
+          </a>
+          <div class="feat-body">
+            <h3 class="feat-title"><a href="https://arxiv.org/abs/2601.13590" target="_blank" rel="noopener">Vulnerability of LLMs' Stated Belief? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions</a><span class="badge-featured">Featured</span></h3>
+            <div class="feat-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="feat-meta">ACL Findings · 2026</div>
+            <p class="feat-abstract">
+              Are LLMs persuaded out of their beliefs? Using the Source–Message–Channel–Receiver
+              (SMCR) framework across six mainstream LLMs and three domains (facts, medical QA,
+              social bias), we measure how stable each model's stated beliefs are under persuasive
+              pressure. The smallest model flips on 82.5% of attempts at the first turn — and,
+              counterintuitively, asking models to verbalize confidence makes them <em>more</em> vulnerable.
+            </p>
+            <div class="feat-tags">
+              <span class="tag t-beliefs filled">Beliefs &amp; opinions</span>
+              <span class="tag t-llms">LLMs &amp; responsible AI</span>
+            </div>
+          </div>
         </li>
-        <li class="sidebar-nav-overview">
-          Overview
+
+        <li class="feat-item">
+          <a class="feat-fig" href="https://arxiv.org/abs/2603.16017" target="_blank" rel="noopener">
+            <img src="assets/img/featured/moral.png" alt="Ethical framework attribution across reasoning steps">
+          </a>
+          <div class="feat-body">
+            <h3 class="feat-title"><a href="https://arxiv.org/abs/2603.16017" target="_blank" rel="noopener">Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability</a><span class="badge-featured">Featured</span></h3>
+            <div class="feat-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="feat-meta">IC2S2 2026 · 2026</div>
+            <p class="feat-abstract">
+              We introduce <em>moral reasoning trajectories</em> — sequences of ethical-framework
+              invocations across intermediate reasoning steps — and analyze their dynamics across
+              six models and three benchmarks. Reasoning switches frameworks 55–58% of the time;
+              linear probes localize framework-specific encoding to model-specific layers, and
+              lightweight activation steering modulates how models integrate them.
+            </p>
+            <div class="feat-tags">
+              <span class="tag t-reasoning filled">Reasoning &amp; interpretability</span>
+              <span class="tag t-llms">LLMs &amp; responsible AI</span>
+            </div>
+          </div>
         </li>
+
+        <li class="feat-item">
+          <a class="feat-fig" href="https://arxiv.org/abs/2302.07736" target="_blank" rel="noopener">
+            <img src="assets/img/featured/chatgpt.png" alt="Human evaluation of hatefulness scores boxplot">
+          </a>
+          <div class="feat-body">
+            <h3 class="feat-title"><a href="https://arxiv.org/abs/2302.07736" target="_blank" rel="noopener">Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech</a><span class="badge-featured">Featured</span></h3>
+            <div class="feat-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="feat-meta">The Web Conference (WWW) · 2023</div>
+            <p class="feat-abstract">
+              Can ChatGPT explain <em>why</em> a post is implicitly hateful? On the LatentHatred
+              dataset, ChatGPT reaches 80% agreement with human labels, and a user study shows its
+              natural-language explanations can shift lay perceptions of hatefulness — revealing
+              both the promise and the risks of LLM-generated explanations.
+            </p>
+            <div class="feat-tags">
+              <span class="tag t-harm filled">Online harm</span>
+              <span class="tag t-nlp">NLP &amp; generation</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="feat-item">
+          <a class="feat-fig" href="https://arxiv.org/abs/2403.17368" target="_blank" rel="noopener">
+            <img src="assets/img/featured/rates.png" alt="Scatter plots of ChatGPT versus human evaluation scores across three datasets, showing strong correlation">
+          </a>
+          <div class="feat-body">
+            <h3 class="feat-title"><a href="https://arxiv.org/abs/2403.17368" target="_blank" rel="noopener">ChatGPT Rates Like Human: Towards a Better Alignment of Text Explanation Quality Assessments</a><span class="badge-featured">Featured</span></h3>
+            <div class="feat-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Kunwoo Park, Jisun An</div>
+            <div class="feat-meta">LREC-COLING · 2024</div>
+            <p class="feat-abstract">
+              Can ChatGPT judge the quality of natural-language explanations the way people do?
+              Across three NLE datasets and 900 human annotations, ChatGPT aligns well with humans on
+              <em>coarse-grained</em> scales, and paired comparisons plus dynamic prompting further
+              improve agreement — charting where LLM-based evaluation can stand in for human raters.
+            </p>
+            <div class="feat-tags">
+              <span class="tag t-nlp filled">NLP &amp; generation</span>
+              <span class="tag t-alignment">Human–AI alignment</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="feat-item">
+          <a class="feat-fig" href="https://arxiv.org/abs/2209.04889" target="_blank" rel="noopener">
+            <img src="assets/img/featured/coe.png" alt="Chain-of-Explanation pipeline generating a natural-language explanation for an implicit hate tweet">
+          </a>
+          <div class="feat-body">
+            <h3 class="feat-title"><a href="https://arxiv.org/abs/2209.04889" target="_blank" rel="noopener">Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech</a><span class="badge-featured">Featured</span></h3>
+            <div class="feat-authors"><span class="self">Fan Huang</span>, Haewoon Kwak, Jisun An</div>
+            <div class="feat-meta">The Web Conference (WWW) · 2023</div>
+            <p class="feat-abstract">
+              A prompting method — <em>Chain of Explanation</em> (CoE) — that generates natural-language
+              explanations for <em>why</em> a post is implicitly hateful, guided by heuristic words and
+              the target group. On LatentHatred, CoE sharply improves explanation quality
+              (BLEU 44.0 → 62.3), outperforming baseline generation across models and metrics.
+            </p>
+            <div class="feat-tags">
+              <span class="tag t-harm filled">Online harm</span>
+              <span class="tag t-nlp">NLP &amp; generation</span>
+            </div>
+          </div>
+        </li>
+
       </ul>
+    </section>
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
+    <!-- projects briefing -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <a class="link-arrow" href="projects/index.html">All projects →</a>
       </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Fan Huang"
-      src="/images/avatar.gif">
-  <p class="site-author-name" itemprop="name">Fan Huang</p>
-  <div class="site-description" itemprop="description">The blog site of Fan Huang</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">9</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
+      <div class="home-teaser" style="--teaser-accent:var(--c-projects)">
+        <div>
+          <div class="teaser-eyebrow">Engineering &amp; applied work</div>
+          <p>Research tooling, evaluation harnesses, and data-science pipelines — from a
+          <em>single-cell visualization pipeline</em> for the Human Reference Atlas to LLM
+          <em>probing and belief-resistance</em> toolkits. Building toward enterprise-grade AI applications.</p>
+          <ul class="chips">
+            <li>HRA Cell Embeddings</li>
+            <li>LLM-Morality</li>
+            <li>LLM-Stated-Belief</li>
+            <li>ChatGPTRater</li>
+            <li>Datasets &amp; benchmarks</li>
+          </ul>
+        </div>
+        <div class="teaser-illu" aria-hidden="true">
+          <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.92">
+              <g fill="#6366f1"><circle cx="58" cy="62" r="5"/><circle cx="72" cy="50" r="5"/><circle cx="48" cy="74" r="5"/><circle cx="66" cy="74" r="5"/><circle cx="80" cy="64" r="5"/><circle cx="56" cy="48" r="4"/></g>
+              <g fill="#0ea5e9"><circle cx="168" cy="58" r="5"/><circle cx="182" cy="70" r="5"/><circle cx="156" cy="70" r="5"/><circle cx="176" cy="48" r="4"/><circle cx="190" cy="60" r="5"/><circle cx="164" cy="44" r="4"/></g>
+              <g fill="#06b6d4"><circle cx="48" cy="170" r="5"/><circle cx="62" cy="182" r="5"/><circle cx="40" cy="184" r="5"/><circle cx="60" cy="166" r="4"/><circle cx="74" cy="178" r="5"/><circle cx="52" cy="196" r="4"/></g>
+              <g fill="#8b5cf6"><circle cx="176" cy="176" r="5"/><circle cx="190" cy="166" r="5"/><circle cx="166" cy="166" r="5"/><circle cx="184" cy="188" r="5"/><circle cx="200" cy="178" r="4"/><circle cx="170" cy="190" r="4"/></g>
+              <g fill="#10b981"><circle cx="116" cy="118" r="5"/><circle cx="128" cy="108" r="5"/><circle cx="104" cy="110" r="5"/><circle cx="122" cy="130" r="5"/><circle cx="106" cy="128" r="4"/><circle cx="134" cy="122" r="4"/></g>
+            </g>
+          </svg>
+        </div>
       </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">9</span>
-        <span class="site-state-item-name">categories</span></a>
+    </section>
+
+    <!-- tech package teaser -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>Tech Package</h2>
+        <a class="link-arrow" href="tech-package/index.html">Open the tech package →</a>
       </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">5</span>
-        <span class="site-state-item-name">tags</span></a>
+      <div class="home-teaser" style="--teaser-accent:var(--c-tech)">
+        <div>
+          <div class="teaser-eyebrow">Hands-on LLM engineering</div>
+          <p>Beyond the papers: a lab of techniques I've built end-to-end — parameter-efficient
+          fine-tuning (<em>LoRA / QLoRA</em>) of Llama-2 &amp; Llama-3.1, local model serving with
+          Ollama, and running <em>DeepSeek-R1</em> under 1.58-bit dynamic quantization.</p>
+          <ul class="chips">
+            <li>LoRA / QLoRA</li>
+            <li>Llama-2 · Llama-3.1</li>
+            <li>Ollama serving</li>
+            <li>DeepSeek-R1 · 1.58-bit</li>
+            <li>llama.cpp</li>
+          </ul>
+        </div>
+        <div class="teaser-illu" aria-hidden="true">
+          <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" font-family="'IBM Plex Mono', monospace">
+            <rect x="14" y="50" width="94" height="94" rx="8" fill="#eef1f6" stroke="#d5dae4"/>
+            <text x="61" y="104" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#868ea1">W</text>
+            <text x="61" y="162" text-anchor="middle" font-size="11" fill="#868ea1">frozen base</text>
+            <g stroke="#868ea1" stroke-width="3" stroke-linecap="round">
+              <line x1="118" y1="97" x2="134" y2="97"/>
+              <line x1="126" y1="89" x2="126" y2="105"/>
+            </g>
+            <rect x="146" y="50" width="94" height="94" rx="8" fill="none" stroke="#d5dae4" stroke-dasharray="4 4"/>
+            <rect x="146" y="50" width="94" height="19" rx="4" fill="#06b6d4"/>
+            <text x="200" y="64" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">A</text>
+            <rect x="146" y="50" width="19" height="94" rx="4" fill="#6366f1"/>
+            <text x="155" y="112" text-anchor="middle" font-size="12" fill="#fff" font-weight="600">B</text>
+            <text x="200" y="162" text-anchor="middle" font-size="11" fill="#868ea1">ΔW ≈ B·A · rank r</text>
+          </svg>
+        </div>
       </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/muyuhuatang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;muyuhuatang" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="mailto:fhuang181@gmail.com" title="E-Mail → mailto:fhuang181@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-  </div>
+    </section>
+  </main>
 
-
-
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="foot-title">Fan Huang</div>
+        <p>
+          Informatics Ph.D. Candidate<br>
+          Luddy School of Informatics, Computing, and Engineering<br>
+          Indiana University Bloomington
+        </p>
       </div>
-
+      <div>
+        <div class="foot-title">Contact</div>
+        <p><a href="mailto:fhuang181@gmail.com">fhuang181<span aria-hidden="true"> [at] </span>gmail.com</a></p>
+      </div>
+      <div>
+        <div class="foot-title">Links</div>
+        <ul class="foot-links">
+          <li><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/muyuhuatang" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fhuang181/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/HuangFan_Hoan" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
+      </div>
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+    <div class="wrap foot-copy">© 2026 Fan Huang</div>
+  </footer>
 
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Fan Huang</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
-    </span>
-    <span title="Symbols count total">92k</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    <span title="Reading time total">1:07</span>
-</div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
-  </div>
-
-        
-<div class="busuanzi-count">
-  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="Total Visitors">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="Total Views">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/pjax/pjax.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-  <script>
-var pjax = new Pjax({
-  selectors: [
-    'head title',
-    '#page-configurations',
-    '.content-wrap',
-    '.post-toc-wrap',
-    '.languages',
-    '#pjax'
-  ],
-  switches: {
-    '.post-toc-wrap': Pjax.switches.innerHTML
-  },
-  analytics: false,
-  cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
-});
-
-window.addEventListener('pjax:success', () => {
-  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
-    var code = element.text || element.textContent || element.innerHTML || '';
-    var parent = element.parentNode;
-    parent.removeChild(element);
-    var script = document.createElement('script');
-    if (element.id) {
-      script.id = element.id;
-    }
-    if (element.className) {
-      script.className = element.className;
-    }
-    if (element.type) {
-      script.type = element.type;
-    }
-    if (element.src) {
-      script.src = element.src;
-      // Force synchronous loading of peripheral JS.
-      script.async = false;
-    }
-    if (element.dataset.pjax !== undefined) {
-      script.dataset.pjax = '';
-    }
-    if (code !== '') {
-      script.appendChild(document.createTextNode(code));
-    }
-    parent.appendChild(script);
-  });
-  NexT.boot.refresh();
-  // Define Motion Sequence & Bootstrap Motion.
-  if (CONFIG.motion.enable) {
-    NexT.motion.integrator
-      .init()
-      .add(NexT.motion.middleWares.subMenu)
-      .add(NexT.motion.middleWares.postList)
-      .bootstrap();
-  }
-  NexT.utils.updateSidebarPosition();
-});
-</script>
-
-
-  <script defer src="/lib/three/three.min.js"></script>
-    <script defer src="/lib/three/canvas_lines.min.js"></script>
-
-
-  
-
-
-
-
-  
-<script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div id="pjax">
-  
-
-  
-
-    </div>
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>
