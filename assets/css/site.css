@@ -462,8 +462,6 @@ code {
 .rd-icon svg { width: 1.2rem; height: 1.2rem; }
 .rd-title { display: block; color: var(--ink); font-size: .95rem; line-height: 1.3; font-weight: 500; }
 .rd-cat { display: block; margin-top: .1rem; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-faint); }
-.news-rd { margin-top: 2rem; }
-
 /* highlighted "Latest Publications" panel */
 .side-highlight {
   border: 1px solid color-mix(in oklch, var(--accent) 22%, var(--rule));
