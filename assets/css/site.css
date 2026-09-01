@@ -150,13 +150,23 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .btn-outline { border: 1px solid var(--rule); color: var(--ink-soft); }
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
 
-.hero-photo { justify-self: center; }
-.hero-photo img {
-  width: 13rem; height: 13rem; object-fit: cover; object-position: center top;
-  border-radius: var(--radius-lg); box-shadow: 0 1px 3px #00000014; outline: 1px solid var(--rule);
+.hero-photo {
+  justify-self: center;
+  width: 13rem; height: 13rem;
+  border-radius: 50%;
+  overflow: hidden;
   background: var(--paper-2);
+  /* the 1px ring follows the radius in every browser; outline does not */
+  box-shadow: 0 0 0 1px var(--rule), 0 1px 3px #00000014;
 }
-@media (min-width: 48rem) { .hero-photo img { width: 15rem; height: 16.5rem; } }
+.hero-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  /* zoom past the portrait's white margin so the face fills the circle */
+  transform: scale(1.16);
+  transform-origin: center 28%;
+}
+@media (min-width: 48rem) { .hero-photo { width: 15rem; height: 15rem; } }
 
 /* ===================== sections / layout ===================== */
 .section { border-top: 1px solid var(--rule); padding-block: 2.5rem; }
