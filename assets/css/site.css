@@ -325,6 +325,7 @@ code {
 .t-networks   { --tc: #0891b2; }
 .t-user       { --tc: #ea580c; }
 .t-robotics   { --tc: #4d7c0f; }
+.t-rl         { --tc: #a21caf; }
 /* method colors */
 .m-llms       { --tc: #14b8a6; }
 .m-nlp        { --tc: #475569; }
