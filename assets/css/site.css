@@ -1,8 +1,9 @@
 /* ===========================================================================
    Fan Huang — personal site
-   Visual design adapted from the SoDA Lab site (soda-labo.github.io):
-   warm "paper" palette + dotted texture, Spectral display, Inter body,
-   IBM Plex Mono eyebrows, blue accent, red→amber→blue gradient emphasis.
+   Layout adapted from the SoDA Lab site (soda-labo.github.io), recolored to the
+   "Nordic Frost" scheme: cool "paper" palette + dotted texture, Spectral display,
+   Inter body, IBM Plex Mono eyebrows, indigo accent, indigo→sky→cyan gradient
+   emphasis, and a per-nav-item accent color.
    =========================================================================== */
 
 :root {
