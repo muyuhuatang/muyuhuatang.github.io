@@ -44,50 +44,90 @@
 
     <section class="section" style="border-top:none;padding-top:0">
 
-      <!-- lead project -->
-      <article class="proj-lead">
-        <div class="proj-lead-body">
-          <div class="proj-org">CNS-IU · Human Reference Atlas (HuBMAP)</div>
-          <h2>HRA Cell Embeddings <span class="badge-featured">Featured</span></h2>
-          <p>
-            A visualization pipeline for single-cell transcriptomics embeddings from the
-            <em>Human Reference Atlas</em> (HRA) and the HuBMAP consortium. It progresses from raw
-            UMAP mappings through tuned PCA + t-SNE combinations over ~453k cells, isolating the
-            top 24 cell types for clearer biological interpretation — turning massive single-cell
-            datasets into legible maps.
-          </p>
-          <div class="proj-tags">
-            <span class="tag">Python</span>
-            <span class="tag">AnnData / h5ad</span>
-            <span class="tag">UMAP</span>
-            <span class="tag">t-SNE</span>
-            <span class="tag">PCA</span>
-            <span class="tag">Jupyter</span>
+      <!-- lead project: Cytolume, with the HRA Cell Embeddings prototype it grew out of (Fan, 2026-10-19).
+           Row 1 = Cytolume text + its GIF; row 2 = HRA Cell Embeddings at full width, so the GIF never sits beside it. -->
+      <article class="proj-lead proj-group">
+        <div class="proj-group-main">
+          <div class="proj-lead-body">
+            <div class="proj-org">Single-cell visualization · Human Reference Atlas (HuBMAP)</div>
+            <h2>Cytolume <span class="badge-featured">Featured</span></h2>
+            <p>
+              A WebGL2 visualization library and interactive showcase for large single-cell embeddings.
+              It draws UMAP, t-SNE, and PCA layouts in 2D and 3D on the GPU, follows the same cells through
+              animated layout transitions, and lets you select populations with a lasso, read values and
+              density from separate keys, view <em>Human Reference Atlas</em> anatomy beside the cell map, and
+              export figures with legends and data provenance.
+            </p>
+            <p class="proj-note">The live demo uses 453,251 synthetic cells in 48 example categories, generated
+            from fixed seeds. Research datasets enter through its Python pipeline from <code>.h5ad</code> files.</p>
+            <div class="proj-tags">
+              <span class="tag">WebGL2</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Vite</span>
+              <span class="tag">Python</span>
+              <span class="tag">UMAP · t-SNE · PCA</span>
+              <span class="tag">HRA anatomy</span>
+            </div>
+            <div class="proj-foot">
+              <a class="proj-link" href="https://muyuhuatang.github.io/Cytolume/" target="_blank" rel="noopener">Live demo →</a>
+              <a class="proj-link" href="https://github.com/muyuhuatang/Cytolume" target="_blank" rel="noopener">github.com/muyuhuatang/Cytolume →</a>
+            </div>
           </div>
-          <div class="proj-foot">
-            <a class="proj-link" href="https://github.com/cns-iu/hra-cell-embeddings" target="_blank" rel="noopener">github.com/cns-iu/hra-cell-embeddings →</a>
-          </div>
+          <a class="proj-shot" href="https://muyuhuatang.github.io/Cytolume/" target="_blank" rel="noopener">
+            <!-- the README's 8-second GIF (Fan, 2026-10-19); the still PNG for visitors who ask for reduced motion -->
+            <picture>
+              <source srcset="../assets/img/projects/cytolume.png" media="(prefers-reduced-motion: reduce)">
+              <img src="../assets/img/projects/cytolume.gif" width="1120" height="718" loading="lazy"
+                   alt="Cytolume rotating a 3D map of synthetic cells colored by expression, beside the HRA female anatomy panel with the lung highlighted">
+            </picture>
+            <span class="proj-shot-cap">Cytolume live demo (synthetic data) →</span>
+          </a>
         </div>
-        <div class="proj-illu" aria-hidden="true">
-          <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.92">
-              <!-- cluster A (red) -->
-              <g fill="#6366f1"><circle cx="58" cy="62" r="5"/><circle cx="72" cy="50" r="5"/><circle cx="48" cy="74" r="5"/><circle cx="66" cy="74" r="5"/><circle cx="80" cy="64" r="5"/><circle cx="56" cy="48" r="4"/></g>
-              <!-- cluster B (amber) -->
-              <g fill="#0ea5e9"><circle cx="168" cy="58" r="5"/><circle cx="182" cy="70" r="5"/><circle cx="156" cy="70" r="5"/><circle cx="176" cy="48" r="4"/><circle cx="190" cy="60" r="5"/><circle cx="164" cy="44" r="4"/></g>
-              <!-- cluster C (blue) -->
-              <g fill="#06b6d4"><circle cx="48" cy="170" r="5"/><circle cx="62" cy="182" r="5"/><circle cx="40" cy="184" r="5"/><circle cx="60" cy="166" r="4"/><circle cx="74" cy="178" r="5"/><circle cx="52" cy="196" r="4"/></g>
-              <!-- cluster D (violet) -->
-              <g fill="#8b5cf6"><circle cx="176" cy="176" r="5"/><circle cx="190" cy="166" r="5"/><circle cx="166" cy="166" r="5"/><circle cx="184" cy="188" r="5"/><circle cx="200" cy="178" r="4"/><circle cx="170" cy="190" r="4"/></g>
-              <!-- cluster E (green, center) -->
-              <g fill="#10b981"><circle cx="116" cy="118" r="5"/><circle cx="128" cy="108" r="5"/><circle cx="104" cy="110" r="5"/><circle cx="122" cy="130" r="5"/><circle cx="106" cy="128" r="4"/><circle cx="134" cy="122" r="4"/></g>
-            </g>
-          </svg>
+
+        <div class="proj-sub">
+          <div class="proj-group-main">
+            <div>
+              <div class="proj-org">The prototype it grew out of · CNS-IU</div>
+              <h3>HRA Cell Embeddings</h3>
+              <p>
+                A visualization pipeline for single-cell transcriptomics embeddings from the
+                <em>Human Reference Atlas</em> (HRA) and the HuBMAP consortium. It progresses from raw
+                UMAP mappings through tuned PCA + t-SNE combinations over ~453k cells, isolating the
+                top 24 cell types for clearer biological interpretation — turning massive single-cell
+                datasets into legible maps.
+              </p>
+              <div class="proj-tags">
+                <span class="tag">Python</span>
+                <span class="tag">AnnData / h5ad</span>
+                <span class="tag">UMAP</span>
+                <span class="tag">t-SNE</span>
+                <span class="tag">PCA</span>
+                <span class="tag">Jupyter</span>
+              </div>
+              <div class="proj-foot">
+                <a class="proj-link" href="https://github.com/cns-iu/hra-cell-embeddings" target="_blank" rel="noopener">github.com/cns-iu/hra-cell-embeddings →</a>
+              </div>
+            </div>
+            <!-- illustration supplied by Fan, 2026-10-19 (resized to 1000 px, JPEG) -->
+            <a class="proj-shot match-gif" href="https://github.com/cns-iu/hra-cell-embeddings" target="_blank" rel="noopener">
+              <img src="../assets/img/projects/hra-cell-embeddings.jpg" width="1000" height="850" loading="lazy"
+                   alt="HRA Cell Embeddings: a two-dimensional embedding of single cells drawn as colored points, forming two mirrored clusters of populations">
+              <span class="proj-shot-cap">HRA Cell Embeddings on GitHub →</span>
+            </a>
+          </div>
         </div>
       </article>
 
       <!-- other projects -->
       <div class="proj-grid">
+
+        <article class="proj-card">
+          <div class="proj-org">Research platform</div>
+          <h3>AgentSims: Agentic Simulations</h3>
+          <p class="proj-desc">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior. Designed to support industry scenario analysis, strategy evaluation, and risk assessment through configurable agent environments.</p>
+          <div class="proj-tags"><span class="tag">LLM agents</span> <span class="tag">Multi-agent simulation</span> <span class="tag">Replayable histories</span></div>
+          <div class="proj-foot"><a class="proj-link" href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">agentsims.agentsnet.org →</a></div>
+        </article>
 
         <article class="proj-card">
           <div class="proj-org">muyuhuatang/llm_morality</div>

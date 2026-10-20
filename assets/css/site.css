@@ -245,6 +245,15 @@ code {
 .cv-list li .meta { font-family: var(--font-mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-faint); }
 .cv-list a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: color-mix(in oklch, var(--accent) 35%, transparent); }
 .cv-list a:hover { text-decoration-color: var(--accent); }
+/* second line of a CV entry (advisors, outlet · author · date) and the Research Impact subsections */
+.cv-list li .sub { display: block; margin-top: .2rem; font-size: .88rem; line-height: 1.5; color: var(--ink-faint); }
+.cv-list li .sub em { color: var(--ink-soft); }
+.cv-list li a.lead { color: var(--accent); }
+.cv-note { margin-bottom: .9rem; max-width: 46rem; color: var(--ink-soft); font-size: .95rem; line-height: 1.6; }
+.cv-note strong { color: var(--ink); }
+.cv-note em { font-style: italic; color: var(--ink); }
+.cv-sub { font-family: var(--font-display); font-size: 1.15rem; line-height: 1.25; color: var(--ink); margin: 1.6rem 0 .5rem; }
+.cv-section { scroll-margin-top: 5rem; }
 .cv-cols { display: grid; gap: 1.5rem 2.5rem; }
 @media (min-width: 48rem) { .cv-cols.two { grid-template-columns: 1fr 1fr; align-items: start; } }
 
@@ -406,10 +415,25 @@ code {
   padding: 1.75rem; display: grid; gap: 1.5rem; align-items: center;
 }
 @media (min-width: 56rem) { .proj-lead { grid-template-columns: minmax(0,1fr) 16rem; } }
-.proj-lead-body .proj-org { font-family: var(--font-mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-faint); }
+.proj-lead-body .proj-org, .proj-sub .proj-org { font-family: var(--font-mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-faint); }
 .proj-lead-body h2 { font-family: var(--font-display); font-size: 1.7rem; line-height: 1.15; color: var(--ink); margin-top: .3rem; }
 .proj-lead-body p { margin-top: .7rem; color: var(--ink-soft); line-height: 1.6; }
 .proj-lead .badge-featured { margin-left: 0; top: 0; }
+/* grouped lead block: row 1 = Cytolume text + GIF, row 2 = HRA Cell Embeddings at full width */
+.proj-lead.proj-group { display: block; }
+.proj-group-main { display: grid; gap: 1.5rem 2rem; grid-template-columns: minmax(0,1fr); align-items: center; }
+@media (min-width: 56rem) { .proj-group-main { grid-template-columns: minmax(0,1fr) minmax(0, 1.05fr); } }
+.proj-lead-body .proj-note, .proj-group .proj-note { font-size: .9rem; color: var(--ink-faint); }
+.proj-group .proj-foot { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+.proj-sub { margin-top: 1.75rem; padding-top: 1.4rem; border-top: 1px solid var(--rule); }
+.proj-sub h3 { font-family: var(--font-display); font-size: 1.3rem; line-height: 1.2; color: var(--ink); margin-top: .25rem; }
+.proj-sub p { margin-top: .6rem; max-width: 48rem; color: var(--ink-soft); line-height: 1.6; }
+.proj-shot { display: block; }
+.proj-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: var(--radius-md); background: #fff; transition: border-color .15s, box-shadow .15s; }
+.proj-shot.match-gif img { aspect-ratio: 1120 / 718; object-fit: contain; }  /* same box as the Cytolume GIF */
+.proj-shot:hover img { border-color: var(--accent); box-shadow: 0 1px 3px #00000014; }
+.proj-shot-cap { display: block; margin-top: .5rem; font-family: var(--font-mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
+.proj-shot:hover .proj-shot-cap { color: var(--accent); }
 .proj-illu { display: grid; place-items: center; }
 .proj-illu svg { width: 100%; max-width: 15rem; height: auto; }
 
@@ -464,12 +488,34 @@ code {
 .side-list li { padding-block: .55rem; border-bottom: 1px solid var(--rule); }
 .side-list li:last-child { border-bottom: 0; }
 .side-list .sl-t { color: var(--ink); font-size: .92rem; line-height: 1.4; font-weight: 500; }
+.side-list a.sl-t:hover { color: var(--accent); }
+.side-list .sl-t em { font-style: italic; }
 .side-list .sl-m { display: block; margin-top: .12rem; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-faint); }
 .side-feat { display: block; border: 1px solid var(--rule); border-radius: var(--radius-md); background: #ffffff; padding: .9rem 1rem; margin-top: .5rem; transition: border-color .15s, box-shadow .15s; }
 .side-feat:hover { border-color: var(--accent); box-shadow: 0 1px 3px #00000010; }
 .side-feat .sf-org { font-family: var(--font-mono); font-size: .64rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
 .side-feat .sf-title { font-family: var(--font-display); font-size: 1.05rem; color: var(--ink); margin-top: .15rem; }
 .side-feat .sf-desc { margin-top: .4rem; font-size: .88rem; line-height: 1.5; color: var(--ink-soft); }
+
+/* home: influential citing papers (title + team), two columns on wide screens */
+.impact-sub { font-family: var(--font-mono); font-size: .75rem; font-weight: 400; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); margin: 1.6rem 0 .6rem; }
+.section-head + .impact-sub { margin-top: 0; }
+.cite-list { list-style: none; display: grid; grid-template-columns: minmax(0,1fr); gap: 0 2.5rem; border-top: 1px solid var(--rule); }
+@media (min-width: 48rem) { .cite-list { grid-template-columns: 1fr 1fr; } }
+.cite-list li { padding-block: .6rem; border-bottom: 1px solid var(--rule); }
+.cite-list .cl-t { display: block; color: var(--ink); font-size: .92rem; line-height: 1.4; }
+.cite-list a.cl-t:hover { color: var(--accent); }
+.cite-list .cl-m { display: block; margin-top: .15rem; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-faint); }
+
+/* home: research impact grid (bottom of the page) */
+.impact-grid { display: grid; grid-template-columns: minmax(0,1fr); gap: 0 2.5rem; border-top: 1px solid var(--rule); }
+@media (min-width: 48rem) { .impact-grid { grid-template-columns: 1fr 1fr; } .impact-grid li.wide { grid-column: 1 / -1; } }
+.impact-grid li { padding-block: .95rem; border-bottom: 1px solid var(--rule); }
+.impact-grid .ig-t { display: block; color: var(--ink); font-size: 1rem; line-height: 1.5; }
+.impact-grid .ig-t em { font-style: italic; }
+.impact-grid .ig-t a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: color-mix(in oklch, var(--accent) 35%, transparent); }
+.impact-grid .ig-t a:hover { text-decoration-color: var(--accent); }
+.impact-grid .ig-m { display: block; margin-top: .25rem; font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
 
 /* research directions — icon list */
 .rd-list { margin-top: .6rem; }

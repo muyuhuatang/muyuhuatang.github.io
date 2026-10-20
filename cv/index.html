@@ -37,92 +37,240 @@
   <main class="wrap">
     <div class="page-head">
       <h1>Curriculum Vitae</h1>
-      <p>Education, internships, teaching, talks, academic service, and advising.
-      For the full publication record, see <a class="prose-link" href="../publications/index.html" style="color:var(--accent);text-decoration:underline;text-underline-offset:2px">Publications</a>.</p>
+      <p>Education, research platform, research impact, awards, teaching, research experience, talks, and
+      academic service, in the order of the CV. For the full publication record, see
+      <a class="prose-link" href="../publications/index.html" style="color:var(--accent);text-decoration:underline;text-underline-offset:2px">Publications</a>.</p>
       <p class="cv-dl"><a class="cv-dl-link" href="Fan-Huang-CV.pdf">Download CV (PDF)</a></p>
     </div>
 
     <section class="section" style="border-top:none;padding-top:0">
 
       <!-- Education -->
-      <div class="cv-section">
+      <div class="cv-section" id="education">
         <h2 class="subhead">Education</h2>
-        <ul class="deflist">
-          <li><span class="d-main">Ph.D. in Informatics</span> <span class="d-sub">Indiana University Bloomington, USA</span> <span class="d-meta">2023–present</span></li>
-          <li><span class="d-main">Ph.D. in Computer Science</span> <span class="d-sub">Singapore Management University, Singapore</span> <span class="d-meta">2022–2023</span></li>
-          <li><span class="d-main">M.S. in Information Systems</span> <span class="d-sub">Nanyang Technological University, Singapore</span> <span class="d-meta">2020–2022</span></li>
-          <li><span class="d-main">B.S. in Computer Science &amp; Technology</span> <span class="d-sub">Central South University, China</span> <span class="d-meta">2014–2018</span></li>
+        <ul class="cv-list">
+          <li><span class="lead">Ph.D. in Informatics (Complex Networks and Systems)</span>, Indiana University Bloomington, USA. <span class="meta">2023–present · expected March 2027</span>
+            <span class="sub">Advisors: Prof. Jisun An and Prof. Haewoon Kwak</span></li>
+          <li><span class="lead">Ph.D. in Computer Science</span>, Singapore Management University, Singapore. <span class="meta">2022–2023</span>
+            <span class="sub">Advisors: Prof. Jisun An and Prof. Haewoon Kwak</span></li>
+          <li><span class="lead">M.Sc. in Information Systems</span>, Nanyang Technological University, Singapore. <span class="meta">2020–2022</span>
+            <span class="sub">Advisor: Prof. Jin-Cheon Na · Thesis: <em>Public Opinion Trend Analysis on Nuclear Energy via Aspect-based Sentiment Analysis Methods</em></span></li>
+          <li><span class="lead">B.Sc. in Computer Science &amp; Technology</span>, Central South University, China. <span class="meta">2014–2018</span>
+            <span class="sub">Advisor: Prof. Zuping Zhang</span></li>
         </ul>
       </div>
 
-      <!-- Internships -->
-      <div class="cv-section">
-        <h2 class="subhead">Internships</h2>
+      <!-- Research Platform -->
+      <div class="cv-section" id="platform">
+        <h2 class="subhead">Research Platform</h2>
         <ul class="cv-list">
-          <li><span class="lead">Quantitative Research Intern</span> — Core Research Team,
-            <a href="https://www.quantlab.com/" target="_blank" rel="noopener">QuantLab Financial</a> (Houston). <span class="meta">Jun–Aug 2024</span></li>
-          <li><span class="lead">Research Summer Internship</span> — Indiana University Bloomington, supervised by Prof.
-            <a href="https://cns-iu.github.io/katy/" target="_blank" rel="noopener">Katy Börner</a>. <span class="meta">May–Jun 2024</span></li>
+          <li><span class="lead">AgentSims: Agentic Simulations</span> — <a href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">agentsims.agentsnet.org</a>
+            <span class="sub">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior. Designed to support industry scenario analysis, strategy evaluation, and risk assessment through configurable agent environments.</span></li>
+        </ul>
+      </div>
+
+      <!-- Publications (summary) -->
+      <div class="cv-section" id="publications">
+        <h2 class="subhead">Publications</h2>
+        <ul class="cv-list">
+          <li><span class="lead">10 peer-reviewed conference papers and 12 preprints</span> — the full list, with links and filters, is on the
+            <a href="../publications/index.html">Publications</a> page.
+            <span class="sub"><a href="https://scholar.google.com/citations?user=2-6ICS4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>: 649 citations · h-index 6 (as of Oct 2026)</span></li>
+        </ul>
+      </div>
+
+      <!-- Research Impact (from the master CV, 2026-10-16; source: citation checker report of 2026-10-15) -->
+      <div class="cv-section" id="impact">
+        <h2 class="subhead">Research Impact</h2>
+        <p class="cv-note">Cited by <strong>42 papers that each have 100+ citations</strong>, including <em>Llama 2</em> (Meta; 18,593 citations)
+        and <em>Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</em> (NeurIPS 2023; 12,204 citations).
+        Citation counts from Semantic Scholar (Oct 2026); each citation below was verified in the citing work's reference list.</p>
+
+        <h3 class="cv-sub" id="media">Selected Media Coverage</h3>
+        <ul class="cv-list">
+          <li><a class="lead" href="https://theneuralfeed.com/article/simulating-hate-speech-cascades-with-multi-llm-agents-empirical-grounding-modeli/lHZ4Ruia" target="_blank" rel="noopener">Multi-LLM Agent Simulation Reproduces Hate Speech Cascades with 97% Hostile Stance Accuracy.</a>
+            <span class="sub"><em>The Neural Feed</em>. Jun 18, 2026. Covers <em>Simulating Hate Speech Cascades with Multi-LLM Agents</em> (arXiv 2026).</span></li>
+          <!-- 2026-10-19: www.seriesfusion.ai/paper/2603.20730 returned 200 on 2026-10-15 (citation checker) and 404 on 2026-10-19,
+               with no Wayback snapshot, so the title is not linked here. The CV PDF still carries the URL. -->
+          <li><span class="lead">Network-of-Thought (NoT) moves LLM reasoning from linear chains and trees to complex directed graphs, significantly improving multi-hop QA.</span>
+            <span class="sub"><em>SeriesFusion.ai</em>. SeriesFusion Editorial Board. Mar 24, 2026. Covers <em>Reasoning Topology Matters: Network-of-Thought for Complex Reasoning Tasks</em> (arXiv 2026).</span></li>
+          <li><a class="lead" href="https://co-r-e.com/method/xchoice-llm-alignment" target="_blank" rel="noopener">How Can We Tell if LLMs Actually Think Like Humans? XCHOICE Offers a Mechanism-Based Answer.</a>
+            <span class="sub"><em>CORe Inc., AI Research</em>. Masato Okuwaki. Jan 22, 2026. Covers <em>XChoice</em> (AACL-IJCNLP Findings 2026).</span></li>
+          <li><a class="lead" href="https://www.thepaper.cn/newsDetail_forward_19955043" target="_blank" rel="noopener">7 Papers &amp; Radios (weekly selection), featuring Chain of Explanation among the week's 10 selected NLP papers.</a>
+            <span class="sub"><em>Synced (机器之心); syndicated by The Paper and Tencent News</em>. ArXiv Weekly Radiostation. Sep 18, 2022. Covers <em>Chain of Explanation</em> (WWW 2023 Companion).</span></li>
+        </ul>
+
+        <h3 class="cv-sub">Cited in Nature- and PNAS-Family Journals</h3>
+        <ul class="cv-list">
+          <li><a class="lead" href="https://doi.org/10.1038/s41467-026-70245-1" target="_blank" rel="noopener">Evaluating LLMs' divergent thinking capabilities for scientific idea generation with minimal context.</a>
+            <span class="sub"><em>Nature Communications</em>. Kai Ruan et al. Mar 2026. Cites <em>ChatGPT Rates Natural Language Explanation Quality like Humans</em> (LREC-COLING 2024).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1093/pnasnexus/pgae245" target="_blank" rel="noopener">Perils and opportunities in using large language models in psychological research.</a>
+            <span class="sub"><em>PNAS Nexus</em>. Suhaib Abdurahman et al. Jul 2024. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1073/pnas.2305016120" target="_blank" rel="noopener">ChatGPT outperforms crowd workers for text-annotation tasks.</a>
+            <span class="sub"><em>Proceedings of the National Academy of Sciences (PNAS)</em>. Fabrizio Gilardi, Meysam Alizadeh, and Maël Kubli. Jul 2023. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+        </ul>
+
+        <h3 class="cv-sub">Cited in Other Nature Portfolio Journals</h3>
+        <ul class="cv-list">
+          <li><a class="lead" href="https://doi.org/10.1038/s41598-026-68231-0" target="_blank" rel="noopener">Fallibility, persuadability, and correctability of large language models under sustained conversational misinformation pressure.</a>
+            <span class="sub"><em>Scientific Reports</em>. Jordan Rodriguez et al. Sep 2026. Cites <em>Vulnerability of LLMs' Stated Belief?</em> (ACL Findings 2026).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1038/s41597-026-06920-1" target="_blank" rel="noopener">A Blue Start: A large-scale pairwise and higher-order social network dataset.</a>
+            <span class="sub"><em>Scientific Data</em>. Alyssa Hasegawa Smith et al. Mar 2026. Cites <em>The Rise of Bluesky</em> (arXiv 2025).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1038/s41598-025-23798-y" target="_blank" rel="noopener">LLMs outperform outsourced human coders on complex textual analysis.</a>
+            <span class="sub"><em>Scientific Reports</em>. Vicente J. Bermejo et al. Nov 2025. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1057/s41599-025-04503-w" target="_blank" rel="noopener">Machine-assisted quantitizing designs: augmenting humanities and social sciences with artificial intelligence.</a>
+            <span class="sub"><em>Humanities and Social Sciences Communications</em>. Andres Karjus. Feb 2025. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1038/s41746-024-01074-z" target="_blank" rel="noopener">Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI.</a>
+            <span class="sub"><em>npj Digital Medicine</em>. Mahyar Abbasian et al. Mar 2024. Cites <em>Chain of Explanation</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://doi.org/10.1057/s41599-024-02922-9" target="_blank" rel="noopener">Evolving linguistic divergence on polarizing social media.</a>
+            <span class="sub"><em>Humanities and Social Sciences Communications</em>. Andres Karjus and Christine Cuskley. Mar 2024. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+        </ul>
+
+        <h3 class="cv-sub">Cited by Researchers at Frontier AI Labs</h3>
+        <ul class="cv-list">
+          <li><a class="lead" href="https://doi.org/10.1109/SP61157.2025.00082" target="_blank" rel="noopener">Kurt Thomas et al.</a> (Google and Google DeepMind). May 2025. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://arxiv.org/abs/2404.07503" target="_blank" rel="noopener">Ruibo Liu et al.</a> (Google DeepMind). Oct 2024. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://arxiv.org/abs/2409.10702" target="_blank" rel="noopener">Yifan Wang et al.</a> (Meta). Sep 2024. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://doi.org/10.18653/v1/2024.naacl-long.190" target="_blank" rel="noopener">Vinodkumar Prabhakaran et al.</a> (Google Research). Jun 2024. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://arxiv.org/abs/2306.11247" target="_blank" rel="noopener">Lora Aroyo et al.</a> (Google Research). Dec 2023. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://arxiv.org/abs/2307.09288" target="_blank" rel="noopener">Hugo Touvron et al.</a> (Meta). Jul 2023. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+          <li><a class="lead" href="https://arxiv.org/abs/2306.11530" target="_blank" rel="noopener">Christopher M. Homan et al.</a> (Google Research). Jun 2023. Cites <em>Is ChatGPT Better than Human Annotators?</em></li>
+        </ul>
+
+        <h3 class="cv-sub">Cited in Government and Policy Reports</h3>
+        <ul class="cv-list">
+          <li><a class="lead" href="https://doi.org/10.17016/FEDS.2026.020" target="_blank" rel="noopener">Validating Large Language Model Annotations.</a>
+            <span class="sub"><em>Federal Reserve Board, Finance and Economics Discussion Series 2026-020</em> (staff working paper). Anne Lundgaard Hansen. Mar 2026. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://publications.jrc.ec.europa.eu/repository/handle/JRC143482" target="_blank" rel="noopener">The Role of Artificial Intelligence in Scientific Research: A Science for Policy, European Perspective.</a>
+            <span class="sub"><em>European Commission, Joint Research Centre (JRC), Science for Policy report</em>. Erasmo Purificato et al. Oct 2025. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://hybridsproject.eu/wp-content/uploads/2025/02/D3.2-Technical_report_on_the_state_of_the_art_of_political_disinformation_in_social_networks_and_the_press.pdf" target="_blank" rel="noopener">Technical report on the state of the art of political disinformation in social networks and the press.</a>
+            <span class="sub"><em>HYBRIDS Deliverable D3.2, Horizon Europe Marie Skłodowska-Curie Doctoral Network</em>. HYBRIDS doctoral researchers. Apr 2024. Cites <em>Chain of Explanation</em> (WWW 2023 Companion).</span></li>
+          <li><a class="lead" href="https://cf.appdrag.com/goodintech-4900d2/uploads/files/fd6b27e9-e311-4ebc-a088-8a6dd2b449ab.pdf" target="_blank" rel="noopener">ChatGPT: research evidence-based controversies, regulations and solutions.</a>
+            <span class="sub"><em>Good In Tech Research Network (Institut Mines-Télécom and Sciences Po), report</em>. Kay Yip and Christine Balagué. Sep 2023. Cites <em>Is ChatGPT Better than Human Annotators?</em> (WWW 2023 Companion).</span></li>
+        </ul>
+      </div>
+
+      <!-- Awards & Honors -->
+      <div class="cv-section" id="awards">
+        <h2 class="subhead">Awards &amp; Honors</h2>
+        <ul class="cv-list">
+          <li><span class="lead">Google PhD Fellowship – Institutional Nominee</span>, nominated by Indiana University Bloomington (IUB). <span class="meta">2026</span></li>
+          <li><span class="lead">Travel Fund</span>, Midwest Speech and Language Days (MSLD) 2026. <span class="meta">2026</span></li>
+          <li><span class="lead">Full Ph.D. Scholarship</span>, Indiana University Bloomington (IUB). <span class="meta">2023.01–2027.12</span></li>
+          <li><span class="lead">Full Ph.D. Scholarship</span>, Singapore Management University (SMU). <span class="meta">2022.01–2022.12</span></li>
+          <li><span class="lead">Outstanding Student Leader</span>, Central South University. <span class="meta">2017</span></li>
+          <li><span class="lead">Second Prize</span>, Information Security Competition, Central South University. <span class="meta">2017</span></li>
+          <li><span class="lead">Merit Award</span>, East China Division, China College Student Cloud Computing Competition. <span class="meta">2017</span></li>
+          <li><span class="lead">Second Prize</span>, U.S. Mathematical Modeling Competition. <span class="meta">2016</span></li>
+          <li><span class="lead">Third Prize</span>, Shenghua Cup, Central South University. <span class="meta">2016</span></li>
+          <li><span class="lead">Second Prize</span>, Hunan Province E-Commerce Challenge. <span class="meta">2016</span></li>
+          <li><span class="lead">Shanhe Yingcai Scholarship (Second Class)</span>. <span class="meta">2015</span></li>
+          <li><span class="lead">First-Class Scholarship (University Level)</span>, Central South University. <span class="meta">2015</span></li>
+        </ul>
+      </div>
+
+      <!-- Research Organization -->
+      <div class="cv-section" id="organization">
+        <h2 class="subhead">Research Organization</h2>
+        <ul class="cv-list">
+          <li>Workshop Proposal, <span class="lead">Delegation, Oversight, and Evaluation of AI Across the Research Lifecycle</span>, ACM CHI Conference on Human Factors in Computing Systems (CHI 2027). <strong>Fan Huang</strong>, Kai-Cheng Yang, Munjung Kim. <span class="meta">2027</span></li>
+          <li>Workshop Proposal, <span class="lead">What Do LLMs Believe? Belief Representation and Human-AI Alignment</span>, International Conference on Learning Representations (ICLR 2027). <strong>Fan Huang</strong>, Byunghwee Lee, Haewoon Kwak, Jisun An. <span class="meta">2027</span></li>
         </ul>
       </div>
 
       <!-- Teaching -->
-      <div class="cv-section">
-        <h2 class="subhead">Teaching Experience</h2>
+      <div class="cv-section" id="teaching">
+        <h2 class="subhead">Teaching — Indiana University Bloomington, Luddy School of Informatics, Computing, and Engineering</h2>
         <ul class="cv-list">
-          <li>Teaching Assistant, INFO-I 201 Mathematical Foundations of Informatics. Luddy School of Informatics, Computing, and Engineering, IU Bloomington. <span class="meta">Fall 2026</span></li>
-          <li><span class="lead">Lecture — Vision Language Models (VLM)</span>. INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Apr 9, 2026</span></li>
-          <li><span class="lead">Lecture — Retrieval Augmented Generation (RAG) for LLMs</span>. INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Mar 3, 2026</span></li>
-          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. Luddy School of Informatics, Computing, and Engineering, IU Bloomington. <span class="meta">Spring 2026</span></li>
-          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. Luddy School, IU Bloomington. <span class="meta">Fall 2025</span></li>
-          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. Luddy School, IU Bloomington. <span class="meta">Spring 2025</span></li>
+          <li>Teaching Assistant, INFO-I 201 Mathematical Foundations of Informatics. <span class="meta">Fall 2026</span></li>
+          <li><span class="lead">Lecture Presentation — Vision Language Models (VLM)</span>, INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Apr 2026</span></li>
+          <li><span class="lead">Lecture Presentation — Retrieval Augmented Generation (RAG)</span>, INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Mar 2026</span></li>
+          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Spring 2026</span></li>
+          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Fall 2025</span></li>
+          <li>Teaching Assistant, INFO-I 590 Foundation and Application for Large Language Models. <span class="meta">Spring 2025</span></li>
         </ul>
       </div>
 
-      <!-- Talks -->
-      <div class="cv-section">
-        <h2 class="subhead">Talks &amp; Workshops</h2>
-        <ul class="cv-list">
-          <li><span class="lead">Poster presentation — InfoVis 2026</span> (Boston), on "LLM Belief Atlas". <span class="meta">2026</span></li>
-          <li><span class="lead">Parallel talk — IC2S2 2026</span> (Burlington, Vermont), on "Understanding Moral Reasoning Trajectories in Large Language Models". <span class="meta">2026</span></li>
-          <li><span class="lead">Invited talk — "LLM Moral Reasoning Trajectory Analysis"</span>. Prof. Han Xue's lab, Donghua University, Shanghai. <span class="meta">Jun 2026</span></li>
-          <li><span class="lead">Invited talk — "AI-Assisted Research"</span>. Prof. Thai Le's lab, Indiana University Bloomington. <span class="meta">Apr 2026</span></li>
-          <li><span class="lead">Presentation — MSLD 2026</span> (UIUC), on "Vulnerability of LLMs' Stated Belief? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions". <span class="meta">Mar 2026</span></li>
-          <li><span class="lead">Oral presentation — MSLD 2024</span> (Ann Arbor, Michigan), on "ChatGPT Rates Like Human: Towards a Better Alignment of Text Explanation Quality Assessments". <span class="meta">2024</span></li>
-          <li><span class="lead">Poster presentation — The Web Conference (WWW) 2023</span> (Austin, Texas), on "Is ChatGPT Better than Human Annotators?" &amp; "Chain of Explanation". <span class="meta">2023</span></li>
-          <li><span class="lead">Talk — "Natural Language Explanation: From XAI to Human-AI Interaction"</span>. YY Group, CNetS, Indiana University Bloomington. <span class="meta">2023</span></li>
-          <li>Participant, SICSS (Summer Institute of Computational Social Science), NUS, Singapore. <span class="meta">2022</span></li>
-          <li>Co-organizer, Workshop "Introduction to NLP", @IEEE NTU Student Branch, NTU, Singapore. <span class="meta">Oct 2021</span></li>
-        </ul>
-      </div>
-
-      <!-- Advising -->
-      <div class="cv-section">
+      <div class="cv-section" id="advising">
         <h2 class="subhead">Research Advising</h2>
         <ul class="cv-list">
           <li>Master's Student: <span class="lead">Sathvik Bandaru</span> (co-advising)</li>
+          <li>Undergraduate Student: <span class="lead">Jack Waren</span> (co-advising)</li>
         </ul>
       </div>
 
-      <!-- Public Service -->
+      <!-- Research Experience -->
+      <div class="cv-section" id="experience">
+        <h2 class="subhead">Research Experience</h2>
+        <ul class="cv-list">
+          <li><span class="lead">Research Assistant</span>, Indiana University Bloomington. <span class="meta">2023–present</span>
+            <span class="sub">Advisors: Prof. <a href="https://jisun.me/" target="_blank" rel="noopener">Jisun An</a> and Prof. <a href="https://haewoon.github.io/" target="_blank" rel="noopener">Haewoon Kwak</a> · Collaborators: Prof. <a href="http://yongyeol.com/" target="_blank" rel="noopener">Yong-Yeol Ahn</a>, Prof. <a href="https://cnets.indiana.edu/fil" target="_blank" rel="noopener">Filippo Menczer</a>, and Prof. <a href="https://homes.luddy.indiana.edu/filiradi/" target="_blank" rel="noopener">Filippo Radicchi</a></span></li>
+          <li><span class="lead">Quantitative Research Intern</span>, Core Research Team,
+            <a href="https://www.quantlab.com/" target="_blank" rel="noopener">QuantLab Financial</a>, Houston. <span class="meta">Jun–Aug 2024</span></li>
+          <li><span class="lead">Research Summer Internship</span>, Indiana University Bloomington, supervised by Prof.
+            <a href="https://cns-iu.github.io/katy/" target="_blank" rel="noopener">Katy Börner</a>. <span class="meta">May–Jun 2024</span></li>
+          <li><span class="lead">Research Assistant</span>, Singapore Management University. <span class="meta">2022–2023</span></li>
+        </ul>
+      </div>
+
+      <!-- Presentations -->
+      <div class="cv-section" id="talks">
+        <h2 class="subhead">Presentations — Talks</h2>
+        <ul class="cv-list">
+          <li><span class="lead">Poster presentation at InfoVis</span> (Boston): “LLM Belief Atlas”. <span class="meta">Nov 2026</span></li>
+          <li><span class="lead">Invited research discussion</span>, Squoosh, Inc.: “Evaluating LLM-Generated Preference Distributions”. <span class="meta">Oct 2026</span></li>
+          <li><span class="lead">Invited research talk</span>, Prof. Michael Färber's lab, TU Dresden: “Trustworthiness of LLM Reasoning Capabilities”. <span class="meta">Sep 2026</span></li>
+          <li><span class="lead">Parallel talk at IC2S2</span> (Burlington, Vermont): “Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability”. <span class="meta">Jul 2026</span></li>
+          <li><span class="lead">Invited talk</span>, Prof. Han Xue's lab, Donghua University, Shanghai: “LLM Moral Reasoning Trajectory Analysis”. <span class="meta">Jun 2026</span></li>
+          <li><span class="lead">Invited talk</span>, Prof. Thai Le's lab, Indiana University Bloomington: “AI-Assisted Research”. <span class="meta">Apr 2026</span></li>
+          <li><span class="lead">Presentation at MSLD</span> (UIUC): “Vulnerability of LLMs' Stated Belief? LLMs Belief Resistance Check Through Strategic Persuasive Conversation Interventions”. <span class="meta">Mar 2026</span></li>
+          <li><span class="lead">Oral presentation at MSLD</span> (Ann Arbor, Michigan, USA): “ChatGPT Rates Like Human: Towards a Better Alignment of Text Explanation Quality Assessments”. <span class="meta">2024</span></li>
+          <li><span class="lead">Poster presentation at The Web Conference (WWW)</span> (Austin, Texas, USA): “Is ChatGPT Better than Human Annotators?” &amp; “Chain of Explanation”. <span class="meta">2023</span></li>
+          <li><span class="lead">YY Group, CNetS</span>, Indiana University Bloomington: “Natural Language Explanation: From XAI to Human-AI Interaction”. <span class="meta">2023</span></li>
+        </ul>
+      </div>
+
+      <div class="cv-section" id="workshops">
+        <h2 class="subhead">Presentations — Workshops</h2>
+        <ul class="cv-list">
+          <li>Participant, Summer Institute of Computational Social Science (SICSS), NUS, Singapore. <span class="meta">2022</span></li>
+          <li>Co-organizer, Workshop “Introduction to NLP”, IEEE NTU Student Branch, NTU, Singapore. <span class="meta">Oct 2021</span></li>
+        </ul>
+      </div>
+
+      <!-- Academic Service -->
+      <div class="cv-section" id="service">
+        <h2 class="subhead">Academic Service — Chairs</h2>
+        <ul class="cv-list">
+          <li><span class="lead">Session Chair</span>, IC2S2: Science of Science (AI) Parallel Talk Session. <span class="meta">2026</span></li>
+        </ul>
+      </div>
+
       <div class="cv-section">
-        <h2 class="subhead">Public Service — Conference Review</h2>
+        <h2 class="subhead">Academic Service — Program Committee Member</h2>
         <ul class="chips">
           <li class="pc">WISE 2026 <span class="role">· PC</span></li>
+          <li class="pc">IC2S2 2026 <span class="role">· PC</span></li>
+          <li class="pc">WWW 2026 Web4Good <span class="role">· PC</span></li>
+          <li class="pc">7th CySoc @ ICWSM 2026 <span class="role">· PC</span></li>
+          <li class="pc">6th CySoc @ ICWSM 2025 <span class="role">· PC</span></li>
+          <li class="pc">WebSci 2025 <span class="role">· PC</span></li>
+        </ul>
+      </div>
+
+      <div class="cv-section">
+        <h2 class="subhead">Academic Service — Conference Reviewer</h2>
+        <ul class="chips">
+          <li>ICRA 2027 <span class="role">· Reviewer</span></li>
+          <li>ICLR 2027 <span class="role">· Reviewer</span></li>
           <li>NeurIPS 2026 <span class="role">· Reviewer</span></li>
           <li>KDD 2026 <span class="role">· Reviewer</span></li>
           <li>COLM 2026 <span class="role">· Reviewer</span></li>
-          <li>ACL ARR Mar-2026 <span class="role">· Sub-reviewer</span></li>
-          <li class="pc">IC2S2 2026 <span class="role">· PC</span></li>
-          <li class="pc">7th CySoc @ ICWSM 2026 <span class="role">· PC</span></li>
           <li>IUI 2026 <span class="role">· Reviewer</span></li>
-          <li class="pc">WWW 2026 Web4Good <span class="role">· PC</span></li>
-          <li>ACL ARR Jan-2026 <span class="role">· Reviewer</span></li>
+          <li>ACL Rolling Review (ARR) 2026 <span class="role">· Reviewer</span></li>
           <li>ICWSM 2026 <span class="role">· Reviewer</span></li>
           <li>IMX 2025 <span class="role">· Reviewer</span></li>
-          <li class="pc">6th CySoc @ ICWSM 2025 <span class="role">· PC</span></li>
-          <li>ACL ARR 2025 <span class="role">· Reviewer</span></li>
-          <li class="pc">WebSci 2025 <span class="role">· PC</span></li>
+          <li>ACL Rolling Review (ARR) 2025 <span class="role">· Reviewer</span></li>
           <li>CHI 2025 <span class="role">· Reviewer</span></li>
           <li>ICWSM 2025 <span class="role">· Reviewer</span></li>
           <li>IDC 2025 <span class="role">· Reviewer</span></li>
@@ -133,31 +281,56 @@
       <div class="cv-section">
         <div class="cv-cols two">
           <div>
-            <h2 class="subhead">Service — Journal Review</h2>
+            <h2 class="subhead">Academic Service — Journal Reviewer</h2>
             <ul class="cv-list">
               <li>PeerJ Computer Science <span class="meta">2025</span></li>
-              <li>Online Social Networks and Media <span class="meta">2024, 2025</span></li>
+              <li>Online Social Networks and Media <span class="meta">2024–25</span></li>
               <li>Information Processing &amp; Management <span class="meta">2024</span></li>
             </ul>
           </div>
           <div>
-            <h2 class="subhead">Organization / Volunteer</h2>
+            <h2 class="subhead">Organized Activities / Volunteer</h2>
             <ul class="cv-list">
-              <li>SODA Lab research talk "Multimodal NLP research insights" (Dr. Henry Wei Han), organizer. <span class="meta">Nov 2025</span></li>
-              <li>LLM Innovators Hub @ Soda Lab, organizer. <span class="meta">since Oct 2024</span></li>
-              <li>CNetS @ Luddy School Gathering Event, organizer. <span class="meta">Aug 2023–Oct 2024</span></li>
-              <li>ISSI 2023, student volunteer. <span class="meta">2023</span></li>
+              <li>SODA Lab Research Talk: “Multimodal NLP Research Insights”, Dr. Henry Wei Han, Organizer. <span class="meta">Nov 2025</span></li>
+              <li>CNetS @ Luddy School Gathering Event, Organizer. <span class="meta">Aug 2023–Oct 2024</span></li>
+              <li>ISSI, Student Volunteer. <span class="meta">2023</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Dissertation -->
-      <div class="cv-section">
-        <h2 class="subhead">Dissertation — Master (NTU)</h2>
+      <!-- Campus Leadership -->
+      <div class="cv-section" id="campus">
+        <h2 class="subhead">Campus Leadership and Activities</h2>
         <ul class="cv-list">
-          <li><span class="lead">Public Opinion Trend Analysis on Nuclear Energy via Aspect-based Sentiment Analysis Methods</span>. Nanyang Technological University. <span class="meta">2021</span></li>
+          <li><span class="lead">Founder, LLM Innovators Hub @ CNetS</span>, Indiana University. Organize LLM research and application sharing sessions within CNetS. <span class="meta">2024/10–present</span></li>
+          <li><span class="lead">Member, IEEE NTU Student Branch</span>, Nanyang Technological University. Co-organized the workshop “Introduction to NLP”. <span class="meta">2020/10–2021/10</span></li>
+          <li><span class="lead">Academic Affairs Representative</span>, Computer Science Class 1401, Central South University. <span class="meta">2015/09–2018/09</span></li>
+          <li><span class="lead">Director, University Student Union Office</span>, Central South University. <span class="meta">2015/09–2017/09</span></li>
+          <li><span class="lead">Class Monitor</span>, Microelectronics Class 1401, Central South University. <span class="meta">2014/09–2015/09</span></li>
         </ul>
+      </div>
+
+      <!-- Research Committee / Rotation Advisors (names and titles from the CV; emails left to the PDF) -->
+      <div class="cv-section" id="committee">
+        <div class="cv-cols two">
+          <div>
+            <h2 class="subhead">Research Committee</h2>
+            <ul class="cv-list">
+              <li><span class="lead">Jisun An</span><span class="sub">Assistant Professor, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</span></li>
+              <li><span class="lead">Haewoon Kwak</span><span class="sub">Associate Professor, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</span></li>
+              <li><span class="lead">Thai Le</span><span class="sub">Assistant Professor, Computer Science, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</span></li>
+              <li><span class="lead">Filippo Radicchi</span><span class="sub">Professor, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</span></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="subhead">Research Rotation Advisors</h2>
+            <ul class="cv-list">
+              <li><span class="lead">Filippo Menczer</span><span class="sub">Luddy Distinguished Professor of Informatics and Computer Science, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington</span></li>
+              <li><span class="lead">Yong-Yeol (YY) Ahn</span><span class="sub">Quantitative Foundation Distinguished Professor of Data Science, School of Data Science, University of Virginia</span></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </section>
