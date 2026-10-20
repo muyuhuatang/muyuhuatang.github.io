@@ -1,4 +1,4 @@
-// Publications: search + topic/method/platform/year filters + sort
+// Publications: search + type/topic/method/platform/year filters + sort
 (function () {
   var listEl = document.getElementById("pub-list");
   if (!listEl) return;
@@ -18,14 +18,16 @@
     it._methods = listOf(it, "methods");
     it._platforms = listOf(it, "platforms");
     it._year = it.dataset.year || "";
+    it._type = it.dataset.type || "";
     it._order = parseInt(it.dataset.order || "0", 10);
     it._search = (it.textContent || "").toLowerCase().replace(/\s+/g, " ").trim();
   });
 
-  var active = { topic: {}, method: {}, platform: {}, year: {} };
+  var active = { type: {}, topic: {}, method: {}, platform: {}, year: {} };
   var query = "";
 
   function propFor(group, it) {
+    if (group === "type") return [it._type];
     if (group === "topic") return it._topics;
     if (group === "method") return it._methods;
     if (group === "platform") return it._platforms;
@@ -45,7 +47,7 @@
   }
   function visible(it) {
     if (query && it._search.indexOf(query) === -1) return false;
-    return matchesGroup(it, "topic") && matchesGroup(it, "method") &&
+    return matchesGroup(it, "type") && matchesGroup(it, "topic") && matchesGroup(it, "method") &&
            matchesGroup(it, "platform") && matchesGroup(it, "year");
   }
 
@@ -94,7 +96,7 @@
   });
   if (sortEl) sortEl.addEventListener("change", apply);
   if (clearEl) clearEl.addEventListener("click", function () {
-    active = { topic: {}, method: {}, platform: {}, year: {} };
+    active = { type: {}, topic: {}, method: {}, platform: {}, year: {} };
     query = "";
     if (searchEl) searchEl.value = "";
     if (sortEl) sortEl.value = "new";
