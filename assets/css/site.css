@@ -441,6 +441,7 @@ code {
 @media (min-width: 48rem) { .proj-grid { grid-template-columns: 1fr 1fr; } }
 .proj-card { border: 1px solid var(--rule); border-radius: var(--radius-lg); background: #ffffff; padding: 1.4rem 1.5rem; display: flex; flex-direction: column; transition: border-color .15s, box-shadow .15s; }
 .proj-card:hover { border-color: var(--accent); box-shadow: 0 1px 3px #00000010; }
+.proj-card.proj-wide { grid-column: 1 / -1; }  /* a card with an image: full row, image beside the text (.proj-group-main) */
 .proj-card .proj-org { font-family: var(--font-mono); font-size: .66rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
 .proj-card h3 { font-family: var(--font-display); font-size: 1.25rem; line-height: 1.2; color: var(--ink); margin-top: .25rem; }
 .proj-card .proj-desc { margin-top: .55rem; color: var(--ink-soft); line-height: 1.6; font-size: .94rem; flex: 1; }
@@ -496,6 +497,10 @@ code {
 .side-feat .sf-org { font-family: var(--font-mono); font-size: .64rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
 .side-feat .sf-title { font-family: var(--font-display); font-size: 1.05rem; color: var(--ink); margin-top: .15rem; }
 .side-feat .sf-desc { margin-top: .4rem; font-size: .88rem; line-height: 1.5; color: var(--ink-soft); }
+/* a card with an image: stacked on phones, image beside the text on wider screens (the GIF is 560 px, so 2x-sharp up to 280 px) */
+.side-feat.sf-media { display: grid; grid-template-columns: minmax(0,1fr); gap: .75rem; }
+@media (min-width: 40rem) { .side-feat.sf-media { grid-template-columns: minmax(0,17.5rem) minmax(0,1fr); gap: 1.1rem; align-items: center; } }
+.side-feat .sf-img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: #fff; }
 
 /* home: influential citing papers (title + team), two columns on wide screens */
 .impact-sub { font-family: var(--font-mono); font-size: .75rem; font-weight: 400; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); margin: 1.6rem 0 .6rem; }

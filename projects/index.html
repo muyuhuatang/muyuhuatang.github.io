@@ -121,12 +121,27 @@
       <!-- other projects -->
       <div class="proj-grid">
 
-        <article class="proj-card">
-          <div class="proj-org">Research platform</div>
-          <h3>AgentSims: Agentic Simulations</h3>
-          <p class="proj-desc">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior. Designed to support industry scenario analysis, strategy evaluation, and risk assessment through configurable agent environments.</p>
-          <div class="proj-tags"><span class="tag">LLM agents</span> <span class="tag">Multi-agent simulation</span> <span class="tag">Replayable histories</span></div>
-          <div class="proj-foot"><a class="proj-link" href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">agentsims.agentsnet.org →</a></div>
+        <!-- AgentSims spans both columns with its GIF on the right (Fan, 2026-10-20). The GIF is the site's own /demo
+             replay of the recorded "US-China Trade War, Large" run (300 agents, 15 ticks), cropped to the network panel
+             at its native 895 px; the still PNG for visitors who ask for reduced motion -->
+        <article class="proj-card proj-wide">
+          <div class="proj-group-main">
+            <div>
+              <div class="proj-org">Research platform</div>
+              <h3>AgentSims: Agentic Simulations</h3>
+              <p class="proj-desc">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior. Designed to support industry scenario analysis, strategy evaluation, and risk assessment through configurable agent environments.</p>
+              <div class="proj-tags"><span class="tag">LLM agents</span> <span class="tag">Multi-agent simulation</span> <span class="tag">Replayable histories</span></div>
+              <div class="proj-foot"><a class="proj-link" href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">agentsims.agentsnet.org →</a></div>
+            </div>
+            <a class="proj-shot" href="https://agentsims.agentsnet.org/demo" target="_blank" rel="noopener">
+              <picture>
+                <source srcset="../assets/img/projects/agentsims.png" media="(prefers-reduced-motion: reduce)">
+                <img src="../assets/img/projects/agentsims.gif" width="895" height="566" loading="lazy"
+                     alt="AgentSims replaying a recorded US-China trade-war simulation: 300 LLM agents in eight regional groups, with the links between them changing each round">
+              </picture>
+              <span class="proj-shot-cap">Recorded replay: US–China trade war, 300 agents →</span>
+            </a>
+          </div>
         </article>
 
         <article class="proj-card">
