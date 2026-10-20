@@ -116,13 +116,36 @@
 
         <div>
           <div class="sb-head">
-            <h2 class="eyebrow">Research Platform</h2>
+            <h2 class="eyebrow">Platforms &amp; Tools</h2>
             <a class="sb-more" href="projects/index.html">All projects →</a>
           </div>
-          <a class="side-feat" href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">
-            <div class="sf-org">agentsims.agentsnet.org</div>
-            <div class="sf-title">AgentSims: Agentic Simulations</div>
-            <p class="sf-desc">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior.</p>
+          <!-- AgentSims GIF (Fan, 2026-10-20): the site's own /demo replay of the recorded "US-China Trade War, Large"
+               run (300 agents, 15 ticks), captured in headless Chrome and cropped to the network panel -->
+          <a class="side-feat sf-media" href="https://agentsims.agentsnet.org/" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/img/projects/agentsims-card.png" media="(prefers-reduced-motion: reduce)">
+              <img class="sf-img" src="assets/img/projects/agentsims-card.gif" width="560" height="354" loading="lazy"
+                   alt="AgentSims replaying a recorded US-China trade-war simulation: 300 LLM agents in eight regional groups, with the links between them changing each round">
+            </picture>
+            <div>
+              <div class="sf-org">agentsims.agentsnet.org</div>
+              <div class="sf-title">AgentSims: Agentic Simulations</div>
+              <p class="sf-desc">LLM-driven multi-agent simulation framework with persistent state and replayable histories for reproducible academic research on collective behavior.</p>
+            </div>
+          </a>
+          <!-- Cytolume card (Fan, 2026-10-20): a 560 px copy of the Projects-page GIF (0.9 MB instead of 3.8 MB);
+               the still PNG for visitors who ask for reduced motion -->
+          <a class="side-feat sf-media" href="https://muyuhuatang.github.io/Cytolume/" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/img/projects/cytolume-card.png" media="(prefers-reduced-motion: reduce)">
+              <img class="sf-img" src="assets/img/projects/cytolume-card.gif" width="560" height="359" loading="lazy"
+                   alt="Cytolume rotating a 3D map of synthetic cells colored by expression, beside the HRA female anatomy panel">
+            </picture>
+            <div>
+              <div class="sf-org">muyuhuatang.github.io/Cytolume</div>
+              <div class="sf-title">Cytolume: Single-Cell Maps on the GPU</div>
+              <p class="sf-desc">WebGL2 library for exploring large single-cell embeddings: UMAP, t-SNE and PCA in 2D and 3D, beside Human Reference Atlas anatomy. The live demo draws 453,251 synthetic cells.</p>
+            </div>
           </a>
         </div>
 
