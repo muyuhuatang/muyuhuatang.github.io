@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 12">
+  <!-- The AI Explain Tech Blog mark, as in the blog's header (src/layouts/Base.astro): the diverging stance scale
+       with a tick; currentColor there is the blog's ink, #18233a -->
+  <defs>
+    <linearGradient id="stance-scale" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2166ac"/>
+      <stop offset="0.25" stop-color="#92c5de"/>
+      <stop offset="0.5" stop-color="#f7f7f7"/>
+      <stop offset="0.75" stop-color="#f4a582"/>
+      <stop offset="1" stop-color="#b2182b"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="3.5" width="39" height="5" rx="2.5" fill="url(#stance-scale)" stroke="#18233a" stroke-opacity="0.2"/>
+  <rect x="25" y="0" width="3" height="12" rx="1.5" fill="#18233a"/>
+</svg>

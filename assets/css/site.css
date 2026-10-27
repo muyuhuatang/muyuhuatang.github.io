@@ -199,6 +199,19 @@ code {
 .deflist .d-sub { color: var(--ink-soft); }
 .deflist .d-meta { font-family: var(--font-mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-faint); white-space: nowrap; }
 
+/* starred projects (home, 2026-10-27): a grid of project icons that grows as projects are added; the first tile
+   lines up with the column's left edge, and each name is centered under its icon */
+.star-grid { display: grid; grid-template-columns: repeat(auto-fill, 4rem); gap: 1.25rem 1.5rem; }
+.star-proj { display: flex; flex-direction: column; align-items: center; gap: .55rem; text-align: center; }
+.star-icon { display: grid; place-items: center; width: 4rem; height: 4rem; border: 1px solid var(--rule); border-radius: .95rem; background: #ffffff; box-shadow: 0 1px 2px #0000000a; transition: border-color .15s, box-shadow .15s, transform .15s var(--ease); }
+.star-icon img { display: block; width: 2.75rem; height: auto; }
+.star-name { font-size: .75rem; line-height: 1.3; font-weight: 500; color: var(--ink-soft); overflow-wrap: anywhere; transition: color .15s; }
+.star-proj:hover .star-icon { border-color: var(--accent); box-shadow: 0 3px 8px #00000014; transform: translateY(-2px); }
+.star-proj:hover .star-name { color: var(--ink); }
+.star-proj:focus-visible { outline: none; }
+.star-proj:focus-visible .star-icon { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+@media (prefers-reduced-motion: reduce) { .star-icon { transition: none; } .star-proj:hover .star-icon { transform: none; } }
+
 /* ===================== news sidebar ===================== */
 .news { margin-top: .25rem; }
 .news ul { border-top: 1px solid var(--rule); margin-top: .75rem; }
