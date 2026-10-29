@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- The Auto-Research Monitor mark, as in the header of https://muyuhuatang.github.io/auto-research-monitor/
+       (Fan's logo, 2026-10-28): a purple node linked to three smaller nodes -->
+  <g stroke="#7C5CFF" stroke-width="1.3" opacity=".5">
+    <line x1="16" y1="16" x2="6" y2="8"/>
+    <line x1="16" y1="16" x2="26" y2="9"/>
+    <line x1="16" y1="16" x2="25" y2="25"/>
+  </g>
+  <circle cx="16" cy="16" r="5" fill="#7C5CFF"/>
+  <circle cx="6" cy="8" r="2.6" fill="#689D6A"/>
+  <circle cx="26" cy="9" r="2.6" fill="#D79921"/>
+  <circle cx="25" cy="25" r="2.6" fill="#9D7CD8"/>
+</svg>
