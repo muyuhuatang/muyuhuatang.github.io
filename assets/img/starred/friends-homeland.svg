@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The Friends Homeland mark: the favicon of https://friends-homeland.agentsnet.org/ (read 2026-11-02), unchanged:
+       a cream tile with a house (red roof, green door, lit windows) and a leaf -->
+  <title>Friends Homeland</title>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#fff4df" stroke="#d8b98f" stroke-width="2"/>
+  <path d="M15 28h32v27H15z" fill="#f5d6a4" stroke="#75513b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="m9 29 21-18 22 18-5 5-17-15-16 15z" fill="#d4775f" stroke="#75513b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M25 55V41a5 5 0 0 1 10 0v14" fill="#3e8b79" stroke="#75513b" stroke-width="2.5"/>
+  <rect x="18" y="36" width="5" height="7" rx="1.5" fill="#fff3b7"/>
+  <rect x="38" y="36" width="5" height="7" rx="1.5" fill="#fff3b7"/>
+  <path d="M43 24c-2-8 4-14 14-14 0 10-6 16-14 14Z" fill="#83ae72" stroke="#406b4b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="m43 25 8-9" fill="none" stroke="#406b4b" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M11 55h43" fill="none" stroke="#83ae72" stroke-width="4" stroke-linecap="round"/>
+</svg>
