@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- OpenGallery mark (Fan, 2026-11-03): a tilted two-arm galaxy of embedding points in a faint
+       gallery frame, in the colours of the favicon of https://opengallery.ai-explain.org/; source: docs/icon-sources/opengallery_icon.py -->
+  <defs>
+    <radialGradient id="og-sky" cx="50%" cy="46%" r="70%">
+      <stop offset="0" stop-color="#1d2547"/><stop offset=".55" stop-color="#0d1124"/><stop offset="1" stop-color="#07080d"/>
+    </radialGradient>
+    <radialGradient id="og-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffaf0"/><stop offset=".22" stop-color="#f2dcae" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#c98500" stop-opacity=".35"/><stop offset="1" stop-color="#c98500" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="og-haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#3987e5" stop-opacity=".42"/><stop offset="1" stop-color="#3987e5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="og-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation=".7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="48" height="48" rx="10" fill="url(#og-sky)"/>
+  <rect x="3.5" y="3.5" width="41" height="41" rx="7" fill="none" stroke="#f2dcae" stroke-opacity=".22" stroke-width=".6"/>
+  <ellipse cx="24.0" cy="24.0" rx="19" ry="14" transform="rotate(-24 24.0 24.0)" fill="url(#og-haze)"/>
+  <g fill="#f2dcae" fill-opacity=".55">
+    <circle cx="7.5" cy="9.5" r=".38"/>
+    <circle cx="14" cy="6.5" r=".38"/>
+    <circle cx="40.5" cy="17" r=".38"/>
+    <circle cx="42" cy="31.5" r=".38"/>
+    <circle cx="33.5" cy="42" r=".38"/>
+    <circle cx="9" cy="38.5" r=".38"/>
+    <circle cx="5.8" cy="24" r=".38"/>
+    <circle cx="26" cy="43.2" r=".38"/>
+    <circle cx="21" cy="5.2" r=".38"/>
+  </g>
+  <g fill-opacity=".6">
+    <circle cx="26.99" cy="27.20" r="0.42" fill="#c98500"/>
+    <circle cx="26.20" cy="25.28" r="0.42" fill="#c98500"/>
+    <circle cx="25.63" cy="28.42" r="0.32" fill="#c98500"/>
+    <circle cx="25.69" cy="26.12" r="0.32" fill="#c98500"/>
+    <circle cx="23.79" cy="29.43" r="0.42" fill="#c98500"/>
+    <circle cx="24.82" cy="26.95" r="0.42" fill="#c98500"/>
+    <circle cx="21.59" cy="30.06" r="0.32" fill="#c98500"/>
+    <circle cx="23.59" cy="27.67" r="0.32" fill="#c98500"/>
+    <circle cx="19.17" cy="30.16" r="0.42" fill="#d95926"/>
+    <circle cx="22.04" cy="28.16" r="0.42" fill="#d95926"/>
+    <circle cx="16.76" cy="29.62" r="0.32" fill="#d95926"/>
+    <circle cx="20.27" cy="28.28" r="0.32" fill="#d95926"/>
+    <circle cx="14.62" cy="28.36" r="0.42" fill="#d95926"/>
+    <circle cx="18.44" cy="27.92" r="0.42" fill="#d95926"/>
+    <circle cx="13.03" cy="26.34" r="0.32" fill="#d95926"/>
+    <circle cx="16.75" cy="26.98" r="0.32" fill="#d95926"/>
+    <circle cx="12.28" cy="23.63" r="0.42" fill="#d95926"/>
+    <circle cx="15.44" cy="25.42" r="0.42" fill="#d95926"/>
+    <circle cx="12.65" cy="20.37" r="0.32" fill="#3987e5"/>
+    <circle cx="14.80" cy="23.23" r="0.32" fill="#3987e5"/>
+    <circle cx="14.34" cy="16.78" r="0.42" fill="#3987e5"/>
+    <circle cx="15.07" cy="20.52" r="0.42" fill="#3987e5"/>
+    <circle cx="17.46" cy="13.17" r="0.32" fill="#3987e5"/>
+    <circle cx="16.48" cy="17.46" r="0.32" fill="#3987e5"/>
+    <circle cx="22.00" cy="9.95" r="0.42" fill="#3987e5"/>
+    <circle cx="19.18" cy="14.33" r="0.42" fill="#3987e5"/>
+    <circle cx="27.78" cy="7.54" r="0.32" fill="#3987e5"/>
+    <circle cx="23.20" cy="11.48" r="0.32" fill="#3987e5"/>
+    <circle cx="21.01" cy="20.80" r="0.42" fill="#c98500"/>
+    <circle cx="21.80" cy="22.72" r="0.42" fill="#c98500"/>
+    <circle cx="22.37" cy="19.58" r="0.32" fill="#c98500"/>
+    <circle cx="22.31" cy="21.88" r="0.32" fill="#c98500"/>
+    <circle cx="24.21" cy="18.57" r="0.42" fill="#c98500"/>
+    <circle cx="23.18" cy="21.05" r="0.42" fill="#c98500"/>
+    <circle cx="26.41" cy="17.94" r="0.32" fill="#c98500"/>
+    <circle cx="24.41" cy="20.33" r="0.32" fill="#c98500"/>
+    <circle cx="28.83" cy="17.84" r="0.42" fill="#3987e5"/>
+    <circle cx="25.96" cy="19.84" r="0.42" fill="#3987e5"/>
+    <circle cx="31.24" cy="18.38" r="0.32" fill="#3987e5"/>
+    <circle cx="27.73" cy="19.72" r="0.32" fill="#3987e5"/>
+    <circle cx="33.38" cy="19.64" r="0.42" fill="#3987e5"/>
+    <circle cx="29.56" cy="20.08" r="0.42" fill="#3987e5"/>
+    <circle cx="34.97" cy="21.66" r="0.32" fill="#3987e5"/>
+    <circle cx="31.25" cy="21.02" r="0.32" fill="#3987e5"/>
+    <circle cx="35.72" cy="24.37" r="0.42" fill="#3987e5"/>
+    <circle cx="32.56" cy="22.58" r="0.42" fill="#3987e5"/>
+    <circle cx="35.35" cy="27.63" r="0.32" fill="#d95926"/>
+    <circle cx="33.20" cy="24.77" r="0.32" fill="#d95926"/>
+    <circle cx="33.66" cy="31.22" r="0.42" fill="#d95926"/>
+    <circle cx="32.93" cy="27.48" r="0.42" fill="#d95926"/>
+    <circle cx="30.54" cy="34.83" r="0.32" fill="#d95926"/>
+    <circle cx="31.52" cy="30.54" r="0.32" fill="#d95926"/>
+    <circle cx="26.00" cy="38.05" r="0.42" fill="#d95926"/>
+    <circle cx="28.82" cy="33.67" r="0.42" fill="#d95926"/>
+    <circle cx="20.22" cy="40.46" r="0.32" fill="#d95926"/>
+    <circle cx="24.80" cy="36.52" r="0.32" fill="#d95926"/>
+  </g>
+  <g filter="url(#og-glow)">
+    <circle cx="26.91" cy="23.43" r="1.05" fill="#f2dcae"/>
+    <circle cx="27.12" cy="24.16" r="1.02" fill="#f2dcae"/>
+    <circle cx="27.04" cy="25.05" r="0.98" fill="#f2dcae"/>
+    <circle cx="26.59" cy="26.04" r="0.95" fill="#c98500"/>
+    <circle cx="25.73" cy="27.06" r="0.91" fill="#c98500"/>
+    <circle cx="24.45" cy="27.98" r="0.88" fill="#c98500"/>
+    <circle cx="22.80" cy="28.68" r="0.84" fill="#c98500"/>
+    <circle cx="20.88" cy="29.02" r="0.81" fill="#d95926"/>
+    <circle cx="18.82" cy="28.88" r="0.78" fill="#d95926"/>
+    <circle cx="16.83" cy="28.14" r="0.74" fill="#d95926"/>
+    <circle cx="15.16" cy="26.75" r="0.71" fill="#d95926"/>
+    <circle cx="14.08" cy="24.68" r="0.67" fill="#d95926"/>
+    <circle cx="13.86" cy="22.02" r="0.64" fill="#3987e5"/>
+    <circle cx="14.74" cy="18.92" r="0.60" fill="#3987e5"/>
+    <circle cx="16.89" cy="15.61" r="0.57" fill="#3987e5"/>
+    <circle cx="20.41" cy="12.42" r="0.53" fill="#3987e5"/>
+    <circle cx="25.22" cy="9.75" r="0.50" fill="#3987e5"/>
+    <circle cx="21.09" cy="24.57" r="1.05" fill="#f2dcae"/>
+    <circle cx="20.88" cy="23.84" r="1.02" fill="#f2dcae"/>
+    <circle cx="20.96" cy="22.95" r="0.98" fill="#f2dcae"/>
+    <circle cx="21.41" cy="21.96" r="0.95" fill="#c98500"/>
+    <circle cx="22.27" cy="20.94" r="0.91" fill="#c98500"/>
+    <circle cx="23.55" cy="20.02" r="0.88" fill="#c98500"/>
+    <circle cx="25.20" cy="19.32" r="0.84" fill="#c98500"/>
+    <circle cx="27.12" cy="18.98" r="0.81" fill="#3987e5"/>
+    <circle cx="29.18" cy="19.12" r="0.78" fill="#3987e5"/>
+    <circle cx="31.17" cy="19.86" r="0.74" fill="#3987e5"/>
+    <circle cx="32.84" cy="21.25" r="0.71" fill="#3987e5"/>
+    <circle cx="33.92" cy="23.32" r="0.67" fill="#3987e5"/>
+    <circle cx="34.14" cy="25.98" r="0.64" fill="#d95926"/>
+    <circle cx="33.26" cy="29.08" r="0.60" fill="#d95926"/>
+    <circle cx="31.11" cy="32.39" r="0.57" fill="#d95926"/>
+    <circle cx="27.59" cy="35.58" r="0.53" fill="#d95926"/>
+    <circle cx="22.78" cy="38.25" r="0.50" fill="#d95926"/>
+  </g>
+  <path d="M20.41 12.42L13.86 22.02M13.86 22.02L16.83 28.14" stroke="#f2dcae" stroke-opacity=".75" stroke-width=".7" stroke-linecap="round" fill="none"/>
+  <g filter="url(#og-glow)">
+    <circle cx="20.41" cy="12.42" r="2.1" fill="#3987e5"/>
+    <circle cx="19.86" cy="11.87" r=".6" fill="#ffffff" fill-opacity=".8"/>
+    <circle cx="13.86" cy="22.02" r="2.1" fill="#d95926"/>
+    <circle cx="13.31" cy="21.47" r=".6" fill="#ffffff" fill-opacity=".8"/>
+    <circle cx="16.83" cy="28.14" r="2.1" fill="#c98500"/>
+    <circle cx="16.28" cy="27.59" r=".6" fill="#ffffff" fill-opacity=".8"/>
+  </g>
+  <circle cx="24.0" cy="24.0" r="6.5" fill="url(#og-core)"/>
+  <circle cx="24.0" cy="24.0" r="1.6" fill="#ffffff"/>
+  <path d="M38.5 7.2l.75 2.25 2.25.75-2.25.75-.75 2.25-.75-2.25-2.25-.75 2.25-.75z" fill="#fffaf0"/>
+</svg>
